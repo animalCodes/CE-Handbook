@@ -1,0 +1,65 @@
+/* Structural Elements */
+html, body, table, tbody {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+html {
+  /* variables */
+  --mainTextColour: silver;
+  --signatureColour: forestgreen;
+  --bgColour: #132533;
+}
+body {
+  font-family: monospace;
+  color: var(--mainTextColour);
+  background-color: var(--bgColour);
+}
+td#navbar, td#body {
+  border: 2px solid silver;
+  border-radius: 5px;
+  padding: 10px;
+}
+td#navbar {
+  width: 20%;
+}
+td#body {
+  display: grid;
+  justify-content: center;
+}
+header {
+  padding: 10px;
+  margin: 25px;
+}
+article {
+  display: flex;
+}
+section {
+  display: inline-block;
+  border: 2px solid silver;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 10px;
+  margin: 10px;
+  text-align: left;
+}
+/* Text */
+h2 {
+  margin: 5px;
+  font-size: xx-large;
+  color: var(--signatureColour);
+}
+sig {
+  color: var(--signatureColour);
+  font-style: normal;
+  text-decoration: underline;
+}
+.item{
+  display: list-item;
+  color: var(--mainTextColour);
+  margin: 5px;
+  font-size: large;
+}
+.item:hover {
+  color: var(--signatureColour);
+}
