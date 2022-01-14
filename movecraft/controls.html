@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+  <title>Ship controls</title>
+</head>
+
+<body>
+  <table>
+    <tr>
+      <!-- navigation -->
+      <td id="navbar"></td>
+      <!-- main body -->
+      <td id="body">
+        <header>
+          <h1>Controlling your ship</h1>
+        </header>
+        <article>
+        </article>
+      </td>
+    </tr>
+  </table>
+  <script src="../jquery-3.6.0.js"></script>
+  <script src="../js/navbar.js"></script>
+  <script>
+    const page = 'movecraft-controls';
+    $(`#${page}`).css('list-style-image', 'url(/images/icons/list.png)');
+  </script>
+</body>
+
+</html>

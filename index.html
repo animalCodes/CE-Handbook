@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   <title>Animal's CE Wiki</title>
 </head>
 
@@ -19,31 +20,45 @@
       <!-- main body -->
       <td id="body">
         <header>
-        <p style="margin:0px;">Hello and welcome to..</p>
-        <h1 style="margin:0px;"><sig>Animal</sig>'s (unofficial) Celestial Expanse Wiki!</h1>
+        <h1><sig>Animal</sig>'s (unofficial) Celestial Expanse Wiki</h1>
         </header>
         <article>
         <section>
           <h2>Movecraft</h2>
-            <a class="item" href="/movecraft/control.html">Controlling your ship</a>
-            <a class="item" href="">Craft types</a>
-            <a class="item" href="">Flight blocks</a>
-            <a class="item" href="">Signs</a>
+            <a class="item" href="/movecraft/controls.html">Signs / Controls</a>
+            <a class="item" href="/movecraft/crafts.html">Craft types</a>
+            <a class="item" href="/movecraft/blocks.html">Valid blocks</a>
+        </section>
+        <section>
+          <h2>Planets</h2>
+          <a class="item" href="">Resources</a>
+          <a class="item" href="">Interplanetary travel</a>
         </section>
         <section>
           <h2>Resonant</h2>
           <a class="item" href="">Generation / Storage</a>
           <a class="item" href="">Machines</a>
         </section>
+        <section>
+          <h2>Multiblock <br>Structures</h2>
+          <a class="item" href="">Machinery</a>
+          <a class="item" href="">Weapons</a>
+        </section>
+        <section>
+          <h2>Guides</h2>
+          <a class="item" href="">Getting off earth</a>
+          <a class="item" href="">Moneymaking</a>
+        </section>
         </article>
       </td>
     </tr>
   </table>
-  <link rel="stylesheet" href="style.css">
-  <!-- <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script> -->
+  <script src="jquery-3.6.0.js"></script>
   <script src="js/navbar.js"></script>
   <script>
     const page = 'index';
+    $(`#${page}`).css('color', 'orangered'); 
+    // ^ jquery FTW
   </script>
 </body>
 

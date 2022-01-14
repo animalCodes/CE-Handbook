@@ -9,21 +9,19 @@ html {
   --mainTextColour: silver;
   --signatureColour: forestgreen;
   --bgColour: #132533;
+  --borderColour: silver;
 }
 body {
   font-family: monospace;
   color: var(--mainTextColour);
   background-color: var(--bgColour);
 }
-td#navbar, td#body {
-  border: 2px solid silver;
+#navbar, #body {
+  border: 2px solid var(--borderColour);
   border-radius: 5px;
   padding: 10px;
 }
-td#navbar {
-  width: 20%;
-}
-td#body {
+#body {
   display: grid;
   justify-content: center;
 }
@@ -33,10 +31,11 @@ header {
 }
 article {
   display: flex;
+  flex-wrap: wrap;
 }
 section {
   display: inline-block;
-  border: 2px solid silver;
+  border: 2px solid var(--borderColour);
   border-radius: 5px;
   width: fit-content;
   padding: 10px;
@@ -44,10 +43,19 @@ section {
   text-align: left;
 }
 /* Text */
+a {
+  color: var(--mainTextColour);
+}
+a:hover {
+  color: var(--signatureColour);
+}
 h2 {
   margin: 5px;
   font-size: xx-large;
   color: var(--signatureColour);
+}
+h3 {
+  font-size: x-large;
 }
 sig {
   color: var(--signatureColour);
@@ -56,10 +64,26 @@ sig {
 }
 .item{
   display: list-item;
-  color: var(--mainTextColour);
   margin: 5px;
   font-size: large;
 }
-.item:hover {
-  color: var(--signatureColour);
+/* navigation */
+#navbar {
+  vertical-align: top;
 }
+.nav-title {
+  border-left: 1px solid var(--borderColour);
+  padding-left: 5px;
+  margin-bottom: 0px;
+}
+nav ul {
+  border-left: 1px solid var(--borderColour);
+  padding-left: 5px;
+  padding-top: 10px;
+  margin-top: 0px;
+  list-style: none;
+}
+nav ul li {
+  margin-bottom: 10px;
+}
+/* details */
