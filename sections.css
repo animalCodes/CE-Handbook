@@ -1,0 +1,24 @@
+contents {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+section {
+  display: inline-block;
+  border: 2px solid var(--borderColour);
+  border-radius: 5px;
+  width: fit-content;
+  padding: 10px;
+  margin: 10px;
+  text-align: left;
+}
+h2 {
+  margin: 5px;
+  font-size: xx-large;
+  color: var(--signatureColour);
+}
+.item{
+  display: list-item;
+  margin: 5px;
+  font-size: large;
+}

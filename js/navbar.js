@@ -33,5 +33,8 @@ $('#navbar').html(function () {
   <li><a id="guides-moneymaking" href="/guides/moneymaking.html">Moneymaking</a></li>
   </ul>
   </nav>
+  <div style="display: flex;">
+  <span><img src="/images/icons/author.png"></span><p style="font-size: large; margin-left: 10px; color: var(--signatureColour)">Written by animal AKA animalchaser</p>
+  </div>
 `;
 })

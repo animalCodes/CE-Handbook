@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="sections.css">
   <title>Animal's CE Wiki</title>
 </head>
 
@@ -22,7 +23,13 @@
         <header>
         <h1><sig>Animal</sig>'s (unofficial) Celestial Expanse Wiki</h1>
         </header>
-        <article>
+        <intro>
+          <h3>Greetings!</h3>
+        <p>Welcome to my unofficial wiki for the Celestial Expanse minecraft server, here you can find everything from resonant generation to how to travel between planets.<br><br>
+        Please note this is not supposed to be a replacement for the servers official wiki. Instead it is more for me to have somewhere to write HTML/CSS/Javascript as well as hopefully providing a detailed guide for this <em>expansive</em> server.<br><br>
+        Again, this is an <strong>unoffical</strong> wiki, I take no credit for the hard work of the servers' staff members, links to the official site + discord server etc can be found below.</p>
+        </intro>
+        <contents>
         <section>
           <h2>Movecraft</h2>
             <a class="item" href="/movecraft/controls.html">Signs / Controls</a>
@@ -49,7 +56,7 @@
           <a class="item" href="">Getting off earth</a>
           <a class="item" href="">Moneymaking</a>
         </section>
-        </article>
+        </contents>
       </td>
     </tr>
   </table>
@@ -57,8 +64,8 @@
   <script src="js/navbar.js"></script>
   <script>
     const page = 'index';
-    $(`#${page}`).css('color', 'orangered'); 
-    // ^ jquery FTW
+    $(`#${page}`).css('color', 'var(--signatureColour)'); 
+    // I am way too proud of this
   </script>
 </body>
 

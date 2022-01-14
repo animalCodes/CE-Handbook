@@ -9,7 +9,7 @@ html {
   --mainTextColour: silver;
   --signatureColour: forestgreen;
   --bgColour: #132533;
-  --borderColour: silver;
+  --border: 2px solid silver;
 }
 body {
   font-family: monospace;
@@ -17,30 +17,33 @@ body {
   background-color: var(--bgColour);
 }
 #navbar, #body {
-  border: 2px solid var(--borderColour);
+  border: var(--border);
   border-radius: 5px;
   padding: 10px;
 }
 #body {
-  display: grid;
-  justify-content: center;
+  vertical-align: top;
+  text-align: center;
+}
+#navbar {
+  width: 20%;
+  vertical-align: top;
 }
 header {
   padding: 10px;
   margin: 25px;
 }
-article {
-  display: flex;
-  flex-wrap: wrap;
-}
-section {
+article, intro {
   display: inline-block;
-  border: 2px solid var(--borderColour);
+  max-width: 80%;
+  margin-bottom: 20px;
+  overflow-wrap: normal;
+}
+subarticle {
+  display: block;
+  border: var(--border);
   border-radius: 5px;
-  width: fit-content;
-  padding: 10px;
-  margin: 10px;
-  text-align: left;
+  margin-bottom: 20px;
 }
 /* Text */
 a {
@@ -49,35 +52,20 @@ a {
 a:hover {
   color: var(--signatureColour);
 }
-h2 {
-  margin: 5px;
-  font-size: xx-large;
-  color: var(--signatureColour);
-}
 h3 {
   font-size: x-large;
+}
+p {
+  font-size: large;
 }
 sig {
   color: var(--signatureColour);
   font-style: normal;
   text-decoration: underline;
 }
-.item{
-  display: list-item;
-  margin: 5px;
-  font-size: large;
-}
 /* navigation */
-#navbar {
-  vertical-align: top;
-}
-.nav-title {
-  border-left: 1px solid var(--borderColour);
-  padding-left: 5px;
-  margin-bottom: 0px;
-}
 nav ul {
-  border-left: 1px solid var(--borderColour);
+  border-left: var(--border);
   padding-left: 5px;
   padding-top: 10px;
   margin-top: 0px;
@@ -85,5 +73,11 @@ nav ul {
 }
 nav ul li {
   margin-bottom: 10px;
+  font-size: large;
 }
-/* details */
+/* classes */
+.nav-title {
+  border-left: var(--border);
+  padding-left: 5px;
+  margin-bottom: 0px;
+}
