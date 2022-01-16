@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../navbar.css">
   <title>Ship controls</title>
 </head>
 
@@ -18,6 +19,8 @@
       <td id="navbar"></td>
       <!-- main body -->
       <td id="body">
+        <a href="/index.html"><button id="home">Home</button></a>
+        <h3 id="disclaimer">Please note that this site was designed on a desktop for desktops, and while I have tried to make it respond to smaller screen sizes it may render oddly on mobile devices, you have been warned! (tap to dismiss)</h3>
         <header>
           <h1>Controlling your ship</h1>
         </header>
@@ -28,21 +31,40 @@
         <article>
           <subarticle>
             <h2>Compass control</h2>
-            <p>This is the main way you will control your ship, and also arguably the simplest. <em>(is that a word? it is now)</em> All you need to do is grab a compass (you should already have one), pilot your ship, and right-click with your compass in the direction you want to go, easy!</p>
+            <p>This is the main way you will control your ship, and also arguably the simplest. All you need to do is grab a compass (you should already have one), pilot your ship, and right-click with your compass in the direction you want to go, easy!</p>
             </subarticle>
             <subarticle>
             <h2>Gear control</h2>
-            <p>So, you know</p>
+            <img src="/images/screenshots/gears.png" alt="Error loading image" id="gears">
+            <label for="gears">Example of changing gears</label>
+            <p>Now that you can move your ship you've probably noticed it's <em>goddamn slow!</em> Fortunately, there is a solution. <br>To change gears, with compass in hand hold shift and right-click, this will cycle through however many gears your craft has available, the higher the number, the faster you go!</p>
+            </subarticle>
+            <subarticle>
+              <h2>Direct control</h2>
+              <img src="/images/screenshots/direct-control.png" alt=" " id="direct-control">
+              <label for="direct-control">Chat message for entering/leaving direct control</label>
+              <p>Direct control allows you to move your ship like you would the player, for instance to go 'foward' you just press <strong>w</strong>, (or whatever you have 'walk foward' bound to) And to go down hold <strong>shift</strong>/crouch. However to go 'up' you must right-click with your compass.<br>
+              To enter Direct control you just left-click with your compass, to exit, do the same.</p>
+            </subarticle>
+            <subarticle>
+              <h2>Signs</h2>
+              <p>Signs are the one necessary control method, even if you don't have a compass, you can still move using signs alone! Below are the different signs and what they do.<br></p>
+              <h3>Pilot signs</h3>
+              <img src="/images/screenshots/starfighter.png" alt="Sign with 'starfighter' written on it">
+              <p>This is probably the most important sign of them all, allowing you to actually <em>control</em> your craft.<br>
+              to make a pilot sign you just need to write the name of the craft on the top line of a sign. And then right-click it to pilot your craft.<br>
+              If, for whatever reason the pilot sign isn't working you can always take control of your ship by writing <cmd>/pilot {craft name}</cmd>.<br>
+              A full list of craft types along with their stats can be found <a href="/movecraft/crafts.html">here</a></p>
             </subarticle>
         </article>
       </td>
     </tr>
   </table>
   <script src="../jquery-3.6.0.js"></script>
-  <script src="../js/navbar.js"></script>
+  <script src="../logic.js"></script>
   <script>
     const page = 'movecraft-controls';
-    $(`#${page}`).css('color', 'var(--signatureColour)');
+    $(`#${page}`).attr('id', 'selected');
   </script>
 </body>
 

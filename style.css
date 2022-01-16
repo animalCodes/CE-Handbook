@@ -45,6 +45,22 @@ subarticle {
   border-radius: 5px;
   margin-bottom: 20px;
 }
+/* other elements */
+img {
+  max-width: 200px;
+  max-height: 100px;
+  border-radius: 5px;
+}
+label {
+  font-style: italic;
+  display: block;
+}
+cmd {
+  background-color: silver;
+  border: var(--border);
+  border-radius: 5px;
+  color: black;
+}
 /* Text */
 a {
   color: var(--mainTextColour);
@@ -63,21 +79,20 @@ sig {
   font-style: normal;
   text-decoration: underline;
 }
-/* navigation */
-nav ul {
-  border-left: var(--border);
-  padding-left: 5px;
-  padding-top: 10px;
-  margin-top: 0px;
-  list-style: none;
-}
-nav ul li {
-  margin-bottom: 10px;
-  font-size: large;
-}
 /* classes */
 .nav-title {
   border-left: var(--border);
   padding-left: 5px;
   margin-bottom: 0px;
+}
+/* responsive design */
+#disclaimer {
+  display: none;
+  border: var(--border);
+  border-radius: 5px;
+}
+@media screen and (max-width: 500px) {
+  #disclaimer {
+    display: block;
+  }
 }

@@ -5,9 +5,9 @@ contents {
 }
 section {
   display: inline-block;
-  border: 2px solid var(--borderColour);
+  border: var(--border);
   border-radius: 5px;
-  width: fit-content;
+  /* width: fit-content; */
   padding: 10px;
   margin: 10px;
   text-align: left;
