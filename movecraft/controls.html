@@ -20,7 +20,7 @@
       <!-- main body -->
       <td id="body">
         <a href="/index.html"><button id="home">Home</button></a>
-        <h3 id="disclaimer">Please note that this site was designed on a desktop for desktops, and while I have tried to make it respond to smaller screen sizes it may render oddly on mobile devices, you have been warned! (tap to dismiss)</h3>
+        <div id="disclaimer"></div>
         <header>
           <h1>Controlling your ship</h1>
         </header>
@@ -35,26 +35,47 @@
             </subarticle>
             <subarticle>
             <h2>Gear control</h2>
-            <img src="/images/screenshots/gears.png" alt="Error loading image" id="gears">
+            <img src="/images/screenshots/gears.png" id="gears">
             <label for="gears">Example of changing gears</label>
             <p>Now that you can move your ship you've probably noticed it's <em>goddamn slow!</em> Fortunately, there is a solution. <br>To change gears, with compass in hand hold shift and right-click, this will cycle through however many gears your craft has available, the higher the number, the faster you go!</p>
             </subarticle>
             <subarticle>
               <h2>Direct control</h2>
-              <img src="/images/screenshots/direct-control.png" alt=" " id="direct-control">
+              <img src="/images/screenshots/direct-control.png" id="direct-control">
               <label for="direct-control">Chat message for entering/leaving direct control</label>
               <p>Direct control allows you to move your ship like you would the player, for instance to go 'foward' you just press <strong>w</strong>, (or whatever you have 'walk foward' bound to) And to go down hold <strong>shift</strong>/crouch. However to go 'up' you must right-click with your compass.<br>
               To enter Direct control you just left-click with your compass, to exit, do the same.</p>
             </subarticle>
+            <h2>Signs</h2>
+            <p>Signs are the one necessary control method, even if you don't have a compass, you can still move using signs alone! Below are the different signs and what they do.<br></p>
             <subarticle>
-              <h2>Signs</h2>
-              <p>Signs are the one necessary control method, even if you don't have a compass, you can still move using signs alone! Below are the different signs and what they do.<br></p>
               <h3>Pilot signs</h3>
-              <img src="/images/screenshots/starfighter.png" alt="Sign with 'starfighter' written on it">
-              <p>This is probably the most important sign of them all, allowing you to actually <em>control</em> your craft.<br>
+              <img src="/images/screenshots/starfighter.png" id="starfighter">
+              <label for="starfighter">Example of a pilot sign</label>
+              <p>This is probably the most important sign of them all, allowing you to actually <em>pilot</em> your craft.<br>
               to make a pilot sign you just need to write the name of the craft on the top line of a sign. And then right-click it to pilot your craft.<br>
               If, for whatever reason the pilot sign isn't working you can always take control of your ship by writing <cmd>/pilot {craft name}</cmd>.<br>
               A full list of craft types along with their stats can be found <a href="/movecraft/crafts.html">here</a></p>
+            </subarticle>
+            <subarticle>
+            <h3>Helm sign</h3>
+              <img src="/images/screenshots/helm.png" id="helm">
+              <label for="helm">a helm sign</label>
+              <p>Another important sign, and the only one that can't be replicated with commands, the helm sign allows you to turn your craft!<br>
+              To make a helm place a sign and write <cmd>[helm]</cmd> on the top line. After closing the GUI the sign will appear as above.</p>
+            </subarticle>
+            <subarticle>
+              <h3>Cruise signs</h3>
+              <img src="/images/screenshots/cruise.png" id="cruise">
+              <label for="cruise">a cruise sign</label>
+              <p>Cruise signs, while not a necessary addition to your ship, are very useful for long journeys. When you right-click a cruise sign your piloted ship will automatically move in the direction the sign is facing, you can also create ascend or descend signs that have the same effect but move your craft up or down respectively, to make a cruise sign write <cmd>cruise: off</cmd> on the top line of a sign, or <cmd>ascend: off</cmd> for an ascend sign etc.</p>
+            </subarticle>
+            <subarticle>
+              <h3>Release signs</h3>
+              <img src="/images/screenshots/release.png" id="release">
+              <label for="release">a release sign</label>
+              <p>Normally to release your ship you just enter <cmd>/release</cmd> in chat, but it can be kind of annoying to write that out every time you want to modify your ship. Fortunately, there is a solution! When you right-click a release sign your currently piloted craft is released, so you don't need to bother with commands. <br>
+              To create a release sign just write <cmd>release</cmd> on the top line of a sign.</p>
             </subarticle>
         </article>
       </td>

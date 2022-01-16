@@ -43,6 +43,7 @@ subarticle {
   display: block;
   border: var(--border);
   border-radius: 5px;
+  padding: 10px;
   margin-bottom: 20px;
 }
 /* other elements */
@@ -62,17 +63,17 @@ cmd {
   color: black;
 }
 /* Text */
+h3 {
+  font-size: x-large;
+}
+li, p {
+  font-size: large;
+}
 a {
   color: var(--mainTextColour);
 }
 a:hover {
   color: var(--signatureColour);
-}
-h3 {
-  font-size: x-large;
-}
-p {
-  font-size: large;
 }
 sig {
   color: var(--signatureColour);
@@ -90,6 +91,7 @@ sig {
   display: none;
   border: var(--border);
   border-radius: 5px;
+  margin-top: 10px;
 }
 @media screen and (max-width: 500px) {
   #disclaimer {
