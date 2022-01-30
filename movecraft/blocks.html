@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../navbar.css">
+  <title></title>
+</head>
+
+<body>
+  <table>
+    <tr>
+      <td id="navbar"></td>
+      <td id="body">
+        <header>
+          <a href="/index.html"><button id="home">Home</button></a>
+          <h1></h1>
+        </header>
+        <intro>
+          <h2>Not written yet, working on it.</h2>
+        </intro>
+        <article>
+          <subarticle>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo facilis asperiores facere consequuntur natus id assumenda soluta atque eius similique exercitationem, rerum nesciunt reiciendis ab?</p>
+          </subarticle>
+        </article>
+      </td>
+    </tr>
+  </table>
+  <script src="../jquery-3.6.0.js"></script>
+  <script src="../navigation.js"></script>
+  <script>
+    const page = 'movecraft-blocks';
+    $(`#${page}`).attr('id', 'selected');
+  </script>
+</body>
+
+</html>

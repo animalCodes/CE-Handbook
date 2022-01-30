@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../navbar.css">
+  <title></title>
+</head>
+
+<body>
+  <table>
+    <tr>
+      <td id="navbar"></td>
+      <td id="body">
+        <div id="disclaimer"></div>
+        <header>
+          <a href="/index.html"><button id="home">Home</button></a>
+          <h1>Craft types</h1>
+        </header>
+        <intro>
+          <h2 style="color: red;">PLEASE NOTE: as of 2022/01/18 this and the blocks page are pretty much redundant due to c_corp creating the <a href="https://starmap.zapto.org/craftdata" target="_blank">craftdata</a> page on the official website, I will still work on this page so that this handbook is as complete as it can be, but I recommend you go there for more detailed info.</h2>
+          <h2>If you want to build a spaceship, it can be hard to choose what specific craft type to go for. Hopefully,
+            this page will help you decide.</h2>
+          <p>Most craft require a certain percentage of themselves to be 'flight blocks' which I will refer to as
+            <em>Fblocks</em>. And engine blocks (<em>Eblocks</em>) in order to function.
+            Additionally, most craft types will restrict how much of a certain block you can have on it, such as chests
+            or barrels.
+            (<em>Sblocks</em>) For a block guide see <a href="/movecraft/blocks.html">Valid blocks</a>. Below is a list
+            of all craft types and their stats.</p>
+        </intro>
+        <article>
+          <h2>Spaceships</h2>
+          <p>Spaceships are the main craft type of the Celestial Expanse as they are the only craft type able to travel
+            between planets.</p>
+          <subarticle>
+            <h3>Starfighter</h3>
+            <img src="/images/screenshots/starfighter.png" id="starfighter">
+            <label for="starfighter">A modified LiFi Guppie.</label>
+            <table id="stats">
+              <tr>
+                <td>Max size:</td>
+                <td>1150</td>
+              </tr>
+              <tr>
+                <td>Min size:</td>
+                <td>200</td>
+              </tr>
+              <tr>
+                <td>Fblock %:</td>
+                <td>35</td>
+              </tr>
+              <tr>
+                <td>Eblock %:</td>
+                <td>2.05</td>
+              </tr>
+              <tr>
+                <td>Sblock %:</td>
+                <td>1.5</td>
+              </tr>
+              <tr>
+                <td>Fblock:</td>
+                <td>Wool/Carpet</td>
+              </tr>
+            </table>
+            <p>Starfighters are the smallest and lightest spaceship, good for moving between bases / light defence but
+              not much else, they are the only spaceship incapable of using a rift drive, and so are a poor choice for
+              interplanetary travel. When you first join starcivs you will be given a S.I.B for a 'Guppie', which is a
+              starfighter.</p>
+          </subarticle>
+          <subarticle>
+            <h3>Cargoshuttle</h3>
+            <img src="/images/screenshots/cargoshuttle.png" id="cargoshuttle">
+            <label for="cargoshuttle">The ESY Starhopper, a cargoshuttle made for interplanetary travel.</label>
+            <table id="stats">
+              <tr>
+                <td>Max size:</td>
+                <td>1150</td>
+              </tr>
+              <tr>
+                <td>Min size:</td>
+                <td>200</td>
+              </tr>
+              <tr>
+                <td>Fblock %:</td>
+                <td>25</td>
+              </tr>
+              <tr>
+                <td>Eblock %:</td>
+                <td>2.05</td>
+              </tr>
+              <tr>
+                <td>Sblock %:</td>
+                <td>17.5</td>
+              </tr>
+              <tr>
+                <td>Fblock:</td>
+                <td>Wool/Carpet</td>
+              </tr>
+            </table>
+            <p>Cargoshuttles are pretty much identical to starfighters with one key advantage: they can use <em>Rift
+                drives</em>! For more info on rift drives see <a href="/planets/travel.html">Interplanetary travel</a>
+              but TL:DR they let you warp between the orbits of planets. Making cargoshuttles ideal for quickly moving
+              between planets.</p>
+          </subarticle>
+          <subarticle>
+            <h3>Starship</h3>
+            <p>no image available</p>
+            <table id="stats">
+              <tr>
+                <td>Max size:</td>
+                <td>10000</td>
+              </tr>
+              <tr>
+                <td>Min size:</td>
+                <td>1250</td>
+              </tr>
+              <tr>
+                <td>Fblock %:</td>
+                <td>0.2</td>
+              </tr>
+              <tr>
+                <td>Eblock %:</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>Sblock %:</td>
+                <td>4.5</td>
+              </tr>
+              <tr>
+                <td>Fblock:</td>
+                <td>Beacon</td>
+              </tr>
+            </table>
+          </subarticle>
+        </article>
+        <!-- 
+            <table id="stats">
+              <tr>
+                <td>Max size:</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Min size:</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Fblock %:</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Eblock %:</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Sblock %:</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Fblock:</td>
+                <td></td>
+              </tr>
+            </table>
+ -->
+      </td>
+    </tr>
+  </table>
+  <script src="../jquery-3.6.0.js"></script>
+  <script src="../navigation.js"></script>
+  <script>
+    const page = 'movecraft-crafts';
+    $(`#${page}`).attr('id', 'selected');
+  </script>
+</body>
+
+</html>

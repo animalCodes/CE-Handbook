@@ -62,11 +62,22 @@ cmd {
   border-radius: 5px;
   color: black;
 }
+#stats {
+  background-color: #0f1c27;
+  max-width: fit-content;
+  border: var(--border);
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 10px;
+}
+#stats tr td {
+  padding: 5px;
+}
 /* Text */
 h3 {
   font-size: x-large;
 }
-li, p {
+li, td, p {
   font-size: large;
 }
 a {
@@ -77,7 +88,6 @@ a:hover {
 }
 sig {
   color: var(--signatureColour);
-  font-style: normal;
   text-decoration: underline;
 }
 /* classes */

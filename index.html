@@ -4,14 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- all this for one font, yeesh. -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="../navbar.css">
   <link rel="stylesheet" href="sections.css">
-  <title>Animal's CE Guide</title>
+  <title>Ensis Handbook</title>
 </head>
 
 <body>
@@ -21,22 +17,15 @@
       <td id="navbar"></td>
       <!-- main body -->
       <td id="body">
-        <h3 id="disclaimer">Please note that this site was designed on a desktop for desktops, and while I have tried to make it respond to smaller screen sizes it may render oddly on mobile devices, you have been warned! (tap to dismiss)
-        </h3>
+        <div id="disclaimer"></div>
         <header>
           <h1>
-            <sig>Animal</sig>'s guide to the Celestial Expanse
+            <sig>ESY</sig> Celestial Expanse handbook
           </h1>
         </header>
         <intro>
-          <h3>Greetings!</h3>
-          <p>Welcome to my unofficial guide to the Celestial Expanse minecraft server, here you can find everything
-            from resonant generation to how to travel between planets.<br><br>
-            Please note this is not supposed to be a replacement for the servers official wiki. Instead it is more for
-            me to have somewhere to write HTML/CSS/Javascript as well as hopefully providing a detailed guide for this
-            <em>expansive</em> server.<br><br>
-            Again, this is an <strong>unoffical</strong> wiki, I take no credit for the hard work of the servers' staff
-            members, links to the official site + discord server etc can be found below.</p>
+          <h3>Greetings, pilots.</h3>
+          <p>Welcome to the Ensis Corporation's guide to the Celestial Expanse, courtesy of Ensis Shipyards. Hopefully, it will assist you in your travels.</p>
         </intro>
         <contents>
           <section>
@@ -50,6 +39,7 @@
             <a class="item" href="">Resources</a>
             <a class="item" href="">Interplanetary travel</a>
           </section>
+          <!--
           <section>
             <h2>Resonant</h2>
             <a class="item" href="">Generation / Storage</a>
@@ -65,12 +55,13 @@
             <a class="item" href="">Getting off earth</a>
             <a class="item" href="">Moneymaking</a>
           </section>
+          -->
         </contents>
       </td>
     </tr>
   </table>
   <script src="jquery-3.6.0.js"></script>
-  <script src="logic.js"></script>
+  <script src="navigation.js"></script>
   <script>
     const page = 'index';
     $(`#${page}`).attr('id', 'selected');
