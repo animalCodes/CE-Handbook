@@ -4,37 +4,223 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../style.css">
-  <link rel="stylesheet" href="../navbar.css">
+  <link rel="stylesheet" href="../res/style.css">
+  <link rel="stylesheet" href="../res/navbar.css">
   <title></title>
 </head>
 
 <body>
   <table>
     <tr>
-      <td id="navbar"></td>
+      <td id="navbar">
+        <h1 style="color: red;">Javascript disabled - enable to use sidebar!</h1>
+      </td>
       <td id="body">
         <header>
-          <a href="/index.html"><button id="home">Home</button></a>
-          <h1></h1>
+          <h1>Block guide</h1>
         </header>
         <intro>
-          <h2>Not written yet, working on it.</h2>
+          <h2>When building your craft it's very important to know what blocks can actually be used for it, here you can find lists of what blocks are valid for different crafts.</h2>
+          <p>Data was collected from the official <a href="https://starmap.zapto.org/craftdata" target="_blank">craftdata</a> page with duplicate listings removed and some testing to make sure the blocks are actually valid.</p>
         </intro>
         <article>
           <subarticle>
-            <h3>Lorem ipsum dolor sit amet.</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo facilis asperiores facere consequuntur natus id assumenda soluta atque eius similique exercitationem, rerum nesciunt reiciendis ab?</p>
+            <a href="/movecraft/crafts.html#starfighter"><h3 id="starfighter">Starfighter</h3></a>
+            <div class="twrapper">
+              <table class="stats">
+                <tr><th colspan="4">Allowed blocks</th></tr>
+                <tr>
+                  <td>Beacon</td>
+                  <td>Blast furnace</td>
+                  <td>Brewing stand</td>
+                  <td>Crafting table</td>
+                </tr>
+                <tr>
+                  <td>Cauldron</td>
+                  <td>Furnace</td>
+                  <td>Grindstone</td>
+                  <td>Lecturn</td>
+                </tr>
+                <tr>
+                  <td>Stonecutter</td>
+                  <td>Smoker</td>
+                  <td>All beds</td>
+                  <td>Bookshelf</td>
+                </tr>
+                <tr>
+                  <td>Coal block</td>
+                  <td>Iron block</td>
+                  <td>Gold block</td>
+                  <td>Iron block</td>
+                </tr>
+                <tr>
+                  <td>Comparator</td>
+                  <td>Daylight detector</td>
+                  <td>Hopper</td>
+                  <td>Lever</td>
+                </tr>
+                <tr>
+                  <td>Note block</td>
+                  <td>Observer</td>
+                  <td>Piston</td>
+                  <td>Redstone lamp</td>
+                </tr>
+                <tr>
+                  <td>Redstone torch</td>
+                  <td>Redstone dust</td>
+                  <td>Repeater</td>
+                  <td>Slime block</td>
+                </tr>
+                <tr>
+                  <td>Sticky piston</td>
+                  <td>Target</td>
+                  <td>Tripwire hook</td>
+                  <td>All terracotta</td>
+                </tr>
+                <tr>
+                  <td>All glass</td>
+                  <td>All glass panes</td>
+                  <td>Tinted glass</td>
+                  <td>Iron bars</td>
+                </tr>
+                <tr>
+                  <td>Cake</td>
+                  <td>Ladder</td>
+                  <td>Magma block</td>
+                  <td>Mushroom stem</td>
+                </tr>
+                <tr>
+                  <td>Purpur pillar</td>
+                  <td>Chiseled quartz block</td>
+                  <td>Quartz block</td>
+                  <td>Quartz pillar</td>
+                </tr>
+                <tr>
+                  <td>Smooth quartz</td>
+                  <td>Smooth stone</td>
+                  <td>All banners</td>
+                  <td>All doors</td>
+                </tr>
+                <tr>
+                  <td>All fence gates</td>
+                  <td>All trapdoors</td>
+                  <td>All planks</td>
+                  <td>All signs</td>
+                </tr>
+                <tr>
+                  <td>All walls</td>
+                  <td colspan="2">All copper block variants (exposed, waxed, etc)</td>
+                  <td>Lightning rod</td>
+                </tr>
+                <tr>
+                  <td>Lantern</td>
+                  <td>Soul lantern</td>
+                  <td>Glowstone</td>
+                  <td>Torch</td>
+                </tr>
+                <tr>
+                  <td>Fire</td>
+                  <td>Flower pot</td>
+                </tr>
+              </table>
+            <table class="stats">
+                <tr><th colspan="2">Restricted blocks</th></tr>
+              <td>Block type</td>
+              <td>Allowed%</td>
+              <tr>
+                <td>Ender chest</td>
+                <td>1.125%</td>
+              </tr>
+              <tr>
+                <td>Anvil</td>
+                <td>1.125%</td>
+              </tr>
+              <tr>
+                <td>Enchantment table</td>
+                <td>1.125%</td>
+              </tr>
+              <tr>
+                <td>Chests/Barrels</td>
+                <td>1.5%</td>
+              </tr>
+              <tr>
+                <td>Dropper</td>
+                <td>4.5%</td>
+              </tr>
+              <tr>
+                <td>Dispenser</td>
+                <td>5%</td>
+              </tr>
+              <tr>
+                <td>Pressure plates (all)</td>
+                <td>50%</td>
+              </tr>
+              <tr>
+                <td>Buttons (all)</td>
+                <td>50%</td>
+              </tr>
+              <tr>
+                <td>Stairs (all)</td>
+                <td>50%</td>
+              </tr>
+              <tr>
+                <td>Slabs (all)</td>
+                <td>50%</td>
+              </tr>
+            </table>
+            <table class="stats">
+              <tr><th colspan="2">Required blocks</th></tr>
+              <tr>
+                <td>Block type</td>
+                <td>Required%</td>
+              </tr>
+              <tr>
+                <td>Wool/Carpet</td>
+                <td>35%</td>
+              </tr>
+              <tr>
+                <td>Sea lanterns OR</td>
+                <td>2.05%</td>
+              </tr>
+              <tr>
+                <td>Redstone blocks</td>
+                <td>2.05%</td>
+              </tr>
+            </table>
+            </div>
           </subarticle>
+          <subarticle>
+            <a href="/movecraft/crafts.html#">
+              <h3 id=""></h3>
+            </a>
+            <div class="twrapper">
+              <table></table>
+              <table></table>
+              <table></table>
+            </div>
+          </subarticle>
+          <!-- 
+            <subarticle>
+            <a href="/movecraft/crafts.html#">
+              <h3 id=""></h3>
+            </a>
+            <div class="twrapper">
+              <table></table>
+              <table></table>
+              <table></table>
+            </div>
+          </subarticle>
+           -->
         </article>
       </td>
     </tr>
   </table>
-  <script src="../jquery-3.6.0.js"></script>
-  <script src="../navigation.js"></script>
+  <script src="../res/jquery-3.6.0.js"></script>
+  <script src="../res/navigation.js"></script>
   <script>
     const page = 'movecraft-blocks';
     $(`#${page}`).attr('id', 'selected');
+    $(`#${page}-ul`).css('display', 'block');
   </script>
 </body>
 

@@ -1,0 +1,42 @@
+/* elements */
+#navbar {
+  width: 20%;
+  vertical-align: top;
+}
+nav ul {
+  border-left: var(--border);
+  padding-left: 5px;
+  padding-top: 10px;
+  margin-top: 0px;
+  list-style: none;
+}
+nav ul li {
+  margin-bottom: 10px;
+  font-size: x-large;
+}
+.dropdown {
+  display: none;
+  border-left: 1px solid var(--signatureColour);
+}
+.dropdown li {
+  font-size: large;
+}
+.nav-title, #index {
+  font-size: xx-large;
+}
+/* classes / selectors */
+#selected {
+  color: var(--signatureColour);
+}
+/* responsive design shit */
+@media screen and (max-width: 460px) {
+  #navbar {
+    display: none;
+  }
+  #home {
+    display: inline-block;
+  }
+  header {
+    margin-top: 10px;
+  }
+}

@@ -4,18 +4,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../style.css">
-  <link rel="stylesheet" href="../navbar.css">
+  <link rel="stylesheet" href="../res/style.css">
+  <link rel="stylesheet" href="../res/navbar.css">
   <title>Ship controls</title>
 </head>
 
 <body>
   <table>
     <tr>
-      <td id="navbar"></td>
+      <td id="navbar">
+        <h1 style="color: red;">Javascript disabled - enable to use sidebar!</h1>
+      </td>
       <td id="body">
         <header>
-          <a href="/index.html"><button id="home">Home</button></a>
           <h1>Controlling your ship</h1>
         </header>
         <intro>
@@ -82,11 +83,12 @@
       </td>
     </tr>
   </table>
-  <script src="../jquery-3.6.0.js"></script>
-  <script src="../navigation.js"></script>
+  <script src="../res/jquery-3.6.0.js"></script>
+  <script src="../res/navigation.js"></script>
   <script>
     const page = 'movecraft-controls';
     $(`#${page}`).attr('id', 'selected');
+    $(`#${page}-ul`).css('display', 'block');
   </script>
 </body>
 

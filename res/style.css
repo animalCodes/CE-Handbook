@@ -1,0 +1,116 @@
+/* Structural Elements */
+html, body, table, tbody {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+html {
+  /* variables */
+  --mainTextColour: silver;
+  --signatureColour: forestgreen;
+  --bgColour: #132533;
+  --border: 2px solid silver;
+}
+body {
+  font-family: monospace;
+  color: var(--mainTextColour);
+  background-color: var(--bgColour);
+}
+#navbar, #body {
+  border: var(--border);
+  border-radius: 5px;
+  padding: 10px;
+}
+#body {
+  vertical-align: top;
+  text-align: center;
+}
+#navbar {
+  width: 20%;
+  vertical-align: top;
+}
+header {
+  padding: 10px;
+  margin: 25px;
+}
+article, intro {
+  display: inline-block;
+  max-width: 80%;
+  margin-bottom: 20px;
+  overflow-wrap: normal;
+}
+subarticle {
+  display: block;
+  border: var(--border);
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+/* other elements */
+img {
+  max-width: 200px;
+  max-height: 100px;
+  border-radius: 5px;
+}
+label {
+  font-style: italic;
+  display: block;
+}
+cmd {
+  background-color: silver;
+  border: var(--border);
+  border-radius: 5px;
+  color: black;
+}
+.twrapper {
+  display: inline-flex;
+}
+.twrapper .stats {
+  margin: 10px;
+}
+.stats {
+  background-color: #0f1c27;
+  max-width: max-content;
+  border: var(--border);
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 10px;
+}
+.stats tr td {
+  padding: 5px;
+}
+/* Text */
+h3 {
+  font-size: x-large;
+}
+li, td, p {
+  font-size: large;
+}
+a {
+  color: var(--mainTextColour);
+}
+a:hover {
+  color: var(--signatureColour);
+}
+sig {
+  color: var(--signatureColour);
+  text-decoration: underline;
+}
+/* classes */
+.nav-title {
+  border-left: var(--border);
+  padding-left: 5px;
+  margin-bottom: 0px;
+}
+/* responsive design */
+#disclaimer {
+  display: none;
+  border: var(--border);
+  border-radius: 5px;
+  margin-top: 10px;
+}
+@media screen and (max-width: 500px) {
+  #disclaimer {
+    display: block;
+  }
+}

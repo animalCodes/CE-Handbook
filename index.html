@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="../navbar.css">
-  <link rel="stylesheet" href="sections.css">
+  <link rel="stylesheet" href="res/style.css">
+  <link rel="stylesheet" href="res/navbar.css">
+  <link rel="stylesheet" href="res/sections.css">
   <title>Ensis Handbook</title>
 </head>
 
@@ -14,7 +14,9 @@
   <table>
     <tr>
       <!-- navigation -->
-      <td id="navbar"></td>
+      <td id="navbar">
+        <h1 style="color: red;">Javascript disabled - enable to use sidebar!</h1>
+      </td>
       <!-- main body -->
       <td id="body">
         <div id="disclaimer"></div>
@@ -24,7 +26,7 @@
           </h1>
         </header>
         <intro>
-          <h3>Greetings, pilots.</h3>
+          <h3>Greetings, pilot.</h3>
           <p>Welcome to the Ensis Corporation's guide to the Celestial Expanse, courtesy of Ensis Shipyards. Hopefully, it will assist you in your travels.</p>
         </intro>
         <contents>
@@ -60,12 +62,11 @@
       </td>
     </tr>
   </table>
-  <script src="jquery-3.6.0.js"></script>
-  <script src="navigation.js"></script>
+  <script src="res/jquery-3.6.0.js"></script>
+  <script src="res/navigation.js"></script>
   <script>
     const page = 'index';
-    $(`#${page}`).attr('id', 'selected');
-    // I am way too proud of this ^
+    $(`#${page}`).attr('id', 'selected'); // Using Jquery select the element with the id of {page} (in this case 'index') and add an id of 'selected', which has the appropriate styling, I am way too proud of this.
   </script>
 </body>
 

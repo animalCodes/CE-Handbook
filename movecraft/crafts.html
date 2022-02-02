@@ -4,44 +4,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../style.css">
-  <link rel="stylesheet" href="../navbar.css">
+  <link rel="stylesheet" href="../res/style.css">
+  <link rel="stylesheet" href="../res/navbar.css">
   <title></title>
 </head>
 
 <body>
   <table>
     <tr>
-      <td id="navbar"></td>
+      <td id="navbar">
+        <h1 style="color: red;">Javascript disabled - enable to use sidebar!</h1>
+      </td>
       <td id="body">
         <div id="disclaimer"></div>
         <header>
-          <a href="/index.html"><button id="home">Home</button></a>
           <h1>Craft types</h1>
         </header>
         <intro>
-          <h2 style="color: red;">PLEASE NOTE: as of 2022/01/18 this and the blocks page are pretty much redundant due to c_corp creating the <a href="https://starmap.zapto.org/craftdata" target="_blank">craftdata</a> page on the official website, I will still work on this page so that this handbook is as complete as it can be, but I recommend you go there for more detailed info.</h2>
-          <h2>If you want to build a spaceship, it can be hard to choose what specific craft type to go for. Hopefully,
-            this page will help you decide.</h2>
-          <p>Most craft require a certain percentage of themselves to be 'flight blocks' which I will refer to as
-            <em>Fblocks</em>. And engine blocks (<em>Eblocks</em>) in order to function.
-            Additionally, most craft types will restrict how much of a certain block you can have on it, such as chests
-            or barrels.
-            (<em>Sblocks</em>) For a block guide see <a href="/movecraft/blocks.html">Valid blocks</a>. Below is a list
-            of all craft types and their stats.</p>
+          <h3 style="color: red;">PLEASE NOTE: as of 2022/01/18 this and the blocks page are pretty much redundant due to c_corp creating the <a href="https://starmap.zapto.org/craftdata" target="_blank">craftdata</a> page on the official website, I will still work on this page so that this handbook is as complete as it can be, but I recommend you go there for more detailed info.</h3>
+          <h2>When constructing your next <strike>warship</strike> merchant craft, it's important to choose the correct craft type. This page lists the different craft types along with their stats to help you decide.</h2>
+          <ul>
+            <li>Most craft require Flight blocks, these provide 'lift' to the craft, These will be referred to as <em>Fblocks</em>.</li>
+            <li>Engine blocks are similar to Flight blocks, they provide 'thrust' to the craft, and will be referred as <em>Eblocks</em>.</li>
+            <li>All craft will limit how many Chests/Barrels you can have on them, (<em>Sblocks</em>) each craft has the maximum percentage of these blocks listed.</li>
+            <li>For a list of block types for a specific craft, click on it's title. Below is a list of all craft types and their
+            stats.</li>
+          </ul>
         </intro>
         <article>
           <h2>Spaceships</h2>
-          <p>Spaceships are the main craft type of the Celestial Expanse as they are the only craft type able to travel
-            between planets.</p>
+          <p>Spaceships are the main craft type of the Celestial Expanse as they are the only craft type able to travel between planets.</p>
           <subarticle>
-            <h3>Starfighter</h3>
+            <a href="/movecraft/blocks.html#starfighter"><h3 id="starfighter">Starfighter</h3></a>
             <img src="/images/screenshots/starfighter.png" id="starfighter">
             <label for="starfighter">A modified LiFi Guppie.</label>
-            <table id="stats">
+            <table class="stats">
               <tr>
                 <td>Max size:</td>
-                <td>1150</td>
+                <td>1,150</td>
               </tr>
               <tr>
                 <td>Min size:</td>
@@ -59,24 +59,17 @@
                 <td>Sblock %:</td>
                 <td>1.5</td>
               </tr>
-              <tr>
-                <td>Fblock:</td>
-                <td>Wool/Carpet</td>
-              </tr>
             </table>
-            <p>Starfighters are the smallest and lightest spaceship, good for moving between bases / light defence but
-              not much else, they are the only spaceship incapable of using a rift drive, and so are a poor choice for
-              interplanetary travel. When you first join starcivs you will be given a S.I.B for a 'Guppie', which is a
-              starfighter.</p>
+            <p>Starfighters are the smallest and lightest spaceship, they are incredibly fast but not very well armoured, making them good for moving between bases / light defence but not much else, You are likely already familiar with at least one starfighter: the LiFi Guppie starter ship,</p>
           </subarticle>
           <subarticle>
-            <h3>Cargoshuttle</h3>
+            <a href="/movecraft/blocks.html#cargoshuttle"><h3 id="cargoshuttle">Cargoshuttle</h3></a>
             <img src="/images/screenshots/cargoshuttle.png" id="cargoshuttle">
             <label for="cargoshuttle">The ESY Starhopper, a cargoshuttle made for interplanetary travel.</label>
-            <table id="stats">
+            <table class="stats">
               <tr>
                 <td>Max size:</td>
-                <td>1150</td>
+                <td>1,150</td>
               </tr>
               <tr>
                 <td>Min size:</td>
@@ -94,23 +87,16 @@
                 <td>Sblock %:</td>
                 <td>17.5</td>
               </tr>
-              <tr>
-                <td>Fblock:</td>
-                <td>Wool/Carpet</td>
-              </tr>
             </table>
-            <p>Cargoshuttles are pretty much identical to starfighters with one key advantage: they can use <em>Rift
-                drives</em>! For more info on rift drives see <a href="/planets/travel.html">Interplanetary travel</a>
-              but TL:DR they let you warp between the orbits of planets. Making cargoshuttles ideal for quickly moving
-              between planets.</p>
+            <p>Cargoshuttles are pretty much identical to starfighters but with much higher cargo capacity and more available blocks making them good as 'light' freighters.</p>
           </subarticle>
           <subarticle>
-            <h3>Starship</h3>
+            <a href="/movecraft/blocks.html#starship"><h3 id="starship">Starship</h3></a>
             <p>no image available</p>
-            <table id="stats">
+            <table class="stats">
               <tr>
                 <td>Max size:</td>
-                <td>10000</td>
+                <td>10,000</td>
               </tr>
               <tr>
                 <td>Min size:</td>
@@ -128,15 +114,346 @@
                 <td>Sblock %:</td>
                 <td>4.5</td>
               </tr>
+            </table>
+            <p>Starships are the next step up from cargoshuttles, these sleek ships use beacons instead of wool/carpets as their flight block, enabling players to get more inventive with the design.</p>
+          </subarticle>
+          <subarticle>
+            <a href="/movecraft/blocks.html#freighter"><h3 id="freighter">Freighter</h3></a>
+            <img src="/images/screenshots/freighter.png" id="freighter">
+            <label for="freighter">The Arrakis freighter</label>
+            <table class="stats">
               <tr>
-                <td>Fblock:</td>
-                <td>Beacon</td>
+                <td>Max size:</td>
+                <td>42,500</td>
+              </tr>
+              <tr>
+                <td>Min size:</td>
+                <td>1,500</td>
+              </tr>
+              <tr>
+                <td>Fblock %:</td>
+                <td>0.2</td>
+              </tr>
+              <tr>
+                <td>Eblock %:</td>
+                <td>2.5</td>
+              </tr>
+              <tr>
+                <td>Sblock %:</td>
+                <td>22.5</td>
               </tr>
             </table>
+            <p>As you can probably guess, freighters are best for moving cargo as an impressive 22.5% of the ship can be used just for storage, while also being relatively accessible with a minimum size of 1,500 blocks.</p>
+          </subarticle>
+          <subarticle>
+            <a href="/movecraft/blocks.html#dreadnaught"><h3 id="dreadnaught">Dreadnaught</h3></a>
+            <p>no image available</p>
+            <table class="stats">
+              <tr>
+                <td>Max size:</td>
+                <td>127,000</td>
+              </tr>
+              <tr>
+                <td>Min size:</td>
+                <td>10,500</td>
+              </tr>
+              <tr>
+                <td>Fblock %:</td>
+                <td>0.25</td>
+              </tr>
+              <tr>
+                <td>Eblock %:</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>Sblock %:</td>
+                <td>20</td>
+              </tr>
+            </table>
+            <p>If you are ever unlucky enough to be in a situation where you have to fight a dreadnaught.. Well, it was nice knowing you, these hulking ships are the biggest to realistically be constructed, and, thankfully, only a couple exist.</p>
+          </subarticle>
+          <subarticle>
+            <a href="/movecraft/blocks.html#station"><h3 id="station">Station</h3></a>
+            <p>no image available</p>
+            <table class="stats">
+              <tr>
+                <td>Max size:</td>
+                <td>750,000</td>
+              </tr>
+              <tr>
+                <td>Min size:</td>
+                <td>22,500</td>
+              </tr>
+              <tr>
+                <td>Fblock %:</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>Eblock %:</td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <td>Sblock %:</td>
+                <td>20</td>
+              </tr>
+            </table>
+            <p>Stations are massive, with a minimum size twice that of dreadnaughts, they are essentially moving bases, although 'moving' is perhaps a bit misleading, as due to their size and slow speed the only realistic way to move them is with rift drives.</p>
+          </subarticle>
+          <subarticle>
+            <a href="/movecraft/blocks.html#startitan"><h3 id="startitan">StarTitan</h3></a>
+            <p>no image available</p>
+            <table class="stats">
+              <tr>
+                <td>Max size:</td>
+                <td>280,000</td>
+              </tr>
+              <tr>
+                <td>Min size:</td>
+                <td>128,000</td>
+              </tr>
+              <tr>
+                <td>Fblock %:</td>
+                <td>1.75</td>
+              </tr>
+              <tr>
+                <td>Eblock %:</td>
+                <td>2.02</td>
+              </tr>
+              <tr>
+                <td>Sblock %:</td>
+                <td>25.5</td>
+              </tr>
+            </table>
+            <p>The largest spacecraft - or indeed any craft - possible to build, however, due to their insane size none exist, Interestingly these would technically be the best craft for moving items as they have the highest allowed Sblock%.</p>
+          </subarticle>
+          <h2>Aircraft</h2>
+          <p>Aircraft are a step down from spaceships, being able to fly but not go to space. However, they have much lower fuel consumption.</p>
+          <subarticle>
+            <a href="/movecraft/blocks.html#airship"><h3 id="airship">Airship</h3></a>
+            <p>no image available</p>
+            <table class="stats">
+              <tr>
+                <td>Max size:</td>
+                <td>25,000</td>
+              </tr>
+              <tr>
+                <td>Min size:</td>
+                <td>1,050</td>
+              </tr>
+              <tr>
+                <td>Fblock %:</td>
+                <td>45.5</td>
+              </tr>
+              <tr>
+                <td>Eblock %:</td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <td>Sblock %:</td>
+                <td>7.5</td>
+              </tr>
+            </table>
+            <p>Airships are a classic movecraft ship, they have a much higher required flight block percentage than spaceships but a lower fuel consumption.</p>
+          </subarticle>
+          <subarticle>
+            <a href="/movecraft/blocks.html#plane"><h3 id="plane">Plane</h3></a>
+            <p>no image available</p>
+            <table class="stats">
+              <tr>
+                <td>Max size:</td>
+                <td>1,200</td>
+              </tr>
+              <tr>
+                <td>Min size:</td>
+                <td>12</td>
+              </tr>
+              <tr>
+                <td>Fblock %:</td>
+                <td>30</td>
+              </tr>
+              <tr>
+                <td>Eblock %:</td>
+                <td>7.5</td>
+              </tr>
+              <tr>
+                <td>Sblock %:</td>
+                <td>2.5</td>
+              </tr>
+              <p>Planes are essentially renamed airskiffs, and are smaller versions of airships with less required flight blocks and less storage capacity.</p>
+            </table>
+          </subarticle>
+          <h2>Land craft</h2>
+          <p>Land craft are unable to fly, and can only crawl along the ground, while they may sound useless they do have some advantages over spaceships such as smaller minimum sizes and slightly lower fuel consumption.</p>
+          <subarticle>
+            <a href="/movecraft/blocks.html#tank"><h3 id="tank">Tank</h3></a>
+            <img src="/images/screenshots/tank.png" id="tank">
+            <label for="tank">A mining tank used during the construction of Ensis Shipyards</label>
+            <table class="stats">
+              <tr>
+                <td>Max size:</td>
+                <td>10,500</td>
+              </tr>
+              <tr>
+                <td>Min size:</td>
+                <td>25</td>
+              </tr>
+              <tr>
+                <td>Fblock %:</td>
+                <td>7.5</td>
+              </tr>
+              <tr>
+                <td>Eblock %:</td>
+                <td>4.5</td>
+              </tr>
+              <tr>
+                <td>Sblock %:</td>
+                <td>15</td>
+              </tr>
+            </table>
+            <p>Tanks are the base land vehicle, their main advantage is the minimum size of 25 blocks meaning you can make tiny craft.<br> Generally best for moving around large bases / quarrying.</p>
+          </subarticle>
+          <subarticle>
+            <a href="/movecraft/blocks.html#train"><h3 id="train">Train</h3></a>
+            <p>no image available</p>
+            <table class="stats">
+              <tr>
+                <td>Max size:</td>
+                <td>9,500</td>
+              </tr>
+              <tr>
+                <td>Min size:</td>
+                <td>25</td>
+              </tr>
+              <tr>
+                <td>Fblock %:</td>
+                <td>N/A</td>
+              </tr>
+              <tr>
+                <td>Eblock %:</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>Sblock %:</td>
+                <td>50</td>
+              </tr>
+              <tr>
+            </table>
+            <p>Trains don't need Fblocks, and they have a ridiculous allowed Sblock percentage, making them excellent for moving items around on a planet.</p>
+          </subarticle>
+          <subarticle>
+            <a href="/movecraft/blocks.html#landtitan"><h3 id="landtitan">LandTitan</h3></a>
+            <p>no image available</p>
+            <table class="stats">
+              <tr>
+                <td>Max size:</td>
+                <td>200,000</td>
+              </tr>
+              <tr>
+                <td>Min size:</td>
+                <td>27,000</td>
+              </tr>
+              <tr>
+                <td>Fblock %:</td>
+                <td>25</td>
+              </tr>
+              <tr>
+                <td>Eblock %:</td>
+                <td>7.5</td>
+              </tr>
+              <tr>
+                <td>Sblock %:</td>
+                <td>15</td>
+              </tr>
+            </table>
+            <p>LandTitans are essentially massive tanks, their size and long list of allowed blocks allows you to feasibly make a moving base with one, if you so wish.</p>
+          </subarticle>
+          <h2>Water craft</h2>
+          <p>Water craft are restricted to moving in water and are unable to go on land or fly, however they have lower fuel consumption or in the case of ships and skiffs, none at all.</p>
+          <subarticle>
+            <a href="/movecraft/blocks.html#ship"><h3 id="ship">Ship</h3></a>
+            <p>no image available</p>
+            <table class="stats">
+              <tr>
+                <td>Max size:</td>
+                <td>75,000</td>
+              </tr>
+              <tr>
+                <td>Min size:</td>
+                <td>250</td>
+              </tr>
+              <tr>
+                <td>Fblock %:</td>
+                <td>15</td>
+              </tr>
+              <tr>
+                <td>Eblock %:</td>
+                <td>15</td>
+              </tr>
+              <tr>
+                <td>Sblock %:</td>
+                <td>7.5</td>
+              </tr>
+            </table>
+            <p>Ships are the primary boat craft type, and what you will likely use for building water craft. Their main advantage is that they don't need fuel to move, instead relying on sails. (wool/carpet)</p>
+          </subarticle>
+          <subarticle>
+            <a href="/movecraft/blocks.html#skiff"><h3 id="skiff">Skiff</h3></a>
+            <p>no image available</p>
+            <table class="stats">
+              <tr>
+                <td>Max size:</td>
+                <td>750</td>
+              </tr>
+              <tr>
+                <td>Min size:</td>
+                <td>15</td>
+              </tr>
+              <tr>
+                <td>Fblock %:</td>
+                <td>15</td>
+              </tr>
+              <tr>
+                <td>Sblock %:</td>
+                <td>7.5</td>
+              </tr>
+            </table>
+            <p>Skiffs are basically just smaller versions of ships, however they are notable that they just need Wool or Carpet to function, with no engine blocks required, they also don't use fuel.</p>
+          </subarticle>
+          <subarticle>
+            <a href="/movecraft/blocks.html#submarine"><h3 id="submarine">Submarine</h3></a>
+            <p>no image available</p>
+            <table class="stats">
+              <tr>
+                <td>Max size:</td>
+                <td>75,000</td>
+              </tr>
+              <tr>
+                <td>Min size:</td>
+                <td>50</td>
+              </tr>
+              <tr>
+                <td>Fblock1 %:</td>
+                <td>1.5</td>
+              </tr>
+              <tr>
+                <td>Fblock2 %:</td>
+                <td>6</td>
+              </tr>
+              <tr>
+                <td>Eblock %:</td>
+                <td>7.25</td>
+              </tr>
+              <tr>
+                <td>Sblock %:</td>
+                <td>7.5</td>
+              </tr>
+              <tr>
+            </table>
+            <p>Submarines are the only craft to solely function underwater, they also require two types of Fblock (Iron blocks and Wool/Carpet)</p>
           </subarticle>
         </article>
         <!-- 
-            <table id="stats">
+            <table class="stats">
               <tr>
                 <td>Max size:</td>
                 <td></td>
@@ -166,11 +483,12 @@
       </td>
     </tr>
   </table>
-  <script src="../jquery-3.6.0.js"></script>
-  <script src="../navigation.js"></script>
+  <script src="../res/jquery-3.6.0.js"></script>
+  <script src="../res/navigation.js"></script>
   <script>
     const page = 'movecraft-crafts';
     $(`#${page}`).attr('id', 'selected');
+    $(`#${page}-ul`).css('display', 'block');
   </script>
 </body>
 
