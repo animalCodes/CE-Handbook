@@ -64,13 +64,13 @@ cmd {
 }
 .twrapper {
   display: inline-flex;
-}
-.twrapper .stats {
-  margin: 10px;
+  flex-wrap: wrap;
 }
 .stats {
   background-color: #0f1c27;
   max-width: max-content;
+  table-layout: auto;
+  border-collapse: collapse;
   border: var(--border);
   border-radius: 5px;
   margin: auto;
@@ -78,6 +78,9 @@ cmd {
 }
 .stats tr td {
   padding: 5px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  overflow-wrap: break-word;
 }
 /* Text */
 h3 {
@@ -85,6 +88,7 @@ h3 {
 }
 li, td, p {
   font-size: large;
+  word-wrap: break-word;
 }
 a {
   color: var(--mainTextColour);
@@ -109,7 +113,7 @@ sig {
   border-radius: 5px;
   margin-top: 10px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   #disclaimer {
     display: block;
   }

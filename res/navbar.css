@@ -28,8 +28,17 @@ nav ul li {
 #selected {
   color: var(--signatureColour);
 }
+#home {
+  display: none;
+  background-color: silver;
+  padding-left: 6px;
+  padding-right: 6px;
+  color: var(--bgColour);
+  border-radius: 5px;
+}
+
 /* responsive design shit */
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 600px) {
   #navbar {
     display: none;
   }

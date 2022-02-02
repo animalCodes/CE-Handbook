@@ -87,7 +87,7 @@ const $disclaimer = $('#disclaimer');
 
 $disclaimer.html(
   `
-  <h3>Please note that this site was designed on a desktop for desktops, and while I have tried to make it respond to smaller screen sizes it may render oddly on mobile devices, you have been warned! (tap to dismiss)
+  <h3>Please note that this site was designed on a desktop for desktops, and while I have tried to make it respond to smaller screen sizes it may render oddly on mobile devices, if elements render oddly I suggest switching to landscape mode, you have been warned! (tap to dismiss)
   </h3>
 `
 )
