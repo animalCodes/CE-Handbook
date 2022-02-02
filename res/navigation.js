@@ -52,7 +52,7 @@ $('#navbar').html(function () {
   </ul>
   </nav>
   <div style="display: flex;">
-  <span><img src="/images/icons/author.png" style="margin: 16px;"></span><p style="color: var(--signatureColour)">Written by <br>animal</p>
+  <span><img src="images/icons/author.png" style="margin: 16px;"></span><p style="color: var(--signatureColour)">Written by <br>animal</p>
   </div>
   `;
   /*
@@ -96,39 +96,3 @@ $disclaimer.on('click', () => {
   $disclaimer.hide()
 })
 
-
-
-
-
-
-
-input = document.getElementById('text').value;
-output = document.getElementById('output');
-
-// start process of removing duplicates by splitting string into array of <td>(data)</td> sets
-console.log('starting to remove duplicates');
-let duplicates = input.split(/, /g) // regex to find all occurances of ', '
-let removeduplicates = [];
-// loop through duplicates, if the element is NOT found in removeduplicates then push that element into it
-duplicates.forEach((d) => {
-  if (!removeduplicates.includes(d)) {
-    console.log(`Pushing: ${d}`);
-    removeduplicates.push(`${d}`)
-  }
-})
-// remove any elements that have the substring 'copper' in them
-console.log('removing copper entries')
-let nocopper = [];
-removeduplicates.forEach((d) => {
-  if (!d.includes('copper')) {
-    nocopper.push(d);
-  }
-})
-console.log('formatting.');
-let format = nocopper.toString()
-// replace all occurances of ',' with </td><br><td>
-const replace = format.replace(/,/g, '&lt;/td&gt;<br>&lt;td&gt;')
-// add <td> and </td> to start and end of string respectively
-let final = `&lt;td&gt;${replace}&lt;/td&gt;`;
-// and breath..
-output.innerHTML = final;
