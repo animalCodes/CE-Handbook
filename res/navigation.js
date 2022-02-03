@@ -3,6 +3,7 @@
 $('#navbar').html(function () {
 
   return `
+  <a href="#body" id="top"><h4>To top ^</h4></a>
   <nav id="nav">
   <h2 style="text-align: center;">Site map</h2>
   <h3><a id="index" href="../index.html">Home</a></h3>
@@ -11,37 +12,58 @@ $('#navbar').html(function () {
   <!-- //* movecraft controls -->
   <li><a id="movecraft-controls" href="../movecraft/controls.html">Signs / Controls</a>
   <ul id="movecraft-controls-ul" class="dropdown">
-  <li><a href="../movecraft/controls.html#compass">Compass control</a></li>
-  <li><a href="../movecraft/controls.html#gears">Gear control</a></li>
-  <li><a href="../movecraft/controls.html#direct">Direct control</a></li>
-  <li><a href="../movecraft/controls.html#pilot">Pilot signs</a></li>
-  <li><a href="../movecraft/controls.html#helm">Helm sign</a></li>
-  <li><a href="../movecraft/controls.html#cruise">Cruise signs</a></li>
-  <li><a href="../movecraft/controls.html#release">Release sign</a></li>
-  <li><a href="../movecraft/controls.html#secure">Pilot: sign</a></li>
+  <li><a href="#compass">Compass control</a></li>
+  <li><a href="#gears">Gear control</a></li>
+  <li><a href="#direct">Direct control</a></li>
+  <li><a href="#pilot">Pilot signs</a></li>
+  <li><a href="#helm">Helm sign</a></li>
+  <li><a href="#cruise">Cruise signs</a></li>
+  <li><a href="#release">Release sign</a></li>
+  <li><a href="#secure">Pilot: sign</a></li>
   </ul>
   </li>
   <!-- //* movecraft craftypes -->
   <li><a id="movecraft-crafts" href="../movecraft/crafts.html">Craft types</a>
   <ul id="movecraft-crafts-ul" class="dropdown">
-  <li><a href="../movecraft/crafts.html#starfighter">Starfighter</a></li>
-  <li><a href="../movecraft/crafts.html#cargoshuttle">Cargoshuttle</a></li>
-  <li><a href="../movecraft/crafts.html#starship">Starship</a></li>
-  <li><a href="../movecraft/crafts.html#freighter">Freighter</a></li>
-  <li><a href="../movecraft/crafts.html#dreadnaught">Dreadnaught</a></li>
-  <li><a href="../movecraft/crafts.html#station">Station</a></li>
-  <li><a href="../movecraft/crafts.html#startitan">StarTitan</a></li>
-  <li><a href="../movecraft/crafts.html#airship">Airship</a></li>
-  <li><a href="../movecraft/crafts.html#plane">Plane</a></li>
-  <li><a href="../movecraft/crafts.html#tank">Tank</a></li>
-  <li><a href="../movecraft/crafts.html#train">Train</a></li>
-  <li><a href="../movecraft/crafts.html#landtitan">LandTitan</a></li>
-  <li><a href="../movecraft/crafts.html#ship">Ship</a></li>
-  <li><a href="../movecraft/crafts.html#skiff">Skiff</a></li>
-  <li><a href="../movecraft/crafts.html#submarine">Submarine</a></li>
+  <li><a href="#starfighter">Starfighter</a></li>
+  <li><a href="#cargoshuttle">Cargoshuttle</a></li>
+  <li><a href="#starship">Starship</a></li>
+  <li><a href="#freighter">Freighter</a></li>
+  <li><a href="#dreadnaught">Dreadnaught</a></li>
+  <li><a href="#station">Station</a></li>
+  <li><a href="#startitan">StarTitan</a></li>
+  <li><a href="#airship">Airship</a></li>
+  <li><a href="#plane">Plane</a></li>
+  <li><a href="#tank">Tank</a></li>
+  <li><a href="#train">Train</a></li>
+  <li><a href="#landtitan">LandTitan</a></li>
+  <li><a href="#ship">Ship</a></li>
+  <li><a href="#skiff">Skiff</a></li>
+  <li><a href="#submarine">Submarine</a></li>
   </ul>
+  </li>
   <!-- //* movecraft blocks -->
-  <li><a id="movecraft-blocks" href="../movecraft/blocks.html">Valid blocks</a></li> 
+  <li><a id="movecraft-blocks" href="../movecraft/blocks.html">Valid blocks</a>
+  <ul id="movecraft-blocks-ul" class="dropdown">
+  <li><a href="#starfighter">Starfighter</a></li>
+  <li><a href="#cargoshuttle">Cargoshuttle</a></li>
+  <li><a href="#starship">Starship</a></li>
+  <li><a href="#freighter">Freighter</a></li>
+  <!--
+  <li><a href="#dreadnaught">Dreadnaught</a></li>
+  <li><a href="#station">Station</a></li>
+  <li><a href="#startitan">StarTitan</a></li>
+  <li><a href="#airship">Airship</a></li>
+  <li><a href="#plane">Plane</a></li>
+  <li><a href="#tank">Tank</a></li>
+  <li><a href="#train">Train</a></li>
+  <li><a href="#landtitan">LandTitan</a></li>
+  <li><a href="#ship">Ship</a></li>
+  <li><a href="#skiff">Skiff</a></li>
+  <li><a href="#submarine">Submarine</a></li>
+  -->
+  </ul>
+  </li> 
   </ul>
   <h3 class="nav-title">Planets</h3>
   <ul>

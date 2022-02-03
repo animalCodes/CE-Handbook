@@ -36,6 +36,18 @@ nav ul li {
   color: var(--bgColour);
   border-radius: 5px;
 }
+#top {
+  position: fixed;
+  z-index: 20;
+  background-color: var(--bgColour);
+  border-radius: 10px;
+  text-decoration: none;
+}
+#top h4 {
+  margin: 0px;
+  padding: 5px;
+  color: var(--signatureColour);
+}
 
 /* responsive design shit */
 @media screen and (max-width: 600px) {
