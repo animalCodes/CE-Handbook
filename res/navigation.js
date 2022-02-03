@@ -49,10 +49,10 @@ $('#navbar').html(function () {
   <li><a href="#cargoshuttle">Cargoshuttle</a></li>
   <li><a href="#starship">Starship</a></li>
   <li><a href="#freighter">Freighter</a></li>
-  <!--
   <li><a href="#dreadnaught">Dreadnaught</a></li>
   <li><a href="#station">Station</a></li>
   <li><a href="#startitan">StarTitan</a></li>
+  <!--
   <li><a href="#airship">Airship</a></li>
   <li><a href="#plane">Plane</a></li>
   <li><a href="#tank">Tank</a></li>
