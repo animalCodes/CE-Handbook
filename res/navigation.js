@@ -41,7 +41,7 @@ $('#navbar').html(function () {
   <li><a href="../movecraft/crafts.html#submarine">Submarine</a></li>
   </ul>
   <!-- //* movecraft blocks -->
-  <li><a id="movecraft-blocks" href="../movecraft/blocks.html">Valid blocks</a></li>
+  <li><a id="movecraft-blocks" href="../movecraft/blocks.html">Valid blocks</a></li> 
   </ul>
   <h3 class="nav-title">Planets</h3>
   <ul>

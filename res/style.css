@@ -68,7 +68,7 @@ cmd {
 }
 .stats {
   background-color: #0f1c27;
-  max-width: max-content;
+  max-width: fit-content;
   table-layout: auto;
   border-collapse: collapse;
   border: var(--border);
@@ -76,10 +76,13 @@ cmd {
   margin: auto;
   margin-top: 10px;
 }
+.twrapper .stats {
+  max-width: min-content;
+  margin: 10px;
+}
 .stats tr td {
   padding: 5px;
   border: 1px solid silver;
-  border-radius: 5px;
   overflow-wrap: break-word;
 }
 /* Text */
