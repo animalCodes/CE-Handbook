@@ -7,10 +7,24 @@ section {
   display: inline-block;
   border: var(--border);
   border-radius: 5px;
-  /* width: fit-content; */
   padding: 10px;
   margin: 10px;
   text-align: left;
+}
+section ul {
+  margin: 0px;
+}
+.iwrapper {
+  display: flex;
+}
+.swrapper {
+  display: inline;
+}
+.swrapper ul {
+  padding-left: 5px;
+}
+.swrapper ul li::marker {
+  color: var(--bgColour);
 }
 h2 {
   margin: 5px;
@@ -18,7 +32,6 @@ h2 {
   color: var(--signatureColour);
 }
 .item{
-  display: list-item;
   margin: 5px;
-  font-size: large;
+  font-size: x-large;
 }

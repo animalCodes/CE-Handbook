@@ -52,8 +52,8 @@ $('#navbar').html(function () {
   <li><a href="#dreadnaught">Dreadnaught</a></li>
   <li><a href="#station">Station</a></li>
   <li><a href="#startitan">StarTitan</a></li>
-  <!--
   <li><a href="#airship">Airship</a></li>
+  <!--
   <li><a href="#plane">Plane</a></li>
   <li><a href="#tank">Tank</a></li>
   <li><a href="#train">Train</a></li>
@@ -67,6 +67,8 @@ $('#navbar').html(function () {
   </ul>
   <h3 class="nav-title">Planets</h3>
   <ul>
+  <!-- //* planet terrain -->
+  <li><a id="planets-terrain" href="../planets/terrain.html">Terrain</a></li>
   <!-- //* planet resources -->
   <li><a id="planets-resources" href="../planets/resources.html">Resources</a></li>
   <!-- //* interplanetary travel -->
