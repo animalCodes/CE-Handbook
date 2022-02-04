@@ -53,8 +53,8 @@ $('#navbar').html(function () {
   <li><a href="#station">Station</a></li>
   <li><a href="#startitan">StarTitan</a></li>
   <li><a href="#airship">Airship</a></li>
-  <!--
   <li><a href="#plane">Plane</a></li>
+  <!--
   <li><a href="#tank">Tank</a></li>
   <li><a href="#train">Train</a></li>
   <li><a href="#landtitan">LandTitan</a></li>
