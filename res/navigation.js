@@ -54,13 +54,13 @@ $('#navbar').html(function () {
   <li><a href="#startitan">StarTitan</a></li>
   <li><a href="#airship">Airship</a></li>
   <li><a href="#plane">Plane</a></li>
-  <!--
   <li><a href="#tank">Tank</a></li>
   <li><a href="#train">Train</a></li>
   <li><a href="#landtitan">LandTitan</a></li>
   <li><a href="#ship">Ship</a></li>
   <li><a href="#skiff">Skiff</a></li>
   <li><a href="#submarine">Submarine</a></li>
+  <!--
   -->
   </ul>
   </li> 
