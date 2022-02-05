@@ -68,9 +68,11 @@ $('#navbar').html(function () {
   <h3 class="nav-title">Planets</h3>
   <ul>
   <!-- //* planet terrain -->
+  <strike>
   <li><a id="planets-terrain" href="../planets/terrain.html">Terrain</a></li>
   <!-- //* planet resources -->
   <li><a id="planets-resources" href="../planets/resources.html">Resources</a></li>
+  </strike>
   <!-- //* interplanetary travel -->
   <li><a id="planets-travel" href="../planets/travel.html">Interplanetary travel</a></li>
   </ul>
