@@ -60,8 +60,6 @@ $('#navbar').html(function () {
   <li><a href="#ship">Ship</a></li>
   <li><a href="#skiff">Skiff</a></li>
   <li><a href="#submarine">Submarine</a></li>
-  <!--
-  -->
   </ul>
   </li> 
   </ul>
@@ -69,7 +67,7 @@ $('#navbar').html(function () {
   <ul>
   <!-- //* planet terrain -->
   <strike>
-  <li><a id="planets-terrain" href="../planets/terrain.html">Terrain</a></li>
+  <li><a id="planets-info" href="../planets/info.html">Information</a></li>
   <!-- //* planet resources -->
   <li><a id="planets-resources" href="../planets/resources.html">Resources</a></li>
   </strike>
@@ -121,4 +119,3 @@ $disclaimer.html(
 $disclaimer.on('click', () => {
   $disclaimer.hide()
 })
-

@@ -103,10 +103,6 @@ sig {
   color: var(--signatureColour);
   text-decoration: underline;
 }
-.unfinished {
-  text-decoration: line-through;
-  font-style: italic;
-}
 /* classes */
 .nav-title {
   border-left: var(--border);
