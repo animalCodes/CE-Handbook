@@ -52,6 +52,10 @@ img {
   max-height: 100px;
   border-radius: 5px;
 }
+.large {
+  max-width: 350px;
+  max-height: 200px;
+}
 label {
   font-style: italic;
   display: block;
@@ -84,6 +88,9 @@ cmd {
   padding: 5px;
   border: 1px solid silver;
   overflow-wrap: break-word;
+}
+.stats tr th {
+  padding: 5px;
 }
 /* Text */
 h3 {
