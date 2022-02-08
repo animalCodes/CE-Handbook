@@ -75,9 +75,7 @@ $('#navbar').html(function () {
   <h3 class="nav-title">Resonant</h3>
   <ul>
   <!-- //* resonant basics -->
-  <strike>
   <li><a id="resonant-basics" href="../resonant/basics.html">Basics</a></li>
-  </strike>
   </nav>
   <div style="display: flex;">
   <span><img src="../images/icons/author.png" style="margin: 16px;"></span><p style="color: var(--signatureColour)">Written by <br>animal</p>
