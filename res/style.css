@@ -55,6 +55,7 @@ img {
 .large {
   max-width: 350px;
   max-height: 200px;
+  cursor: zoom-in;
 }
 label {
   font-style: italic;
