@@ -70,20 +70,35 @@ $('#navbar').html(function () {
   <li><a id="planets-info" href="../planets/info.html">Information</a></li>
   </strike>
   <!-- //* interplanetary travel -->
-  <li><a id="planets-travel" href="../planets/travel.html">Interplanetary travel</a></li>
+  <li><a id="planets-travel" href="../planets/travel.html">Interplanetary travel</a>
+  <ul id="planets-travel-ul" class="dropdown">
+  <li><a href="#orbit">Getting to orbit</a></li>
+  <li><a href="#radon">Crystalized radon</a></li>
+  <li><a href="#tsigns">Teleport signs</a></li>
+  </ul>
+  </li>
   </ul>
   <h3 class="nav-title">Resonant</h3>
   <ul>
   <!-- //* resonant basics -->
-  <li><a id="resonant-basics" href="../resonant/basics.html">Basics</a></li>
+  <li><a id="resonant-basics" href="../resonant/basics.html">Basics</a>
+  <ul id="resonant-basics-ul" class="dropdown">
+  <li><a href="#cable">Cables</a></li>
+  <li><a href="#corners">Corners</a></li>
+  <li><a href="#splitters">Splitters</a></li>
+  <li><a href="#pstation">Power Stations</a></li>
+  </ul>
+  </li>
+  <!-- //* resonant management -->
+  <strike>
+  <li><a id="resonant-management" href="../resonant/management.html">Generation / Storage</a></li>
+  </strike>
   </nav>
   <div style="display: flex;">
   <span><img src="../images/icons/author.png" style="margin: 16px;"></span><p style="color: var(--signatureColour)">Written by <br>animal</p>
   </div>
   `;
   /*
-  <!-- //* resonant management -->
-  <li><a id="resonant-management" href="../resonant/management.html">Generation / Storage</a></li>
   <!-- //* resonant machinery -->
   <li><a id="resonant-machines" href="../resonant/machines.html">Machines</a></li>
   </ul>

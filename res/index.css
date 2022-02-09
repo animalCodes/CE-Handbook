@@ -19,6 +19,7 @@ section ul {
 }
 .swrapper {
   display: inline;
+  width: fit-content;
 }
 .swrapper ul {
   padding-left: 5px;

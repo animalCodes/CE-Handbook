@@ -25,18 +25,18 @@
         </intro>
         <article>
           <subarticle>
-            <h3>Getting to orbit</h3>
+            <h3 id="orbit">Getting to orbit</h3>
             <p>You can only travel between the orbits of planets, not the planets themselves, to get from a planet to it's orbit fly up in any spaceship, once you reach y360 you will be taken to the orbit of that planet. To get back down just descend, once you get to y15 you will teleport to the actual planet.</p>
           </subarticle>
           <h2>Rift drives</h2>
           <p>Rift drives are the main way to travel between planets, once fueled, you can easily teleport between different planetary orbits.</p>
           <subarticle>
-            <h3>Crystalized radon</h3>
+            <h3 id="radon">Crystalized radon</h3>
             <p>Crystalized radon is what fuels rift drives, the easiest way to get it is mining: just mine redstone ore, it will sometimes drop.</p>
-            <p>Once you have your radon place it in the top slot of a furnace on your spaceship.</p>
+            <p>To fuel your rift drive with radon, place a furnace on your ship and put the radon in the top slot. (where you would usually put the item to be smelted)</p>
           </subarticle>
           <subarticle>
-            <h3>Teleport signs</h3>
+            <h3 id="tsigns">Teleport signs</h3>
             <img src="../images/screenshots/teleport.png" id="teleport">
             <label for="teleport">The format of a teleport sign</label>
             <p>These are how you tell your ship where to jump to, to make one place a sign and write <cmd>Teleport:</cmd> on the top line, The coordinates on the second line, (<cmd>X,Y,Z,</cmd>) and finally the name of the orbit you want to travel to on the third line.</p>
@@ -53,6 +53,7 @@
   <script>
     const page = 'planets-travel';
     $(`#${page}`).attr('id', 'selected');
+    $(`#${page}-ul`).css('display', 'block');
   </script>
 </body>
 
