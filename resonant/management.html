@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../res/style.css">
+  <link rel="stylesheet" href="../res/navbar.css">
+  <title>Generation / Storage</title>
+</head>
+
+<body>
+  <table>
+    <tr>
+      <td id="navbar">
+        <h1 style="color: red;">Javascript disabled - enable to use sidebar!</h1>
+      </td>
+      <td id="body">
+        <a href="../index.html" id="home">
+          <h3>Home</h3>
+        </a>
+        <header>
+          <h1>Resonant generation & storage</h1>
+        </header>
+        <intro>
+          <h2>In order to use resonant, you have to generate it first. This page details the different machines used to
+            create and store resonant crystals</h2>
+          <p>
+            To create resonant crystals you will need a generator and something to store it in, generators create
+            'pulses' that charge batteries or capacitors at a fixed rate. Connect the output of a generator to the input
+            of a battery/capacitor with <a href="basics.html#cables">resonant cables</a> and it will gain a set amount of resonant per pulse. Each machine has how many pulses
+            that it can generate listed.
+          </p>
+        </intro>
+        <article>
+          <h2>Storage</h2>
+          <p>While you can store resonant crystals in normal chests/barrels like you would ordinary items, you have to
+            use special storage devices in order to power crafts and collect the crystals.</p>
+          <subarticle>
+            <h3 id="capacitor">Battery</h3>
+            <img src="../images/machines/battery.png" id="battery">
+            <label for="battery">A battery</label>
+            <p>Batteries are the more efficient, but more expensive way to store resonant, the dropper is used as the
+              input and storage.</p>
+            <div class="twrapper">
+              <table class="stats">
+                <tr>
+                  <th colspan="2">Required blocks</th>
+                </tr>
+                <tr>
+                  <td>Composite blocks (custom)</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>Dropper</td>
+                  <td>1</td>
+                </tr>
+              </table>
+              <table class="stats">
+                <tr>
+                  <td>Capacity</td>
+                  <td>9 Stacks</td>
+                </tr>
+                <tr>
+                  <td>Resonant per pulse</td>
+                  <td>2</td>
+                </tr>
+              </table>
+            </div>
+          </subarticle>
+          <subarticle>
+            <h3 id="capacitor">Capacitor</h3>
+            <img src="../images/machines/capacitor.png" id="capacitor">
+            <label for="battery">A capacitor</label>
+            <p>Capacitors are a cheaper but less efficient storage method, the dropper is used as the input and the barrel is the storage.</p>
+            <div class="twrapper">
+              <table class="stats">
+                <tr>
+                  <th colspan="2">Required blocks</th>
+                </tr>
+                <tr>
+                  <td>Iron block</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>Dropper</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>Barrel</td>
+                  <td>1</td>
+                </tr>
+              </table>
+              <table class="stats">
+                <tr>
+                  <td>Capacity</td>
+                  <td>27 Stacks</td>
+                </tr>
+                <tr>
+                  <td>Resonant per pulse</td>
+                  <td>4</td>
+                </tr>
+              </table>
+            </div>
+          </subarticle>
+          <h2>Generators</h2>
+          <p>Generators are how you actually <em>generate</em> resonant crystals. (go figure) Connect a generator to a storage device, activate it, and you should start producing resonant.</p>
+        </article>
+      </td>
+    </tr>
+  </table>
+  <script src="../res/jquery-3.6.0.js"></script>
+  <script src="../res/navigation.js"></script>
+  <script>
+    const page = 'resonant-management';
+    $(`#${page}`).attr('id', 'selected');
+    $(`#${page}-ul`).css('display', 'block');
+  </script>
+</body>
+
+</html>

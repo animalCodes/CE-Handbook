@@ -83,7 +83,7 @@ cmd {
 }
 .twrapper .stats {
   max-width: min-content;
-  margin: 10px;
+  margin: 5px;
 }
 .stats tr td {
   padding: 5px;
