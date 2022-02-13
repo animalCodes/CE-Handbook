@@ -92,18 +92,28 @@ $('#navbar').html(function () {
   </ul>
   </li>
   <!-- //* resonant management -->
+  <li><a id="resonant-management" href="../resonant/management.html">Generation / Storage</a>
+  <ul id="resonant-management-ul" class="dropdown">
+  <li><a href="#battery">Battery</a></li>
+  <li><a href="#capacitor">Capacitor</a></li>
+  <li><a href="#combustion">Combustion generator</a></li>
+  <li><a href="#solar">Solar panel</a></li>
+  <li><a href="#wind">Wind turbine</a></li>
+  <li><a href="#hydro">Hydropower generator</a></li>
+  <li><a href="#geothermal">Geothermal generator</a></li>
+  </ul>
+  </li>
+  <!-- //* resonant machinery -->
   <strike>
-  <li><a id="resonant-management" href="../resonant/management.html">Generation / Storage</a></li>
+  <li><a id="resonant-machines" href="../resonant/machines.html">Machines</a></li>
   </strike>
+  </ul>
   </nav>
   <div style="display: flex;">
   <span><img src="../images/icons/author.png" style="margin: 16px;"></span><p style="color: var(--signatureColour)">Written by <br>animal</p>
   </div>
   `;
   /*
-  <!-- //* resonant machinery -->
-  <li><a id="resonant-machines" href="../resonant/machines.html">Machines</a></li>
-  </ul>
   <h3 class="nav-title">Multiblock Structures</h3>
   <ul>
   <!-- //* multiblock machinery -->

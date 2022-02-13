@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../res/style.css">
+  <link rel="stylesheet" href="../res/navbar.css">
+  <title>Machines</title>
+</head>
+
+<body>
+  <table>
+    <tr>
+      <td id="navbar">
+        <h1 style="color: red;">Javascript disabled - enable to use sidebar!</h1>
+      </td>
+      <td id="body">
+        <a href="../index.html" id="home"><h3>Home</h3></a>
+        <header>
+          <h1>Resonant machines</h1>
+        </header>
+        <intro>
+          <h2>Resonant machines are special multiblock structures that require resonant power to work, however, the extra work is more than worth it.</h2>
+          <p>Something important to note is that you can't just connect a battery/capacitor to a machine, as they actually require resonant <em>pulses</em> to activate them, see <a href="management.html">Resonant management</a> for how to generate pulses.</p>
+        </intro>
+        <article>
+          <subarticle>
+            <h3></h3>
+            <p></p>
+          </subarticle>
+        </article>
+      </td>
+    </tr>
+  </table>
+  <script src="../res/jquery-3.6.0.js"></script>
+  <script src="../res/navigation.js"></script>
+  <script>
+    const page = '';
+    $(`#${page}`).attr('id', 'selected');
+    $(`#${page}-ul`).css('display', 'block');
+  </script>
+</body>
+
+</html>

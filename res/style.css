@@ -44,30 +44,17 @@ subarticle {
   display: block;
   border: var(--border);
   border-radius: 5px;
-  padding: 10px;
+  padding: 4px;
   margin-bottom: 20px;
 }
 /* other elements */
-img {
-  max-width: 200px;
-  max-height: 100px;
-  border-radius: 5px;
-}
-.large {
-  max-width: 350px;
-  max-height: 200px;
-  cursor: zoom-in;
-}
-label {
-  font-style: italic;
-  display: block;
-}
 cmd {
   background-color: silver;
   border: var(--border);
   border-radius: 5px;
   color: black;
 }
+/* tables */
 .twrapper {
   display: inline-flex;
   display: -webkit-inline-flex;
@@ -118,6 +105,27 @@ sig {
   border-left: var(--border);
   padding-left: 5px;
   margin-bottom: 0px;
+}
+/* images */
+img {
+  max-width: 250;
+  max-height: 100px;
+  border-radius: 5px;
+}
+.large {
+  max-width: 500px;
+  max-height: 275px;
+  cursor: zoom-in;
+}
+@media screen and (max-width: 1000px) {
+  .large {
+    max-width: 200px;
+    max-height: 100px;
+  }
+}
+label {
+  font-style: italic;
+  display: block;
 }
 /* responsive design */
 #disclaimer {

@@ -20,6 +20,8 @@ section ul {
 .swrapper {
   display: inline;
   width: fit-content;
+  border-left: 1px solid silver;
+  margin: 2px;
 }
 .swrapper ul {
   padding-left: 5px;
