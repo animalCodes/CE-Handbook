@@ -66,9 +66,11 @@ $('#navbar').html(function () {
   <h3 class="nav-title">Planets</h3>
   <ul>
   <!-- //* planet info -->
+  <!--
   <strike>
   <li><a id="planets-info" href="../planets/info.html">Information</a></li>
   </strike>
+  -->
   <!-- //* interplanetary travel -->
   <li><a id="planets-travel" href="../planets/travel.html">Interplanetary travel</a>
   <ul id="planets-travel-ul" class="dropdown">
