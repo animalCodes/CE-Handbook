@@ -79,15 +79,15 @@
                   <th colspan="2">Required blocks</th>
                 </tr>
                 <tr>
-                  <td>Iron block</td>
-                  <td>2</td>
+                  <td>Barrel</td>
+                  <td>1</td>
                 </tr>
                 <tr>
                   <td>Dropper</td>
                   <td>1</td>
                 </tr>
                 <tr>
-                  <td>Barrel</td>
+                  <td>Iron block</td>
                   <td>1</td>
                 </tr>
               </table>
@@ -105,6 +105,121 @@
           </subarticle>
           <h2>Generators</h2>
           <p>Generators are how you actually <em>generate</em> resonant crystals. (go figure) Connect a generator to a storage device, activate it, and you should start producing resonant.</p>
+          <subarticle>
+            <h2 id="combustion">Combustion generator</h2>
+            <img src="../images/machines/combustion.png" id="combustion">
+            <label for="combustion">A combustion generator</label>
+            <p>Combustion generators get their power from burning fuel, lower 'tiers' of fuel have a higher chance to be consumed, The <strong>back</strong> of the blast furnace is the output.</p>
+            <div class="twrapper">
+              <table class="stats">
+                <tr>
+                  <th>Fuel type</th>
+                  <th>Chance to be consumed</th>
+                </tr>
+                <tr>
+                  <td>Coal / Charcoal</td>
+                  <td>1/9</td>
+                </tr>
+                <tr>
+                  <td>Blaze powder / Magma cream</td>
+                  <td>1/24</td>
+                </tr>
+                <tr>
+                  <td>Coal block / Oxygen canister</td>
+                  <td>1/90</td>
+                </tr>
+                <tr>
+                  <td>Enriched Uranium Fuelrods</td>
+                  <td>2.5/100 (Also produces extra power)</td>
+                </tr>
+              </table>
+              <table class="stats">
+                <tr>
+                  <th colspan="2">Required blocks</th>
+                </tr>
+                <tr>
+                  <td>Redstone lamp (activation)</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>Blast furnace (input/output)</td>
+                  <td>1</td>
+                </tr>
+              </table>
+              <table class="stats">
+                <tr>
+                  <td>Pulse frequency</td>
+                  <td>Every 10 seconds</td>
+                </tr>
+              </table>
+            </div>
+          </subarticle>
+          <subarticle>
+            <h2 id="solar">Solar panel / generator</h2>
+            <img src="../images/machines/solar.png" id="solar">
+            <label for="solar">A solar generator</label>
+            <p>Once built and activated solar generators require no maintenance and will generate pulses on their own, the only downsides are that they must have sky above them and they must be above y63.</p>
+            <div class="twrapper">
+              <table class="stats">
+                <tr>
+                  <th colspan="2">Required blocks</th>
+                </tr>
+                <tr>
+                  <td>Daylight detector</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>Redstone lamp (activation)</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>Dropper (output)</td>
+                  <td>1</td>
+                </tr>
+              </table>
+              <table class="stats">
+                <tr>
+                  <th colspan="2">Pulse frequency</th>
+                </tr>
+                <tr>
+                  <td>Orbit/Space</td>
+                  <td>Every 30 seconds</td>
+                </tr>
+                <tr>
+                  <td>Day</td>
+                  <td>Every 90 seconds</td>
+                </tr>
+                <tr>
+                  <td>Dawn/Dusk</td>
+                  <td>Every 5 minutes</td>
+                </tr>
+                <tr>
+                  <td>Night</td>
+                  <td>Every 25 minutes</td>
+                </tr>
+              </table>
+            </div>
+          </subarticle>
+          <!-- 
+            <subarticle>
+            <h2 id=""></h2>
+            <img src="" id="">
+            <label for=""></label>
+            <p></p>
+            <div class="twrapper">
+              <table class="stats">
+                <tr>
+                  <th colspan="2">Required blocks</th>
+                </tr>
+              </table>
+              <table class="stats">
+                <tr>
+                  <th colspan="2">Rates</th>
+                </tr>
+              </table>
+            </div>
+          </subarticle>
+           -->
         </article>
       </td>
     </tr>
