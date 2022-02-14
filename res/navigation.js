@@ -105,9 +105,7 @@ $('#navbar').html(function () {
   </ul>
   </li>
   <!-- //* resonant machinery -->
-  <strike>
   <li><a id="resonant-machines" href="../resonant/machines.html">Machines</a></li>
-  </strike>
   </ul>
   <h3 class="nav-title">Structures</h3>
   <ul>
