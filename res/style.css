@@ -108,8 +108,8 @@ sig {
 }
 /* images */
 img {
-  max-width: 250;
-  max-height: 100px;
+  max-width: 300px;
+  max-height: 200px;
   border-radius: 5px;
 }
 .large {
@@ -126,6 +126,9 @@ img {
 label {
   font-style: italic;
   display: block;
+}
+.imgwrapper {
+  display: inline-block;
 }
 /* responsive design */
 #disclaimer {
