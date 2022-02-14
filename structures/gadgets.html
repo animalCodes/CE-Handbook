@@ -24,7 +24,6 @@
           <h2>Gadgets enhance vanilla mechanics and add a few of their own, such as teleportation.</h2>
         </intro>
         <article>
-          <h2>Utilities</h2>
           <!--
             <subarticle>
             <h3 id="servo">Clockwork servo</h3>
@@ -44,10 +43,9 @@
             <h3 id="filter">Hopper filter</h3>
             <img src="../images/machines/filter.png" id="filter">
             <label for="filter">A filter set to allow cobblestone</label>
-            <p>Hopper filters will stop any item that isn't on the sign from being picked up by the hopper, to <strong>whitelist</strong> an item right-click the sign while holding it.</p>
+            <p>Hopper filters will stop any item that isn't on the sign from being picked up or moved by the hopper, to <strong>whitelist</strong> an item right-click the sign while holding it.</p>
             <p>To make a hopper filter write <cmd>[Filter]</cmd> on the top line of a sign. Note that only <strong>one</strong> filter can be used per hopper</p>
           </subarticle>
-          <h2>Devices</h2>
           <subarticle>
             <h3 id="chamber">Aero-Electrolysis chamber</h3>
             <img src="../images/machines/chamber.png" id="chamber">
@@ -103,8 +101,14 @@
           </subarticle>
           <subarticle>
             <h3 id="cryovault">CryoVault</h3>
-            <img src="../images/machines/cryvault.png" id="cryovault">
-            <label for="cryovault">A cryoVault chamber</label>
+            <div class="imgwrapper">
+            <img src="../images/machines/cryovault.png" id="cryovault">
+            <label for="cryovault">With a redstone lamp</label>
+            </div>
+            <div class="imgwrapper">
+              <img src="../images/machines/cryovault1.png" id="cryovault1">
+              <label for="cryovault1">With a redstone block</label>
+            </div>
             <p>CryoVaults are a way of setting your spawn on ships so you can still respawn on them if you move the ship, they also replace the usual 'home' system used on similar servers, use <cmd>/cryovault {1-3}</cmd> to teleport to them.</p>
             <p>By default, cryoVault '1' will act as your spawn point, to set your spawnpoint to a specific CryoVault just right-click the sign.</p>
             <table class="stats">
@@ -130,17 +134,17 @@
             <h3 id="teleporter">Optical teleporter</h3>
             <div class="imgwrapper">
             <img src="../images/machines/teleporter.png" id="teleporter">
-            <label for="teleporter">An example of a 1-block optical teleporter</label>
+            <label for="teleporter">An example of a 3-block optical teleporter</label>
             </div>
-            <p>Optical teleporters allow you to quickly teleport to certain points, to connect them use end rods.</p>
+            <p>Optical teleporters allow you to quickly teleport to certain points, to connect them use end rods, upon right-clicking the sign you will be instantly teleported to the lodestone.</p>
             <div class="imgwrapper">
               <img src="../images/machines/teleporter1.png" id="teleporter1">
-              <label for="teleporter1">A optical teleporter that turns a corner</label>
+              <label for="teleporter1">An optical teleporter that turns a corner</label>
             </div>
             <p>To turn corners with end rods use pistons, like with resonant cables. Note that it is possible to connect the <cmd>[Optic]</cmd> sign to a remote sign.</p>
             <table class="stats">
               <tr>
-                <th>Required blocks</th>
+                <th colspan="2">Required blocks</th>
               </tr>
               <tr>
                 <td rowspan="2">Sign<br>Sign text:</td>
@@ -161,14 +165,75 @@
               </tr>
             </table>
           </subarticle>
-          <!-- 
-            <subarticle>
-            <h3 id=""></h3>
-            <img src="" id="">
-            <label for=""></label>
-            <p></p>
+          <subarticle>
+            <h3 id="mbeam">Mining beam</h3>
+            <div class="imgwrapper">
+            <img src="../images/machines/mbeam.png" id="mbeam">
+            <label for="mbeam">A horizontal mining beam</label>
+            </div>
+            <div class="imgwrapper">
+              <img src="../images/machines/mbeam1.png" id="mbeam1">
+              <label for="mbeam1">A vertical mining beam</label>
+            </div>
+            <p>Mining beams are great for quarrying, when activated they will mine a 3x3 tunnel in the direction they are facing for 68 blocks, they consume 24 resonant crystals per use and cannot mine any block that the player who clicked the sign can't.</p>
+            <div class="twrapper">
+              <table class="stats">
+                <tr>
+                  <th colspan="2">Mineable blocks</th>
+                </tr>
+                <tr>
+                  <td>Dirt</td>
+                  <td>Gravel</td>
+                </tr>
+                <tr>
+                  <td>Sand</td>
+                  <td>Sandstone</td>
+                </tr>
+                <tr>
+                  <td>Stone</td>
+                  <td>Diorite</td>
+                </tr>
+                <tr>
+                  <td>Granite</td>
+                  <td>Andesite</td>
+                </tr>
+                <tr>
+                  <td>Any ore</td>
+                  <td>Mossy cobblestone</td>
+                </tr>
+              </table>
+              <table class="stats">
+                <tr>
+                  <th colspan="2">Required blocks</th>
+                </tr>
+                <tr>
+                  <td>Redstone lamp</td>
+                  <td rowspan="4">1</td>
+                </tr>
+                <tr>
+                  <td>Redstone block</td>
+                </tr>
+                <tr>
+                  <td>Furnace</td>
+                </tr>
+                <tr>
+                  <td>Dropper (Input)</td>
+                </tr>
+                <tr>
+                  <td rowspan="2">Sign<br>Sign text:</td>
+                  <td rowspan="2">1<br>[Mining-Beam]</td>
+                </tr>
+                <tr></tr>
+              </table>
+            </div>
           </subarticle>
-           -->
+          <subarticle>
+            <h3 id="shield">Shields</h3>
+            <img src="../images/machines/shield.png" id="shield">
+            <label for="shield">A fueled shield</label>
+            <p>Shields provide protection against ship-to-ship weapons, with different weapon types either doing different amounts of damage, or bypassing them altogether, to make one just put prismarine crystals in a dropper, all blocks in a 15 block radius will be protected.</p>
+            <p>When a shield takes damage, prismarine crystals are taken from the dropper equal to the amount of damage resisted, once depleted the shield will deactivate and no longer protect the blocks in it's radius.</p>
+          </subarticle>
         </article>
       </td>
     </tr>

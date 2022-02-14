@@ -78,6 +78,7 @@ cmd {
   padding: 5px;
   border: 1px solid silver;
   overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 .stats tr th {
   padding: 5px;

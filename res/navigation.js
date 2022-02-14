@@ -120,9 +120,17 @@ $('#navbar').html(function () {
   <h3 class="nav-title">Structures</h3>
   <ul>
   <!-- //* Gadgets -->
-  <strike>
-  <li><a id="structures-gadgets" href="../structures/gadgets.html">Gadgets</a></li>
-  </strike>
+  <li><a id="structures-gadgets" href="../structures/gadgets.html">Gadgets</a>
+  <ul id="structures-gadgets-ul" class="dropdown">
+  <li><a href="#crafter">Clockwork crafter</a></li>
+  <li><a href="#filter">Hopper filter</a></li>
+  <li><a href="#chamber">Aero-Electrolysis chamber</a></li>
+  <li><a href="#cryovault">CryoVault</a></li>
+  <li><a href="#teleporter">Optical teleporter</a></li>
+  <li><a href="#mbeam">Mining beam</a></li>
+  <li><a href="#shield">Shields</a></li>
+  </ul>
+  </li>
   </ul>
   </nav>
   <div style="display: flex;">
