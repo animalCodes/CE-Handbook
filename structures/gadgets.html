@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../res/style.css">
   <link rel="stylesheet" href="../res/navbar.css">
-  <title></title>
+  <title>Gadgets</title>
 </head>
 
 <body>
@@ -18,16 +18,155 @@
       <td id="body">
         <a href="../index.html" id="home"><h3>Home</h3></a>
         <header>
-          <h1></h1>
+          <h1>Gadgets</h1>
         </header>
         <intro>
-          <h2></h2>
+          <h2>Gadgets enhance vanilla mechanics and add a few of their own, such as teleporters.</h2>
         </intro>
         <article>
+          <h2>Utilities</h2>
           <subarticle>
-            <h3></h3>
+            <h3 id="servo">Clockwork servo</h3>
+            <img src="../images/machines/servo.png" id="servo">
+            <label for="servo"></label>
+            <p>Clockwork servo's let you rotate blocks, to make one put a compass in a dispenser, once activated the block on the face of the dispenser will be rotated.</p>
+          </subarticle>
+          <subarticle>
+            <h3 id="crafter">Clockwork crafter</h3>
+            <img src="../images/machines/crafter.png" id="crafter">
+            <label for="crafter">A clockwork crafter set to craft paper</label>
+            <p>Clockwork crafters automatically craft items when supplied the ingredients, to make one place an item frame on a dropper and put the item you want to be crafted in the item frame.</p>
+            <p>Once supplied with ingredients, the item will be crafted once every second.</p>
+          </subarticle>
+          <subarticle>
+            <h3 id="filter">Hopper filter</h3>
+            <img src="../images/machines/filter.png" id="filter">
+            <label for="filter">A filter set to allow cobblestone</label>
+            <p>Hopper filters will stop any item that isn't on the sign from being picked up by the hopper, to <strong>whitelist</strong> an item right-click the sign while holding it.</p>
+            <p>Note that only <strong>one</strong> filter can be used per hopper</p>
+          </subarticle>
+          <h2>Devices</h2>
+          <subarticle>
+            <h3 id="chamber">Aero-Electrolysis chamber</h3>
+            <img src="../images/machines/chamber.png" id="chamber">
+            <label for="chamber">Front view</label>
+            <p>Aero-Electrolysis chambers are used in the production of gas canisters, note that gas collection only works on gas giants. (Saturn and Jupiter)</p>
+            <div class="twrapper">
+            <table class="stats">
+              <tr>
+                <th colspan="2">Electrolysis</th>
+              </tr>
+              <tr>
+                <td>Ingredient(s)</td>
+                <td>Result</td>
+              </tr>
+              <tr>
+                <td>1 Water bottle, 3 Empty canisters</td>
+                <td>2 Hydrogen canisters, 1 Oxygen canister</td>
+              </tr>
+            </table>
+            <table class="stats">
+              <tr>
+                <th colspan="2">Gas collection</th>
+              </tr>
+              <tr>
+                <td>Ingredient(s)</td>
+                <td>Result</td>
+              </tr>
+              <tr>
+                <td>4 Empty canisters</td>
+                <td>2 Hydrogen canisters, 2 Oxygen canisters</td>
+              </tr>
+              <tr>
+                <td>2 Empty canisters</td>
+                <td>1/25 chance for 2 Neon canisters</td>
+              </tr>
+            </table>
+            <table class="stats">
+              <tr>
+                <th colspan="2">Required blocks</th>
+              </tr>
+              <tr>
+                <td>Electrolysis Tank (custom)</td>
+                <td rowspan="3">1</td>
+              </tr>
+              <tr>
+                <td>Barrel (output)</td>
+              </tr>
+              <tr>
+                <td>Redstone lamp (activation)</td>
+              </tr>
+            </table>
+            </div>
+          </subarticle>
+          <subarticle>
+            <h3 id="cryovault">CryoVault</h3>
+            <img src="../images/machines/cryvault.png" id="cryovault">
+            <label for="cryovault">A cryoVault chamber</label>
+            <p>CryoVaults are a way of setting your spawn on ships so you can still respawn on them if you move the ship, they also replace the usual 'home' system used on similar servers, use <cmd>/cryovault {1-3}</cmd> to teleport to them.</p>
+            <p>By default, cryoVault '1' will act as your spawn point, to set your spawnpoint to a specific CryoVault just right-click the sign.</p>
+            <table class="stats">
+              <tr>
+                <th colspan="2">Required blocks</th>
+              </tr>
+              <tr>
+                <td rowspan="2">Sign<br>Sign text:</td>
+                <td rowspan="2">1<br>[Cryo]</td>
+              </tr>
+              <tr></tr>
+              <tr>
+                <td>Glass blocks (any)</td>
+                <td>6</td>
+              </tr>
+              <tr>
+                <td>Redstone lamp/block</td>
+                <td>1</td>
+              </tr>
+            </table>
+          </subarticle>
+          <subarticle>
+            <h3 id="teleporter">Optical teleporter</h3>
+            <div class="imgwrapper">
+            <img src="../images/machines/teleporter.png" id="teleporter">
+            <label for="teleporter">An example of a 1-block optical teleporter</label>
+            </div>
+            <p>Optical teleporters allow you to quickly teleport to certain points, to connect them use end rods.</p>
+            <div class="imgwrapper">
+              <img src="../images/machines/teleporter1.png" id="teleporter1">
+              <label for="teleporter1">A optical teleporter that turns a corner</label>
+            </div>
+            <p>To turn corners with end rods use pistons, like with resonant cables. Note that it is possible to connect the <cmd>[Optic]</cmd> sign to a remote sign.</p>
+            <table class="stats">
+              <tr>
+                <th>Required blocks</th>
+              </tr>
+              <tr>
+                <td rowspan="2">Sign<br>Sign text:</td>
+                <td rowspan="2">1<br>[Optic]</td>
+              </tr>
+              <tr></tr>
+              <tr>
+                <td>Iron block</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>End rod</td>
+                <td>1+</td>
+              </tr>
+              <tr>
+                <td>Lodestone (tp point)</td>
+                <td>1</td>
+              </tr>
+            </table>
+          </subarticle>
+          <!-- 
+            <subarticle>
+            <h3 id=""></h3>
+            <img src="" id="">
+            <label for=""></label>
             <p></p>
           </subarticle>
+           -->
         </article>
       </td>
     </tr>
@@ -35,7 +174,7 @@
   <script src="../res/jquery-3.6.0.js"></script>
   <script src="../res/navigation.js"></script>
   <script>
-    const page = '';
+    const page = 'structures-gadgets';
     $(`#${page}`).attr('id', 'selected');
     $(`#${page}-ul`).css('display', 'block');
   </script>

@@ -77,6 +77,7 @@ $('#navbar').html(function () {
   <li><a href="#orbit">Getting to orbit</a></li>
   <li><a href="#radon">Crystalized radon</a></li>
   <li><a href="#tsigns">Teleport signs</a></li>
+  <li><a href="#orbits">Orbit names</a></li>
   </ul>
   </li>
   </ul>
