@@ -105,7 +105,17 @@ $('#navbar').html(function () {
   </ul>
   </li>
   <!-- //* resonant machinery -->
-  <li><a id="resonant-machines" href="../resonant/machines.html">Machines</a></li>
+  <li><a id="resonant-machines" href="../resonant/machines.html">Machines</a>
+  <ul id="resonant-machines-ul" class="dropdown">
+  <li><a href="#vacuum">Vacuum</a></li>
+  <li><a href="#radar">Radar</a></li>
+  <li><a href="#coil">Tesla coil</a></li>
+  <li><a href="#converter">Prismatic converter</a></li>
+  <li><a href="#refinery">Materials refinery</a></li>
+  <li><a href="#smeltery">Arc smeltery</a></li>
+  <li><a href="#press">Machine press</a></li>
+  </ul>
+  </li>
   </ul>
   <h3 class="nav-title">Structures</h3>
   <ul>
