@@ -108,6 +108,13 @@ $('#navbar').html(function () {
   <li><a id="resonant-machines" href="../resonant/machines.html">Machines</a></li>
   </strike>
   </ul>
+  <h3 class="nav-title">Structures</h3>
+  <ul>
+  <!-- //* Gadgets -->
+  <strike>
+  <li><a id="structures-gadgets" href="../structures/gadgets.html">Gadgets</a></li>
+  </strike>
+  </ul>
   </nav>
   <div style="display: flex;">
   <span><img src="../images/icons/author.png" style="margin: 16px;"></span><p style="color: var(--signatureColour)">Written by <br>animal</p>
