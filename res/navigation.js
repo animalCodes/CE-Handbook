@@ -131,6 +131,10 @@ $('#navbar').html(function () {
   <li><a href="#shield">Shields</a></li>
   </ul>
   </li>
+  <!-- //* Weapons -->
+  <strike>
+  <li><a id="structures-weapons" href="../structures/weapons.html">Weapons</a></li>
+  </strike>
   </ul>
   </nav>
   <div style="display: flex;">

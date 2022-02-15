@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../res/style.css">
+  <link rel="stylesheet" href="../res/navbar.css">
+  <title>Weaponry</title>
+</head>
+
+<body>
+  <table>
+    <tr>
+      <td id="navbar">
+        <h1 style="color: red;">Javascript disabled - enable to use sidebar!</h1>
+      </td>
+      <td id="body">
+        <a href="../index.html" id="home"><h3>Home</h3></a>
+        <header>
+          <h1>Weapons</h1>
+        </header>
+        <intro>
+          <h2>Multiblock weapons are mainly used for ship-to-ship combat, but can also be used as static defence.</h2>
+        </intro>
+        <article>
+          <subarticle>
+            <h3 id=""></h3>
+            <img src="" id="">
+            <label for=""></label>
+            <p></p>
+            <table class="stats">
+              <tr>
+                <th colspan="2">Required blocks</th>
+              </tr>
+            </table>
+            <table>
+              <tr>
+                <td>Ammunition</td>
+                <td>Damage</td>
+              </tr>
+            </table>
+          </subarticle>
+          <!-- 
+            <subarticle>
+            <h3 id=""></h3>
+            <img src="" id="">
+            <label for=""></label>
+            <p></p>
+            <table class="stats">
+              <tr>
+                <th colspan="2">Required blocks</th>
+              </tr>
+            </table>
+            <table>
+              <tr>
+                <td>Ammunition</td>
+                <td>Damage</td>
+              </tr>
+            </table>
+          </subarticle>
+           -->
+        </article>
+      </td>
+    </tr>
+  </table>
+  <script src="../res/jquery-3.6.0.js"></script>
+  <script src="../res/navigation.js"></script>
+  <script>
+    const page = 'structures-weapons';
+    $(`#${page}`).attr('id', 'selected');
+    $(`#${page}-ul`).css('display', 'block');
+  </script>
+</body>
+
+</html>
