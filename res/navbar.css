@@ -5,6 +5,7 @@
 }
 nav ul {
   border-left: var(--border);
+  width: auto;
   padding-left: 5px;
   padding-top: 10px;
   margin-top: 0px;
