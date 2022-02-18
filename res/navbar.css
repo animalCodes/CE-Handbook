@@ -36,6 +36,11 @@ nav ul li {
   color: var(--bgColour);
   border-radius: 5px;
 }
+@media screen and (max-width: 300px) {
+  #home {
+    margin-top: 5px;
+  }
+}
 #top {
   position: fixed;
   z-index: 20;

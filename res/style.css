@@ -25,6 +25,12 @@ body {
   vertical-align: top;
   text-align: center;
 }
+@media screen and (max-width: 300px) {
+  #body {
+    padding: 0px;
+  }
+
+}
 #navbar {
   width: 20%;
   vertical-align: top;
@@ -32,6 +38,12 @@ body {
 header {
   padding: 10px;
   margin: 25px;
+}
+@media screen and (max-width: 300px) {
+  header {
+    padding: 5px;
+    margin: 10px;
+  }
 }
 article, intro {
   display: inline-block;
@@ -47,12 +59,15 @@ subarticle {
   padding: 4px;
   margin-bottom: 20px;
 }
-/* other elements */
-cmd {
-  background-color: silver;
-  border: var(--border);
-  border-radius: 5px;
-  color: black;
+@media screen and (max-width: 300px) {
+  article {
+    max-width: 100%;
+  }
+  subarticle {
+    border-left: 1px solid var(--bgColour);
+    border-right: 1px solid var(--bgColour);
+    border-radius: 0px;
+  }
 }
 /* tables */
 .twrapper {
@@ -60,6 +75,10 @@ cmd {
   display: -webkit-inline-flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+.twrapper .stats {
+  max-width: min-content;
+  margin: 5px;
 }
 .stats {
   background-color: #0f1c27;
@@ -71,9 +90,8 @@ cmd {
   margin: auto;
   margin-top: 10px;
 }
-.twrapper .stats {
-  max-width: min-content;
-  margin: 5px;
+.stats tr th {
+  padding: 5px;
 }
 .stats tr td {
   padding: 5px;
@@ -81,16 +99,35 @@ cmd {
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
-.stats tr th {
-  padding: 5px;
-}
 /* Text */
 h3 {
   font-size: x-large;
 }
+ul {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+}
 li, td, p {
   font-size: large;
   word-wrap: break-word;
+}
+@media screen and (max-width: 300px) {
+  p {
+    max-width: 80%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 260px) {
+  h2 {
+    font-size: large;
+  }
+  h3 {
+    font-size: large;
+  }
+  p {
+    font-size: medium;
+  }
 }
 a {
   color: var(--mainTextColour);
@@ -102,7 +139,13 @@ sig {
   color: var(--signatureColour);
   text-decoration: underline;
 }
-/* classes */
+cmd {
+  background-color: silver;
+  border: var(--border);
+  border-radius: 5px;
+  color: black;
+}
+/* modifiers */
 .nav-title {
   border-left: var(--border);
   padding-left: 5px;
