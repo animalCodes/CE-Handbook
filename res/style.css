@@ -104,9 +104,11 @@ h3 {
   font-size: x-large;
 }
 ul {
-  width: 80%;
   margin: auto;
   text-align: left;
+}
+.list {
+  width: 80%;
 }
 li, td, p {
   font-size: large;
@@ -144,6 +146,14 @@ cmd {
   border: var(--border);
   border-radius: 5px;
   color: black;
+}
+.dir {
+  font-style: normal;
+  color: #ee5e01;
+}
+.gold {
+  font-style: normal;
+  color: #FA0;
 }
 /* modifiers */
 .nav-title {

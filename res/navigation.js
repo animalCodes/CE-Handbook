@@ -136,6 +136,13 @@ $('#navbar').html(function () {
   <li><a id="structures-weapons" href="../structures/weapons.html">Weapons</a></li>
   </strike>
   </ul>
+  <h3 class="nav-title">Guides</h3>
+  <ul>
+  <!-- //* Getting started -->
+  <strike>
+  <li><a id="guides-starting" href="../guides/starting.html">Getting started</a></li>
+  </strike>
+  </ul>
   </nav>
   <div style="display: flex;">
   <span><img src="../images/icons/author.png" style="margin: 16px;"></span><p style="color: var(--signatureColour)">Written by <br>animal</p>
