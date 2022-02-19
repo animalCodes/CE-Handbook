@@ -26,9 +26,6 @@ section ul {
 .swrapper ul {
   padding-left: 5px;
 }
-.swrapper ul li::marker {
-  color: var(--bgColour);
-}
 h2 {
   margin: 5px;
   font-size: xx-large;
