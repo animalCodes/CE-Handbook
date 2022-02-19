@@ -139,9 +139,7 @@ $('#navbar').html(function () {
   <h3 class="nav-title">Guides</h3>
   <ul>
   <!-- //* Getting started -->
-  <strike>
   <li><a id="guides-starting" href="../guides/starting.html">Getting started</a></li>
-  </strike>
   </ul>
   </nav>
   <div style="display: flex;">
