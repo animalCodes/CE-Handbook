@@ -18,11 +18,10 @@ section {
     border-right: 1px solid var(--bgColour);
     border-radius: 0px;
     padding: 0px;
+    padding-left: 10px;
+    padding-bottom: 5px;
     margin: 0px;
   }
-}
-section ul {
-  margin: 0px;
 }
 .iwrapper {
   display: flex;
@@ -35,13 +34,17 @@ section ul {
 }
 .swrapper ul {
   padding-left: 5px;
+  margin: 0px;
 }
 h2 {
   margin: 5px;
   font-size: xx-large;
   color: var(--signatureColour);
 }
-.item{
+.item {
   margin: 5px;
   font-size: x-large;
+}
+#disclaimer {
+  margin-top: 10px;
 }
