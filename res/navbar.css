@@ -3,6 +3,17 @@
   width: 20%;
   vertical-align: top;
 }
+@media screen and (max-width: 670px) {
+  #navbar {
+    display: none;
+  }
+  #home {
+    display: inline-block;
+  }
+  header {
+    margin-top: 10px;
+  }
+}
 nav ul {
   border-left: var(--border);
   width: auto;
@@ -58,16 +69,4 @@ nav ul li {
 }
 #top h4:hover {
   color: silver;
-}
-/* responsive design shit */
-@media screen and (max-width: 600px) {
-  #navbar {
-    display: none;
-  }
-  #home {
-    display: inline-block;
-  }
-  header {
-    margin-top: 10px;
-  }
 }

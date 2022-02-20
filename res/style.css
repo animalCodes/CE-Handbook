@@ -81,17 +81,16 @@ subarticle {
 .stats {
   background-color: #0f1c27;
   max-width: fit-content;
-  table-layout: auto;
   border-collapse: collapse;
   border: var(--border);
   border-radius: 5px;
-  margin: auto;
+  table-layout: auto;
   margin-top: 10px;
 }
-.stats tr th {
+.stats tbody tr th {
   padding: 5px;
 }
-.stats tr td {
+.stats tbody tr td {
   padding: 5px;
   border: 1px solid silver;
   overflow-wrap: break-word;
