@@ -25,19 +25,17 @@ body {
   vertical-align: top;
   text-align: center;
 }
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 500px) {
   #body {
     padding: 0px;
   }
-
 }
 #navbar {
   width: 20%;
   vertical-align: top;
 }
 header {
-  padding: 10px;
-  margin: 25px;
+  margin: 15px;
 }
 @media screen and (max-width: 300px) {
   header {
@@ -194,9 +192,13 @@ label {
 /* disclaimer */
 #disclaimer {
   display: none;
+  max-width: 80%;
   border: var(--border);
   border-radius: 5px;
+  padding: 3px;
   margin-top: 10px;
+  margin: auto;
+  word-wrap: normal;
 }
 @media screen and (max-width: 600px) {
   #disclaimer {

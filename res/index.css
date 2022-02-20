@@ -11,6 +11,16 @@ section {
   margin: 10px;
   text-align: left;
 }
+@media screen and (max-width: 400px) {
+  section {
+    width: 100%;
+    border-left: 1px solid var(--bgColour);
+    border-right: 1px solid var(--bgColour);
+    border-radius: 0px;
+    padding: 0px;
+    margin: 0px;
+  }
+}
 section ul {
   margin: 0px;
 }

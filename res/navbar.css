@@ -32,10 +32,12 @@ nav ul li {
 #home {
   display: none;
   background-color: silver;
+  border-radius: 5px;
   padding-left: 6px;
   padding-right: 6px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   color: var(--bgColour);
-  border-radius: 5px;
 }
 @media screen and (max-width: 300px) {
   #home {
