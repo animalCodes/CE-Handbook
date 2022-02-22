@@ -10,8 +10,8 @@ function search(id) {
 
     for (let i = 0; i < data.length; i++) {
       let val = data.item(i)
-      // if element is either a <th> or <input>, break.
-      if (val.tagName === "TH" || val.tagName === "INPUT") {break;}
+      // if element is a <th>, break.
+      if (val.tagName === "TH") {break;}
       // if child doesn't include input, hide
       if (!val.innerText.includes(input)) { data.item(i).style.display = 'none' }
       // if child does include input, show
