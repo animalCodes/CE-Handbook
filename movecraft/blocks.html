@@ -30,11 +30,8 @@
             instance only 1.125% of a starfighter can be ender chests. The same but reverse goes for required blocks, so
             35% of a starfighter <em>has</em> to be wool.</p>
           <p>Data was collected from the official <a href="https://starmap.zapto.org/craftdata"
-              target="_blank">craftdata</a> page with duplicate listings removed and some testing to make sure the
-            blocks are actually valid, to see other info on specific craft such as min/max size click on the craft's
-            title.</p>
-          <p>Note: Due to the length of this page and large tables rendering oddly on mobile devices I recommend only
-            browsing this page on a desktop/laptop.</p>
+              target="_blank">craftdata</a> page with duplicate listings removed and some testing to make sure the blocks are actually valid, to see other info on specific craft such as min/max size click on the craft's title.</p>
+          <p>Note: Due to the length of this page and large tables rendering oddly on mobile devices I recommend only browsing this page on a desktop/laptop.</p>
         </intro>
         <article>
           <subarticle id="starfighter">
@@ -42,9 +39,11 @@
               <h3>Starfighter</h3>
             </a>
             <div class="twrapper">
-              <table class="stats" id="starfighter-table">
+              <table class="stats">
+                <tbody id="starfighter-table">
                 <tr>
-                  <th colspan="4">Allowed blocks</th>
+                  <th colspan="2">Allowed blocks</th>
+                  <th colspan="2"><input type="text" id="starfighter-search" placeholder="Search.." oninput="search('starfighter')"></th>
                 </tr>
                 <tr>
                   <td>barrel</td>
@@ -156,8 +155,10 @@
                   <td>all stairs</td>
                 </tr>
                 <tr>
+                  <td>all slabs</td>
                   <td colspan="2">all copper variants (exposed waxed etc)</td>
                 </tr>
+                </tbody>
               </table>
               <table class="stats">
                 <tr>
@@ -342,6 +343,9 @@
                 <tr>
                   <td>stonecutter</td>
                   <td>all stairs</td>
+                  <td>all slabs</td>
+                </tr>
+                <tr>
                   <td colspan="2">all copper variants (exposed waxed etc)</td>
                 </tr>
               </table>
@@ -2831,6 +2835,11 @@
     </tr>
   </table>
   <style>
+    input {
+      background-color: inherit;
+      border-radius: 5px;
+      color: inherit;
+    }
     @media screen and (max-width: 600px) {
       subarticle {
         border-left: 1px solid var(--bgColour);
@@ -2845,6 +2854,7 @@
   </style>
   <script src="../res/jquery-3.6.0.js"></script>
   <script src="../res/navigation.js"></script>
+  <script src="search.js"></script>
   <script>
     const page = 'movecraft-blocks';
     $(`#${page}`).attr('id', 'selected');
