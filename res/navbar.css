@@ -3,17 +3,6 @@
   width: 20%;
   vertical-align: top;
 }
-@media screen and (max-width: 670px) {
-  #navbar {
-    display: none;
-  }
-  #home {
-    display: inline-block;
-  }
-  header {
-    margin-top: 10px;
-  }
-}
 nav ul {
   border-left: var(--border);
   width: auto;
@@ -49,6 +38,17 @@ nav ul li {
   margin-top: 5px;
   margin-bottom: 5px;
   color: var(--bgColour);
+}
+@media screen and (max-width: 670px) {
+  #navbar {
+    display: none;
+  }
+  #home {
+    display: inline-block;
+  }
+  header {
+    margin-top: 10px;
+  }
 }
 @media screen and (max-width: 300px) {
   #home {
