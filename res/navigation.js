@@ -142,28 +142,7 @@ $('#navbar').html(function () {
   <li><a id="guides-starting" href="../guides/starting.html">Getting started</a></li>
   </ul>
   </nav>
-  <div style="display: flex;">
-  <span><img src="../images/icons/author.png" style="margin: 16px;"></span><p style="color: var(--signatureColour)">Written by <br>animal</p>
-  </div>
   `;
-  /*
-  <h3 class="nav-title">Multiblock Structures</h3>
-  <ul>
-  <!-- //* multiblock machinery -->
-  <li><a id="multiblock-machinery" href="../multiblock/machinery.html">Machinery</a></li>
-  <!-- //* multiblock automation -->
-  <li><a id="multiblock-automation" href="../multiblock/automation.html">Automation</a></li>
-  <!-- //* multiblock weapons -->
-  <li><a id="multiblock-weapons" href="../multiblock/weapons.html">Weapons</a></li>
-  </ul>
-  <h3 class="nav-title">Guides</h3>
-  <ul>
-  <!-- //* leaving earth guide -->
-  <li><a id="guides-leaving-earth" href="../guides/leaving-earth.html">Getting off earth</a></li>
-  <!-- //* moneymaking guide -->
-  <li><a id="guides-moneymaking" href="../guides/moneymaking.html">Moneymaking</a></li>
-  </ul>
-*/
 })
 
 // disclaimer stuff
