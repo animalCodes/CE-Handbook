@@ -145,7 +145,7 @@ $('#navbar').html(function () {
   `;
 })
 
-// disclaimer stuff
+// mobile-only disclaimer
 const $disclaimer = $('#disclaimer');
 
 $disclaimer.html(
