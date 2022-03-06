@@ -3,7 +3,7 @@
 $('#navbar').html(function () {
 
   return `
-  <a href="#body" id="top"><h4>To top ^</h4></a>
+  <a href="#body" id="top" aria-hidden="true"><h4>To top ^</h4></a>
   <nav id="nav">
   <h2 style="text-align: center;">Site map</h2>
   <h3><a id="index" href="../index.html">Home</a></h3>

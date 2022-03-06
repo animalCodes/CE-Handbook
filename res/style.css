@@ -48,6 +48,7 @@ article, intro {
   display: inline-block;
   max-width: 80%;
   margin-bottom: 20px;
+  scroll-behavior: smooth;
   overflow-wrap: normal;
   word-wrap: normal; /* just in case */
 }
@@ -164,6 +165,9 @@ a {
 a:hover {
   color: var(--signatureColour);
 }
+p a {
+  font-weight: bold;
+}
 sig {
   color: var(--signatureColour);
   text-decoration: underline;
@@ -174,14 +178,6 @@ cmd {
   border-radius: 5px;
   color: black;
 }
-.dir {
-  font-style: normal;
-  color: #ee5e01;
-}
-.gold {
-  font-style: normal;
-  color: #FA0;
-}
 input:focus-visible {
   border: 2px solid var(--signatureColour);
 }
@@ -190,6 +186,10 @@ input:focus-visible {
   border-left: var(--border);
   padding-left: 5px;
   margin-bottom: 0px;
+}
+.gold {
+  font-style: normal;
+  color: #FA0;
 }
 /* images */
 img {
