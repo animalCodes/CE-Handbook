@@ -14,8 +14,8 @@ section {
 @media screen and (max-width: 400px) {
   section {
     width: 100%;
-    border-left: 1px solid var(--bgColour);
-    border-right: 1px solid var(--bgColour);
+    border-left-width: 1px;
+    border-right-width: 1px;
     border-radius: 0px;
     padding: 0px;
     padding-left: 10px;
@@ -25,6 +25,7 @@ section {
 }
 .iwrapper {
   display: flex;
+  flex-wrap: wrap;
 }
 .swrapper {
   display: inline;
@@ -36,6 +37,9 @@ section {
   padding-left: 5px;
   margin: 0px;
   margin-right: 5px;
+}
+li {
+  margin-top: 2px;
 }
 h2 {
   margin: 5px;
