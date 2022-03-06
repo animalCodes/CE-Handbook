@@ -136,16 +136,21 @@ item {
 h3 {
   font-size: x-large;
 }
+p {
+  text-align: left;
+  border-left: var(--border);
+  padding-left: 5px;
+}
+li, td, p {
+  font-size: large;
+  word-wrap: break-word;
+}
 ul {
   margin: auto;
   text-align: left;
 }
 .list {
   width: 80%;
-}
-li, td, p {
-  font-size: large;
-  word-wrap: break-word;
 }
 @media screen and (max-width: 300px) {
   p {
