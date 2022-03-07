@@ -28,7 +28,7 @@ article {
   word-wrap: normal; /* just in case */
 }
 navbar {
-  margin-left: 5px;
+  padding-left: 5px;
   vertical-align: top;
   text-align: start;
 }
@@ -43,8 +43,9 @@ header {
 }
 intro {
   display: inline-block;
-  width: 100%;
-  margin-bottom: 20px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 15px;
 }
 subarticle {
   display: block;
@@ -141,7 +142,6 @@ li, td, p {
   word-wrap: break-word;
 }
 ul {
-  margin: auto;
   text-align: left;
 }
 .list {
