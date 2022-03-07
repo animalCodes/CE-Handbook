@@ -1,8 +1,5 @@
 /* Structural Elements */
-html, body, table, tbody {
-  /* css is weird mkay */
-  width: 100%;
-  height: 100%;
+html, body {
   margin: 0px;
 }
 html {
@@ -13,32 +10,27 @@ html {
   --border: 2px solid silver;
 }
 body {
-  font-family: monospace;
-  color: var(--mainTextColour);
+  display: grid;
+  grid-template-columns: 1fr 4fr;
   background-color: var(--bgColour);
+  color: var(--mainTextColour);
+  font-family: monospace;
 }
-#navbar, #body {
+navbar, article {
+  display: inline-block;
   border: var(--border);
   border-radius: 5px;
-  padding: 10px;
 }
-#body {
-  vertical-align: top;
+article {
+  margin: auto;
   text-align: center;
+  overflow-wrap: normal;
+  word-wrap: normal; /* just in case */
 }
-@media screen and (max-width: 500px) {
-  #body {
-    padding: 0px;
-  }
-}
-@media screen and (max-width: 270px) {
-  #body {
-    border-width: 0px;
-  }
-}
-#navbar {
-  width: 20%;
+navbar {
+  margin-left: 5px;
   vertical-align: top;
+  text-align: start;
 }
 header {
   margin: 15px;
@@ -49,19 +41,18 @@ header {
     margin: 10px;
   }
 }
-article, intro {
+intro {
   display: inline-block;
   max-width: 80%;
   margin-bottom: 20px;
-  scroll-behavior: smooth;
-  overflow-wrap: normal;
-  word-wrap: normal; /* just in case */
 }
 subarticle {
   display: block;
   border: var(--border);
   border-radius: 5px;
+  width: 80%;
   padding: 4px;
+  margin: auto;
   margin-bottom: 20px;
 }
 @media screen and (max-width: 300px) {

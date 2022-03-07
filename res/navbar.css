@@ -1,7 +1,9 @@
 /* elements */
-#navbar {
-  width: 20%;
-  vertical-align: top;
+navbar {
+  
+}
+nav {
+  margin-right: 5px;
 }
 nav ul {
   border-left: var(--border);
@@ -40,7 +42,10 @@ nav ul li {
   color: var(--bgColour);
 }
 @media screen and (max-width: 670px) {
-  #navbar {
+  body {
+    display: block;
+  }
+  navbar {
     display: none;
   }
   #home {
