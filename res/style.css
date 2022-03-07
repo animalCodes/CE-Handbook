@@ -82,7 +82,6 @@ subarticle {
   max-width: fit-content;
   border-collapse: collapse;
   border: var(--border);
-  border-radius: 5px;
   table-layout: auto;
   margin: auto;
   margin-top: 10px;

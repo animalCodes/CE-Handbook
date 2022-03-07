@@ -10,12 +10,10 @@
 </head>
 
 <body>
-  <table>
-    <tr>
-      <td id="navbar">
+      <navbar>
         <h1 style="color: red;">Error loading sidebar - make sure Javascript is enabled and reload.</h1>
-      </td>
-      <td id="body">
+      </navbar>
+        <article>
         <a href="../index.html" id="home">
           <h3>Home</h3>
         </a>
@@ -33,7 +31,6 @@
               wiki</a> with duplicate listings removed and some testing to make sure the blocks are actually valid, to
             see other info on specific craft such as min/max size click on the craft's title.</p>
         </intro>
-        <article>
           <subarticle id="starfighter">
             <a href="../movecraft/crafts.html#starfighter">
               <h3>Starfighter</h3>
@@ -2231,9 +2228,6 @@
             </div>
           </subarticle>
         </article>
-      </td>
-    </tr>
-  </table>
   <style>
     input {
       background-color: inherit;
@@ -2247,7 +2241,7 @@
         border-left: 1px solid var(--bgColour);
         border-right: 1px solid var(--bgColour);
         border-radius: 0px;
-        width: 100%;
+        max-width: 90%;
       }
 
       .stats tbody tr td {
