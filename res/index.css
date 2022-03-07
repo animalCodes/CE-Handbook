@@ -45,14 +45,16 @@ section {
 li {
   margin-top: 2px;
 }
-h2 {
+h3 {
   margin: 5px;
-  font-size: xx-large;
+  font-size: 2rem;
+}
+section h3 {
   color: var(--signatureColour);
 }
 .item {
   margin: 5px;
-  font-size: x-large;
+  font-size: 1.9rem;
 }
 #disclaimer {
   margin-top: 10px;

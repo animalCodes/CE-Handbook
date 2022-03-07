@@ -1,6 +1,5 @@
-/* elements */
 navbar {
-  
+  font-size: 10px;
 }
 nav {
   margin-right: 5px;
@@ -15,17 +14,14 @@ nav ul {
 }
 nav ul li {
   margin-bottom: 10px;
-  font-size: x-large;
+  font-size: 2rem;
 }
 .dropdown {
   display: none;
   border-left: 1px solid var(--signatureColour);
 }
 .dropdown li {
-  font-size: large;
-}
-.nav-title, #index {
-  font-size: xx-large;
+  font-size: 1.7rem;
 }
 /* classes / selectors */
 #selected {
@@ -73,6 +69,7 @@ nav ul li {
   margin: 0px;
   padding: 5px;
   color: var(--signatureColour);
+  font-size: 1.7rem;
 }
 #up h4:hover {
   color: silver;
