@@ -10,349 +10,349 @@
 </head>
 
 <body>
-      <navbar>
-        <h1 style="color: red;">Error loading sidebar - make sure Javascript is enabled and reload.</h1>
-      </navbar>
-        <article>
-        <a href="../index.html" id="home">
-          <h3>Home</h3>
-        </a>
-        <header>
-          <h1>Resonant generation & storage</h1>
-        </header>
-        <intro>
-          <h2>In order to use resonant, you have to generate it first. This page lists the different machines used to
-            create and store resonant crystals.</h2>
-          <p>To create resonant crystals you will need a generator and something to store it in, generators create
-            'pulses' that charge storage devices at a fixed rate. Connect the output of a generator to the input of a
-            battery/capacitor with <a href="basics.html#cables">resonant cables</a> and it will gain a set amount of
-            resonant per pulse. Each machine has pulse information listed.
-          </p>
-        </intro>
-          <h2>Storage</h2>
-          <p>While you can store resonant crystals in normal chests/barrels like you would ordinary items, you have to
-            use special storage devices in order to power crafts and collect the crystals.</p>
-          <subarticle id="battery">
-            <h3>Battery</h3>
-            <img src="../images/machines/battery.png" id="battery-img">
-            <label for="battery-img">Front view</label>
-            <p>Batteries are the more efficient, but more expensive way to store resonant, the dropper is used as the
-              input and storage.</p>
-            <div class="twrapper">
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Required blocks</th>
-                </tr>
-                <tr>
-                  <td>Composite blocks (custom)</td>
-                  <td>2</td>
-                </tr>
-                <tr>
-                  <td>Dropper</td>
-                  <td>1</td>
-                </tr>
-              </table>
-              <table class="stats">
-                <tr>
-                  <td>Capacity</td>
-                  <td>9 Stacks</td>
-                </tr>
-                <tr>
-                  <td>Resonant per pulse</td>
-                  <td>2</td>
-                </tr>
-              </table>
-            </div>
-          </subarticle>
-          <subarticle>
-            <h3>Capacitor</h3>
-            <img src="../images/machines/capacitor.png" id="capacitor-img">
-            <label for="capacitor-img">Front view</label>
-            <p>Capacitors are a cheaper but less efficient storage method, the dropper is used as the input and the
-              barrel is the storage.</p>
-            <div class="twrapper">
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Required blocks</th>
-                </tr>
-                <tr>
-                  <td>Barrel</td>
-                  <td rowspan="3">1</td>
-                </tr>
-                <tr>
-                  <td>Dropper</td>
-                </tr>
-                <tr>
-                  <td>Iron block</td>
-                </tr>
-              </table>
-              <table class="stats">
-                <tr>
-                  <td>Capacity</td>
-                  <td>27 Stacks</td>
-                </tr>
-                <tr>
-                  <td>Resonant per pulse</td>
-                  <td>4</td>
-                </tr>
-              </table>
-            </div>
-          </subarticle>
-          <h2>Generators</h2>
-          <p>Generators are how you actually <em>generate</em> resonant crystals. (go figure) Connect a generator to a
-            storage device, activate it, and you should start producing resonant.</p>
-          <subarticle id="combustion">
-            <h2>Combustion generator</h2>
-            <img src="../images/machines/combustion.png" id="combustion-img">
-            <label for="combustion-img">Side view</label>
-            <p>Combustion generators get their power from burning fuel, place the fuel in the blast furnace where it
-              usually goes, the <em>back</em> of the blast furnace is the output.</p>
-            <div class="twrapper">
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Required blocks</th>
-                </tr>
-                <tr>
-                  <td>Redstone lamp (activation)</td>
-                  <td rowspan="2">1</td>
-                </tr>
-                <tr>
-                  <td>Blast furnace (input/output)</td>
-                </tr>
-              </table>
-              <table class="stats">
-                <tr>
-                  <th colspan="3">Fuel info</th>
-                </tr>
-                <tr>
-                  <td>Fuel type</td>
-                  <td>Chance to be consumed</td>
-                </tr>
-                <tr>
-                  <td>Coal / Charcoal</td>
-                  <td>1/9</td>
-                </tr>
-                <tr>
-                  <td>Blaze powder / Magma cream</td>
-                  <td>1/24</td>
-                </tr>
-                <tr>
-                  <td>Coal block / Oxygen canister</td>
-                  <td>1/90</td>
-                </tr>
-                <tr>
-                  <td>Enriched Uranium Fuelrods</td>
-                  <td>2.5/100 (Also produces extra power)</td>
-                </tr>
-              </table>
-              <table class="stats">
-                <tr>
-                  <td>Pulse frequency</td>
-                  <td>Every 10 seconds</td>
-                </tr>
-              </table>
-            </div>
-          </subarticle>
-          <subarticle id="solar">
-            <h2>Solar panel</h2>
-            <img src="../images/machines/solar.png" id="solar-img">
-            <label for="solar-img">Front view</label>
-            <p>Once built and activated solar panels require no maintenance and will generate pulses on their own,
-              the only downsides are that they must have sky above them and they must be above y63.</p>
-            <div class="twrapper">
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Required blocks</th>
-                </tr>
-                <tr>
-                  <td>Daylight detector</td>
-                  <td rowspan="3">1</td>
-                </tr>
-                <tr>
-                  <td>Redstone lamp (activation)</td>
-                </tr>
-                <tr>
-                  <td>Dropper (output)</td>
-                </tr>
-              </table>
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Pulse frequency</th>
-                </tr>
-                <tr>
-                  <td>Orbit/Space</td>
-                  <td>Every 30 seconds</td>
-                </tr>
-                <tr>
-                  <td>Day</td>
-                  <td>Every 90 seconds</td>
-                </tr>
-                <tr>
-                  <td>Dawn/Dusk</td>
-                  <td>Every 5 minutes</td>
-                </tr>
-                <tr>
-                  <td>Night</td>
-                  <td>Every 25 minutes</td>
-                </tr>
-              </table>
-            </div>
-          </subarticle>
-          <subarticle id="wind">
-            <h2>Wind turbine</h2>
-            <div class="imgwrapper">
-              <img src="../images/machines/wind.png" id="wind-img">
-              <label for="wind-img">Side view</label>
-            </div>
-            <div class="imgwrapper">
-              <img src="../images/machines/wind1.png" title="wind-img1">
-              <label for="wind-img1">View from above</label>
-            </div>
-            <p>Wind turbines are similar to solar panels, once activated they passively generate pulses. But
-              unlike solar panels the frequency is determined by height, rather than time of day.</p>
-            <div class="twrapper">
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Required blocks</th>
-                </tr>
-                <tr>
-                  <td>Piston (activation)</td>
-                  <td>1</td>
-                </tr>
-                <tr>
-                  <td>Wool block (any)</td>
-                  <td>8</td>
-                </tr>
-                <tr>
-                  <td>Iron bars</td>
-                  <td>4</td>
-                </tr>
-                <tr>
-                  <td>Resonant cable (output)</td>
-                  <td>1</td>
-                </tr>
-              </table>
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Pulse frequency</th>
-                </tr>
-                <tr>
-                  <td>In gas giants</td>
-                  <td>Every 15 seconds</td>
-                </tr>
-                <tr>
-                  <td>y150 - y255</td>
-                  <td>Every 20 seconds</td>
-                </tr>
-                <tr>
-                  <td>y100 - y149</td>
-                  <td>Every 30 seconds</td>
-                </tr>
-                <tr>
-                  <td>y61 - y99</td>
-                  <td>Every 45 seconds</td>
-                </tr>
-                <tr>
-                  <td>y1 - y60</td>
-                  <td>Every five minutes</td>
-                </tr>
-                <tr>
-                  <td>In orbit/space</td>
-                  <td>Nothing</td>
-                </tr>
-              </table>
-            </div>
-          </subarticle>
-          <subarticle id="hydro">
-            <h2>Hydropower generator</h2>
-            <div class="imgwrapper">
-              <img src="../images/machines/hydro.png" id="hydro-img">
-              <label for="hydro-img">Side view</label>
-            </div>
-            <div class="imgwrapper">
-              <img src="../images/machines/hydro1.png" id="hydro-img1">
-              <label for="hydro-img1">View from above</label>
-            </div>
-            <p>Hydropower generators (aka water turbines) create pulses from flowing water blocks, they are very
-              reliable but expensive.</p>
-            <div class="twrapper">
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Required blocks</th>
-                </tr>
-                <tr>
-                  <td>Resonant cable (output)</td>
-                  <td>1</td>
-                </tr>
-                <tr>
-                  <td>Steel block (custom)</td>
-                  <td>12</td>
-                </tr>
-                <tr>
-                  <td>Piston (activation)</td>
-                  <td>1</td>
-                </tr>
-                <tr>
-                  <td colspan="2">A flowing water block below the piston.</td>
-                </tr>
-              </table>
-              <table class="stats">
-                <tr>
-                  <td>Pulse frequency</td>
-                  <td>Every 25 seconds</td>
-                </tr>
-              </table>
-            </div>
-          </subarticle>
-          <subarticle id="geothermal">
-            <h2>Geothermal generator</h2>
-            <div class="imgwrapper">
-              <img src="../images/machines/geothermal.png" id="geothermal-img">
-              <label for="geothermal-img">Side view</label>
-            </div>
-            <div class="imgwrapper">
-              <img src="../images/machines/geothermal1.png" id="geothermal-img1">
-              <label for="geothermal-img1">View from above</label>
-            </div>
-            <p>Geothermal generators are similar to hydropower generators, they are reliable and produce tons of power
-              but are expensive to construct.</p>
-            <div class="twrapper">
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Required blocks</th>
-                </tr>
-                <tr>
-                  <td>Resonant cable (output)</td>
-                  <td>1</td>
-                </tr>
-                <tr>
-                  <td>Netherbrick</td>
-                  <td>8</td>
-                </tr>
-                <tr>
-                  <td>Obsidian</td>
-                  <td>4</td>
-                </tr>
-                <tr>
-                  <td>Sticky piston (activation)</td>
-                  <td rowspan="2">1</td>
-                </tr>
-                <tr>
-                  <td>Iron block</td>
-                </tr>
-                <tr>
-                  <td colspan="2">Requires at least 25 lava source blocks below the iron block.</td>
-                </tr>
-              </table>
-              <table class="stats">
-                <tr>
-                  <td>Pulse frequency</td>
-                  <td>Every 12.5 seconds</td>
-                </tr>
-              </table>
-            </div>
-          </subarticle>
-          <!-- 
+  <navbar>
+    <h1 style="color: red;">Error loading sidebar - make sure Javascript is enabled and reload.</h1>
+  </navbar>
+  <article id="top">
+    <a href="../index.html" id="home">
+      <h3>Home</h3>
+    </a>
+    <header>
+      <h1>Resonant generation & storage</h1>
+    </header>
+    <intro>
+      <h2>In order to use resonant, you have to generate it first. This page lists the different machines used to
+        create and store resonant crystals.</h2>
+      <p>To create resonant crystals you will need a generator and something to store it in, generators create
+        'pulses' that charge storage devices at a fixed rate. Connect the output of a generator to the input of a
+        battery/capacitor with <a href="basics.html#cables">resonant cables</a> and it will gain a set amount of
+        resonant per pulse. Each machine has pulse information listed.
+      </p>
+    </intro>
+    <h2>Storage</h2>
+    <p>While you can store resonant crystals in normal chests/barrels like you would ordinary items, you have to
+      use special storage devices in order to power crafts and collect the crystals.</p>
+    <subarticle id="battery">
+      <h3>Battery</h3>
+      <img src="../images/machines/battery.png" id="battery-img">
+      <label for="battery-img">Front view</label>
+      <p>Batteries are the more efficient, but more expensive way to store resonant, the dropper is used as the
+        input and storage.</p>
+      <div class="twrapper">
+        <table class="stats">
+          <tr>
+            <th colspan="2">Required blocks</th>
+          </tr>
+          <tr>
+            <td>Composite blocks (custom)</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>Dropper</td>
+            <td>1</td>
+          </tr>
+        </table>
+        <table class="stats">
+          <tr>
+            <td>Capacity</td>
+            <td>9 Stacks</td>
+          </tr>
+          <tr>
+            <td>Resonant per pulse</td>
+            <td>2</td>
+          </tr>
+        </table>
+      </div>
+    </subarticle>
+    <subarticle>
+      <h3>Capacitor</h3>
+      <img src="../images/machines/capacitor.png" id="capacitor-img">
+      <label for="capacitor-img">Front view</label>
+      <p>Capacitors are a cheaper but less efficient storage method, the dropper is used as the input and the
+        barrel is the storage.</p>
+      <div class="twrapper">
+        <table class="stats">
+          <tr>
+            <th colspan="2">Required blocks</th>
+          </tr>
+          <tr>
+            <td>Barrel</td>
+            <td rowspan="3">1</td>
+          </tr>
+          <tr>
+            <td>Dropper</td>
+          </tr>
+          <tr>
+            <td>Iron block</td>
+          </tr>
+        </table>
+        <table class="stats">
+          <tr>
+            <td>Capacity</td>
+            <td>27 Stacks</td>
+          </tr>
+          <tr>
+            <td>Resonant per pulse</td>
+            <td>4</td>
+          </tr>
+        </table>
+      </div>
+    </subarticle>
+    <h2>Generators</h2>
+    <p>Generators are how you actually <em>generate</em> resonant crystals. (go figure) Connect a generator to a
+      storage device, activate it, and you should start producing resonant.</p>
+    <subarticle id="combustion">
+      <h2>Combustion generator</h2>
+      <img src="../images/machines/combustion.png" id="combustion-img">
+      <label for="combustion-img">Side view</label>
+      <p>Combustion generators get their power from burning fuel, place the fuel in the blast furnace where it
+        usually goes, the <em>back</em> of the blast furnace is the output.</p>
+      <div class="twrapper">
+        <table class="stats">
+          <tr>
+            <th colspan="2">Required blocks</th>
+          </tr>
+          <tr>
+            <td>Redstone lamp (activation)</td>
+            <td rowspan="2">1</td>
+          </tr>
+          <tr>
+            <td>Blast furnace (input/output)</td>
+          </tr>
+        </table>
+        <table class="stats">
+          <tr>
+            <th colspan="3">Fuel info</th>
+          </tr>
+          <tr>
+            <td>Fuel type</td>
+            <td>Chance to be consumed</td>
+          </tr>
+          <tr>
+            <td>Coal / Charcoal</td>
+            <td>1/9</td>
+          </tr>
+          <tr>
+            <td>Blaze powder / Magma cream</td>
+            <td>1/24</td>
+          </tr>
+          <tr>
+            <td>Coal block / Oxygen canister</td>
+            <td>1/90</td>
+          </tr>
+          <tr>
+            <td>Enriched Uranium Fuelrods</td>
+            <td>2.5/100 (Also produces extra power)</td>
+          </tr>
+        </table>
+        <table class="stats">
+          <tr>
+            <td>Pulse frequency</td>
+            <td>Every 10 seconds</td>
+          </tr>
+        </table>
+      </div>
+    </subarticle>
+    <subarticle id="solar">
+      <h2>Solar panel</h2>
+      <img src="../images/machines/solar.png" id="solar-img">
+      <label for="solar-img">Front view</label>
+      <p>Once built and activated solar panels require no maintenance and will generate pulses on their own,
+        the only downsides are that they must have sky above them and they must be above y63.</p>
+      <div class="twrapper">
+        <table class="stats">
+          <tr>
+            <th colspan="2">Required blocks</th>
+          </tr>
+          <tr>
+            <td>Daylight detector</td>
+            <td rowspan="3">1</td>
+          </tr>
+          <tr>
+            <td>Redstone lamp (activation)</td>
+          </tr>
+          <tr>
+            <td>Dropper (output)</td>
+          </tr>
+        </table>
+        <table class="stats">
+          <tr>
+            <th colspan="2">Pulse frequency</th>
+          </tr>
+          <tr>
+            <td>Orbit/Space</td>
+            <td>Every 30 seconds</td>
+          </tr>
+          <tr>
+            <td>Day</td>
+            <td>Every 90 seconds</td>
+          </tr>
+          <tr>
+            <td>Dawn/Dusk</td>
+            <td>Every 5 minutes</td>
+          </tr>
+          <tr>
+            <td>Night</td>
+            <td>Every 25 minutes</td>
+          </tr>
+        </table>
+      </div>
+    </subarticle>
+    <subarticle id="wind">
+      <h2>Wind turbine</h2>
+      <div class="imgwrapper">
+        <img src="../images/machines/wind.png" id="wind-img">
+        <label for="wind-img">Side view</label>
+      </div>
+      <div class="imgwrapper">
+        <img src="../images/machines/wind1.png" title="wind-img1">
+        <label for="wind-img1">View from above</label>
+      </div>
+      <p>Wind turbines are similar to solar panels, once activated they passively generate pulses. But
+        unlike solar panels the frequency is determined by height, rather than time of day.</p>
+      <div class="twrapper">
+        <table class="stats">
+          <tr>
+            <th colspan="2">Required blocks</th>
+          </tr>
+          <tr>
+            <td>Piston (activation)</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>Wool block (any)</td>
+            <td>8</td>
+          </tr>
+          <tr>
+            <td>Iron bars</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>Resonant cable (output)</td>
+            <td>1</td>
+          </tr>
+        </table>
+        <table class="stats">
+          <tr>
+            <th colspan="2">Pulse frequency</th>
+          </tr>
+          <tr>
+            <td>In gas giants</td>
+            <td>Every 15 seconds</td>
+          </tr>
+          <tr>
+            <td>y150 - y255</td>
+            <td>Every 20 seconds</td>
+          </tr>
+          <tr>
+            <td>y100 - y149</td>
+            <td>Every 30 seconds</td>
+          </tr>
+          <tr>
+            <td>y61 - y99</td>
+            <td>Every 45 seconds</td>
+          </tr>
+          <tr>
+            <td>y1 - y60</td>
+            <td>Every five minutes</td>
+          </tr>
+          <tr>
+            <td>In orbit/space</td>
+            <td>Nothing</td>
+          </tr>
+        </table>
+      </div>
+    </subarticle>
+    <subarticle id="hydro">
+      <h2>Hydropower generator</h2>
+      <div class="imgwrapper">
+        <img src="../images/machines/hydro.png" id="hydro-img">
+        <label for="hydro-img">Side view</label>
+      </div>
+      <div class="imgwrapper">
+        <img src="../images/machines/hydro1.png" id="hydro-img1">
+        <label for="hydro-img1">View from above</label>
+      </div>
+      <p>Hydropower generators (aka water turbines) create pulses from flowing water blocks, they are very
+        reliable but expensive.</p>
+      <div class="twrapper">
+        <table class="stats">
+          <tr>
+            <th colspan="2">Required blocks</th>
+          </tr>
+          <tr>
+            <td>Resonant cable (output)</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>Steel block (custom)</td>
+            <td>12</td>
+          </tr>
+          <tr>
+            <td>Piston (activation)</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td colspan="2">A flowing water block below the piston.</td>
+          </tr>
+        </table>
+        <table class="stats">
+          <tr>
+            <td>Pulse frequency</td>
+            <td>Every 25 seconds</td>
+          </tr>
+        </table>
+      </div>
+    </subarticle>
+    <subarticle id="geothermal">
+      <h2>Geothermal generator</h2>
+      <div class="imgwrapper">
+        <img src="../images/machines/geothermal.png" id="geothermal-img">
+        <label for="geothermal-img">Side view</label>
+      </div>
+      <div class="imgwrapper">
+        <img src="../images/machines/geothermal1.png" id="geothermal-img1">
+        <label for="geothermal-img1">View from above</label>
+      </div>
+      <p>Geothermal generators are similar to hydropower generators, they are reliable and produce tons of power
+        but are expensive to construct.</p>
+      <div class="twrapper">
+        <table class="stats">
+          <tr>
+            <th colspan="2">Required blocks</th>
+          </tr>
+          <tr>
+            <td>Resonant cable (output)</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>Netherbrick</td>
+            <td>8</td>
+          </tr>
+          <tr>
+            <td>Obsidian</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>Sticky piston (activation)</td>
+            <td rowspan="2">1</td>
+          </tr>
+          <tr>
+            <td>Iron block</td>
+          </tr>
+          <tr>
+            <td colspan="2">Requires at least 25 lava source blocks below the iron block.</td>
+          </tr>
+        </table>
+        <table class="stats">
+          <tr>
+            <td>Pulse frequency</td>
+            <td>Every 12.5 seconds</td>
+          </tr>
+        </table>
+      </div>
+    </subarticle>
+    <!-- 
             <subarticle>
             <h2 id=""></h2>
             <img src="" id="">
@@ -372,7 +372,7 @@
             </div>
           </subarticle>
            -->
-        </article>
+  </article>
   <script src="../res/navigation.js"></script>
   <script>
     const page = 'resonant-management';

@@ -10,2224 +10,2219 @@
 </head>
 
 <body>
-      <navbar>
-        <h1 style="color: red;">Error loading sidebar - make sure Javascript is enabled and reload.</h1>
-      </navbar>
-        <article>
-        <a href="../index.html" id="home">
-          <h3>Home</h3>
-        </a>
-        <div id="disclaimer"></div>
-        <header>
-          <h1>Block guide</h1>
-        </header>
-        <intro>
-          <h2>When building your craft it's very important to know what blocks can actually be used for it, here you can
-            find lists of what blocks are valid for different crafts.</h2>
-          <p>For the 'required' blocks field, the listed percentage is how much of the craft can be that block. For
-            instance only 1.125% of a starfighter can be ender chests. The same but reverse goes for required blocks, so
-            35% of a starfighter <em>has</em> to be wool.</p>
-          <p>Data was collected from the official <a href="https://starmap.zapto.org/craftdata" target="_blank">Craft
-              wiki</a> with duplicate listings removed and some testing to make sure the blocks are actually valid, to
-            see other info on specific craft such as min/max size click on the craft's title.</p>
-        </intro>
-          <subarticle id="starfighter">
-            <a href="../movecraft/crafts.html#starfighter">
-              <h3>Starfighter</h3>
-            </a>
-            <div class="twrapper">
-              <div class="list-box-wrapper">
-                <h3>Valid blocks</h3>
-                <input type="text" id="starfighter-search" placeholder="Type here to search valid blocks"
-                  oninput="search('starfighter')">
-                <div id="starfighter-table" class="list-box">
-                  <item>barrel</item>
-                  <item>beacon</item>
-                  <item>blast furnace</item>
-                  <item>bookshelf</item>
-                  <item>brewing stand</item>
-                  <item>cake</item>
-                  <item>cauldron</item>
-                  <item>chest</item>
-                  <item>chiseled quartz block</item>
-                  <item>coal block</item>
-                  <item>cobblestone wall</item>
-                  <item>comparator</item>
-                  <item>crafting table</item>
-                  <item>daylight detector</item>
-                  <item>dispenser</item>
-                  <item>dropper</item>
-                  <item>enchanting table</item>
-                  <item>ender chest</item>
-                  <item>fire</item>
-                  <item>flower pot</item>
-                  <item>furnace</item>
-                  <item>glowstone</item>
-                  <item>gold block</item>
-                  <item>grindstone</item>
-                  <item>hopper</item>
-                  <item>iron bars</item>
-                  <item>iron block</item>
-                  <item>ladder</item>
-                  <item>lantern</item>
-                  <item>lectern</item>
-                  <item>lever</item>
-                  <item>magma block</item>
-                  <item>mossy cobblestone wall</item>
-                  <item>mushroom stem</item>
-                  <item>note block</item>
-                  <item>observer</item>
-                  <item>piston</item>
-                  <item>purpur pillar</item>
-                  <item>quartz block</item>
-                  <item>quartz bricks</item>
-                  <item>quartz pillar</item>
-                  <item>redstone block</item>
-                  <item>redstone lamp</item>
-                  <item>redstone torch</item>
-                  <item>redstone wall torch</item>
-                  <item>redstone wire</item>
-                  <item>repeater</item>
-                  <item>sea lantern</item>
-                  <item>slime block</item>
-                  <item>smoker</item>
-                  <item>smooth quartz</item>
-                  <item>smooth stone</item>
-                  <item>soul lantern</item>
-                  <item>sticky piston</item>
-                  <item>target</item>
-                  <item>torch</item>
-                  <item>tripwire hook</item>
-                  <item>all banners</item>
-                  <item>all buttons</item>
-                  <item>all carpets</item>
-                  <item>all doors</item>
-                  <item>all fence gates</item>
-                  <item>all fences</item>
-                  <item>all planks</item>
-                  <item>all pressure plates</item>
-                  <item>all trapdoors</item>
-                  <item>all walls</item>
-                  <item>chain</item>
-                  <item>end rod</item>
-                  <item>lightning rod</item>
-                  <item>stonecutter</item>
-                  <item>all stairs</item>
-                  <item>all slabs</item>
-                  <item>all copper variants (exposed waxed etc)</item>
-                </div>
-              </div>
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Restricted blocks</th>
-                </tr>
-                <td>Block type</td>
-                <td>Allowed%</td>
-                <tr>
-                  <td>Ender chest</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Anvil</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Enchantment table</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Chest/Barrel</td>
-                  <td>1.5%</td>
-                </tr>
-                <tr>
-                  <td>Dropper</td>
-                  <td>4.5%</td>
-                </tr>
-                <tr>
-                  <td>Dispenser</td>
-                  <td>5%</td>
-                </tr>
-                <tr>
-                  <td>All pressure plates</td>
-                  <td>50%</td>
-                </tr>
-                <tr>
-                  <td>All buttons </td>
-                  <td>50%</td>
-                </tr>
-                <tr>
-                  <td>All stairs</td>
-                  <td>50%</td>
-                </tr>
-                <tr>
-                  <td>All slabs</td>
-                  <td>50%</td>
-                </tr>
-              </table>
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Required blocks</th>
-                </tr>
-                <tr>
-                  <td>Block type</td>
-                  <td>Required%</td>
-                </tr>
-                <tr>
-                  <td>Wool/Carpet</td>
-                  <td>35%</td>
-                </tr>
-                <tr>
-                  <td>Sea lantern</td>
-                  <td rowspan="2">2.05%</td>
-                </tr>
-                <tr>
-                  <td>Redstone block</td>
-                </tr>
-              </table>
+  <navbar>
+    <h1 style="color: red;">Error loading sidebar - make sure Javascript is enabled and reload.</h1>
+  </navbar>
+  <article id="top">
+    <a href="../index.html" id="home">
+      <h3>Home</h3>
+    </a>
+    <div id="disclaimer"></div>
+    <header>
+      <h1>Block guide</h1>
+    </header>
+    <intro>
+      <h2>When building your craft it's very important to know what blocks can actually be used for it, here you can
+        find lists of what blocks are valid for different crafts.</h2>
+      <p>For the 'required' blocks field, the listed percentage is how much of the craft can be that block. For
+        instance only 1.125% of a starfighter can be ender chests. The same but reverse goes for required blocks, so
+        35% of a starfighter <em>has</em> to be wool.</p>
+      <p>Data was collected from the official <a href="https://starmap.zapto.org/craftdata" target="_blank">Craft
+          wiki</a> with duplicate listings removed and some testing to make sure the blocks are actually valid, to
+        see other info on specific craft such as min/max size click on the craft's title.</p>
+    </intro>
+    <subarticle id="starfighter">
+      <a href="../movecraft/crafts.html#starfighter">
+        <h3>Starfighter</h3>
+      </a>
+      <div class="twrapper">
+        <div class="list-box-wrapper">
+          <h3>Valid blocks</h3>
+          <input type="text" id="starfighter-search" placeholder="Type here to search valid blocks"
+            oninput="search('starfighter')">
+          <div id="starfighter-table" class="list-box">
+            <item>barrel</item>
+            <item>beacon</item>
+            <item>blast furnace</item>
+            <item>bookshelf</item>
+            <item>brewing stand</item>
+            <item>cake</item>
+            <item>cauldron</item>
+            <item>chest</item>
+            <item>chiseled quartz block</item>
+            <item>coal block</item>
+            <item>cobblestone wall</item>
+            <item>comparator</item>
+            <item>crafting table</item>
+            <item>daylight detector</item>
+            <item>dispenser</item>
+            <item>dropper</item>
+            <item>enchanting table</item>
+            <item>ender chest</item>
+            <item>fire</item>
+            <item>flower pot</item>
+            <item>furnace</item>
+            <item>glowstone</item>
+            <item>gold block</item>
+            <item>grindstone</item>
+            <item>hopper</item>
+            <item>iron bars</item>
+            <item>iron block</item>
+            <item>ladder</item>
+            <item>lantern</item>
+            <item>lectern</item>
+            <item>lever</item>
+            <item>magma block</item>
+            <item>mossy cobblestone wall</item>
+            <item>mushroom stem</item>
+            <item>note block</item>
+            <item>observer</item>
+            <item>piston</item>
+            <item>purpur pillar</item>
+            <item>quartz block</item>
+            <item>quartz bricks</item>
+            <item>quartz pillar</item>
+            <item>redstone block</item>
+            <item>redstone lamp</item>
+            <item>redstone torch</item>
+            <item>redstone wall torch</item>
+            <item>redstone wire</item>
+            <item>repeater</item>
+            <item>sea lantern</item>
+            <item>slime block</item>
+            <item>smoker</item>
+            <item>smooth quartz</item>
+            <item>smooth stone</item>
+            <item>soul lantern</item>
+            <item>sticky piston</item>
+            <item>target</item>
+            <item>torch</item>
+            <item>tripwire hook</item>
+            <item>all banners</item>
+            <item>all buttons</item>
+            <item>all carpets</item>
+            <item>all doors</item>
+            <item>all fence gates</item>
+            <item>all fences</item>
+            <item>all planks</item>
+            <item>all pressure plates</item>
+            <item>all trapdoors</item>
+            <item>all walls</item>
+            <item>chain</item>
+            <item>end rod</item>
+            <item>lightning rod</item>
+            <item>stonecutter</item>
+            <item>all stairs</item>
+            <item>all slabs</item>
+            <item>all copper variants (exposed waxed etc)</item>
+          </div>
+        </div>
+        <table class="stats">
+          <tr>
+            <th colspan="2">Restricted blocks</th>
+          </tr>
+          <td>Block type</td>
+          <td>Allowed%</td>
+          <tr>
+            <td>Ender chest</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Anvil</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Enchantment table</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Chest/Barrel</td>
+            <td>1.5%</td>
+          </tr>
+          <tr>
+            <td>Dropper</td>
+            <td>4.5%</td>
+          </tr>
+          <tr>
+            <td>Dispenser</td>
+            <td>5%</td>
+          </tr>
+          <tr>
+            <td>All pressure plates</td>
+            <td>50%</td>
+          </tr>
+          <tr>
+            <td>All buttons </td>
+            <td>50%</td>
+          </tr>
+          <tr>
+            <td>All stairs</td>
+            <td>50%</td>
+          </tr>
+          <tr>
+            <td>All slabs</td>
+            <td>50%</td>
+          </tr>
+        </table>
+        <table class="stats">
+          <tr>
+            <th colspan="2">Required blocks</th>
+          </tr>
+          <tr>
+            <td>Block type</td>
+            <td>Required%</td>
+          </tr>
+          <tr>
+            <td>Wool/Carpet</td>
+            <td>35%</td>
+          </tr>
+          <tr>
+            <td>Sea lantern</td>
+            <td rowspan="2">2.05%</td>
+          </tr>
+          <tr>
+            <td>Redstone block</td>
+          </tr>
+        </table>
+      </div>
+    </subarticle>
+    <subarticle id="cargoshuttle">
+      <a href="../movecraft/crafts.html#cargoshuttle">
+        <h3>Cargoshuttle</h3>
+      </a>
+      <div class="twrapper">
+        <div class="list-box-wrapper">
+          <h3>Valid blocks</h3>
+          <input type="text" id="cargoshuttle-search" placeholder="Type here to search valid blocks"
+            oninput="search('cargoshuttle')">
+          <div id="cargoshuttle-table" class="list-box">
+            <item>barrel</item>
+            <item>beacon</item>
+            <item>blast furnace</item>
+            <item>bookshelf</item>
+            <item>brewing stand</item>
+            <item>bricks</item>
+            <item>cake</item>
+            <item>cauldron</item>
+            <item>chain</item>
+            <item>chest</item>
+            <item>chiseled quartz block</item>
+            <item>coal block</item>
+            <item>comparator</item>
+            <item>crafting table</item>
+            <item>daylight detector</item>
+            <item>dispenser</item>
+            <item>dropper</item>
+            <item>enchanting table</item>
+            <item>ender chest</item>
+            <item>fire</item>
+            <item>flower pot</item>
+            <item>furnace</item>
+            <item>glowstone</item>
+            <item>gold block</item>
+            <item>grindstone</item>
+            <item>hopper</item>
+            <item>iron bars</item>
+            <item>iron block</item>
+            <item>ladder</item>
+            <item>lapis block</item>
+            <item>lever</item>
+            <item>lodestone</item>
+            <item>magma block</item>
+            <item>mushroom stem</item>
+            <item>note block</item>
+            <item>observer</item>
+            <item>piston</item>
+            <item>purpur pillar</item>
+            <item>quartz block</item>
+            <item>quartz bricks</item>
+            <item>quartz pillar</item>
+            <item>redstone block</item>
+            <item>redstone lamp</item>
+            <item>redstone torch</item>
+            <item>redstone wall torch</item>
+            <item>redstone wire</item>
+            <item>repeater</item>
+            <item>sea lantern</item>
+            <item>slime block</item>
+            <item>smoker</item>
+            <item>smooth quartz</item>
+            <item>sticky piston</item>
+            <item>target</item>
+            <item>torch</item>
+            <item>tripwire hook</item>
+            <item>all banners</item>
+            <item>all buttons</item>
+            <item>all carpets</item>
+            <item>all wool</item>
+            <item>all doors</item>
+            <item>all fence gates</item>
+            <item>all fences</item>
+            <item>all planks</item>
+            <item>all pressure plates</item>
+            <item>all trapdoors</item>
+            <item>all walls</item>
+            <item>end rod</item>
+            <item>lightning rod</item>
+            <item>stonecutter</item>
+            <item>all stairs</item>
+            <item>all slabs</item>
+            <item>all copper variants (exposed waxed etc)</item>
+          </div>
+        </div>
+        <table class="stats">
+          <tr>
+            <th colspan="2">Restricted blocks</th>
+          </tr>
+          <tr>
+            <td>Block type</td>
+            <td>Allowed%</td>
+          </tr>
+          <tr>
+            <td>Ender chest</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Anvil</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Enchantment table</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Dispenser</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Dropper</td>
+            <td>2.5%</td>
+          </tr>
+          <tr>
+            <td>Chest/Barrel</td>
+            <td>17.5%</td>
+          </tr>
+        </table>
+        <table class="stats">
+          <tr>
+            <th colspan="2">Required blocks</th>
+          </tr>
+          <tr>
+            <td>Block type</td>
+            <td>Required%</td>
+          </tr>
+          <tr>
+            <td>Wool/Carpet</td>
+            <td>25%</td>
+          </tr>
+          <tr>
+            <td>Sea lantern</td>
+            <td rowspan="2">2.5%</td>
+          </tr>
+          <tr>
+            <td>Redstone block</td>
+          </tr>
+        </table>
+      </div>
+    </subarticle>
+    <subarticle id="starship">
+      <a href="../movecraft/crafts.html#starship">
+        <h3>Starship</h3>
+      </a>
+      <div class="twrapper">
+        <div class="list-box-wrapper">
+          <h3>Valid blocks</h3>
+          <input type="text" id="starship-search" placeholder="Type here to search valid blocks"
+            oninput="search('starship')">
+          <div id="starship-table" class="list-box">
+            <item>barrel</item>
+            <item>beacon</item>
+            <item>blast furnace</item>
+            <item>blue ice</item>
+            <item>bookshelf</item>
+            <item>brewing stand</item>
+            <item>bricks</item>
+            <item>cake</item>
+            <item>cauldron</item>
+            <item>chain</item>
+            <item>chest</item>
+            <item>chiseled nether bricks</item>
+            <item>chiseled quartz block</item>
+            <item>coal block</item>
+            <item>comparator</item>
+            <item>crafting table</item>
+            <item>daylight detector</item>
+            <item>dispenser</item>
+            <item>dropper</item>
+            <item>enchanting table</item>
+            <item>end rod</item>
+            <item>end stone</item>
+            <item>end stone bricks</item>
+            <item>ender chest</item>
+            <item>fire</item>
+            <item>flower pot</item>
+            <item>furnace</item>
+            <item>glowstone</item>
+            <item>gold block</item>
+            <item>grindstone</item>
+            <item>hopper</item>
+            <item>iron bars</item>
+            <item>iron block</item>
+            <item>ladder</item>
+            <item>lantern</item>
+            <item>lapis block</item>
+            <item>lectern</item>
+            <item>lever</item>
+            <item>lodestone</item>
+            <item>magma block</item>
+            <item>mushroom stem</item>
+            <item>nether bricks</item>
+            <item>note block</item>
+            <item>observer</item>
+            <item>piston</item>
+            <item>piston head</item>
+            <item>purpur pillar</item>
+            <item>quartz block</item>
+            <item>quartz bricks</item>
+            <item>quartz pillar</item>
+            <item>red nether bricks</item>
+            <item>redstone block</item>
+            <item>redstone lamp</item>
+            <item>redstone torch</item>
+            <item>redstone wire</item>
+            <item>repeater</item>
+            <item>sea lantern</item>
+            <item>slime block</item>
+            <item>smoker</item>
+            <item>smooth quartz</item>
+            <item>smooth stone</item>
+            <item>soul lantern</item>
+            <item>sticky piston</item>
+            <item>stripped crimson hyphae</item>
+            <item>stripped crimson stem</item>
+            <item>stripped warped hyphae</item>
+            <item>stripped warped stem</item>
+            <item>target</item>
+            <item>torch</item>
+            <item>tripwire hook</item>
+            <item>all banners</item>
+            <item>all buttons</item>
+            <item>all carpets</item>
+            <item>all doors</item>
+            <item>all fence gates</item>
+            <item>all fences</item>
+            <item>all pressure plates</item>
+            <item>all rails</item>
+            <item>all trapdoors</item>
+            <item>cobweb</item>
+            <item>lightning rod</item>
+            <item>stonecutter </item>
+            <item>all stairs</item>
+            <item>all slabs</item>
+            <item>all terracotta</item>
+            <item>all glazed terracotta</item>
+            <item>all walls</item>
+            <item>all glass</item>
+            <item>all planks</item>
+            <item>all copper variants (exposed waxed etc)</item>
+            <item>all concrete</item>
+            <item>all beds</item>
+            <item>all wool</item>
+            <item>all signs</item>
+          </div>
+        </div>
+        <table class="stats">
+          <tr>
+            <th colspan="2">Restricted blocks</th>
+          </tr>
+          <tr>
+            <td>Block type</td>
+            <td>Allowed%</td>
+          </tr>
+          <tr>
+            <td>Ender chest</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Anvil</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Enchantment table</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Chest/Barrel</td>
+            <td>4.5%</td>
+          </tr>
+          <tr>
+            <td>End stone</td>
+            <td>5%</td>
+          </tr>
+          <tr>
+            <td>End stone bricks</td>
+            <td>5%</td>
+          </tr>
+          <tr>
+            <td>Dispenser/Dropper</td>
+            <td>20%</td>
+          </tr>
+          <tr>
+            <td>Magma block</td>
+            <td>25%</td>
+          </tr>
+        </table>
+        <table class="stats">
+          <tr>
+            <th colspan="2">Required blocks</th>
+          </tr>
+          <tr>
+            <td>Block type</td>
+            <td>Required%</td>
+          </tr>
+          <tr>
+            <td>Beacon</td>
+            <td>0.2%</td>
+          </tr>
+          <tr>
+            <td>Sea lantern</td>
+            <td rowspan="2">2%</td>
+          </tr>
+          <tr>
+            <td>Redstone block</td>
+          </tr>
+        </table>
+      </div>
+    </subarticle>
+    <subarticle id="freighter">
+      <a href="../movecraft/crafts.html#freighter">
+        <h3>Freighter</h3>
+      </a>
+      <div class="twrapper">
+        <table class="stats">
+          <div class="list-box-wrapper">
+            <h3>Valid blocks</h3>
+            <input type="text" id="freighter-search" placeholder="Type here to search valid blocks"
+              oninput="search('freighter')">
+            <div id="freighter-table" class="list-box">
+              <item>barrel</item>
+              <item>beacon</item>
+              <item>blast furnace</item>
+              <item>bookshelf</item>
+              <item>brewing stand</item>
+              <item>bricks</item>
+              <item>cake</item>
+              <item>cauldron</item>
+              <item>chain</item>
+              <item>chest</item>
+              <item>chiseled quartz block</item>
+              <item>coal block</item>
+              <item>comparator</item>
+              <item>crafting table</item>
+              <item>daylight detector</item>
+              <item>dispenser</item>
+              <item>dropper</item>
+              <item>enchanting table</item>
+              <item>end rod</item>
+              <item>end stone</item>
+              <item>end stone bricks</item>
+              <item>ender chest</item>
+              <item>fire</item>
+              <item>flower pot</item>
+              <item>furnace</item>
+              <item>glowstone</item>
+              <item>gold block</item>
+              <item>grindstone</item>
+              <item>hopper</item>
+              <item>iron bars</item>
+              <item>iron block</item>
+              <item>ladder</item>
+              <item>lapis block</item>
+              <item>lectern</item>
+              <item>lever</item>
+              <item>lodestone</item>
+              <item>magma block</item>
+              <item>mushroom stem</item>
+              <item>note block</item>
+              <item>observer</item>
+              <item>piston</item>
+              <item>piston head</item>
+              <item>purpur pillar</item>
+              <item>quartz block</item>
+              <item>quartz bricks</item>
+              <item>quartz pillar</item>
+              <item>redstone block</item>
+              <item>redstone lamp</item>
+              <item>redstone torch</item>
+              <item>redstone wire</item>
+              <item>repeater</item>
+              <item>sea lantern</item>
+              <item>slime block</item>
+              <item>smoker</item>
+              <item>smooth quartz</item>
+              <item>sticky piston</item>
+              <item>target</item>
+              <item>torch</item>
+              <item>tripwire hook</item>
+              <item>all banners</item>
+              <item>all buttons</item>
+              <item>all carpets</item>
+              <item>all doors</item>
+              <item>all fence gates</item>
+              <item>all fences</item>
+              <item>all pressure plates</item>
+              <item>all trapdoors</item>
+              <item>lightning rod</item>
+              <item>stonecutter </item>
+              <item>all stairs</item>
+              <item>all slabs</item>
+              <item>all terracotta</item>
+              <item>all glazed terracotta</item>
+              <item>all walls</item>
+              <item>all glass</item>
+              <item>all planks</item>
+              <item>all copper variants (exposed waxed etc)</item>
+              <item>all concrete</item>
+              <item>all beds</item>
+              <item>all wool</item>
+              <item>all signs</item>
             </div>
-          </subarticle>
-          <subarticle id="cargoshuttle">
-            <a href="../movecraft/crafts.html#cargoshuttle">
-              <h3>Cargoshuttle</h3>
-            </a>
-            <div class="twrapper">
-              <div class="list-box-wrapper">
-                <h3>Valid blocks</h3>
-                <input type="text" id="cargoshuttle-search" placeholder="Type here to search valid blocks"
-                  oninput="search('cargoshuttle')">
-                <div id="cargoshuttle-table" class="list-box">
-                  <item>barrel</item>
-                  <item>beacon</item>
-                  <item>blast furnace</item>
-                  <item>bookshelf</item>
-                  <item>brewing stand</item>
-                  <item>bricks</item>
-                  <item>cake</item>
-                  <item>cauldron</item>
-                  <item>chain</item>
-                  <item>chest</item>
-                  <item>chiseled quartz block</item>
-                  <item>coal block</item>
-                  <item>comparator</item>
-                  <item>crafting table</item>
-                  <item>daylight detector</item>
-                  <item>dispenser</item>
-                  <item>dropper</item>
-                  <item>enchanting table</item>
-                  <item>ender chest</item>
-                  <item>fire</item>
-                  <item>flower pot</item>
-                  <item>furnace</item>
-                  <item>glowstone</item>
-                  <item>gold block</item>
-                  <item>grindstone</item>
-                  <item>hopper</item>
-                  <item>iron bars</item>
-                  <item>iron block</item>
-                  <item>ladder</item>
-                  <item>lapis block</item>
-                  <item>lever</item>
-                  <item>lodestone</item>
-                  <item>magma block</item>
-                  <item>mushroom stem</item>
-                  <item>note block</item>
-                  <item>observer</item>
-                  <item>piston</item>
-                  <item>purpur pillar</item>
-                  <item>quartz block</item>
-                  <item>quartz bricks</item>
-                  <item>quartz pillar</item>
-                  <item>redstone block</item>
-                  <item>redstone lamp</item>
-                  <item>redstone torch</item>
-                  <item>redstone wall torch</item>
-                  <item>redstone wire</item>
-                  <item>repeater</item>
-                  <item>sea lantern</item>
-                  <item>slime block</item>
-                  <item>smoker</item>
-                  <item>smooth quartz</item>
-                  <item>sticky piston</item>
-                  <item>target</item>
-                  <item>torch</item>
-                  <item>tripwire hook</item>
-                  <item>all banners</item>
-                  <item>all buttons</item>
-                  <item>all carpets</item>
-                  <item>all wool</item>
-                  <item>all doors</item>
-                  <item>all fence gates</item>
-                  <item>all fences</item>
-                  <item>all planks</item>
-                  <item>all pressure plates</item>
-                  <item>all trapdoors</item>
-                  <item>all walls</item>
-                  <item>end rod</item>
-                  <item>lightning rod</item>
-                  <item>stonecutter</item>
-                  <item>all stairs</item>
-                  <item>all slabs</item>
-                  <item>all copper variants (exposed waxed etc)</item>
-                </div>
-              </div>
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Restricted blocks</th>
-                </tr>
-                <tr>
-                  <td>Block type</td>
-                  <td>Allowed%</td>
-                </tr>
-                <tr>
-                  <td>Ender chest</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Anvil</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Enchantment table</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Dispenser</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Dropper</td>
-                  <td>2.5%</td>
-                </tr>
-                <tr>
-                  <td>Chest/Barrel</td>
-                  <td>17.5%</td>
-                </tr>
-              </table>
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Required blocks</th>
-                </tr>
-                <tr>
-                  <td>Block type</td>
-                  <td>Required%</td>
-                </tr>
-                <tr>
-                  <td>Wool/Carpet</td>
-                  <td>25%</td>
-                </tr>
-                <tr>
-                  <td>Sea lantern</td>
-                  <td rowspan="2">2.5%</td>
-                </tr>
-                <tr>
-                  <td>Redstone block</td>
-                </tr>
-              </table>
-            </div>
-          </subarticle>
-          <subarticle id="starship">
-            <a href="../movecraft/crafts.html#starship">
-              <h3>Starship</h3>
-            </a>
-            <div class="twrapper">
-              <div class="list-box-wrapper">
-                <h3>Valid blocks</h3>
-                <input type="text" id="starship-search" placeholder="Type here to search valid blocks"
-                  oninput="search('starship')">
-                <div id="starship-table" class="list-box">
-                  <item>barrel</item>
-                  <item>beacon</item>
-                  <item>blast furnace</item>
-                  <item>blue ice</item>
-                  <item>bookshelf</item>
-                  <item>brewing stand</item>
-                  <item>bricks</item>
-                  <item>cake</item>
-                  <item>cauldron</item>
-                  <item>chain</item>
-                  <item>chest</item>
-                  <item>chiseled nether bricks</item>
-                  <item>chiseled quartz block</item>
-                  <item>coal block</item>
-                  <item>comparator</item>
-                  <item>crafting table</item>
-                  <item>daylight detector</item>
-                  <item>dispenser</item>
-                  <item>dropper</item>
-                  <item>enchanting table</item>
-                  <item>end rod</item>
-                  <item>end stone</item>
-                  <item>end stone bricks</item>
-                  <item>ender chest</item>
-                  <item>fire</item>
-                  <item>flower pot</item>
-                  <item>furnace</item>
-                  <item>glowstone</item>
-                  <item>gold block</item>
-                  <item>grindstone</item>
-                  <item>hopper</item>
-                  <item>iron bars</item>
-                  <item>iron block</item>
-                  <item>ladder</item>
-                  <item>lantern</item>
-                  <item>lapis block</item>
-                  <item>lectern</item>
-                  <item>lever</item>
-                  <item>lodestone</item>
-                  <item>magma block</item>
-                  <item>mushroom stem</item>
-                  <item>nether bricks</item>
-                  <item>note block</item>
-                  <item>observer</item>
-                  <item>piston</item>
-                  <item>piston head</item>
-                  <item>purpur pillar</item>
-                  <item>quartz block</item>
-                  <item>quartz bricks</item>
-                  <item>quartz pillar</item>
-                  <item>red nether bricks</item>
-                  <item>redstone block</item>
-                  <item>redstone lamp</item>
-                  <item>redstone torch</item>
-                  <item>redstone wire</item>
-                  <item>repeater</item>
-                  <item>sea lantern</item>
-                  <item>slime block</item>
-                  <item>smoker</item>
-                  <item>smooth quartz</item>
-                  <item>smooth stone</item>
-                  <item>soul lantern</item>
-                  <item>sticky piston</item>
-                  <item>stripped crimson hyphae</item>
-                  <item>stripped crimson stem</item>
-                  <item>stripped warped hyphae</item>
-                  <item>stripped warped stem</item>
-                  <item>target</item>
-                  <item>torch</item>
-                  <item>tripwire hook</item>
-                  <item>all banners</item>
-                  <item>all buttons</item>
-                  <item>all carpets</item>
-                  <item>all doors</item>
-                  <item>all fence gates</item>
-                  <item>all fences</item>
-                  <item>all pressure plates</item>
-                  <item>all rails</item>
-                  <item>all trapdoors</item>
-                  <item>cobweb</item>
-                  <item>lightning rod</item>
-                  <item>stonecutter </item>
-                  <item>all stairs</item>
-                  <item>all slabs</item>
-                  <item>all terracotta</item>
-                  <item>all glazed terracotta</item>
-                  <item>all walls</item>
-                  <item>all glass</item>
-                  <item>all planks</item>
-                  <item>all copper variants (exposed waxed etc)</item>
-                  <item>all concrete</item>
-                  <item>all beds</item>
-                  <item>all wool</item>
-                  <item>all signs</item>
-                </div>
-              </div>
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Restricted blocks</th>
-                </tr>
-                <tr>
-                  <td>Block type</td>
-                  <td>Allowed%</td>
-                </tr>
-                <tr>
-                  <td>Ender chest</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Anvil</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Enchantment table</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Chest/Barrel</td>
-                  <td>4.5%</td>
-                </tr>
-                <tr>
-                  <td>End stone</td>
-                  <td>5%</td>
-                </tr>
-                <tr>
-                  <td>End stone bricks</td>
-                  <td>5%</td>
-                </tr>
-                <tr>
-                  <td>Dispenser/Dropper</td>
-                  <td>20%</td>
-                </tr>
-                <tr>
-                  <td>Magma block</td>
-                  <td>25%</td>
-                </tr>
-              </table>
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Required blocks</th>
-                </tr>
-                <tr>
-                  <td>Block type</td>
-                  <td>Required%</td>
-                </tr>
-                <tr>
-                  <td>Beacon</td>
-                  <td>0.2%</td>
-                </tr>
-                <tr>
-                  <td>Sea lantern</td>
-                  <td rowspan="2">2%</td>
-                </tr>
-                <tr>
-                  <td>Redstone block</td>
-                </tr>
-              </table>
-            </div>
-          </subarticle>
-          <subarticle id="freighter">
-            <a href="../movecraft/crafts.html#freighter">
-              <h3>Freighter</h3>
-            </a>
-            <div class="twrapper">
-              <table class="stats">
-                <div class="list-box-wrapper">
-                  <h3>Valid blocks</h3>
-                  <input type="text" id="freighter-search" placeholder="Type here to search valid blocks"
-                    oninput="search('freighter')">
-                  <div id="freighter-table" class="list-box">
-                    <item>barrel</item>
-                    <item>beacon</item>
-                    <item>blast furnace</item>
-                    <item>bookshelf</item>
-                    <item>brewing stand</item>
-                    <item>bricks</item>
-                    <item>cake</item>
-                    <item>cauldron</item>
-                    <item>chain</item>
-                    <item>chest</item>
-                    <item>chiseled quartz block</item>
-                    <item>coal block</item>
-                    <item>comparator</item>
-                    <item>crafting table</item>
-                    <item>daylight detector</item>
-                    <item>dispenser</item>
-                    <item>dropper</item>
-                    <item>enchanting table</item>
-                    <item>end rod</item>
-                    <item>end stone</item>
-                    <item>end stone bricks</item>
-                    <item>ender chest</item>
-                    <item>fire</item>
-                    <item>flower pot</item>
-                    <item>furnace</item>
-                    <item>glowstone</item>
-                    <item>gold block</item>
-                    <item>grindstone</item>
-                    <item>hopper</item>
-                    <item>iron bars</item>
-                    <item>iron block</item>
-                    <item>ladder</item>
-                    <item>lapis block</item>
-                    <item>lectern</item>
-                    <item>lever</item>
-                    <item>lodestone</item>
-                    <item>magma block</item>
-                    <item>mushroom stem</item>
-                    <item>note block</item>
-                    <item>observer</item>
-                    <item>piston</item>
-                    <item>piston head</item>
-                    <item>purpur pillar</item>
-                    <item>quartz block</item>
-                    <item>quartz bricks</item>
-                    <item>quartz pillar</item>
-                    <item>redstone block</item>
-                    <item>redstone lamp</item>
-                    <item>redstone torch</item>
-                    <item>redstone wire</item>
-                    <item>repeater</item>
-                    <item>sea lantern</item>
-                    <item>slime block</item>
-                    <item>smoker</item>
-                    <item>smooth quartz</item>
-                    <item>sticky piston</item>
-                    <item>target</item>
-                    <item>torch</item>
-                    <item>tripwire hook</item>
-                    <item>all banners</item>
-                    <item>all buttons</item>
-                    <item>all carpets</item>
-                    <item>all doors</item>
-                    <item>all fence gates</item>
-                    <item>all fences</item>
-                    <item>all pressure plates</item>
-                    <item>all trapdoors</item>
-                    <item>lightning rod</item>
-                    <item>stonecutter </item>
-                    <item>all stairs</item>
-                    <item>all slabs</item>
-                    <item>all terracotta</item>
-                    <item>all glazed terracotta</item>
-                    <item>all walls</item>
-                    <item>all glass</item>
-                    <item>all planks</item>
-                    <item>all copper variants (exposed waxed etc)</item>
-                    <item>all concrete</item>
-                    <item>all beds</item>
-                    <item>all wool</item>
-                    <item>all signs</item>
-                  </div>
-                </div>
-                <table class="stats">
-                  <tr>
-                    <th colspan="2">Restricted blocks</th>
-                  </tr>
-                  <tr>
-                    <td>Block type</td>
-                    <td>Allowed%</td>
-                  </tr>
-                  <tr>
-                    <td>Ender chest</td>
-                    <td>1.125%</td>
-                  </tr>
-                  <tr>
-                    <td>Anvil</td>
-                    <td>1.125%</td>
-                  </tr>
-                  <tr>
-                    <td>Enchantment table</td>
-                    <td>1.125%</td>
-                  </tr>
-                  <tr>
-                    <td>Chest/Barrel</td>
-                    <td>22.5%</td>
-                  </tr>
-                  <tr>
-                    <td>Dispenser</td>
-                    <td>16%</td>
-                  </tr>
-                  <tr>
-                    <td>Dropper</td>
-                    <td>4%</td>
-                  </tr>
-                </table>
-                <table class="stats">
-                  <tr>
-                    <th colspan="2">Required blocks</th>
-                  </tr>
-                  <tr>
-                    <td>Block type</td>
-                    <td>Required%</td>
-                  </tr>
-                  <tr>
-                    <td>Beacon</td>
-                    <td>0.2%</td>
-                  </tr>
-                  <tr>
-                    <td>Sea lantern</td>
-                    <td rowspan="2">2.5%</td>
-                  </tr>
-                  <tr>
-                    <td>Redstone block</td>
-                  </tr>
-                </table>
-            </div>
-          </subarticle>
-          <subarticle id="dreadnaught">
-            <a href="../movecraft/crafts.html#dreadnaught">
-              <h3>Dreadnaught</h3>
-            </a>
-            <div class="twrapper">
-              <div class="list-box-wrapper">
-                <h3>Valid blocks</h3>
-                <input type="text" id="dreadnaught-search" placeholder="Type here to search valid blocks"
-                  oninput="search('dreadnaught')">
-                <div id="dreadnaught-table" class="list-box">
-                  <item>barrel</item>
-                  <item>beacon</item>
-                  <item>blast furnace</item>
-                  <item>blue ice</item>
-                  <item>bookshelf</item>
-                  <item>brewing stand</item>
-                  <item>bricks</item>
-                  <item>cake</item>
-                  <item>cauldron</item>
-                  <item>chain</item>
-                  <item>chest</item>
-                  <item>chiseled quartz block</item>
-                  <item>chiseled stone bricks</item>
-                  <item>coal block</item>
-                  <item>comparator</item>
-                  <item>cracked stone bricks</item>
-                  <item>crafting table</item>
-                  <item>daylight detector</item>
-                  <item>dispenser</item>
-                  <item>dropper</item>
-                  <item>enchanting table</item>
-                  <item>end stone</item>
-                  <item>ender chest</item>
-                  <item>fire</item>
-                  <item>flower pot</item>
-                  <item>furnace</item>
-                  <item>glowstone</item>
-                  <item>gold block</item>
-                  <item>grindstone</item>
-                  <item>hopper</item>
-                  <item>iron bars</item>
-                  <item>iron block</item>
-                  <item>ladder</item>
-                  <item>lantern</item>
-                  <item>lapis block</item>
-                  <item>lectern</item>
-                  <item>lever</item>
-                  <item>lodestone</item>
-                  <item>magma block</item>
-                  <item>mushroom stem</item>
-                  <item>note block</item>
-                  <item>observer</item>
-                  <item>piston</item>
-                  <item>purpur pillar</item>
-                  <item>quartz block</item>
-                  <item>quartz bricks</item>
-                  <item>quartz pillar</item>
-                  <item>redstone block</item>
-                  <item>redstone lamp</item>
-                  <item>redstone torch</item>
-                  <item>redstone wire</item>
-                  <item>repeater</item>
-                  <item>sea lantern</item>
-                  <item>shroomlight</item>
-                  <item>slime block</item>
-                  <item>smoker</item>
-                  <item>smooth quartz</item>
-                  <item>smooth stone</item>
-                  <item>soul lantern</item>
-                  <item>sticky piston</item>
-                  <item>stone bricks</item>
-                  <item>target</item>
-                  <item>torch</item>
-                  <item>trapped chest</item>
-                  <item>tripwire hook</item>
-                  <item>all banners</item>
-                  <item>all buttons</item>
-                  <item>all carpets</item>
-                  <item>all doors</item>
-                  <item>all fence gates</item>
-                  <item>all fences</item>
-                  <item>all pressure plates</item>
-                  <item>all rails</item>
-                  <item>all trapdoors</item>
-                  <item>cobweb</item>
-                  <item>end rod</item>
-                  <item>lightning rod</item>
-                  <item>piston head</item>
-                  <item>stonecutter </item>
-                  <item>all stairs</item>
-                  <item>all slabs</item>
-                  <item>all terracotta</item>
-                  <item>all glazed terracotta</item>
-                  <item>all walls</item>
-                  <item>all glass</item>
-                  <item>all planks</item>
-                  <item>all copper variants (exposed waxed etc)</item>
-                  <item>all concrete</item>
-                  <item>all beds</item>
-                  <item>all wool</item>
-                  <item>all signs</item>
-                </div>
-              </div>
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Restricted blocks</th>
-                </tr>
-                <tr>
-                  <td>Block type</td>
-                  <td>Allowed%</td>
-                </tr>
-                <tr>
-                  <td>Ender chest</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Anvil</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Enchantment table</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Chest/Barrel</td>
-                  <td>20%</td>
-                </tr>
-                <tr>
-                  <td>Dispenser/Dropper</td>
-                  <td>20%</td>
-                </tr>
-                <tr>
-                  <td>Endstone</td>
-                  <td>12.5%</td>
-                </tr>
-              </table>
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Required blocks</th>
-                </tr>
-                <tr>
-                  <td>Block type</td>
-                  <td>Required%</td>
-                </tr>
-                <tr>
-                  <td>Beacon</td>
-                  <td>0.25%</td>
-                </tr>
-                <tr>
-                  <td>Sea lantern</td>
-                  <td rowspan="2">2%</td>
-                </tr>
-                <tr>
-                  <td>Redstone block</td>
-                </tr>
-              </table>
-            </div>
-          </subarticle>
-          <subarticle id="station">
-            <a href="../movecraft/crafts.html#station">
-              <h3>Station</h3>
-            </a>
-            <div class="twrapper">
-              <div class="list-box-wrapper">
-                <h3>Valid blocks</h3>
-                <input type="text" id="station-search" placeholder="Type here to search valid blocks"
-                  oninput="search('station')">
-                <div id="station-table" class="list-box">
-                  <item>barrel</item>
-                  <item>beacon</item>
-                  <item>blast furnace</item>
-                  <item>bookshelf</item>
-                  <item>brewing stand</item>
-                  <item>bricks</item>
-                  <item>cake</item>
-                  <item>cauldron</item>
-                  <item>chain</item>
-                  <item>chest</item>
-                  <item>chiseled quartz block</item>
-                  <item>chiseled stone bricks</item>
-                  <item>coal block</item>
-                  <item>cobblestone</item>
-                  <item>comparator</item>
-                  <item>cracked stone bricks</item>
-                  <item>crafting table</item>
-                  <item>daylight detector</item>
-                  <item>dispenser</item>
-                  <item>dropper</item>
-                  <item>emerald block</item>
-                  <item>enchanting table</item>
-                  <item>end stone</item>
-                  <item>ender chest</item>
-                  <item>fire</item>
-                  <item>flower pot</item>
-                  <item>furnace</item>
-                  <item>glowstone</item>
-                  <item>grindstone</item>
-                  <item>hopper</item>
-                  <item>iron bars</item>
-                  <item>iron block</item>
-                  <item>ladder</item>
-                  <item>lantern</item>
-                  <item>lapis block</item>
-                  <item>lever</item>
-                  <item>magma block</item>
-                  <item>mushroom stem</item>
-                  <item>note block</item>
-                  <item>observer</item>
-                  <item>piston</item>
-                  <item>polished blackstone</item>
-                  <item>purpur pillar</item>
-                  <item>quartz block</item>
-                  <item>quartz bricks</item>
-                  <item>quartz pillar</item>
-                  <item>redstone block</item>
-                  <item>redstone lamp</item>
-                  <item>redstone torch</item>
-                  <item>redstone wire</item>
-                  <item>repeater</item>
-                  <item>sea lantern</item>
-                  <item>slime block</item>
-                  <item>smoker</item>
-                  <item>smooth quartz</item>
-                  <item>smooth stone</item>
-                  <item>soul lantern</item>
-                  <item>sticky piston</item>
-                  <item>stone bricks</item>
-                  <item>torch</item>
-                  <item>trapped chest</item>
-                  <item>tripwire hook</item>
-                  <item>all banners</item>
-                  <item>all buttons</item>
-                  <item>all carpets</item>
-                  <item>all doors</item>
-                  <item>all fence gates</item>
-                  <item>all fences</item>
-                  <item>all pressure plates</item>
-                  <item>all rails</item>
-                  <item>all trapdoors</item>
-                  <item>end rod</item>
-                  <item>lightning rod</item>
-                  <item>piston head</item>
-                  <item>stonecutter </item>
-                  <item>all stairs</item>
-                  <item>all slabs</item>
-                  <item>all terracotta</item>
-                  <item>all glazed terracotta</item>
-                  <item>all walls</item>
-                  <item>all glass</item>
-                  <item>all planks</item>
-                  <item>all copper variants (exposed waxed etc)</item>
-                  <item>all concrete</item>
-                  <item>all beds</item>
-                  <item>all wool</item>
-                  <item>all signs</item>
-                </div>
-              </div>
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Restricted blocks</th>
-                </tr>
-                <tr>
-                  <td>Block type</td>
-                  <td>Allowed%</td>
-                </tr>
-                <tr>
-                  <td>Ender chest</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Anvil</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Enchantment table</td>
-                  <td>1.125%</td>
-                </tr>
-              </table>
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Required blocks</th>
-                </tr>
-                <tr>
-                  <td>Block type</td>
-                  <td>Required%</td>
-                </tr>
-                <tr>
-                  <td>Beacon</td>
-                  <td>1%</td>
-                </tr>
-                <tr>
-                  <td>Sea lantern</td>
-                  <td rowspan="2">5%</td>
-                </tr>
-                <tr>
-                  <td>Redstone block</td>
-                </tr>
-              </table>
-            </div>
-          </subarticle>
-          <subarticle id="startitan">
-            <a href="../movecraft/crafts.html#startitan">
-              <h3>StarTitan</h3>
-            </a>
-            <div class="twrapper">
-              <div class="list-box-wrapper">
-                <h3>Valid blocks</h3>
-                <input type="text" id="startitan-search" placeholder="Type here to search valid blocks"
-                  oninput="search('startitan')">
-                <div id="startitan-table" class="list-box">
-                  <item>barrel</item>
-                  <item>beacon</item>
-                  <item>blast furnace</item>
-                  <item>bookshelf</item>
-                  <item>brewing stand</item>
-                  <item>bricks</item>
-                  <item>cake</item>
-                  <item>cauldron</item>
-                  <item>chain</item>
-                  <item>chest</item>
-                  <item>chiseled quartz block</item>
-                  <item>chiseled stone bricks</item>
-                  <item>coal block</item>
-                  <item>cobblestone</item>
-                  <item>comparator</item>
-                  <item>cracked stone bricks</item>
-                  <item>crafting table</item>
-                  <item>daylight detector</item>
-                  <item>dispenser</item>
-                  <item>dropper</item>
-                  <item>emerald block</item>
-                  <item>enchanting table</item>
-                  <item>end stone</item>
-                  <item>ender chest</item>
-                  <item>fire</item>
-                  <item>flower pot</item>
-                  <item>furnace</item>
-                  <item>glowstone</item>
-                  <item>gold block</item>
-                  <item>grindstone</item>
-                  <item>hopper</item>
-                  <item>iron bars</item>
-                  <item>iron block</item>
-                  <item>ladder</item>
-                  <item>lantern</item>
-                  <item>lapis block</item>
-                  <item>lever</item>
-                  <item>magma block</item>
-                  <item>mushroom stem</item>
-                  <item>note block</item>
-                  <item>observer</item>
-                  <item>piston</item>
-                  <item>polished blackstone</item>
-                  <item>purpur pillar</item>
-                  <item>quartz block</item>
-                  <item>quartz bricks</item>
-                  <item>quartz pillar</item>
-                  <item>redstone block</item>
-                  <item>redstone lamp</item>
-                  <item>redstone torch</item>
-                  <item>redstone wire</item>
-                  <item>repeater</item>
-                  <item>sea lantern</item>
-                  <item>slime block</item>
-                  <item>smoker</item>
-                  <item>smooth quartz</item>
-                  <item>smooth stone</item>
-                  <item>soul lantern</item>
-                  <item>sticky piston</item>
-                  <item>stone bricks</item>
-                  <item>torch</item>
-                  <item>trapped chest</item>
-                  <item>tripwire hook</item>
-                  <item>all banners</item>
-                  <item>all buttons</item>
-                  <item>all carpets</item>
-                  <item>all doors</item>
-                  <item>all fence gates</item>
-                  <item>all fences</item>
-                  <item>all logs</item>
-                  <item>all pressure plates</item>
-                  <item>all rails</item>
-                  <item>all trapdoors</item>
-                  <item>cobweb</item>
-                  <item>end rod</item>
-                  <item>piston head </item>
-                  <item>all stairs</item>
-                  <item>all slabs</item>
-                  <item>all terracotta</item>
-                  <item>all glazed terracotta</item>
-                  <item>all walls</item>
-                  <item>all glass</item>
-                  <item>all planks</item>
-                  <item>all copper variants (exposed waxed etc)</item>
-                  <item>all concrete</item>
-                  <item>all beds</item>
-                  <item>all wool</item>
-                  <item>all signs</item>
-                </div>
-              </div>
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Restricted blocks</th>
-                </tr>
-                <tr>
-                  <td>Block type</td>
-                  <td>Allowed%</td>
-                </tr>
-                <tr>
-                  <td>Ender chest</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Anvil</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Enchantment table</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Chest/Barrel</td>
-                  <td>25.5%</td>
-                </tr>
-                <tr>
-                  <td>Dispenser/Dropper</td>
-                  <td>15%</td>
-                </tr>
-              </table>
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Required blocks</th>
-                </tr>
-                <tr>
-                  <td>Block type</td>
-                  <td>Required%</td>
-                </tr>
-                <tr>
-                  <td>Beacon</td>
-                  <td>1.75%</td>
-                </tr>
-                <tr>
-                  <td>Sea lantern</td>
-                  <td rowspan="2">2.02%</td>
-                </tr>
-                <tr>
-                  <td>Redstone block</td>
-                </tr>
-              </table>
-            </div>
-          </subarticle>
-          <subarticle id="airship">
-            <a href="../movecraft/crafts.html#airship">
-              <h3>Airship</h3>
-            </a>
-            <div class="twrapper">
-              <div class="list-box-wrapper">
-                <h3>Valid blocks</h3>
-                <input type="text" id="airship-search" placeholder="Type here to search valid blocks"
-                  oninput="search('airship')">
-                <div id="airship-table" class="list-box">
-                  <item>barrel</item>
-                  <item>blast furnace</item>
-                  <item>bookshelf</item>
-                  <item>brewing stand</item>
-                  <item>bricks</item>
-                  <item>cake</item>
-                  <item>cauldron</item>
-                  <item>chain</item>
-                  <item>chest</item>
-                  <item>chiseled quartz block</item>
-                  <item>coal block</item>
-                  <item>comparator</item>
-                  <item>crafting table</item>
-                  <item>daylight detector</item>
-                  <item>dispenser</item>
-                  <item>dropper</item>
-                  <item>enchanting table</item>
-                  <item>ender chest</item>
-                  <item>fire</item>
-                  <item>flower pot</item>
-                  <item>furnace</item>
-                  <item>glowstone</item>
-                  <item>gold block</item>
-                  <item>grindstone</item>
-                  <item>hopper</item>
-                  <item>iron bars</item>
-                  <item>iron block</item>
-                  <item>ladder</item>
-                  <item>lantern</item>
-                  <item>lapis block</item>
-                  <item>lever</item>
-                  <item>lodestone</item>
-                  <item>magma block</item>
-                  <item>mushroom stem</item>
-                  <item>note block</item>
-                  <item>observer</item>
-                  <item>piston</item>
-                  <item>piston head</item>
-                  <item>purpur pillar</item>
-                  <item>quartz block</item>
-                  <item>quartz bricks</item>
-                  <item>quartz pillar</item>
-                  <item>redstone block</item>
-                  <item>redstone lamp</item>
-                  <item>redstone torch</item>
-                  <item>redstone wire</item>
-                  <item>repeater</item>
-                  <item>sea lantern</item>
-                  <item>slime block</item>
-                  <item>smoker</item>
-                  <item>smooth quartz</item>
-                  <item>smooth stone</item>
-                  <item>soul lantern</item>
-                  <item>sticky piston</item>
-                  <item>target</item>
-                  <item>torch</item>
-                  <item>trapped chest</item>
-                  <item>tripwire hook</item>
-                  <item>all banners</item>
-                  <item>all buttons</item>
-                  <item>all carpets</item>
-                  <item>all doors</item>
-                  <item>all fence gates</item>
-                  <item>all fences</item>
-                  <item>all pressure plates</item>
-                  <item>all trapdoors</item>
-                  <item>cobweb</item>
-                  <item>end rod</item>
-                  <item>lightning rod</item>
-                  <item>stonecutter </item>
-                  <item>all stairs</item>
-                  <item>all slabs</item>
-                  <item>all terracotta</item>
-                  <item>all glazed terracotta</item>
-                  <item>all walls</item>
-                  <item>all glass</item>
-                  <item>all planks</item>
-                  <item>all copper variants (exposed waxed etc)</item>
-                  <item>all concrete</item>
-                  <item>all beds</item>
-                  <item>all wool</item>
-                  <item>all signs</item>
-                </div>
-              </div>
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Restricted blocks</th>
-                </tr>
-                <tr>
-                  <td>Block type</td>
-                  <td>Allowed%</td>
-                </tr>
-                <tr>
-                  <td>Ender chest</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Anvil</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Enchantment table</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Furnace</td>
-                  <td>5%</td>
-                </tr>
-                <tr>
-                  <td>Chest/Barrel</td>
-                  <td>7.5%</td>
-                </tr>
-                <tr>
-                  <td>Dispenser/Dropper</td>
-                  <td>12.5%</td>
-                </tr>
-              </table>
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Required blocks</th>
-                </tr>
-                <tr>
-                  <td>Block type</td>
-                  <td>Required%</td>
-                </tr>
-                <tr>
-                  <td>Wool/Carpet</td>
-                  <td>25.5% - 45.5%</td>
-                </tr>
-                <tr>
-                  <td>Sea lantern</td>
-                  <td rowspan="2">5%</td>
-                </tr>
-                <tr>
-                  <td>Redstone block</td>
-                </tr>
-              </table>
-            </div>
-          </subarticle>
-          <subarticle id="plane">
-            <a href="../movecraft/crafts.html#plane">
-              <h3>Plane</h3>
-            </a>
-            <div class="twrapper">
-              <div class="list-box-wrapper">
-                <h3>Valid blocks</h3>
-                <input type="text" id="plane-search" placeholder="Type here to search valid blocks"
-                  oninput="search('plane')">
-                <div id="plane-table" class="list-box">
-                  <item>barrel</item>
-                  <item>blast furnace</item>
-                  <item>bookshelf</item>
-                  <item>brewing stand</item>
-                  <item>cake</item>
-                  <item>cauldron</item>
-                  <item>chest</item>
-                  <item>chiseled quartz block</item>
-                  <item>comparator</item>
-                  <item>crafting table</item>
-                  <item>daylight detector</item>
-                  <item>dispenser</item>
-                  <item>dropper</item>
-                  <item>enchanting table</item>
-                  <item>ender chest</item>
-                  <item>fire</item>
-                  <item>flower pot</item>
-                  <item>furnace</item>
-                  <item>glowstone</item>
-                  <item>gold block</item>
-                  <item>grindstone</item>
-                  <item>hopper</item>
-                  <item>iron bars</item>
-                  <item>iron block</item>
-                  <item>ladder</item>
-                  <item>lantern</item>
-                  <item>lapis block</item>
-                  <item>lever</item>
-                  <item>magma block</item>
-                  <item>mushroom stem</item>
-                  <item>note block</item>
-                  <item>observer</item>
-                  <item>piston</item>
-                  <item>purpur pillar</item>
-                  <item>quartz block</item>
-                  <item>quartz bricks</item>
-                  <item>quartz pillar</item>
-                  <item>redstone block</item>
-                  <item>redstone lamp</item>
-                  <item>redstone torch</item>
-                  <item>redstone wire</item>
-                  <item>repeater</item>
-                  <item>sea lantern</item>
-                  <item>slime block</item>
-                  <item>smoker</item>
-                  <item>smooth quartz</item>
-                  <item>soul lantern</item>
-                  <item>sticky piston</item>
-                  <item>target</item>
-                  <item>torch</item>
-                  <item>tripwire hook</item>
-                  <item>all banners</item>
-                  <item>all buttons</item>
-                  <item>all carpets</item>
-                  <item>all doors</item>
-                  <item>all fence gates</item>
-                  <item>all fences</item>
-                  <item>all pressure plates</item>
-                  <item>all trapdoors</item>
-                  <item>chain</item>
-                  <item>end rod</item>
-                  <item>lightning rod</item>
-                  <item>stonecutter </item>
-                  <item>all stairs</item>
-                  <item>all slabs</item>
-                  <item>all walls</item>
-                  <item>all glass</item>
-                  <item>all planks</item>
-                  <item>all copper variants (exposed waxed etc)</item>
-                  <item>all beds</item>
-                  <item>all wool</item>
-                  <item>all signs</item>
-                </div>
-              </div>
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Restricted blocks</th>
-                </tr>
-                <tr>
-                  <td>Block type</td>
-                  <td>Allowed%</td>
-                </tr>
-                <tr>
-                  <td>Ender chest</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Anvil</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Enchantment table</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Chest/Barrel</td>
-                  <td>2.5%</td>
-                </tr>
-                <tr>
-                  <td>Dispenser</td>
-                  <td>5%</td>
-                </tr>
-              </table>
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Required blocks</th>
-                </tr>
-                <tr>
-                  <td>Block type</td>
-                  <td>Required%</td>
-                </tr>
-                <tr>
-                  <td>Wool/Carpet</td>
-                  <td>30%</td>
-                </tr>
-                <tr>
-                  <td>Sea lantern</td>
-                  <td rowspan="2">7.5%</td>
-                </tr>
-                <tr>
-                  <td>Redstone block</td>
-                </tr>
-              </table>
-            </div>
-          </subarticle>
-          <subarticle id="tank">
-            <a href="../movecraft/crafts.html#tank">
-              <h3>Tank</h3>
-            </a>
-            <div class="twrapper">
-              <div class="list-box-wrapper">
-                <h3>Valid blocks</h3>
-                <input type="text" id="tank-search" placeholder="Type here to search valid blocks"
-                  oninput="search('tank')">
-                <div id="tank-table" class="list-box">
-                  <item>barrel</item>
-                  <item>blast furnace</item>
-                  <item>bookshelf</item>
-                  <item>brewing stand</item>
-                  <item>cake</item>
-                  <item>cauldron</item>
-                  <item>chain</item>
-                  <item>chest</item>
-                  <item>chiseled nether bricks</item>
-                  <item>chiseled quartz block</item>
-                  <item>coal block</item>
-                  <item>comparator</item>
-                  <item>crafting table</item>
-                  <item>daylight detector</item>
-                  <item>dispenser</item>
-                  <item>dropper</item>
-                  <item>enchanting table</item>
-                  <item>ender chest</item>
-                  <item>fire</item>
-                  <item>flower pot</item>
-                  <item>furnace</item>
-                  <item>glowstone</item>
-                  <item>gold block</item>
-                  <item>grindstone</item>
-                  <item>hopper</item>
-                  <item>iron bars</item>
-                  <item>iron block</item>
-                  <item>ladder</item>
-                  <item>lapis block</item>
-                  <item>lever</item>
-                  <item>lodestone</item>
-                  <item>magma block</item>
-                  <item>mushroom stem</item>
-                  <item>nether brick</item>
-                  <item>nether bricks</item>
-                  <item>note block</item>
-                  <item>observer</item>
-                  <item>piston</item>
-                  <item>purpur pillar</item>
-                  <item>quartz block</item>
-                  <item>quartz bricks</item>
-                  <item>quartz pillar</item>
-                  <item>redstone block</item>
-                  <item>redstone lamp</item>
-                  <item>redstone torch</item>
-                  <item>redstone wire</item>
-                  <item>repeater</item>
-                  <item>sea lantern</item>
-                  <item>slime block</item>
-                  <item>smoker</item>
-                  <item>smooth quartz</item>
-                  <item>smooth stone</item>
-                  <item>sticky piston</item>
-                  <item>target</item>
-                  <item>torch</item>
-                  <item>trapped chest</item>
-                  <item>tripwire hook</item>
-                  <item>all banners</item>
-                  <item>all buttons</item>
-                  <item>all carpets</item>
-                  <item>all doors</item>
-                  <item>all fence gates</item>
-                  <item>all fences</item>
-                  <item>all pressure plates</item>
-                  <item>all trapdoors</item>
-                  <item>end rod</item>
-                  <item>lightning rod</item>
-                  <item>piston head</item>
-                  <item>stonecutter </item>
-                  <item>all stairs</item>
-                  <item>all slabs</item>
-                  <item>all terracotta</item>
-                  <item>all glazed terracotta</item>
-                  <item>all walls</item>
-                  <item>all glass</item>
-                  <item>all planks</item>
-                  <item>all copper variants (exposed waxed etc)</item>
-                  <item>all concrete</item>
-                  <item>all beds</item>
-                  <item>all wool</item>
-                  <item>all signs</item>
-                </div>
-              </div>
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Restricted blocks</th>
-                </tr>
-                <tr>
-                  <td>Block type</td>
-                  <td>Allowed%</td>
-                </tr>
-                <tr>
-                  <td>Ender chest</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Anvil</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Enchantment table</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Chest/Barrel</td>
-                  <td>15%</td>
-                </tr>
-                <tr>
-                  <td>Dispenser</td>
-                  <td>5%</td>
-                </tr>
-                <tr>
-                  <td>Dropper</td>
-                  <td>12%</td>
-                </tr>
-              </table>
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Required blocks</th>
-                </tr>
-                <tr>
-                  <td>Block type</td>
-                  <td>Required%</td>
-                </tr>
-                <tr>
-                  <td>Glazed terracotta/ Iron block</td>
-                  <td>7.5%</td>
-                </tr>
-                <tr>
-                  <td>Sea lantern</td>
-                  <td rowspan="2">4.5%</td>
-                </tr>
-                <tr>
-                  <td>Redstone block</td>
-                </tr>
-              </table>
-            </div>
-          </subarticle>
-          <subarticle id="train">
-            <a href="../movecraft/crafts.html#train">
-              <h3>Train</h3>
-            </a>
-            <div class="twrapper">
-              <div class="list-box-wrapper">
-                <h3>Valid blocks</h3>
-                <input type="text" id="train-search" placeholder="Type here to search valid blocks"
-                  oninput="search('train')">
-                <div id="train-table" class="list-box">
-                  <item>bookshelf</item>
-                  <item>brewing stand</item>
-                  <item>cake</item>
-                  <item>cauldron</item>
-                  <item>chest</item>
-                  <item>coal block</item>
-                  <item>comparator</item>
-                  <item>crafting table</item>
-                  <item>daylight detector</item>
-                  <item>dispenser</item>
-                  <item>dropper</item>
-                  <item>enchanting table</item>
-                  <item>ender chest</item>
-                  <item>fire</item>
-                  <item>flower pot</item>
-                  <item>furnace</item>
-                  <item>glowstone</item>
-                  <item>gold block</item>
-                  <item>grindstone</item>
-                  <item>hopper</item>
-                  <item>iron bars</item>
-                  <item>iron block</item>
-                  <item>ladder</item>
-                  <item>lever</item>
-                  <item>lodestone</item>
-                  <item>magma block</item>
-                  <item>note block</item>
-                  <item>observer</item>
-                  <item>piston</item>
-                  <item>purpur pillar</item>
-                  <item>redstone block</item>
-                  <item>redstone lamp</item>
-                  <item>redstone wire</item>
-                  <item>repeater</item>
-                  <item>slime block</item>
-                  <item>sticky piston</item>
-                  <item>target</item>
-                  <item>torch</item>
-                  <item>trapped chest</item>
-                  <item>tripwire hook</item>
-                  <item>all banners</item>
-                  <item>all buttons</item>
-                  <item>all carpets</item>
-                  <item>all doors</item>
-                  <item>all fence gates</item>
-                  <item>all fences</item>
-                  <item>all pressure plates</item>
-                  <item>all rails</item>
-                  <item>all trapdoors</item>
-                  <item>chain</item>
-                  <item>end rod</item>
-                  <item>lightning rod</item>
-                  <item>mushroom stem</item>
-                  <item>stonecutter </item>
-                  <item>all stairs</item>
-                  <item>all slabs</item>
-                  <item>all terracotta</item>
-                  <item>all glazed terracotta</item>
-                  <item>all walls</item>
-                  <item>all glass</item>
-                  <item>all planks</item>
-                  <item>all copper variants (exposed waxed etc)</item>
-                  <item>all beds</item>
-                  <item>all wool</item>
-                  <item>all signs</item>
-                </div>
-              </div>
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Restricted blocks</th>
-                </tr>
-                <tr>
-                  <td>Block type</td>
-                  <td>Allowed%</td>
-                </tr>
-                <tr>
-                  <td>Ender chest</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Anvil</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Enchantment table</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Dispenser/Dropper</td>
-                  <td>12%</td>
-                </tr>
-                <tr>
-                  <td>Chest/Barrel</td>
-                  <td>50%</td>
-                </tr>
-              </table>
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Required blocks</th>
-                </tr>
-                <tr>
-                  <td>Block type</td>
-                  <td>Required%</td>
-                </tr>
-                <tr>
-                  <td>Sea lantern</td>
-                  <td rowspan="2">4%</td>
-                </tr>
-                <tr>
-                  <td>Redstone block</td>
-                </tr>
-              </table>
-            </div>
-          </subarticle>
-          <subarticle id="landtitan">
-            <a href="../movecraft/crafts.html#landtitan">
-              <h3>Landtitan</h3>
-            </a>
-            <div class="twrapper">
-              <div class="list-box-wrapper">
-                <h3>Valid blocks</h3>
-                <input type="text" id="landtitan-search" placeholder="Type here to search valid blocks"
-                  oninput="search('landtitan')">
-                <div id="landtitan-table" class="list-box">
-                  <item>barrel</item>
-                  <item>beacon</item>
-                  <item>blast furnace</item>
-                  <item>bookshelf</item>
-                  <item>brewing stand</item>
-                  <item>bricks</item>
-                  <item>cake</item>
-                  <item>cauldron</item>
-                  <item>chain</item>
-                  <item>chest</item>
-                  <item>chiseled quartz block</item>
-                  <item>chiseled stone bricks</item>
-                  <item>coal block</item>
-                  <item>cobblestone</item>
-                  <item>comparator</item>
-                  <item>cracked stone bricks</item>
-                  <item>crafting table</item>
-                  <item>daylight detector</item>
-                  <item>dispenser</item>
-                  <item>dropper</item>
-                  <item>emerald block</item>
-                  <item>enchanting table</item>
-                  <item>end stone</item>
-                  <item>ender chest</item>
-                  <item>fire</item>
-                  <item>flower pot</item>
-                  <item>furnace</item>
-                  <item>glowstone</item>
-                  <item>gold block</item>
-                  <item>grindstone</item>
-                  <item>hopper</item>
-                  <item>iron bars</item>
-                  <item>iron block</item>
-                  <item>ladder</item>
-                  <item>lantern</item>
-                  <item>lapis block</item>
-                  <item>lever</item>
-                  <item>magma block</item>
-                  <item>mushroom stem</item>
-                  <item>note block</item>
-                  <item>observer</item>
-                  <item>piston</item>
-                  <item>polished blackstone</item>
-                  <item>purpur pillar</item>
-                  <item>quartz block</item>
-                  <item>quartz bricks</item>
-                  <item>quartz pillar</item>
-                  <item>redstone block</item>
-                  <item>redstone lamp</item>
-                  <item>redstone torch</item>
-                  <item>redstone wire</item>
-                  <item>repeater</item>
-                  <item>sea lantern</item>
-                  <item>slime block</item>
-                  <item>smoker</item>
-                  <item>smooth quartz</item>
-                  <item>smooth stone</item>
-                  <item>soul lantern</item>
-                  <item>sticky piston</item>
-                  <item>stone bricks</item>
-                  <item>torch</item>
-                  <item>trapped chest</item>
-                  <item>tripwire hook</item>
-                  <item>all banners</item>
-                  <item>all buttons</item>
-                  <item>all carpets</item>
-                  <item>all doors</item>
-                  <item>all fence gates</item>
-                  <item>all fences</item>
-                  <item>all logs</item>
-                  <item>all pressure plates</item>
-                  <item>all rails</item>
-                  <item>all trapdoors</item>
-                  <item>cobweb</item>
-                  <item>end rod</item>
-                  <item>piston head </item>
-                  <item>all stairs</item>
-                  <item>all slabs</item>
-                  <item>all terracotta</item>
-                  <item>all glazed terracotta</item>
-                  <item>all walls</item>
-                  <item>all glass</item>
-                  <item>all planks</item>
-                  <item>all copper variants (exposed waxed etc)</item>
-                  <item>all concrete</item>
-                  <item>all beds</item>
-                  <item>all wool</item>
-                  <item>all signs</item>
-                </div>
-              </div>
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Restricted blocks</th>
-                </tr>
-                <tr>
-                  <td>Block type</td>
-                  <td>Allowed%</td>
-                </tr>
-                <tr>
-                  <td>Ender chest</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Anvil</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Enchantment table</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>End stone</td>
-                  <td rowspan="4">12.5%</td>
-                </tr>
-                <tr>
-                  <td>End stone brick slab</td>
-                </tr>
-                <tr>
-                  <td>End stone bricks</td>
-                </tr>
-                <tr>
-                  <td>End stone brick stairs</td>
-                </tr>
-                <tr>
-                  <td>Chest/Barrel</td>
-                  <td>15%</td>
-                </tr>
-              </table>
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Required blocks</th>
-                </tr>
-                <tr>
-                  <td>Block type</td>
-                  <td>Required%</td>
-                </tr>
-                <tr>
-                  <td>Beacon</td>
-                  <td>7.5%</td>
-                </tr>
-                <tr>
-                  <td>Iron block</td>
-                  <td rowspan="3">25%</td>
-                </tr>
-                <tr>
-                  <td>All concrete</td>
-                </tr>
-                <tr>
-                  <td>All glazed terracotta</td>
-                </tr>
-              </table>
-            </div>
-          </subarticle>
-          <subarticle id="ship">
-            <a href="../movecraft/crafts.html#ship">
-              <h3>Ship</h3>
-            </a>
-            <div class="twrapper">
-              <div class="list-box-wrapper">
-                <h3>Valid blocks</h3>
-                <input type="text" id="ship-search" placeholder="Type here to search valid blocks"
-                  oninput="search('ship')">
-                <div id="ship-table" class="list-box">
-                  <item>barrel</item>
-                  <item>blast furnace</item>
-                  <item>bookshelf</item>
-                  <item>brewing stand</item>
-                  <item>cake</item>
-                  <item>cauldron</item>
-                  <item>chain</item>
-                  <item>chest</item>
-                  <item>chiseled quartz block</item>
-                  <item>coal block</item>
-                  <item>comparator</item>
-                  <item>crafting table</item>
-                  <item>daylight detector</item>
-                  <item>dispenser</item>
-                  <item>dropper</item>
-                  <item>enchanting table</item>
-                  <item>ender chest</item>
-                  <item>fire</item>
-                  <item>flower pot</item>
-                  <item>furnace</item>
-                  <item>glowstone</item>
-                  <item>gold block</item>
-                  <item>grindstone</item>
-                  <item>hopper</item>
-                  <item>iron bars</item>
-                  <item>iron block</item>
-                  <item>ladder</item>
-                  <item>lapis block</item>
-                  <item>lever</item>
-                  <item>lodestone</item>
-                  <item>magma block</item>
-                  <item>mushroom stem</item>
-                  <item>note block</item>
-                  <item>observer</item>
-                  <item>piston</item>
-                  <item>purpur pillar</item>
-                  <item>quartz block</item>
-                  <item>quartz bricks</item>
-                  <item>quartz pillar</item>
-                  <item>redstone block</item>
-                  <item>redstone lamp</item>
-                  <item>redstone torch</item>
-                  <item>redstone wire</item>
-                  <item>repeater</item>
-                  <item>sea lantern</item>
-                  <item>slime block</item>
-                  <item>smoker</item>
-                  <item>smooth quartz</item>
-                  <item>smooth stone</item>
-                  <item>sticky piston</item>
-                  <item>target</item>
-                  <item>torch</item>
-                  <item>trapped chest</item>
-                  <item>tripwire hook</item>
-                  <item>all banners</item>
-                  <item>all buttons</item>
-                  <item>all carpets</item>
-                  <item>all doors</item>
-                  <item>all fence gates</item>
-                  <item>all fences</item>
-                  <item>all logs</item>
-                  <item>all pressure plates</item>
-                  <item>all trapdoors</item>
-                  <item>end rod</item>
-                  <item>lantern</item>
-                  <item>lightning rod</item>
-                  <item>soul lantern</item>
-                  <item>stonecutter </item>
-                  <item>all stairs</item>
-                  <item>all slabs</item>
-                  <item>all terracotta</item>
-                  <item>all glazed terracotta</item>
-                  <item>all walls</item>
-                  <item>all glass</item>
-                  <item>all planks</item>
-                  <item>all copper variants (exposed waxed etc)</item>
-                  <item>all concrete</item>
-                  <item>all beds</item>
-                  <item>all wool</item>
-                  <item>all signs</item>
-                </div>
-              </div>
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Restricted blocks</th>
-                </tr>
-                <tr>
-                  <td>Block type</td>
-                  <td>Allowed%</td>
-                </tr>
-                <tr>
-                  <td>Ender chest</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Anvil</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Enchantment table</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Chest/Barrel</td>
-                  <td>7.5%</td>
-                </tr>
-              </table>
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Required blocks</th>
-                </tr>
-                <tr>
-                  <td>Block type</td>
-                  <td>Required%</td>
-                </tr>
-                <tr>
-                  <td>Wool/Carpet</td>
-                  <td>5%</td>
-                </tr>
-                <tr>
-                  <td>All planks OR</td>
-                  <td rowspan="2">15%</td>
-                </tr>
-                <tr>
-                  <td>Iron block</td>
-                </tr>
-              </table>
-            </div>
-          </subarticle>
-          <subarticle id="skiff">
-            <a href="../movecraft/crafts.html#skiff">
-              <h3>Skiff</h3>
-            </a>
-            <div class="twrapper">
-              <div class="list-box-wrapper">
-                <h3>Valid blocks</h3>
-                <input type="text" id="skiff-search" placeholder="Type here to search valid blocks"
-                  oninput="search('skiff')">
-                <div id="skiff-table" class="list-box">
-                  <item>all banners</item>
-                  <item>all buttons</item>
-                  <item>all carpets</item>
-                  <item>all doors</item>
-                  <item>all fence gates</item>
-                  <item>all fences</item>
-                  <item>all logs</item>
-                  <item>all pressure plates</item>
-                  <item>all trapdoors</item>
-                  <item>barrel</item>
-                  <item>blast furnace</item>
-                  <item>bookshelf</item>
-                  <item>brewing stand</item>
-                  <item>cake</item>
-                  <item>cauldron</item>
-                  <item>chain</item>
-                  <item>chest</item>
-                  <item>coal block</item>
-                  <item>comparator</item>
-                  <item>crafting table</item>
-                  <item>daylight detector</item>
-                  <item>dispenser</item>
-                  <item>dropper</item>
-                  <item>enchanting table</item>
-                  <item>end rod</item>
-                  <item>ender chest</item>
-                  <item>fire</item>
-                  <item>flower pot</item>
-                  <item>furnace</item>
-                  <item>glowstone</item>
-                  <item>gold block</item>
-                  <item>grindstone</item>
-                  <item>hopper</item>
-                  <item>iron bars</item>
-                  <item>iron block</item>
-                  <item>ladder</item>
-                  <item>lantern</item>
-                  <item>lapis block</item>
-                  <item>lever</item>
-                  <item>lightning rod</item>
-                  <item>lodestone</item>
-                  <item>magma block</item>
-                  <item>mushroom stem</item>
-                  <item>note block</item>
-                  <item>observer</item>
-                  <item>piston</item>
-                  <item>quartz block</item>
-                  <item>redstone block</item>
-                  <item>redstone lamp</item>
-                  <item>redstone torch</item>
-                  <item>redstone wire</item>
-                  <item>repeater</item>
-                  <item>sea lantern</item>
-                  <item>slime block</item>
-                  <item>smooth stone</item>
-                  <item>soul lantern</item>
-                  <item>sticky piston</item>
-                  <item>stonecutter</item>
-                  <item>target</item>
-                  <item>torch</item>
-                  <item>trapped chest</item>
-                  <item>tripwire hook </item>
-                  <item>all stairs</item>
-                  <item>all slabs</item>
-                  <item>all walls</item>
-                  <item>all glass</item>
-                  <item>all planks</item>
-                  <item>all copper variants (exposed waxed etc)</item>
-                  <item>all wool</item>
-                  <item>all signs</item>
-                </div>
-              </div>
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Restricted blocks</th>
-                </tr>
-                <tr>
-                  <td>Block type</td>
-                  <td>Allowed%</td>
-                </tr>
-                <tr>
-                  <td>Ender chest</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Anvil</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Enchantment table</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Chest/Barrel</td>
-                  <td>7.5%</td>
-                </tr>
-              </table>
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Required blocks</th>
-                </tr>
-                <tr>
-                  <td>Block type</td>
-                  <td>Required%</td>
-                </tr>
-                <tr>
-                  <td>Wool/Carpet</td>
-                  <td>5%</td>
-                </tr>
-                <tr>
-                  <td>All planks OR</td>
-                  <td rowspan="2">15%</td>
-                </tr>
-                <tr>
-                  <td>Iron block</td>
-                </tr>
-              </table>
-            </div>
-          </subarticle>
-          <subarticle id="submarine">
-            <a href="../movecraft/crafts.html#submarine">
-              <h3>Submarine</h3>
-            </a>
-            <div class="twrapper">
-              <div class="list-box-wrapper">
-                <h3>Valid blocks</h3>
-                <input type="text" id="submarine-search" placeholder="Type here to search valid blocks"
-                  oninput="search('submarine')">
-                <div id="submarine-table" class="list-box">
-                  <item>barrel</item>
-                  <item>beacon</item>
-                  <item>blast furnace</item>
-                  <item>bookshelf</item>
-                  <item>brewing stand</item>
-                  <item>bricks</item>
-                  <item>cake</item>
-                  <item>cauldron</item>
-                  <item>chain</item>
-                  <item>chest</item>
-                  <item>chiseled quartz block</item>
-                  <item>coal block</item>
-                  <item>comparator</item>
-                  <item>crafting table</item>
-                  <item>daylight detector</item>
-                  <item>dispenser</item>
-                  <item>dropper</item>
-                  <item>enchanting table</item>
-                  <item>end stone</item>
-                  <item>ender chest</item>
-                  <item>fire</item>
-                  <item>flower pot</item>
-                  <item>furnace</item>
-                  <item>glowstone</item>
-                  <item>gold block</item>
-                  <item>grindstone</item>
-                  <item>hopper</item>
-                  <item>iron bars</item>
-                  <item>iron block</item>
-                  <item>ladder</item>
-                  <item>lantern</item>
-                  <item>lapis block</item>
-                  <item>lever</item>
-                  <item>lodestone</item>
-                  <item>magma block</item>
-                  <item>mushroom stem</item>
-                  <item>note block</item>
-                  <item>observer</item>
-                  <item>piston</item>
-                  <item>purpur pillar</item>
-                  <item>quartz block</item>
-                  <item>quartz bricks</item>
-                  <item>quartz pillar</item>
-                  <item>redstone block</item>
-                  <item>redstone lamp</item>
-                  <item>redstone torch</item>
-                  <item>redstone wire</item>
-                  <item>repeater</item>
-                  <item>sea lantern</item>
-                  <item>slime block</item>
-                  <item>smoker</item>
-                  <item>smooth quartz</item>
-                  <item>smooth stone</item>
-                  <item>soul lantern</item>
-                  <item>sticky piston</item>
-                  <item>target</item>
-                  <item>torch</item>
-                  <item>tripwire hook</item>
-                  <item>all banners</item>
-                  <item>all buttons</item>
-                  <item>all carpets</item>
-                  <item>all doors</item>
-                  <item>all fence gates</item>
-                  <item>all fences</item>
-                  <item>all pressure plates</item>
-                  <item>all rails</item>
-                  <item>all trapdoors</item>
-                  <item>cobweb</item>
-                  <item>end rod</item>
-                  <item>lightning rod</item>
-                  <item>piston head</item>
-                  <item>stonecutter </item>
-                  <item>all stairs</item>
-                  <item>all slabs</item>
-                  <item>all terracotta</item>
-                  <item>all glazed terracotta</item>
-                  <item>all walls</item>
-                  <item>all glass</item>
-                  <item>all planks</item>
-                  <item>all copper variants (exposed waxed etc)</item>
-                  <item>all beds</item>
-                  <item>all wool</item>
-                  <item>all signs</item>
-                </div>
-              </div>
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Restricted blocks</th>
-                </tr>
-                <tr>
-                  <td>Block type</td>
-                  <td>Allowed%</td>
-                </tr>
-                <tr>
-                  <td>Ender chest</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Anvil</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Enchantment table</td>
-                  <td>1.125%</td>
-                </tr>
-                <tr>
-                  <td>Chest/Barrel</td>
-                  <td>7.5%</td>
-                </tr>
-              </table>
-              <table class="stats">
-                <tr>
-                  <th colspan="2">Required blocks</th>
-                </tr>
-                <tr>
-                  <td>Block type</td>
-                  <td>Required%</td>
-                </tr>
-                <tr>
-                  <td>Wool/Carpet</td>
-                  <td>6%</td>
-                </tr>
-                <tr>
-                  <td>Iron block / Iron bar</td>
-                  <td>1.5%</td>
-                </tr>
-                <tr>
-                  <td>Sea lantern</td>
-                  <td rowspan="2">7.25%</td>
-                </tr>
-                <tr>
-                  <td>Redstone block</td>
-                </tr>
-              </table>
-            </div>
-          </subarticle>
-        </article>
+          </div>
+          <table class="stats">
+            <tr>
+              <th colspan="2">Restricted blocks</th>
+            </tr>
+            <tr>
+              <td>Block type</td>
+              <td>Allowed%</td>
+            </tr>
+            <tr>
+              <td>Ender chest</td>
+              <td>1.125%</td>
+            </tr>
+            <tr>
+              <td>Anvil</td>
+              <td>1.125%</td>
+            </tr>
+            <tr>
+              <td>Enchantment table</td>
+              <td>1.125%</td>
+            </tr>
+            <tr>
+              <td>Chest/Barrel</td>
+              <td>22.5%</td>
+            </tr>
+            <tr>
+              <td>Dispenser</td>
+              <td>16%</td>
+            </tr>
+            <tr>
+              <td>Dropper</td>
+              <td>4%</td>
+            </tr>
+          </table>
+          <table class="stats">
+            <tr>
+              <th colspan="2">Required blocks</th>
+            </tr>
+            <tr>
+              <td>Block type</td>
+              <td>Required%</td>
+            </tr>
+            <tr>
+              <td>Beacon</td>
+              <td>0.2%</td>
+            </tr>
+            <tr>
+              <td>Sea lantern</td>
+              <td rowspan="2">2.5%</td>
+            </tr>
+            <tr>
+              <td>Redstone block</td>
+            </tr>
+          </table>
+      </div>
+    </subarticle>
+    <subarticle id="dreadnaught">
+      <a href="../movecraft/crafts.html#dreadnaught">
+        <h3>Dreadnaught</h3>
+      </a>
+      <div class="twrapper">
+        <div class="list-box-wrapper">
+          <h3>Valid blocks</h3>
+          <input type="text" id="dreadnaught-search" placeholder="Type here to search valid blocks"
+            oninput="search('dreadnaught')">
+          <div id="dreadnaught-table" class="list-box">
+            <item>barrel</item>
+            <item>beacon</item>
+            <item>blast furnace</item>
+            <item>blue ice</item>
+            <item>bookshelf</item>
+            <item>brewing stand</item>
+            <item>bricks</item>
+            <item>cake</item>
+            <item>cauldron</item>
+            <item>chain</item>
+            <item>chest</item>
+            <item>chiseled quartz block</item>
+            <item>chiseled stone bricks</item>
+            <item>coal block</item>
+            <item>comparator</item>
+            <item>cracked stone bricks</item>
+            <item>crafting table</item>
+            <item>daylight detector</item>
+            <item>dispenser</item>
+            <item>dropper</item>
+            <item>enchanting table</item>
+            <item>end stone</item>
+            <item>ender chest</item>
+            <item>fire</item>
+            <item>flower pot</item>
+            <item>furnace</item>
+            <item>glowstone</item>
+            <item>gold block</item>
+            <item>grindstone</item>
+            <item>hopper</item>
+            <item>iron bars</item>
+            <item>iron block</item>
+            <item>ladder</item>
+            <item>lantern</item>
+            <item>lapis block</item>
+            <item>lectern</item>
+            <item>lever</item>
+            <item>lodestone</item>
+            <item>magma block</item>
+            <item>mushroom stem</item>
+            <item>note block</item>
+            <item>observer</item>
+            <item>piston</item>
+            <item>purpur pillar</item>
+            <item>quartz block</item>
+            <item>quartz bricks</item>
+            <item>quartz pillar</item>
+            <item>redstone block</item>
+            <item>redstone lamp</item>
+            <item>redstone torch</item>
+            <item>redstone wire</item>
+            <item>repeater</item>
+            <item>sea lantern</item>
+            <item>shroomlight</item>
+            <item>slime block</item>
+            <item>smoker</item>
+            <item>smooth quartz</item>
+            <item>smooth stone</item>
+            <item>soul lantern</item>
+            <item>sticky piston</item>
+            <item>stone bricks</item>
+            <item>target</item>
+            <item>torch</item>
+            <item>trapped chest</item>
+            <item>tripwire hook</item>
+            <item>all banners</item>
+            <item>all buttons</item>
+            <item>all carpets</item>
+            <item>all doors</item>
+            <item>all fence gates</item>
+            <item>all fences</item>
+            <item>all pressure plates</item>
+            <item>all rails</item>
+            <item>all trapdoors</item>
+            <item>cobweb</item>
+            <item>end rod</item>
+            <item>lightning rod</item>
+            <item>piston head</item>
+            <item>stonecutter </item>
+            <item>all stairs</item>
+            <item>all slabs</item>
+            <item>all terracotta</item>
+            <item>all glazed terracotta</item>
+            <item>all walls</item>
+            <item>all glass</item>
+            <item>all planks</item>
+            <item>all copper variants (exposed waxed etc)</item>
+            <item>all concrete</item>
+            <item>all beds</item>
+            <item>all wool</item>
+            <item>all signs</item>
+          </div>
+        </div>
+        <table class="stats">
+          <tr>
+            <th colspan="2">Restricted blocks</th>
+          </tr>
+          <tr>
+            <td>Block type</td>
+            <td>Allowed%</td>
+          </tr>
+          <tr>
+            <td>Ender chest</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Anvil</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Enchantment table</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Chest/Barrel</td>
+            <td>20%</td>
+          </tr>
+          <tr>
+            <td>Dispenser/Dropper</td>
+            <td>20%</td>
+          </tr>
+          <tr>
+            <td>Endstone</td>
+            <td>12.5%</td>
+          </tr>
+        </table>
+        <table class="stats">
+          <tr>
+            <th colspan="2">Required blocks</th>
+          </tr>
+          <tr>
+            <td>Block type</td>
+            <td>Required%</td>
+          </tr>
+          <tr>
+            <td>Beacon</td>
+            <td>0.25%</td>
+          </tr>
+          <tr>
+            <td>Sea lantern</td>
+            <td rowspan="2">2%</td>
+          </tr>
+          <tr>
+            <td>Redstone block</td>
+          </tr>
+        </table>
+      </div>
+    </subarticle>
+    <subarticle id="station">
+      <a href="../movecraft/crafts.html#station">
+        <h3>Station</h3>
+      </a>
+      <div class="twrapper">
+        <div class="list-box-wrapper">
+          <h3>Valid blocks</h3>
+          <input type="text" id="station-search" placeholder="Type here to search valid blocks"
+            oninput="search('station')">
+          <div id="station-table" class="list-box">
+            <item>barrel</item>
+            <item>beacon</item>
+            <item>blast furnace</item>
+            <item>bookshelf</item>
+            <item>brewing stand</item>
+            <item>bricks</item>
+            <item>cake</item>
+            <item>cauldron</item>
+            <item>chain</item>
+            <item>chest</item>
+            <item>chiseled quartz block</item>
+            <item>chiseled stone bricks</item>
+            <item>coal block</item>
+            <item>cobblestone</item>
+            <item>comparator</item>
+            <item>cracked stone bricks</item>
+            <item>crafting table</item>
+            <item>daylight detector</item>
+            <item>dispenser</item>
+            <item>dropper</item>
+            <item>emerald block</item>
+            <item>enchanting table</item>
+            <item>end stone</item>
+            <item>ender chest</item>
+            <item>fire</item>
+            <item>flower pot</item>
+            <item>furnace</item>
+            <item>glowstone</item>
+            <item>grindstone</item>
+            <item>hopper</item>
+            <item>iron bars</item>
+            <item>iron block</item>
+            <item>ladder</item>
+            <item>lantern</item>
+            <item>lapis block</item>
+            <item>lever</item>
+            <item>magma block</item>
+            <item>mushroom stem</item>
+            <item>note block</item>
+            <item>observer</item>
+            <item>piston</item>
+            <item>polished blackstone</item>
+            <item>purpur pillar</item>
+            <item>quartz block</item>
+            <item>quartz bricks</item>
+            <item>quartz pillar</item>
+            <item>redstone block</item>
+            <item>redstone lamp</item>
+            <item>redstone torch</item>
+            <item>redstone wire</item>
+            <item>repeater</item>
+            <item>sea lantern</item>
+            <item>slime block</item>
+            <item>smoker</item>
+            <item>smooth quartz</item>
+            <item>smooth stone</item>
+            <item>soul lantern</item>
+            <item>sticky piston</item>
+            <item>stone bricks</item>
+            <item>torch</item>
+            <item>trapped chest</item>
+            <item>tripwire hook</item>
+            <item>all banners</item>
+            <item>all buttons</item>
+            <item>all carpets</item>
+            <item>all doors</item>
+            <item>all fence gates</item>
+            <item>all fences</item>
+            <item>all pressure plates</item>
+            <item>all rails</item>
+            <item>all trapdoors</item>
+            <item>end rod</item>
+            <item>lightning rod</item>
+            <item>piston head</item>
+            <item>stonecutter </item>
+            <item>all stairs</item>
+            <item>all slabs</item>
+            <item>all terracotta</item>
+            <item>all glazed terracotta</item>
+            <item>all walls</item>
+            <item>all glass</item>
+            <item>all planks</item>
+            <item>all copper variants (exposed waxed etc)</item>
+            <item>all concrete</item>
+            <item>all beds</item>
+            <item>all wool</item>
+            <item>all signs</item>
+          </div>
+        </div>
+        <table class="stats">
+          <tr>
+            <th colspan="2">Restricted blocks</th>
+          </tr>
+          <tr>
+            <td>Block type</td>
+            <td>Allowed%</td>
+          </tr>
+          <tr>
+            <td>Ender chest</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Anvil</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Enchantment table</td>
+            <td>1.125%</td>
+          </tr>
+        </table>
+        <table class="stats">
+          <tr>
+            <th colspan="2">Required blocks</th>
+          </tr>
+          <tr>
+            <td>Block type</td>
+            <td>Required%</td>
+          </tr>
+          <tr>
+            <td>Beacon</td>
+            <td>1%</td>
+          </tr>
+          <tr>
+            <td>Sea lantern</td>
+            <td rowspan="2">5%</td>
+          </tr>
+          <tr>
+            <td>Redstone block</td>
+          </tr>
+        </table>
+      </div>
+    </subarticle>
+    <subarticle id="startitan">
+      <a href="../movecraft/crafts.html#startitan">
+        <h3>StarTitan</h3>
+      </a>
+      <div class="twrapper">
+        <div class="list-box-wrapper">
+          <h3>Valid blocks</h3>
+          <input type="text" id="startitan-search" placeholder="Type here to search valid blocks"
+            oninput="search('startitan')">
+          <div id="startitan-table" class="list-box">
+            <item>barrel</item>
+            <item>beacon</item>
+            <item>blast furnace</item>
+            <item>bookshelf</item>
+            <item>brewing stand</item>
+            <item>bricks</item>
+            <item>cake</item>
+            <item>cauldron</item>
+            <item>chain</item>
+            <item>chest</item>
+            <item>chiseled quartz block</item>
+            <item>chiseled stone bricks</item>
+            <item>coal block</item>
+            <item>cobblestone</item>
+            <item>comparator</item>
+            <item>cracked stone bricks</item>
+            <item>crafting table</item>
+            <item>daylight detector</item>
+            <item>dispenser</item>
+            <item>dropper</item>
+            <item>emerald block</item>
+            <item>enchanting table</item>
+            <item>end stone</item>
+            <item>ender chest</item>
+            <item>fire</item>
+            <item>flower pot</item>
+            <item>furnace</item>
+            <item>glowstone</item>
+            <item>gold block</item>
+            <item>grindstone</item>
+            <item>hopper</item>
+            <item>iron bars</item>
+            <item>iron block</item>
+            <item>ladder</item>
+            <item>lantern</item>
+            <item>lapis block</item>
+            <item>lever</item>
+            <item>magma block</item>
+            <item>mushroom stem</item>
+            <item>note block</item>
+            <item>observer</item>
+            <item>piston</item>
+            <item>polished blackstone</item>
+            <item>purpur pillar</item>
+            <item>quartz block</item>
+            <item>quartz bricks</item>
+            <item>quartz pillar</item>
+            <item>redstone block</item>
+            <item>redstone lamp</item>
+            <item>redstone torch</item>
+            <item>redstone wire</item>
+            <item>repeater</item>
+            <item>sea lantern</item>
+            <item>slime block</item>
+            <item>smoker</item>
+            <item>smooth quartz</item>
+            <item>smooth stone</item>
+            <item>soul lantern</item>
+            <item>sticky piston</item>
+            <item>stone bricks</item>
+            <item>torch</item>
+            <item>trapped chest</item>
+            <item>tripwire hook</item>
+            <item>all banners</item>
+            <item>all buttons</item>
+            <item>all carpets</item>
+            <item>all doors</item>
+            <item>all fence gates</item>
+            <item>all fences</item>
+            <item>all logs</item>
+            <item>all pressure plates</item>
+            <item>all rails</item>
+            <item>all trapdoors</item>
+            <item>cobweb</item>
+            <item>end rod</item>
+            <item>piston head </item>
+            <item>all stairs</item>
+            <item>all slabs</item>
+            <item>all terracotta</item>
+            <item>all glazed terracotta</item>
+            <item>all walls</item>
+            <item>all glass</item>
+            <item>all planks</item>
+            <item>all copper variants (exposed waxed etc)</item>
+            <item>all concrete</item>
+            <item>all beds</item>
+            <item>all wool</item>
+            <item>all signs</item>
+          </div>
+        </div>
+        <table class="stats">
+          <tr>
+            <th colspan="2">Restricted blocks</th>
+          </tr>
+          <tr>
+            <td>Block type</td>
+            <td>Allowed%</td>
+          </tr>
+          <tr>
+            <td>Ender chest</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Anvil</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Enchantment table</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Chest/Barrel</td>
+            <td>25.5%</td>
+          </tr>
+          <tr>
+            <td>Dispenser/Dropper</td>
+            <td>15%</td>
+          </tr>
+        </table>
+        <table class="stats">
+          <tr>
+            <th colspan="2">Required blocks</th>
+          </tr>
+          <tr>
+            <td>Block type</td>
+            <td>Required%</td>
+          </tr>
+          <tr>
+            <td>Beacon</td>
+            <td>1.75%</td>
+          </tr>
+          <tr>
+            <td>Sea lantern</td>
+            <td rowspan="2">2.02%</td>
+          </tr>
+          <tr>
+            <td>Redstone block</td>
+          </tr>
+        </table>
+      </div>
+    </subarticle>
+    <subarticle id="airship">
+      <a href="../movecraft/crafts.html#airship">
+        <h3>Airship</h3>
+      </a>
+      <div class="twrapper">
+        <div class="list-box-wrapper">
+          <h3>Valid blocks</h3>
+          <input type="text" id="airship-search" placeholder="Type here to search valid blocks"
+            oninput="search('airship')">
+          <div id="airship-table" class="list-box">
+            <item>barrel</item>
+            <item>blast furnace</item>
+            <item>bookshelf</item>
+            <item>brewing stand</item>
+            <item>bricks</item>
+            <item>cake</item>
+            <item>cauldron</item>
+            <item>chain</item>
+            <item>chest</item>
+            <item>chiseled quartz block</item>
+            <item>coal block</item>
+            <item>comparator</item>
+            <item>crafting table</item>
+            <item>daylight detector</item>
+            <item>dispenser</item>
+            <item>dropper</item>
+            <item>enchanting table</item>
+            <item>ender chest</item>
+            <item>fire</item>
+            <item>flower pot</item>
+            <item>furnace</item>
+            <item>glowstone</item>
+            <item>gold block</item>
+            <item>grindstone</item>
+            <item>hopper</item>
+            <item>iron bars</item>
+            <item>iron block</item>
+            <item>ladder</item>
+            <item>lantern</item>
+            <item>lapis block</item>
+            <item>lever</item>
+            <item>lodestone</item>
+            <item>magma block</item>
+            <item>mushroom stem</item>
+            <item>note block</item>
+            <item>observer</item>
+            <item>piston</item>
+            <item>piston head</item>
+            <item>purpur pillar</item>
+            <item>quartz block</item>
+            <item>quartz bricks</item>
+            <item>quartz pillar</item>
+            <item>redstone block</item>
+            <item>redstone lamp</item>
+            <item>redstone torch</item>
+            <item>redstone wire</item>
+            <item>repeater</item>
+            <item>sea lantern</item>
+            <item>slime block</item>
+            <item>smoker</item>
+            <item>smooth quartz</item>
+            <item>smooth stone</item>
+            <item>soul lantern</item>
+            <item>sticky piston</item>
+            <item>target</item>
+            <item>torch</item>
+            <item>trapped chest</item>
+            <item>tripwire hook</item>
+            <item>all banners</item>
+            <item>all buttons</item>
+            <item>all carpets</item>
+            <item>all doors</item>
+            <item>all fence gates</item>
+            <item>all fences</item>
+            <item>all pressure plates</item>
+            <item>all trapdoors</item>
+            <item>cobweb</item>
+            <item>end rod</item>
+            <item>lightning rod</item>
+            <item>stonecutter </item>
+            <item>all stairs</item>
+            <item>all slabs</item>
+            <item>all terracotta</item>
+            <item>all glazed terracotta</item>
+            <item>all walls</item>
+            <item>all glass</item>
+            <item>all planks</item>
+            <item>all copper variants (exposed waxed etc)</item>
+            <item>all concrete</item>
+            <item>all beds</item>
+            <item>all wool</item>
+            <item>all signs</item>
+          </div>
+        </div>
+        <table class="stats">
+          <tr>
+            <th colspan="2">Restricted blocks</th>
+          </tr>
+          <tr>
+            <td>Block type</td>
+            <td>Allowed%</td>
+          </tr>
+          <tr>
+            <td>Ender chest</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Anvil</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Enchantment table</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Furnace</td>
+            <td>5%</td>
+          </tr>
+          <tr>
+            <td>Chest/Barrel</td>
+            <td>7.5%</td>
+          </tr>
+          <tr>
+            <td>Dispenser/Dropper</td>
+            <td>12.5%</td>
+          </tr>
+        </table>
+        <table class="stats">
+          <tr>
+            <th colspan="2">Required blocks</th>
+          </tr>
+          <tr>
+            <td>Block type</td>
+            <td>Required%</td>
+          </tr>
+          <tr>
+            <td>Wool/Carpet</td>
+            <td>25.5% - 45.5%</td>
+          </tr>
+          <tr>
+            <td>Sea lantern</td>
+            <td rowspan="2">5%</td>
+          </tr>
+          <tr>
+            <td>Redstone block</td>
+          </tr>
+        </table>
+      </div>
+    </subarticle>
+    <subarticle id="plane">
+      <a href="../movecraft/crafts.html#plane">
+        <h3>Plane</h3>
+      </a>
+      <div class="twrapper">
+        <div class="list-box-wrapper">
+          <h3>Valid blocks</h3>
+          <input type="text" id="plane-search" placeholder="Type here to search valid blocks" oninput="search('plane')">
+          <div id="plane-table" class="list-box">
+            <item>barrel</item>
+            <item>blast furnace</item>
+            <item>bookshelf</item>
+            <item>brewing stand</item>
+            <item>cake</item>
+            <item>cauldron</item>
+            <item>chest</item>
+            <item>chiseled quartz block</item>
+            <item>comparator</item>
+            <item>crafting table</item>
+            <item>daylight detector</item>
+            <item>dispenser</item>
+            <item>dropper</item>
+            <item>enchanting table</item>
+            <item>ender chest</item>
+            <item>fire</item>
+            <item>flower pot</item>
+            <item>furnace</item>
+            <item>glowstone</item>
+            <item>gold block</item>
+            <item>grindstone</item>
+            <item>hopper</item>
+            <item>iron bars</item>
+            <item>iron block</item>
+            <item>ladder</item>
+            <item>lantern</item>
+            <item>lapis block</item>
+            <item>lever</item>
+            <item>magma block</item>
+            <item>mushroom stem</item>
+            <item>note block</item>
+            <item>observer</item>
+            <item>piston</item>
+            <item>purpur pillar</item>
+            <item>quartz block</item>
+            <item>quartz bricks</item>
+            <item>quartz pillar</item>
+            <item>redstone block</item>
+            <item>redstone lamp</item>
+            <item>redstone torch</item>
+            <item>redstone wire</item>
+            <item>repeater</item>
+            <item>sea lantern</item>
+            <item>slime block</item>
+            <item>smoker</item>
+            <item>smooth quartz</item>
+            <item>soul lantern</item>
+            <item>sticky piston</item>
+            <item>target</item>
+            <item>torch</item>
+            <item>tripwire hook</item>
+            <item>all banners</item>
+            <item>all buttons</item>
+            <item>all carpets</item>
+            <item>all doors</item>
+            <item>all fence gates</item>
+            <item>all fences</item>
+            <item>all pressure plates</item>
+            <item>all trapdoors</item>
+            <item>chain</item>
+            <item>end rod</item>
+            <item>lightning rod</item>
+            <item>stonecutter </item>
+            <item>all stairs</item>
+            <item>all slabs</item>
+            <item>all walls</item>
+            <item>all glass</item>
+            <item>all planks</item>
+            <item>all copper variants (exposed waxed etc)</item>
+            <item>all beds</item>
+            <item>all wool</item>
+            <item>all signs</item>
+          </div>
+        </div>
+        <table class="stats">
+          <tr>
+            <th colspan="2">Restricted blocks</th>
+          </tr>
+          <tr>
+            <td>Block type</td>
+            <td>Allowed%</td>
+          </tr>
+          <tr>
+            <td>Ender chest</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Anvil</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Enchantment table</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Chest/Barrel</td>
+            <td>2.5%</td>
+          </tr>
+          <tr>
+            <td>Dispenser</td>
+            <td>5%</td>
+          </tr>
+        </table>
+        <table class="stats">
+          <tr>
+            <th colspan="2">Required blocks</th>
+          </tr>
+          <tr>
+            <td>Block type</td>
+            <td>Required%</td>
+          </tr>
+          <tr>
+            <td>Wool/Carpet</td>
+            <td>30%</td>
+          </tr>
+          <tr>
+            <td>Sea lantern</td>
+            <td rowspan="2">7.5%</td>
+          </tr>
+          <tr>
+            <td>Redstone block</td>
+          </tr>
+        </table>
+      </div>
+    </subarticle>
+    <subarticle id="tank">
+      <a href="../movecraft/crafts.html#tank">
+        <h3>Tank</h3>
+      </a>
+      <div class="twrapper">
+        <div class="list-box-wrapper">
+          <h3>Valid blocks</h3>
+          <input type="text" id="tank-search" placeholder="Type here to search valid blocks" oninput="search('tank')">
+          <div id="tank-table" class="list-box">
+            <item>barrel</item>
+            <item>blast furnace</item>
+            <item>bookshelf</item>
+            <item>brewing stand</item>
+            <item>cake</item>
+            <item>cauldron</item>
+            <item>chain</item>
+            <item>chest</item>
+            <item>chiseled nether bricks</item>
+            <item>chiseled quartz block</item>
+            <item>coal block</item>
+            <item>comparator</item>
+            <item>crafting table</item>
+            <item>daylight detector</item>
+            <item>dispenser</item>
+            <item>dropper</item>
+            <item>enchanting table</item>
+            <item>ender chest</item>
+            <item>fire</item>
+            <item>flower pot</item>
+            <item>furnace</item>
+            <item>glowstone</item>
+            <item>gold block</item>
+            <item>grindstone</item>
+            <item>hopper</item>
+            <item>iron bars</item>
+            <item>iron block</item>
+            <item>ladder</item>
+            <item>lapis block</item>
+            <item>lever</item>
+            <item>lodestone</item>
+            <item>magma block</item>
+            <item>mushroom stem</item>
+            <item>nether brick</item>
+            <item>nether bricks</item>
+            <item>note block</item>
+            <item>observer</item>
+            <item>piston</item>
+            <item>purpur pillar</item>
+            <item>quartz block</item>
+            <item>quartz bricks</item>
+            <item>quartz pillar</item>
+            <item>redstone block</item>
+            <item>redstone lamp</item>
+            <item>redstone torch</item>
+            <item>redstone wire</item>
+            <item>repeater</item>
+            <item>sea lantern</item>
+            <item>slime block</item>
+            <item>smoker</item>
+            <item>smooth quartz</item>
+            <item>smooth stone</item>
+            <item>sticky piston</item>
+            <item>target</item>
+            <item>torch</item>
+            <item>trapped chest</item>
+            <item>tripwire hook</item>
+            <item>all banners</item>
+            <item>all buttons</item>
+            <item>all carpets</item>
+            <item>all doors</item>
+            <item>all fence gates</item>
+            <item>all fences</item>
+            <item>all pressure plates</item>
+            <item>all trapdoors</item>
+            <item>end rod</item>
+            <item>lightning rod</item>
+            <item>piston head</item>
+            <item>stonecutter </item>
+            <item>all stairs</item>
+            <item>all slabs</item>
+            <item>all terracotta</item>
+            <item>all glazed terracotta</item>
+            <item>all walls</item>
+            <item>all glass</item>
+            <item>all planks</item>
+            <item>all copper variants (exposed waxed etc)</item>
+            <item>all concrete</item>
+            <item>all beds</item>
+            <item>all wool</item>
+            <item>all signs</item>
+          </div>
+        </div>
+        <table class="stats">
+          <tr>
+            <th colspan="2">Restricted blocks</th>
+          </tr>
+          <tr>
+            <td>Block type</td>
+            <td>Allowed%</td>
+          </tr>
+          <tr>
+            <td>Ender chest</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Anvil</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Enchantment table</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Chest/Barrel</td>
+            <td>15%</td>
+          </tr>
+          <tr>
+            <td>Dispenser</td>
+            <td>5%</td>
+          </tr>
+          <tr>
+            <td>Dropper</td>
+            <td>12%</td>
+          </tr>
+        </table>
+        <table class="stats">
+          <tr>
+            <th colspan="2">Required blocks</th>
+          </tr>
+          <tr>
+            <td>Block type</td>
+            <td>Required%</td>
+          </tr>
+          <tr>
+            <td>Glazed terracotta/ Iron block</td>
+            <td>7.5%</td>
+          </tr>
+          <tr>
+            <td>Sea lantern</td>
+            <td rowspan="2">4.5%</td>
+          </tr>
+          <tr>
+            <td>Redstone block</td>
+          </tr>
+        </table>
+      </div>
+    </subarticle>
+    <subarticle id="train">
+      <a href="../movecraft/crafts.html#train">
+        <h3>Train</h3>
+      </a>
+      <div class="twrapper">
+        <div class="list-box-wrapper">
+          <h3>Valid blocks</h3>
+          <input type="text" id="train-search" placeholder="Type here to search valid blocks" oninput="search('train')">
+          <div id="train-table" class="list-box">
+            <item>bookshelf</item>
+            <item>brewing stand</item>
+            <item>cake</item>
+            <item>cauldron</item>
+            <item>chest</item>
+            <item>coal block</item>
+            <item>comparator</item>
+            <item>crafting table</item>
+            <item>daylight detector</item>
+            <item>dispenser</item>
+            <item>dropper</item>
+            <item>enchanting table</item>
+            <item>ender chest</item>
+            <item>fire</item>
+            <item>flower pot</item>
+            <item>furnace</item>
+            <item>glowstone</item>
+            <item>gold block</item>
+            <item>grindstone</item>
+            <item>hopper</item>
+            <item>iron bars</item>
+            <item>iron block</item>
+            <item>ladder</item>
+            <item>lever</item>
+            <item>lodestone</item>
+            <item>magma block</item>
+            <item>note block</item>
+            <item>observer</item>
+            <item>piston</item>
+            <item>purpur pillar</item>
+            <item>redstone block</item>
+            <item>redstone lamp</item>
+            <item>redstone wire</item>
+            <item>repeater</item>
+            <item>slime block</item>
+            <item>sticky piston</item>
+            <item>target</item>
+            <item>torch</item>
+            <item>trapped chest</item>
+            <item>tripwire hook</item>
+            <item>all banners</item>
+            <item>all buttons</item>
+            <item>all carpets</item>
+            <item>all doors</item>
+            <item>all fence gates</item>
+            <item>all fences</item>
+            <item>all pressure plates</item>
+            <item>all rails</item>
+            <item>all trapdoors</item>
+            <item>chain</item>
+            <item>end rod</item>
+            <item>lightning rod</item>
+            <item>mushroom stem</item>
+            <item>stonecutter </item>
+            <item>all stairs</item>
+            <item>all slabs</item>
+            <item>all terracotta</item>
+            <item>all glazed terracotta</item>
+            <item>all walls</item>
+            <item>all glass</item>
+            <item>all planks</item>
+            <item>all copper variants (exposed waxed etc)</item>
+            <item>all beds</item>
+            <item>all wool</item>
+            <item>all signs</item>
+          </div>
+        </div>
+        <table class="stats">
+          <tr>
+            <th colspan="2">Restricted blocks</th>
+          </tr>
+          <tr>
+            <td>Block type</td>
+            <td>Allowed%</td>
+          </tr>
+          <tr>
+            <td>Ender chest</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Anvil</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Enchantment table</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Dispenser/Dropper</td>
+            <td>12%</td>
+          </tr>
+          <tr>
+            <td>Chest/Barrel</td>
+            <td>50%</td>
+          </tr>
+        </table>
+        <table class="stats">
+          <tr>
+            <th colspan="2">Required blocks</th>
+          </tr>
+          <tr>
+            <td>Block type</td>
+            <td>Required%</td>
+          </tr>
+          <tr>
+            <td>Sea lantern</td>
+            <td rowspan="2">4%</td>
+          </tr>
+          <tr>
+            <td>Redstone block</td>
+          </tr>
+        </table>
+      </div>
+    </subarticle>
+    <subarticle id="landtitan">
+      <a href="../movecraft/crafts.html#landtitan">
+        <h3>Landtitan</h3>
+      </a>
+      <div class="twrapper">
+        <div class="list-box-wrapper">
+          <h3>Valid blocks</h3>
+          <input type="text" id="landtitan-search" placeholder="Type here to search valid blocks"
+            oninput="search('landtitan')">
+          <div id="landtitan-table" class="list-box">
+            <item>barrel</item>
+            <item>beacon</item>
+            <item>blast furnace</item>
+            <item>bookshelf</item>
+            <item>brewing stand</item>
+            <item>bricks</item>
+            <item>cake</item>
+            <item>cauldron</item>
+            <item>chain</item>
+            <item>chest</item>
+            <item>chiseled quartz block</item>
+            <item>chiseled stone bricks</item>
+            <item>coal block</item>
+            <item>cobblestone</item>
+            <item>comparator</item>
+            <item>cracked stone bricks</item>
+            <item>crafting table</item>
+            <item>daylight detector</item>
+            <item>dispenser</item>
+            <item>dropper</item>
+            <item>emerald block</item>
+            <item>enchanting table</item>
+            <item>end stone</item>
+            <item>ender chest</item>
+            <item>fire</item>
+            <item>flower pot</item>
+            <item>furnace</item>
+            <item>glowstone</item>
+            <item>gold block</item>
+            <item>grindstone</item>
+            <item>hopper</item>
+            <item>iron bars</item>
+            <item>iron block</item>
+            <item>ladder</item>
+            <item>lantern</item>
+            <item>lapis block</item>
+            <item>lever</item>
+            <item>magma block</item>
+            <item>mushroom stem</item>
+            <item>note block</item>
+            <item>observer</item>
+            <item>piston</item>
+            <item>polished blackstone</item>
+            <item>purpur pillar</item>
+            <item>quartz block</item>
+            <item>quartz bricks</item>
+            <item>quartz pillar</item>
+            <item>redstone block</item>
+            <item>redstone lamp</item>
+            <item>redstone torch</item>
+            <item>redstone wire</item>
+            <item>repeater</item>
+            <item>sea lantern</item>
+            <item>slime block</item>
+            <item>smoker</item>
+            <item>smooth quartz</item>
+            <item>smooth stone</item>
+            <item>soul lantern</item>
+            <item>sticky piston</item>
+            <item>stone bricks</item>
+            <item>torch</item>
+            <item>trapped chest</item>
+            <item>tripwire hook</item>
+            <item>all banners</item>
+            <item>all buttons</item>
+            <item>all carpets</item>
+            <item>all doors</item>
+            <item>all fence gates</item>
+            <item>all fences</item>
+            <item>all logs</item>
+            <item>all pressure plates</item>
+            <item>all rails</item>
+            <item>all trapdoors</item>
+            <item>cobweb</item>
+            <item>end rod</item>
+            <item>piston head </item>
+            <item>all stairs</item>
+            <item>all slabs</item>
+            <item>all terracotta</item>
+            <item>all glazed terracotta</item>
+            <item>all walls</item>
+            <item>all glass</item>
+            <item>all planks</item>
+            <item>all copper variants (exposed waxed etc)</item>
+            <item>all concrete</item>
+            <item>all beds</item>
+            <item>all wool</item>
+            <item>all signs</item>
+          </div>
+        </div>
+        <table class="stats">
+          <tr>
+            <th colspan="2">Restricted blocks</th>
+          </tr>
+          <tr>
+            <td>Block type</td>
+            <td>Allowed%</td>
+          </tr>
+          <tr>
+            <td>Ender chest</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Anvil</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Enchantment table</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>End stone</td>
+            <td rowspan="4">12.5%</td>
+          </tr>
+          <tr>
+            <td>End stone brick slab</td>
+          </tr>
+          <tr>
+            <td>End stone bricks</td>
+          </tr>
+          <tr>
+            <td>End stone brick stairs</td>
+          </tr>
+          <tr>
+            <td>Chest/Barrel</td>
+            <td>15%</td>
+          </tr>
+        </table>
+        <table class="stats">
+          <tr>
+            <th colspan="2">Required blocks</th>
+          </tr>
+          <tr>
+            <td>Block type</td>
+            <td>Required%</td>
+          </tr>
+          <tr>
+            <td>Beacon</td>
+            <td>7.5%</td>
+          </tr>
+          <tr>
+            <td>Iron block</td>
+            <td rowspan="3">25%</td>
+          </tr>
+          <tr>
+            <td>All concrete</td>
+          </tr>
+          <tr>
+            <td>All glazed terracotta</td>
+          </tr>
+        </table>
+      </div>
+    </subarticle>
+    <subarticle id="ship">
+      <a href="../movecraft/crafts.html#ship">
+        <h3>Ship</h3>
+      </a>
+      <div class="twrapper">
+        <div class="list-box-wrapper">
+          <h3>Valid blocks</h3>
+          <input type="text" id="ship-search" placeholder="Type here to search valid blocks" oninput="search('ship')">
+          <div id="ship-table" class="list-box">
+            <item>barrel</item>
+            <item>blast furnace</item>
+            <item>bookshelf</item>
+            <item>brewing stand</item>
+            <item>cake</item>
+            <item>cauldron</item>
+            <item>chain</item>
+            <item>chest</item>
+            <item>chiseled quartz block</item>
+            <item>coal block</item>
+            <item>comparator</item>
+            <item>crafting table</item>
+            <item>daylight detector</item>
+            <item>dispenser</item>
+            <item>dropper</item>
+            <item>enchanting table</item>
+            <item>ender chest</item>
+            <item>fire</item>
+            <item>flower pot</item>
+            <item>furnace</item>
+            <item>glowstone</item>
+            <item>gold block</item>
+            <item>grindstone</item>
+            <item>hopper</item>
+            <item>iron bars</item>
+            <item>iron block</item>
+            <item>ladder</item>
+            <item>lapis block</item>
+            <item>lever</item>
+            <item>lodestone</item>
+            <item>magma block</item>
+            <item>mushroom stem</item>
+            <item>note block</item>
+            <item>observer</item>
+            <item>piston</item>
+            <item>purpur pillar</item>
+            <item>quartz block</item>
+            <item>quartz bricks</item>
+            <item>quartz pillar</item>
+            <item>redstone block</item>
+            <item>redstone lamp</item>
+            <item>redstone torch</item>
+            <item>redstone wire</item>
+            <item>repeater</item>
+            <item>sea lantern</item>
+            <item>slime block</item>
+            <item>smoker</item>
+            <item>smooth quartz</item>
+            <item>smooth stone</item>
+            <item>sticky piston</item>
+            <item>target</item>
+            <item>torch</item>
+            <item>trapped chest</item>
+            <item>tripwire hook</item>
+            <item>all banners</item>
+            <item>all buttons</item>
+            <item>all carpets</item>
+            <item>all doors</item>
+            <item>all fence gates</item>
+            <item>all fences</item>
+            <item>all logs</item>
+            <item>all pressure plates</item>
+            <item>all trapdoors</item>
+            <item>end rod</item>
+            <item>lantern</item>
+            <item>lightning rod</item>
+            <item>soul lantern</item>
+            <item>stonecutter </item>
+            <item>all stairs</item>
+            <item>all slabs</item>
+            <item>all terracotta</item>
+            <item>all glazed terracotta</item>
+            <item>all walls</item>
+            <item>all glass</item>
+            <item>all planks</item>
+            <item>all copper variants (exposed waxed etc)</item>
+            <item>all concrete</item>
+            <item>all beds</item>
+            <item>all wool</item>
+            <item>all signs</item>
+          </div>
+        </div>
+        <table class="stats">
+          <tr>
+            <th colspan="2">Restricted blocks</th>
+          </tr>
+          <tr>
+            <td>Block type</td>
+            <td>Allowed%</td>
+          </tr>
+          <tr>
+            <td>Ender chest</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Anvil</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Enchantment table</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Chest/Barrel</td>
+            <td>7.5%</td>
+          </tr>
+        </table>
+        <table class="stats">
+          <tr>
+            <th colspan="2">Required blocks</th>
+          </tr>
+          <tr>
+            <td>Block type</td>
+            <td>Required%</td>
+          </tr>
+          <tr>
+            <td>Wool/Carpet</td>
+            <td>5%</td>
+          </tr>
+          <tr>
+            <td>All planks OR</td>
+            <td rowspan="2">15%</td>
+          </tr>
+          <tr>
+            <td>Iron block</td>
+          </tr>
+        </table>
+      </div>
+    </subarticle>
+    <subarticle id="skiff">
+      <a href="../movecraft/crafts.html#skiff">
+        <h3>Skiff</h3>
+      </a>
+      <div class="twrapper">
+        <div class="list-box-wrapper">
+          <h3>Valid blocks</h3>
+          <input type="text" id="skiff-search" placeholder="Type here to search valid blocks" oninput="search('skiff')">
+          <div id="skiff-table" class="list-box">
+            <item>all banners</item>
+            <item>all buttons</item>
+            <item>all carpets</item>
+            <item>all doors</item>
+            <item>all fence gates</item>
+            <item>all fences</item>
+            <item>all logs</item>
+            <item>all pressure plates</item>
+            <item>all trapdoors</item>
+            <item>barrel</item>
+            <item>blast furnace</item>
+            <item>bookshelf</item>
+            <item>brewing stand</item>
+            <item>cake</item>
+            <item>cauldron</item>
+            <item>chain</item>
+            <item>chest</item>
+            <item>coal block</item>
+            <item>comparator</item>
+            <item>crafting table</item>
+            <item>daylight detector</item>
+            <item>dispenser</item>
+            <item>dropper</item>
+            <item>enchanting table</item>
+            <item>end rod</item>
+            <item>ender chest</item>
+            <item>fire</item>
+            <item>flower pot</item>
+            <item>furnace</item>
+            <item>glowstone</item>
+            <item>gold block</item>
+            <item>grindstone</item>
+            <item>hopper</item>
+            <item>iron bars</item>
+            <item>iron block</item>
+            <item>ladder</item>
+            <item>lantern</item>
+            <item>lapis block</item>
+            <item>lever</item>
+            <item>lightning rod</item>
+            <item>lodestone</item>
+            <item>magma block</item>
+            <item>mushroom stem</item>
+            <item>note block</item>
+            <item>observer</item>
+            <item>piston</item>
+            <item>quartz block</item>
+            <item>redstone block</item>
+            <item>redstone lamp</item>
+            <item>redstone torch</item>
+            <item>redstone wire</item>
+            <item>repeater</item>
+            <item>sea lantern</item>
+            <item>slime block</item>
+            <item>smooth stone</item>
+            <item>soul lantern</item>
+            <item>sticky piston</item>
+            <item>stonecutter</item>
+            <item>target</item>
+            <item>torch</item>
+            <item>trapped chest</item>
+            <item>tripwire hook </item>
+            <item>all stairs</item>
+            <item>all slabs</item>
+            <item>all walls</item>
+            <item>all glass</item>
+            <item>all planks</item>
+            <item>all copper variants (exposed waxed etc)</item>
+            <item>all wool</item>
+            <item>all signs</item>
+          </div>
+        </div>
+        <table class="stats">
+          <tr>
+            <th colspan="2">Restricted blocks</th>
+          </tr>
+          <tr>
+            <td>Block type</td>
+            <td>Allowed%</td>
+          </tr>
+          <tr>
+            <td>Ender chest</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Anvil</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Enchantment table</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Chest/Barrel</td>
+            <td>7.5%</td>
+          </tr>
+        </table>
+        <table class="stats">
+          <tr>
+            <th colspan="2">Required blocks</th>
+          </tr>
+          <tr>
+            <td>Block type</td>
+            <td>Required%</td>
+          </tr>
+          <tr>
+            <td>Wool/Carpet</td>
+            <td>5%</td>
+          </tr>
+          <tr>
+            <td>All planks OR</td>
+            <td rowspan="2">15%</td>
+          </tr>
+          <tr>
+            <td>Iron block</td>
+          </tr>
+        </table>
+      </div>
+    </subarticle>
+    <subarticle id="submarine">
+      <a href="../movecraft/crafts.html#submarine">
+        <h3>Submarine</h3>
+      </a>
+      <div class="twrapper">
+        <div class="list-box-wrapper">
+          <h3>Valid blocks</h3>
+          <input type="text" id="submarine-search" placeholder="Type here to search valid blocks"
+            oninput="search('submarine')">
+          <div id="submarine-table" class="list-box">
+            <item>barrel</item>
+            <item>beacon</item>
+            <item>blast furnace</item>
+            <item>bookshelf</item>
+            <item>brewing stand</item>
+            <item>bricks</item>
+            <item>cake</item>
+            <item>cauldron</item>
+            <item>chain</item>
+            <item>chest</item>
+            <item>chiseled quartz block</item>
+            <item>coal block</item>
+            <item>comparator</item>
+            <item>crafting table</item>
+            <item>daylight detector</item>
+            <item>dispenser</item>
+            <item>dropper</item>
+            <item>enchanting table</item>
+            <item>end stone</item>
+            <item>ender chest</item>
+            <item>fire</item>
+            <item>flower pot</item>
+            <item>furnace</item>
+            <item>glowstone</item>
+            <item>gold block</item>
+            <item>grindstone</item>
+            <item>hopper</item>
+            <item>iron bars</item>
+            <item>iron block</item>
+            <item>ladder</item>
+            <item>lantern</item>
+            <item>lapis block</item>
+            <item>lever</item>
+            <item>lodestone</item>
+            <item>magma block</item>
+            <item>mushroom stem</item>
+            <item>note block</item>
+            <item>observer</item>
+            <item>piston</item>
+            <item>purpur pillar</item>
+            <item>quartz block</item>
+            <item>quartz bricks</item>
+            <item>quartz pillar</item>
+            <item>redstone block</item>
+            <item>redstone lamp</item>
+            <item>redstone torch</item>
+            <item>redstone wire</item>
+            <item>repeater</item>
+            <item>sea lantern</item>
+            <item>slime block</item>
+            <item>smoker</item>
+            <item>smooth quartz</item>
+            <item>smooth stone</item>
+            <item>soul lantern</item>
+            <item>sticky piston</item>
+            <item>target</item>
+            <item>torch</item>
+            <item>tripwire hook</item>
+            <item>all banners</item>
+            <item>all buttons</item>
+            <item>all carpets</item>
+            <item>all doors</item>
+            <item>all fence gates</item>
+            <item>all fences</item>
+            <item>all pressure plates</item>
+            <item>all rails</item>
+            <item>all trapdoors</item>
+            <item>cobweb</item>
+            <item>end rod</item>
+            <item>lightning rod</item>
+            <item>piston head</item>
+            <item>stonecutter </item>
+            <item>all stairs</item>
+            <item>all slabs</item>
+            <item>all terracotta</item>
+            <item>all glazed terracotta</item>
+            <item>all walls</item>
+            <item>all glass</item>
+            <item>all planks</item>
+            <item>all copper variants (exposed waxed etc)</item>
+            <item>all beds</item>
+            <item>all wool</item>
+            <item>all signs</item>
+          </div>
+        </div>
+        <table class="stats">
+          <tr>
+            <th colspan="2">Restricted blocks</th>
+          </tr>
+          <tr>
+            <td>Block type</td>
+            <td>Allowed%</td>
+          </tr>
+          <tr>
+            <td>Ender chest</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Anvil</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Enchantment table</td>
+            <td>1.125%</td>
+          </tr>
+          <tr>
+            <td>Chest/Barrel</td>
+            <td>7.5%</td>
+          </tr>
+        </table>
+        <table class="stats">
+          <tr>
+            <th colspan="2">Required blocks</th>
+          </tr>
+          <tr>
+            <td>Block type</td>
+            <td>Required%</td>
+          </tr>
+          <tr>
+            <td>Wool/Carpet</td>
+            <td>6%</td>
+          </tr>
+          <tr>
+            <td>Iron block / Iron bar</td>
+            <td>1.5%</td>
+          </tr>
+          <tr>
+            <td>Sea lantern</td>
+            <td rowspan="2">7.25%</td>
+          </tr>
+          <tr>
+            <td>Redstone block</td>
+          </tr>
+        </table>
+      </div>
+    </subarticle>
+  </article>
   <style>
     input {
       background-color: inherit;

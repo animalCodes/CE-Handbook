@@ -1,6 +1,6 @@
 
 document.querySelector('navbar').innerHTML = `
-  <a href="#body" id="top" aria-hidden="true"><h4>To top ^</h4></a>
+  <a href="#top" id="up" aria-hidden="true"><h4>To top ^</h4></a>
   <nav>
   <h2 style="text-align: center;">Site map</h2>
   <h3><a id="index" href="../index.html">Home</a></h3>

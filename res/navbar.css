@@ -60,18 +60,20 @@ nav ul li {
     margin-top: 5px;
   }
 }
-#top {
+#up {
   position: fixed;
-  z-index: 20;
   background-color: var(--bgColour);
   border-radius: 10px;
+  top: 10px;
+  left: 95%;
+  z-index: 20;
   text-decoration: none;
 }
-#top h4 {
+#up h4 {
   margin: 0px;
   padding: 5px;
   color: var(--signatureColour);
 }
-#top h4:hover {
+#up h4:hover {
   color: silver;
 }
