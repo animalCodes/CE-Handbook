@@ -379,12 +379,12 @@
       </td>
     </tr>
   </table>
-  <script src="../res/jquery-3.6.0.js"></script>
+
   <script src="../res/navigation.js"></script>
   <script>
     const page = 'resonant-management';
-    $(`#${page}`).attr('id', 'selected');
-    $(`#${page}-ul`).css('display', 'block');
+    document.querySelector(`#${page}`).id = 'selected';
+    document.querySelector(`#${page}-ul`).style.display = 'block';
   </script>
 </body>
 

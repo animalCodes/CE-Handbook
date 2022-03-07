@@ -48,7 +48,8 @@
             <label for="splitter-img">A splitter in action</label>
             <p>If you want to split your cable to transmit power in multiple directions, you will need a
               <em>splitter</em>, (quartz pillar block) to use a splitter send the power source into the side of the
-              pillar, it will be evenly output through both ends of it.</p>
+              pillar, it will be evenly output through both ends of it.
+            </p>
           </subarticle>
           <subarticle id="pstation">
             <h3>Power stations</h3>
@@ -82,12 +83,12 @@
       </td>
     </tr>
   </table>
-  <script src="../res/jquery-3.6.0.js"></script>
+
   <script src="../res/navigation.js"></script>
   <script>
     const page = 'resonant-basics';
-    $(`#${page}`).attr('id', 'selected');
-    $(`#${page}-ul`).css('display', 'block');
+    document.querySelector(`#${page}`).id = 'selected';
+    document.querySelector(`#${page}-ul`).style.display = 'block';
   </script>
 </body>
 

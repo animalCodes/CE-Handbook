@@ -12,7 +12,7 @@
 <body>
   <table>
     <tr>
-      <td id="navbar" aria-flowto="article">
+      <td id="navbar">
         <h1 style="color: red;">Error loading sidebar - make sure Javascript is enabled and reload.</h1>
       </td>
       <td id="body">
@@ -31,9 +31,13 @@
             <h3>Prerequisites</h3>
             <p>There are a few things you should do before you start playing, firstly, there are custom items and blocks
               that require a resource pack to use properly, secondly, a fabric modpack has been made by <strike>our
-                glorious leader</strike> <sig style="color: #ee5e01;">C_Corp2002</sig> which while not strictly <em>required</em> to
-              play on the server does help with optimisation/performance. <a href="https://celestialmc.zapto.org/resourcepacks" target="_blank">for download links, click here.</a> If you don't know what
-              fabric is then you should probably skip the modpack, it isn't required anyway.</p>
+                glorious leader</strike>
+              <sig style="color: #ee5e01;">C_Corp2002</sig> which while not strictly <em>required</em> to
+              play on the server does help with optimisation/performance. <a
+                href="https://celestialmc.zapto.org/resourcepacks" target="_blank">for download links, click here.</a>
+              If you don't know what
+              fabric is then you should probably skip the modpack, it isn't required anyway.
+            </p>
           </subarticle>
           <subarticle>
             <h3>Getting to earth</h3>
@@ -49,9 +53,11 @@
             <p>One of the items you will start with will be a barrel called '<em class="gold">Structure Box</em>',
               placing this will spawn in a LiFi Guppie starter ship. Note that once placed it can't be put back in the
               box so only do so when you are sure you want to.</p>
-            <p>The LiFi Guppie is a starfighter equipped with a <a href="../structures/gadgets.html#shield">shield</a> and PDLC, to enter the cockpit stand on the gray
+            <p>The LiFi Guppie is a starfighter equipped with a <a href="../structures/gadgets.html#shield">shield</a>
+              and PDLC, to enter the cockpit stand on the gray
               carpet below the spruce trapdoor and press <strong>shift</strong>/crouch. This is an <a
-                href="../structures/gadgets.html#elevator">elevator</a>, for information on how to control your ship, see the <a href="../movecraft/controls.html">Signs /
+                href="../structures/gadgets.html#elevator">elevator</a>, for information on how to control your ship,
+              see the <a href="../movecraft/controls.html">Signs /
                 Controls page.</a></p>
           </subarticle>
           <subarticle>
@@ -64,8 +70,9 @@
             <p>To travel between planets you require a rift drive, note that starfighters cannot use rift drives and you
               will need at least a cargoshuttle to use one, for more info on craft types and their different abilities
               see <a href="../movecraft/crafts.html">Craft types</a>, However a guppie can easily be outfitted to
-              function as a cargoshuttle by adding more wool. Once outfitted you will need to <a href="../planets/travel.html#riftdrives">setup a rift drive and
-              teleport sign</a>.</p>
+              function as a cargoshuttle by adding more wool. Once outfitted you will need to <a
+                href="../planets/travel.html#riftdrives">setup a rift drive and
+                teleport sign</a>.</p>
           </subarticle>
           <subarticle>
             <h3>Joining a town</h3>
@@ -76,18 +83,18 @@
               their town.</p>
             <p>Some towns don't require an invite, typing <cmd>/t list</cmd> will display a list of all towns, if the
               town has (open) after it's name this means any player can join the town without an invite, in this case do
-              <cmd>/t join {town name}</cmd> to join it.</p>
+              <cmd>/t join {town name}</cmd> to join it.
+            </p>
           </subarticle>
         </article>
       </td>
     </tr>
   </table>
-  <script src="../res/jquery-3.6.0.js"></script>
   <script src="../res/navigation.js"></script>
   <script>
     const page = 'guides-starting';
-    $(`#${page}`).attr('id', 'selected');
-    $(`#${page}-ul`).css('display', 'block');
+    document.querySelector(`#${page}`).id = 'selected';
+    document.querySelector(`#${page}-ul`).style.display = 'block';
   </script>
 </body>
 

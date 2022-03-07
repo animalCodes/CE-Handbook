@@ -872,11 +872,11 @@
       </td>
     </tr>
   </table>
-  <script src="../res/jquery-3.6.0.js"></script>
+
   <script src="../res/navigation.js"></script>
   <script>
     const page = 'planets-info';
-    $(`#${page}`).attr('id', 'selected');
+    document.querySelector(`#${page}`).id = 'selected';
   </script>
 </body>
 

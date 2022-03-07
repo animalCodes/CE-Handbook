@@ -202,6 +202,9 @@ input:focus-visible {
   color: #FA0;
 }
 /* images */
+.imgwrapper {
+  display: inline-block;
+}
 img {
   max-width: 300px;
   max-height: 200px;
@@ -227,9 +230,6 @@ img {
 label {
   font-style: italic;
   display: block;
-}
-.imgwrapper {
-  display: inline-block;
 }
 /* disclaimer */
 #disclaimer {

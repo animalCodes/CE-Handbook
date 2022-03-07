@@ -46,23 +46,31 @@
             <h3>&gt;private&lt; signs</h3>
             <img src="../images/machines/private.png" id="private-img">
             <label for="private-img">A &gt;private&lt; sign protecting a double chest</label>
-            <p>Private signs protect containers from other players by preventing them from being able to open or break them, they work on chests, barrels, furnaces, etc.</p>
-            <p>To make one write <cmd>&gt;Private&lt;</cmd> on the top line of a sign, the second line will automatically populate with your username.</p>
+            <p>Private signs protect containers from other players by preventing them from being able to open or break
+              them, they work on chests, barrels, furnaces, etc.</p>
+            <p>To make one write <cmd>&gt;Private&lt;</cmd> on the top line of a sign, the second line will
+              automatically populate with your username.</p>
           </subarticle>
           <subarticle id="filter">
             <h3>Hopper filter</h3>
             <img src="../images/machines/filter.png" id="filter-img">
             <label for="filter-img">A filter set to allow cobblestone</label>
             <p>Hopper filters will stop any item that isn't on the sign from being picked up or moved by the hopper, to
-              <strong>whitelist</strong> an item right-click the sign while holding it.</p>
+              <strong>whitelist</strong> an item right-click the sign while holding it.
+            </p>
             <p>To make a hopper filter write <cmd>[Filter]</cmd> on the top line of a sign. Note that only
-              <strong>one</strong> filter can be used per hopper</p>
+              <strong>one</strong> filter can be used per hopper
+            </p>
           </subarticle>
           <subarticle id="elevator">
             <h3>Elevator</h3>
             <img src="../images/machines/elevator.png" id="elevator-img">
             <label for="elevator-img">A 3-block elevator</label>
-            <p>Elevators allow you to quickly and easily move up/down, to use one stand on the gray carpet and press <strong>space</strong>/jump to go up or <strong>shift</strong>/crouch to go down, note that while there is no limit to how far elevators can be from each other, the further they are the longer it will take to teleport between them.</p>
+            <p>Elevators allow you to quickly and easily move up/down, to use one stand on the gray carpet and press
+              <strong>space</strong>/jump to go up or <strong>shift</strong>/crouch to go down, note that while there is
+              no limit to how far elevators can be from each other, the further they are the longer it will take to
+              teleport between them.
+            </p>
             <table class="stats">
               <tr>
                 <th>Required blocks</th>
@@ -279,12 +287,12 @@
       </td>
     </tr>
   </table>
-  <script src="../res/jquery-3.6.0.js"></script>
+
   <script src="../res/navigation.js"></script>
   <script>
     const page = 'structures-gadgets';
-    $(`#${page}`).attr('id', 'selected');
-    $(`#${page}-ul`).css('display', 'block');
+    document.querySelector(`#${page}`).id = 'selected';
+    document.querySelector(`#${page}-ul`).style.display = 'block';
   </script>
 </body>
 

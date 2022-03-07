@@ -16,7 +16,9 @@
         <h1 style="color: red;">Error loading sidebar - make sure Javascript is enabled and reload.</h1>
       </td>
       <td id="body">
-        <a href="../index.html" id="home"><h3>Home</h3></a>
+        <a href="../index.html" id="home">
+          <h3>Home</h3>
+        </a>
         <header>
           <h1>Craft types</h1>
         </header>
@@ -32,7 +34,8 @@
             </li>
             <li>All craft will limit how many Chests/Barrels you can have on them, (<em>Sblocks</em>) each craft has the
               maximum percentage of these blocks listed.</li>
-            <li>For a list of block types for a specific craft, click on it's title. Below is a list of all craft types and their stats.</li>
+            <li>For a list of block types for a specific craft, click on it's title. Below is a list of all craft types
+              and their stats.</li>
           </ul>
         </intro>
         <article>
@@ -99,7 +102,8 @@
                 <td>17.5</td>
               </tr>
             </table>
-            <p>Cargoshuttles are pretty much identical to starfighters but with the notable advantage of being able to use rift drives and a much higher cargo capacity.</p>
+            <p>Cargoshuttles are pretty much identical to starfighters but with the notable advantage of being able to
+              use rift drives and a much higher cargo capacity.</p>
           </subarticle>
           <subarticle id="starship">
             <a href="../movecraft/blocks.html#starship">
@@ -190,7 +194,8 @@
                 <td>20</td>
               </tr>
             </table>
-            <p>These hulking ships are the biggest to realistically be constructed, and are notable in that a certain percentage of the craft can be stonebricks, making them a good choice for carriers. </p>
+            <p>These hulking ships are the biggest to realistically be constructed, and are notable in that a certain
+              percentage of the craft can be stonebricks, making them a good choice for carriers. </p>
           </subarticle>
           <subarticle id="station">
             <a href="../movecraft/blocks.html#station">
@@ -538,12 +543,12 @@
       </td>
     </tr>
   </table>
-  <script src="../res/jquery-3.6.0.js"></script>
+
   <script src="../res/navigation.js"></script>
   <script>
     const page = 'movecraft-crafts';
-    $(`#${page}`).attr('id', 'selected');
-    $(`#${page}-ul`).css('display', 'block');
+    document.querySelector(`#${page}`).id = 'selected';
+    document.querySelector(`#${page}-ul`).style.display = 'block';
   </script>
 </body>
 
