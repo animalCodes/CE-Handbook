@@ -138,6 +138,18 @@ document.querySelector('navbar').innerHTML = `
   <!-- //* Getting started -->
   <li><a id="guides-starting" href="../guides/starting.html">Getting started</a></li>
   </ul>
+  <h3 class="nav-title">Misc</h3>
+  <ul>
+  <!-- //* Chat -->
+  <strike>
+  <li><a id="misc-chat" href="../misc/chat.html">Chat</a>
+  <ul id="misc-chat-ul" class="dropdown">
+  <li><a href="#codes">Colour codes</a></li>
+  <li><a href="#nick">Nicknames</a></li>
+  </ul>
+  </li>
+  </strike>
+  </ul>
   </nav>
   `;
 
