@@ -45,6 +45,9 @@ section {
 li {
   margin-top: 2px;
 }
+.swrapper ul li a {
+  font-size: 1.65rem;
+}
 h3 {
   margin: 5px;
   font-size: 2rem;
