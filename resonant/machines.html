@@ -29,52 +29,57 @@
     </intro>
     <subarticle id="vacuum">
       <h3>Powered vacuum</h3>
-      <img alt="A downwards-facing hopper on top of an upwards-facing dropper. Resonant cable is placed next to the dropper." src="../images/machines/vacuum.png" id="vacuum-img">
+      <img
+        alt="A downwards-facing hopper on top of an upwards-facing dropper. Resonant cable is placed next to the dropper."
+        src="../images/machines/vacuum.png" id="vacuum-img">
       <label aria-hidden="true" for="vacuum-img">Side view</label>
       <p>Powered vacuums are essentially extended hoppers, collecting any dropped item in a 3-block radius.</p>
-      <table class="stats">
-        <tr>
-          <th colspan="2">Required blocks</th>
-        </tr>
-        <tr>
-          <td>Hopper</td>
-          <td rowspan="2">1</td>
-        </tr>
-        <tr>
-          <td>Dropper (input/output)</td>
-        </tr>
-      </table>
+      <ptable>
+
+        <th colspan="2">Required blocks</th>
+
+
+        <ptd>Hopper</ptd>
+        <td rowspan="2">1</ptd>
+
+
+          <ptd>Dropper (input/output)</ptd>
+
+          </table>
     </subarticle>
     <subarticle id="radar">
       <h3>Radar</h3>
-      <img alt="A redstone torch on top of an iron block, beneath the iron block is a pillar of iron bars and beneath that a gold block being powered by resonant cables." src="../images/machines/radar.png" id="radar-img">
+      <img
+        alt="A redstone torch on top of an iron block, beneath the iron block is a pillar of iron bars and beneath that a gold block being powered by resonant cables."
+        src="../images/machines/radar.png" id="radar-img">
       <label aria-hidden="true" for="radar-img">Side view</label>
       <p>Radars tell any player within a 4-5 block radius how close other players are to the <em>gold</em> block
         of the radar, the more iron bars you use the higher the range.</p>
-      <table class="stats">
-        <tr>
-          <th colspan="2">Required blocks</th>
-        </tr>
-        <tr>
-          <td>Redstone torch</td>
-          <td rowspan="2">1</td>
-        </tr>
-        <tr>
-          <td>Iron block</td>
-        </tr>
-        <tr>
-          <td>Iron bars</td>
-          <td>1-64</td>
-        </tr>
-        <tr>
-          <td>Gold block (input)</td>
-          <td>1</td>
-        </tr>
-      </table>
+      <ptable>
+
+        <th colspan="2">Required blocks</th>
+
+
+        <ptd>Redstone torch</ptd>
+        <td rowspan="2">1</ptd>
+
+
+          <ptd>Iron block</ptd>
+
+
+          <ptd>Iron bars</ptd>
+          <ptd>1-64</ptd>
+
+
+          <ptd>Gold block (input)</ptd>
+          <ptd>1</ptd>
+
+          </table>
     </subarticle>
     <subarticle id="coil">
       <h3>Tesla coil</h3>
-      <img alt="A beacon surrounded iron bars on top of a pillar of gold blocks." src="../images/machines/coil.png" id="coil-img">
+      <img alt="A beacon surrounded iron bars on top of a pillar of gold blocks." src="../images/machines/coil.png"
+        id="coil-img">
       <label aria-hidden="true" for="coil-img">Side view</label>
       <p>Tesla coils can provide buffs to friendly players, or act as a passive defence, depending on what armour
         you are wearing, the more iron bars used in a 5-block radius of the beacon the higher the range.</p>
@@ -87,23 +92,23 @@
           block.</li>
         <li>Iron golems will gain regen 1</li>
       </ul>
-      <table class="stats">
-        <tr>
-          <th colspan="2">Required blocks</th>
-        </tr>
-        <tr>
-          <td>Beacon</td>
-          <td>1</td>
-        </tr>
-        <tr>
-          <td>Iron bars</td>
-          <td>1+</td>
-        </tr>
-        <tr>
-          <td>Gold block (input)</td>
-          <td>1-12</td>
-        </tr>
-      </table>
+      <ptable>
+
+        <th colspan="2">Required blocks</th>
+
+
+        <ptd>Beacon</ptd>
+        <ptd>1</ptd>
+
+
+        <ptd>Iron bars</ptd>
+        <ptd>1+</ptd>
+
+
+        <ptd>Gold block (input)</ptd>
+        <ptd>1-12</ptd>
+
+        </table>
     </subarticle>
     <h2>Industrial machines</h2>
     <p>These machines are generally used in factories, mostly used to turn common materials into more valuable
@@ -111,370 +116,380 @@
     <subarticle id="converter">
       <h3>Prismatic converter</h3>
       <div class="imgwrapper">
-        <img alt="Two redstone lamps two redstone blocks, the redstone blocks have aluminum blocks on either side of them and in front is a dispenser flanked by two composite blocks." src="../images/machines/converter.png" id="converter-img">
+        <img
+          alt="Two redstone lamps two redstone blocks, the redstone blocks have aluminum blocks on either side of them and in front is a dispenser flanked by two composite blocks."
+          src="../images/machines/converter.png" id="converter-img">
         <label aria-hidden="true" for="converter-img">Bottom + middle slice</label>
       </div>
       <div class="imgwrapper">
-        <img alt="The completed version, two more redstone lamps on top of the redstone blocks and resonant cables feeding into the dispenser." src="../images/machines/converter1.png" id="converter-img1">
+        <img
+          alt="The completed version, two more redstone lamps on top of the redstone blocks and resonant cables feeding into the dispenser."
+          src="../images/machines/converter1.png" id="converter-img1">
         <label aria-hidden="true" for="converter-img1">Completed</label>
       </div>
       <p>Prismatic converters generate prismarine crystals (used to power shields) off of resonant pulses.</p>
       <p>Note that the redstone blocks are placed <em>between</em> the redstone lamps</p>
       <div class="twrapper">
-        <table class="stats">
-          <tr>
-            <th colspan="2">Required blocks</th>
-          </tr>
-          <tr>
-            <td>Redstone lamp</td>
-            <td>4</td>
-          </tr>
-          <tr>
-            <td>Redstone blocks</td>
-            <td>2</td>
-          </tr>
-          <tr>
-            <td>Aluminum blocks (custom)</td>
-            <td>4</td>
-          </tr>
-          <tr>
-            <td>Composite blocks (custom)</td>
-            <td>2</td>
-          </tr>
-          <tr>
-            <td>Dispenser (output)</td>
-            <td>1</td>
-          </tr>
-        </table>
-        <table class="stats">
-          <tr>
-            <td>Amount per pulse</td>
-            <td>2 crystals</td>
-          </tr>
-        </table>
+        <ptable>
+
+          <th colspan="2">Required blocks</th>
+
+
+          <ptd>Redstone lamp</ptd>
+          <ptd>4</ptd>
+
+
+          <ptd>Redstone blocks</ptd>
+          <ptd>2</ptd>
+
+
+          <ptd>Aluminum blocks (custom)</ptd>
+          <ptd>4</ptd>
+
+
+          <ptd>Composite blocks (custom)</ptd>
+          <ptd>2</ptd>
+
+
+          <ptd>Dispenser (output)</ptd>
+          <ptd>1</ptd>
+
+          </table>
+          <ptable>
+
+            <ptd>Amount per pulse</ptd>
+            <ptd>2 crystals</ptd>
+
+            </table>
       </div>
     </subarticle>
     <subarticle id="refinery">
       <h3>Materials refinery</h3>
-      <img alt="A resonant cable block surrounded by four redstone blocks, beneath the cable is a blast furnace and beneath that is a barrel." src="../images/machines/refinery.png" id="refinery-img">
+      <img
+        alt="A resonant cable block surrounded by four redstone blocks, beneath the cable is a blast furnace and beneath that is a barrel."
+        src="../images/machines/refinery.png" id="refinery-img">
       <label aria-hidden="true" for="refinery-img">Front view</label>
       <p>Materials refineries refine common/easy to get item's into more valuble ones, such as rotten flesh to
         charcoal, it should be noted that some recipes can give various different results.</p>
       <div class="twrapper">
-        <table class="stats">
-          <tr>
-            <th colspan="2">Recipes</th>
-          </tr>
-          <tr>
-            <td>Ingredient(s)</td>
-            <td>Result</td>
-          </tr>
-          <tr>
-            <td>9 Rotten flesh</td>
-            <td>1 Charcoal</td>
-          </tr>
-          <tr>
-            <td>2 Wheat</td>
-            <td>4 Wheat dough</td>
-          </tr>
-          <tr>
-            <td>16 Wheat dough, 1 Milk/Water bucket</td>
-            <td>8 Wheat batter</td>
-          </tr>
-          <tr>
-            <td>4 Bone</td>
-            <td>1 Charcoal</td>
-          </tr>
-          <tr>
-            <td>1 Bone block</td>
-            <td>5 Charcoal</td>
-          </tr>
-          <tr>
-            <td>12 Bonemeal</td>
-            <td>3 Charcoal</td>
-          </tr>
-          <tr>
-            <td>8 Amethyst shards, 2 Redstone dust</td>
-            <td>4 Crystallized radon</td>
-          </tr>
-        </table>
-        <table class="stats">
-          <tr>
+        <ptable>
+
+          <th colspan="2">Recipes</th>
+
+
+          <ptd>Ingredient(s)</ptd>
+          <ptd>Result</ptd>
+
+
+          <ptd>9 Rotten flesh</ptd>
+          <ptd>1 Charcoal</ptd>
+
+
+          <ptd>2 Wheat</ptd>
+          <ptd>4 Wheat dough</ptd>
+
+
+          <ptd>16 Wheat dough, 1 Milk/Water bucket</ptd>
+          <ptd>8 Wheat batter</ptd>
+
+
+          <ptd>4 Bone</ptd>
+          <ptd>1 Charcoal</ptd>
+
+
+          <ptd>1 Bone block</ptd>
+          <ptd>5 Charcoal</ptd>
+
+
+          <ptd>12 Bonemeal</ptd>
+          <ptd>3 Charcoal</ptd>
+
+
+          <ptd>8 Amethyst shards, 2 Redstone dust</ptd>
+          <ptd>4 Crystallized radon</ptd>
+
+          </table>
+          <ptable>
+
             <th colspan="2">Recipes (2)</th>
-          </tr>
-          <tr>
-            <td>Ingredient(s)</td>
-            <td>Possible items</td>
-          </tr>
-          <!-- Sweet berry + Brick -->
-          <tr>
-            <td rowspan="5">8 Sweet berry, 1 Brick</td>
-            <td>1 Red dye, 1 Brick</td>
-          </tr>
-          <tr>
-            <td>1 Brown dye, 1 Brick</td>
-          </tr>
-          <tr>
-            <td>1 Purple dye, 1 Brick</td>
-          </tr>
-          <tr>
-            <td>1 Magenta dye, 1 Brick</td>
-          </tr>
-          <tr>
-            <td>1 Pink dye, 1 Brick</td>
-          </tr>
-          <!-- Cobblestone -->
-          <tr>
-            <td rowspan="9">1 Cobblestone</td>
-            <td>2 Iron nuggets</td>
-          </tr>
-          <tr>
-            <td>2 Gold nuggets</td>
-          </tr>
-          <tr>
-            <td>2 Charcoal</td>
-          </tr>
-          <tr>
-            <td>2 Gray dye</td>
-          </tr>
-          <tr>
-            <td>2 Bonemeal</td>
-          </tr>
-          <tr>
-            <td>2 Flint</td>
-          </tr>
-          <tr>
-            <td>2 Clay</td>
-          </tr>
-          <tr>
-            <td>2 Gravel</td>
-          </tr>
-          <tr>
-            <td>2 Sand</td>
-          </tr>
-          <tr>
-            <td rowspan="7">1 Granite</td>
-            <td>2 Nether quartz</td>
-          </tr>
-          <tr>
-            <td>2 Gold nuggets</td>
-          </tr>
-          <tr>
-            <td>2 Charcoal</td>
-          </tr>
-          <tr>
-            <td>2 Sand</td>
-          </tr>
-          <tr>
-            <td>2 Flint</td>
-          </tr>
-          <tr>
-            <td>2 Gravel</td>
-          </tr>
-          <tr>
-            <td>2 Cobblestone</td>
-          </tr>
-        </table>
-        <table class="stats">
-          <tr>
+
+
+            <ptd>Ingredient(s)</ptd>
+            <ptd>Possible items</ptd>
+
+            <!-- Sweet berry + Brick -->
+
+            <td rowspan="5">8 Sweet berry, 1 Brick</ptd>
+              <ptd>1 Red dye, 1 Brick</ptd>
+
+
+              <ptd>1 Brown dye, 1 Brick</ptd>
+
+
+              <ptd>1 Purple dye, 1 Brick</ptd>
+
+
+              <ptd>1 Magenta dye, 1 Brick</ptd>
+
+
+              <ptd>1 Pink dye, 1 Brick</ptd>
+
+              <!-- Cobblestone -->
+
+            <td rowspan="9">1 Cobblestone</ptd>
+              <ptd>2 Iron nuggets</ptd>
+
+
+              <ptd>2 Gold nuggets</ptd>
+
+
+              <ptd>2 Charcoal</ptd>
+
+
+              <ptd>2 Gray dye</ptd>
+
+
+              <ptd>2 Bonemeal</ptd>
+
+
+              <ptd>2 Flint</ptd>
+
+
+              <ptd>2 Clay</ptd>
+
+
+              <ptd>2 Gravel</ptd>
+
+
+              <ptd>2 Sand</ptd>
+
+
+            <td rowspan="7">1 Granite</ptd>
+              <ptd>2 Nether quartz</ptd>
+
+
+              <ptd>2 Gold nuggets</ptd>
+
+
+              <ptd>2 Charcoal</ptd>
+
+
+              <ptd>2 Sand</ptd>
+
+
+              <ptd>2 Flint</ptd>
+
+
+              <ptd>2 Gravel</ptd>
+
+
+              <ptd>2 Cobblestone</ptd>
+
+              </table>
+              <ptable>
+
             <th colspan="2">Required blocks</th>
-          </tr>
-          <tr>
-            <td>Redstone blocks</td>
-            <td>4</td>
-          </tr>
-          <tr>
-            <td>Resonant cable (power input)</td>
-            <td rowspan="3">1</td>
-          </tr>
-          <tr>
-            <td>Blast furnace</td>
-          </tr>
-          <tr>
-            <td>Barrel (input/output)</td>
-          </tr>
-        </table>
+
+
+            <ptd>Redstone blocks</ptd>
+            <ptd>4</ptd>
+
+
+            <ptd>Resonant cable (power input)</ptd>
+            <td rowspan="3">1</ptd>
+
+
+              <ptd>Blast furnace</ptd>
+
+
+              <ptd>Barrel (input/output)</ptd>
+
+              </table>
       </div>
     </subarticle>
     <subarticle id="smeltery">
       <h3>Arc smeltery</h3>
       <div class="imgwrapper">
-        <img alt="The barrel sitting underneath the main structure." src="../images/machines/smeltery.png" id="smeltery-img">
+        <img alt="The barrel sitting underneath the main structure." src="../images/machines/smeltery.png"
+          id="smeltery-img">
         <label aria-hidden="true" for="smeltery-img">Front view</label>
       </div>
       <div class="imgwrapper">
-        <img alt="A dropper facing upwards, surrounded on three sides by iron blocks and resonant cable in the remaining space, steel blocks fill the corners." src="../images/machines/smeltery1.png" id="smeltery-img1">
+        <img
+          alt="A dropper facing upwards, surrounded on three sides by iron blocks and resonant cable in the remaining space, steel blocks fill the corners."
+          src="../images/machines/smeltery1.png" id="smeltery-img1">
         <label aria-hidden="true" for="smeltery-img1">View from above</label>
       </div>
       <p>Arc smelteries will smelt ores at more efficient rates, giving the player more then they would from
         smelting the ore in a furnace.</p>
       <div class="twrapper">
-        <table class="stats">
-          <tr>
-            <th colspan="2">Recipes</th>
-          </tr>
-          <tr>
-            <td>Ingredient(s)</td>
-            <td>Result</td>
-          </tr>
-          <tr>
-            <td>1 Iron ore / 1 Raw iron</td>
-            <td>1 Iron ingot, 1-4 Iron nuggets</td>
-          </tr>
-          <tr>
-            <td>1 Gold ore / 1 Raw gold</td>
-            <td>1 Gold ingot, 0-5 Gold nuggets</td>
-          </tr>
-          <tr>
-            <td>1 Diamond ore</td>
-            <td>2 Diamonds</td>
-          </tr>
-          <tr>
-            <td>1 Redstone ore</td>
-            <td>5 Redstone dust</td>
-          </tr>
-          <tr>
-            <td>1 Cobblestone</td>
-            <td>2 Stonebricks</td>
-          </tr>
-          <tr>
-            <td>1 Clay ball</td>
-            <td>2 Bricks</td>
-          </tr>
-          <tr>
-            <td>1 Raw clay block</td>
-            <td>2 White glazed terracotta</td>
-          </tr>
-          <tr>
-            <td>1 Stone</td>
-            <td>2 Smooth stone</td>
-          </tr>
-          <tr>
-            <td>1 Stone slab</td>
-            <td>4 Smooth stone slabs</td>
-          </tr>
-        </table>
-        <table class="stats">
-          <tr>
+        <ptable>
+
+          <th colspan="2">Recipes</th>
+
+
+          <ptd>Ingredient(s)</ptd>
+          <ptd>Result</ptd>
+
+
+          <ptd>1 Iron ore / 1 Raw iron</ptd>
+          <ptd>1 Iron ingot, 1-4 Iron nuggets</ptd>
+
+
+          <ptd>1 Gold ore / 1 Raw gold</ptd>
+          <ptd>1 Gold ingot, 0-5 Gold nuggets</ptd>
+
+
+          <ptd>1 Diamond ore</ptd>
+          <ptd>2 Diamonds</ptd>
+
+
+          <ptd>1 Redstone ore</ptd>
+          <ptd>5 Redstone dust</ptd>
+
+
+          <ptd>1 Cobblestone</ptd>
+          <ptd>2 Stonebricks</ptd>
+
+
+          <ptd>1 Clay ball</ptd>
+          <ptd>2 Bricks</ptd>
+
+
+          <ptd>1 Raw clay block</ptd>
+          <ptd>2 White glazed terracotta</ptd>
+
+
+          <ptd>1 Stone</ptd>
+          <ptd>2 Smooth stone</ptd>
+
+
+          <ptd>1 Stone slab</ptd>
+          <ptd>4 Smooth stone slabs</ptd>
+
+          </table>
+          <ptable>
+
             <th colspan="2">Required blocks</th>
-          </tr>
-          <tr>
-            <td>Iron block</td>
-            <td>3</td>
-          </tr>
-          <tr>
-            <td>Steel block (custom)</td>
-            <td>4</td>
-          </tr>
-          <tr>
-            <td>Resonant cable (power input)</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td>Dropper (input)</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td>Barrel (output)</td>
-            <td>1</td>
-          </tr>
-        </table>
+
+
+            <ptd>Iron block</ptd>
+            <ptd>3</ptd>
+
+
+            <ptd>Steel block (custom)</ptd>
+            <ptd>4</ptd>
+
+
+            <ptd>Resonant cable (power input)</ptd>
+            <ptd>1</ptd>
+
+
+            <ptd>Dropper (input)</ptd>
+            <ptd>1</ptd>
+
+
+            <ptd>Barrel (output)</ptd>
+            <ptd>1</ptd>
+
+            </table>
       </div>
     </subarticle>
     <subarticle id="press">
       <h3>Machine press</h3>
-      <img alt="A machine press block being powered by resonant cable and with a barrel beneath it." src="../images/machines/press.png" id="press-img">
+      <img alt="A machine press block being powered by resonant cable and with a barrel beneath it."
+        src="../images/machines/press.png" id="press-img">
       <label aria-hidden="true" for="press-img">Front view</label>
       <p>A machine press is used to create special items such as metal plates and pipes.</p>
       <div class="twrapper">
         <!--  recipes -->
-        <table class="stats">
-          <tr>
-            <th colspan="2">Recipes</th>
-          </tr>
-          <tr>
-            <td>Ingredient(s)</td>
-            <td>Result</td>
-          </tr>
-          <tr>
-            <td>2 Coal/Charcoal, 1 Iron ingot</td>
-            <td>4 Steel ingots, 5% chance for +1, additional 5% chance for +1</td>
-          </tr>
-          <tr>
-            <td>2 Steel ingots</td>
-            <td>4 Steel plates, 2.5% chance for +1, additional 2.5% chance for +1</td>
-          </tr>
-          <tr>
-            <td>4 Steel plates, 2 Iron nugggets</td>
-            <td>4 Pipes, 12.5% chance for +2</td>
-          </tr>
-          <tr>
-            <td>5 Steel plates, 3 Redstone dust</td>
-            <td>3 Pistons, 5% chance for +1, Additional 2.5% chance for 1 steel ingot</td>
-          </tr>
-          <tr>
-            <td>1 Tungsten ore</td>
-            <td>4 Tungsten nuggets, 12.5% chance for +1</td>
-          </tr>
-          <tr>
-            <td>3 Tungsten nuggets</td>
-            <td>1 Tungsten ingot, 5% chance for +1</td>
-          </tr>
-          <tr>
-            <td>2 Tungsten ingots</td>
-            <td>2 Tungsten plates, 5% chance for +1</td>
-          </tr>
-          <tr>
-            <td>2 Copper ingots</td>
-            <td>4 Copper plates, 7.5% chance for +2</td>
-          </tr>
-          <tr>
-            <td>2 Copper plates, 4 Redstone dust</td>
-            <td>4 Resonant cables, 12.5% chance for +2</td>
-          </tr>
-        </table>
-        <!-- recipes 2 -->
-        <table class="stats">
-          <tr>
+        <ptable>
+
+          <th colspan="2">Recipes</th>
+
+
+          <ptd>Ingredient(s)</ptd>
+          <ptd>Result</ptd>
+
+
+          <ptd>2 Coal/Charcoal, 1 Iron ingot</ptd>
+          <ptd>4 Steel ingots, 5% chance for +1, additional 5% chance for +1</ptd>
+
+
+          <ptd>2 Steel ingots</ptd>
+          <ptd>4 Steel plates, 2.5% chance for +1, additional 2.5% chance for +1</ptd>
+
+
+          <ptd>4 Steel plates, 2 Iron nugggets</ptd>
+          <ptd>4 Pipes, 12.5% chance for +2</ptd>
+
+
+          <ptd>5 Steel plates, 3 Redstone dust</ptd>
+          <ptd>3 Pistons, 5% chance for +1, Additional 2.5% chance for 1 steel ingot</ptd>
+
+
+          <ptd>1 Tungsten ore</ptd>
+          <ptd>4 Tungsten nuggets, 12.5% chance for +1</ptd>
+
+
+          <ptd>3 Tungsten nuggets</ptd>
+          <ptd>1 Tungsten ingot, 5% chance for +1</ptd>
+
+
+          <ptd>2 Tungsten ingots</ptd>
+          <ptd>2 Tungsten plates, 5% chance for +1</ptd>
+
+
+          <ptd>2 Copper ingots</ptd>
+          <ptd>4 Copper plates, 7.5% chance for +2</ptd>
+
+
+          <ptd>2 Copper plates, 4 Redstone dust</ptd>
+          <ptd>4 Resonant cables, 12.5% chance for +2</ptd>
+
+          </table>
+          <!-- recipes 2 -->
+          <ptable>
+
             <th colspan="2">Recipes (2)</th>
-          </tr>
-          <tr>
-            <td>Ingredient(s)</td>
-            <td>Result(s)</td>
-          </tr>
-          <tr>
-            <td>1 Uranium ore</td>
-            <td>2 Uranium ingots, 5% chance for +1</td>
-          </tr>
-          <tr>
-            <td>2 Redstone ore</td>
-            <td>6 Redstone dust, 25% chance for 2 Crystallized radon, additional 12.5% chance for +4 radon</td>
-          </tr>
-          <tr>
-            <td>2 Coal ore</td>
-            <td>3 Coal, 25% chance for +4, additional 12.5% chance for 2 gunpowder</td>
-          </tr>
-          <tr>
-            <td>2 Iron ore</td>
-            <td>3 Raw iron, 25% chance for 1 iron nugget, additional 12.5% chance for +2 raw iron</td>
-          </tr>
-          <tr>
-            <td>2 Gold ore</td>
-            <td>3 Raw gold, 25% chance for 1 gold nugget, additional 12.5% chance for +2 raw gold</td>
-          </tr>
-        </table>
-        <table class="stats">
-          <tr>
-            <th colspan="2">Required blocks</th>
-          </tr>
-          <tr>
-            <td>Machine press (custom, power input)</td>
-            <td rowspan="2">1</td>
-          </tr>
-          <tr>
-            <td>Barrel (Input/Output)</td>
-          </tr>
-        </table>
+
+
+            <ptd>Ingredient(s)</ptd>
+            <ptd>Result(s)</ptd>
+
+
+            <ptd>1 Uranium ore</ptd>
+            <ptd>2 Uranium ingots, 5% chance for +1</ptd>
+
+
+            <ptd>2 Redstone ore</ptd>
+            <ptd>6 Redstone dust, 25% chance for 2 Crystallized radon, additional 12.5% chance for +4 radon</ptd>
+
+
+            <ptd>2 Coal ore</ptd>
+            <ptd>3 Coal, 25% chance for +4, additional 12.5% chance for 2 gunpowder</ptd>
+
+
+            <ptd>2 Iron ore</ptd>
+            <ptd>3 Raw iron, 25% chance for 1 iron nugget, additional 12.5% chance for +2 raw iron</ptd>
+
+
+            <ptd>2 Gold ore</ptd>
+            <ptd>3 Raw gold, 25% chance for 1 gold nugget, additional 12.5% chance for +2 raw gold</ptd>
+
+            </table>
+            <ptable>
+
+              <th colspan="2">Required blocks</th>
+
+
+              <ptd>Machine press (custom, power input)</ptd>
+              <td rowspan="2">1</ptd>
+
+
+                <ptd>Barrel (Input/Output)</ptd>
+
+                </table>
       </div>
     </subarticle>
     <!-- 
@@ -484,15 +499,15 @@
             <label aria-hidden="true" for=""></label>
             <p></p>
             <div class="twrapper">
-              <table class="stats">
-                <tr>
+              <ptable>
+                
                   <th colspan="2">Recipes</th>
-                </tr>
+                
               </table>
-            <table class="stats">
-              <tr>
+            <ptable>
+              
                 <th colspan="2">Required blocks</th>
-              </tr>
+              
             </table>
             </div>
           </subarticle>
