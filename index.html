@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="res/style.css">
-  <link rel="stylesheet" href="res/index.css">
   <title>ESY Handbook</title>
 </head>
 
@@ -240,6 +239,79 @@
       disclaimer.style.display = "none";
     })
   </script>
+  <style>
+    /* inlining style's bc reasons */
+  body {
+  display: block;
+  text-align: center;
+}
+container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+section {
+  display: inline-block;
+  border: var(--border);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 8px;
+  text-align: left;
+}
+@media screen and (max-width: 400px) {
+  section {
+    width: 100%;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-radius: 0px;
+    padding: 0px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin: 0px;
+  }
+}
+.iwrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1px;
+}
+.swrapper {
+  display: inline;
+  width: fit-content;
+  border-left: 1px solid silver;
+  padding-left: 5px;
+  margin: 2px;
+}
+.swrapper ul {
+  padding-left: 1px;
+  margin: 0px;
+  margin-right: 8px;
+}
+li {
+  margin-top: 2px;
+}
+li::marker {
+  content: '# ';
+  color: var(--signatureColour);
+}
+.swrapper ul li a {
+  font-size: 1.65rem;
+}
+h3 {
+  margin: 5px;
+  font-size: 2rem;
+}
+section h3 {
+  color: var(--signatureColour);
+}
+.item {
+  margin: 5px;
+  font-size: 1.9rem;
+}
+#disclaimer {
+  margin-top: 10px;
+}
+  </style>
 </body>
 
 </html>
