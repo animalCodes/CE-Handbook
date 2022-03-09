@@ -140,10 +140,10 @@ document.querySelector('navbar').innerHTML = `
   </ul>
   <h3 class="nav-title">Misc</h3>
   <ul>
-  <!-- //* Chat -->
+  <!-- //* Chat effects -->
   <strike>
-  <li><a id="misc-chat" href="../misc/chat.html">Chat</a>
-  <ul id="misc-chat-ul" class="dropdown">
+  <li><a id="misc-chat-effects" href="../misc/chat.html">Chat effects</a>
+  <ul id="misc-chat-effects-ul" class="dropdown">
   <li><a href="#codes">Colour codes</a></li>
   <li><a href="#nick">Nicknames</a></li>
   </ul>
