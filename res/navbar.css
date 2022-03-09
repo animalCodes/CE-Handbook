@@ -26,6 +26,8 @@ nav ul li {
 /* classes / selectors */
 #selected {
   color: var(--signatureColour);
+  border-bottom: 1px solid var(--signatureColour);
+  text-decoration: none;
 }
 #home {
   display: none;

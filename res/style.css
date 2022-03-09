@@ -14,6 +14,11 @@ html {
   --bgColour: #132533;
   --border: 2px solid silver;
 }
+@media screen and (max-width: 450px) {
+  html {
+    font-size: 9px;
+  }
+}
 body {
   display: grid;
   grid-template-columns: 1fr 4fr;
@@ -141,7 +146,7 @@ ptd.val {
 }
 /* Text */
 h1 {
-  font-size: 4rem;
+  font-size: 3.8rem;
 }
 h2 {
   font-size: 3.3rem;
@@ -156,7 +161,7 @@ p {
   border-left: var(--border);
   padding-left: 5px;
   text-align: left;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
 }
 p:not(subarticle p) {
   max-width: 80%;
