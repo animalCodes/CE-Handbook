@@ -1847,7 +1847,6 @@
       width: 80%;
       margin-bottom: 5px;
     }
-
     @media screen and (max-width: 600px) {
       subarticle {
         border-left: 1px solid var(--bgColour);
@@ -1855,14 +1854,26 @@
         border-radius: 0px;
         max-width: 90%;
       }
-
       .stats tbody tr td {
         padding: 2px;
       }
     }
   </style>
   <script src="../res/navigation.js"></script>
-  <script src="search.js"></script>
+  <script>
+    function search(id) {
+        const search = document.getElementById(`${id}-search`)
+        const rows = document.getElementById(`${id}-table`).children;
+        const input = search.value;
+        for (let i = 0; i < rows.length; i++) {
+          let val = rows.item(i)
+          // if child doesn't include input, hide
+          if (!val.innerText.includes(input)) { val.style.display = 'none' }
+          // if child does include input, show
+          if (val.innerText.includes(input)) { val.style.display = 'inline-block' }
+        }
+      }
+  </script>
   <script>
     const page = 'movecraft-blocks';
     document.querySelector(`#${page}`).id = 'selected';
