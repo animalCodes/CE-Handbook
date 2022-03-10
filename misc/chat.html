@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../res/style.css">
+  <link rel="stylesheet" href="../res/navbar.css">
+  <title>Chat effects</title>
+</head>
+
+<body>
+  <navbar aria-flowto="article">
+    <h1 style="color: red;">Error loading sidebar - make sure Javascript is enabled and reload.</h1>
+  </navbar>
+  <article id="top">
+    <a href="../index.html" id="home">
+      <h3>Home</h3>
+    </a>
+    <header>
+      <h1>Chat effects</h1>
+    </header>
+    <intro>
+      <p>There are various features that can be used to enhance chat, here are some of them.</p>
+    </intro>
+    <subarticle id="codes">
+      <h3>Colour codes</h3>
+      <p>Colour codes allow you to add colour to your chat messages and signs, to use them write <cmd>&{number}</cmd> before the text you want to be coloured, for instance <cmd>&4red</cmd> would output <cmd style="color: red;">red</cmd>.</p>
+      <p>Below is a table of all key's and how they change the text.</p>
+      <div class="twrapper">
+      <ptable>
+        <pth>Colours</pth>
+        <ptd>Input</ptd>
+        <ptd>Effect</ptd>
+        <ptd>&1text</ptd>
+        <ptd style="color: #0000AA;">text</ptd>
+        <ptd>&2text</ptd>
+        <ptd style="color: #00AA00;">text</ptd>
+        <ptd>&3text</ptd>
+        <ptd style="color: #00AAAA;">text</ptd>
+        <ptd>&4text</ptd>
+        <ptd style="color: #AA0000;">text</ptd>
+        <ptd>&5text</ptd>
+        <ptd style="color: #AA00AA;">text</ptd>
+        <ptd>&6text</ptd>
+        <ptd style="color: #FFAA00;">text</ptd>
+        <ptd>&7text</ptd>
+        <ptd style="color: #AAAAAA;">text</ptd>
+        <ptd>&8text</ptd>
+        <ptd style="color: #555555;">text</ptd>
+        <ptd>&9text</ptd>
+        <ptd style="color: #5555FF;">text</ptd>
+        <ptd>&0text</ptd>
+        <ptd style="color: #000000;">text</ptd>
+        <ptd>&atext</ptd>
+        <ptd style="color: #55FF55;">text</ptd>
+        <ptd>&btext</ptd>
+        <ptd style="color: #55FFFF;">text</ptd>
+        <ptd>&ctext</ptd>
+        <ptd style="color: #FF5555;">text</ptd>
+        <ptd>&dtext</ptd>
+        <ptd style="color: #FF55FF;">text</ptd>
+        <ptd>&etext</ptd>
+        <ptd style="color: #FFFF55;">text</ptd>
+      </ptable>
+      <ptable>
+        <pth>Decoration</pth>
+        <ptd>Input</ptd>
+        <ptd>Effect</ptd>
+        <ptd>&amp;ltext</ptd>
+        <ptd style="font-weight: bold;">text</ptd>
+        <ptd>&mtext</ptd>
+        <ptd style="text-decoration: line-through;">text</ptd>
+        <ptd>&ntext</ptd>
+        <ptd style="text-decoration: underline;">text</ptd>
+        <ptd>&otext</ptd>
+        <ptd style="font-style: italic;">text</ptd>
+      </ptable>
+      </div>
+      <p>To reset the colour/style of text back to normal use <cmd>&r</cmd>.</p>
+    </subarticle>
+    <subarticle id="nick">
+      <h3>Nicknames</h3>
+      <p></p>
+    </subarticle>
+  </article>
+  <script src="../res/navigation.js"></script>
+  <script>
+    const page = 'misc-chat-effects';
+    document.querySelector(`#${page}`).id = 'selected';
+    document.querySelector(`#${page}-ul`).style.display = 'block';
+  </script>
+</body>
+
+</html>
