@@ -23,6 +23,10 @@ nav ul li {
 .dropdown li {
   font-size: 1.7rem;
 }
+.dropdown li:hover::before {
+  content: '#';
+  color: var(--signatureColour);
+}
 /* classes / selectors */
 #selected {
   color: var(--signatureColour);

@@ -197,6 +197,9 @@ a {
 a:hover {
   color: var(--signatureColour);
 }
+a.external::after {
+  content: '⇗';
+}
 p a {
   font-weight: bold;
 }
