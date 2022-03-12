@@ -32,6 +32,7 @@ navbar, article {
   border-radius: 5px;
 }
 article {
+  max-width: 99%;
   margin: auto;
   text-align: center;
   overflow-wrap: normal;
@@ -192,7 +193,6 @@ ul {
 }
 a {
   color: var(--mainTextColour);
-  font-size: inherit;
 }
 a:hover {
   color: var(--signatureColour);
@@ -201,6 +201,7 @@ a.external::after {
   content: '⇗';
 }
 p a {
+  font-size: inherit;
   font-weight: bold;
 }
 sig {
@@ -227,21 +228,31 @@ input:focus-visible {
   color: #FA0;
 }
 /* images */
+.img-carousel {
+  border: var(--border);
+  border-radius: 5px;
+  height: fit-content;
+  max-width: 95%;
+  margin: auto;
+  overflow-x: auto;
+  white-space: nowrap;
+}
 .imgwrapper {
   display: inline-block;
+  margin: 5px;
 }
 img {
   max-width: 300px;
   max-height: 200px;
   border-radius: 5px;
 }
-.large {
+img.large {
   max-width: 500px;
   max-height: 275px;
   cursor: alias;
 }
 @media screen and (max-width: 1000px) {
-  .large {
+  img.large {
     max-width: 200px;
     max-height: 100px;
   }
