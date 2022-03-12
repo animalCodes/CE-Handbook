@@ -240,6 +240,7 @@ input:focus-visible {
 .imgwrapper {
   display: inline-block;
   margin: 5px;
+  margin-top: 8px;
 }
 img {
   max-width: 300px;
