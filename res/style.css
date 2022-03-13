@@ -32,7 +32,7 @@ navbar, article {
   border-radius: 5px;
 }
 article {
-  max-width: 99%;
+  max-width: 100%;
   margin: auto;
   text-align: center;
   overflow-wrap: normal;
@@ -40,6 +40,7 @@ article {
 }
 navbar {
   padding-left: 5px;
+  margin-right: 2px;
   vertical-align: top;
   text-align: start;
 }
@@ -86,7 +87,6 @@ subarticle {
   max-width: 60%;
   min-width: 200px;
   margin: 5px;
-  text-align: start;
 }
 .list-box {
   display: grid;
@@ -94,12 +94,8 @@ subarticle {
   max-height: 400px;
   overflow: auto;
 }
-.list-box-wrapper:first-child {
-  text-align: center;
-}
 .list-box-wrapper h3 {
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin: 5px;
 }
 item {
   display: inline-block;
