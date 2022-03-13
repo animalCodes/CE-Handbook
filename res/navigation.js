@@ -78,6 +78,17 @@ document.querySelector('navbar').innerHTML = `
   </ul>
   </li>
   </ul>
+  <h3 class="nav-title">Economy</h3>
+  <ul>
+  <!-- //* Trade sectors-->
+  <li><a id="economy-trade" href="../economy/trade.html">Trade sectors</a>
+  <ul id="economy-trade-ul" class="dropdown">
+  <li><a href="#cronosholm">Cronosholm</a></li>
+  <li><a href="#helmheim">Helmheim centre</a></li>
+  <li><a href="#olympus">Olympus Mons sector</a></li>
+  </ul>
+  </li>
+  </ul>
   <h3 class="nav-title">Resonant</h3>
   <ul>
   <!-- //* resonant basics -->
