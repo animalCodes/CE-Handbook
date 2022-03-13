@@ -43,6 +43,9 @@ nav ul li {
   margin-bottom: 5px;
   color: var(--bgColour);
 }
+#home h3 {
+  margin: 5px;
+}
 @media screen and (max-width: 670px) {
   body {
     display: block;
