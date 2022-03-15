@@ -81,13 +81,12 @@ document.querySelector('navbar').innerHTML = `
   <h3 class="nav-title">Economy</h3>
   <ul>
   <!-- //* Trade sectors-->
-  <strike>
   <li><a id="economy-trade" href="../economy/trade.html">Trade sectors</a>
-  </strike>
   <ul id="economy-trade-ul" class="dropdown">
   <li><a href="#cronosholm">Cronosholm</a></li>
   <li><a href="#helmheim">Helmheim centre</a></li>
   <li><a href="#olympus">Olympus Mons sector</a></li>
+  <li><a href="#trading">Trading</a></li>
   </ul>
   </li>
   </ul>
