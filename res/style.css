@@ -1,17 +1,17 @@
-/* Structural Elements */
 *:focus-visible {
-  outline: var(--mainTextColour) solid 2px;
+  outline: var(--text_colour) solid 2px;
   border-radius: 5px;
 }
+/* Structural Elements */
 html, body {
   margin: 0px;
 }
 html {
   font-size: 10px;
   /* variables */
-  --mainTextColour: silver;
-  --signatureColour: forestgreen;
-  --bgColour: #132533;
+  --text_colour: silver;
+  --accent: forestgreen;
+  --main_colour: #132533;
   --border: 2px solid silver;
 }
 @media screen and (max-width: 450px) {
@@ -22,8 +22,8 @@ html {
 body {
   display: grid;
   grid-template-columns: 1fr 4fr;
-  background-color: var(--bgColour);
-  color: var(--mainTextColour);
+  background-color: var(--main_colour);
+  color: var(--text_colour);
   font-family: monospace;
 }
 navbar, article {
@@ -74,8 +74,8 @@ subarticle {
     max-width: 100%;
   }
   subarticle {
-    border-left: 1px solid var(--bgColour);
-    border-right: 1px solid var(--bgColour);
+    border-left: 1px solid var(--main_colour);
+    border-right: 1px solid var(--main_colour);
     border-radius: 0px;
   }
 }
@@ -188,10 +188,10 @@ ul {
   }
 }
 a {
-  color: var(--mainTextColour);
+  color: var(--text_colour);
 }
 a:hover {
-  color: var(--signatureColour);
+  color: var(--accent);
 }
 a.external::after {
   content: '⇗';
@@ -201,7 +201,7 @@ p a {
   font-weight: bold;
 }
 sig {
-  color: var(--signatureColour);
+  color: var(--accent);
   text-decoration: underline;
 }
 cmd {
@@ -213,7 +213,7 @@ cmd {
   color: black;
 }
 input:focus-visible {
-  border: 2px solid var(--signatureColour);
+  border: 2px solid var(--accent);
 }
 /* modifiers */
 .nav-title {

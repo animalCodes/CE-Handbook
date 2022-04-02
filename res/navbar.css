@@ -18,19 +18,19 @@ nav ul li {
 }
 .dropdown {
   display: none;
-  border-left: 1px solid var(--signatureColour);
+  border-left: 1px solid var(--accent);
 }
 .dropdown li {
   font-size: 1.7rem;
 }
 .dropdown li:hover::before {
   content: '#';
-  color: var(--signatureColour);
+  color: var(--accent);
 }
 /* classes / selectors */
 #selected {
-  color: var(--signatureColour);
-  border-bottom: 1px solid var(--signatureColour);
+  color: var(--accent);
+  border-bottom: 1px solid var(--accent);
   text-decoration: none;
 }
 #home {
@@ -41,7 +41,7 @@ nav ul li {
   padding-right: 6px;
   margin-top: 5px;
   margin-bottom: 5px;
-  color: var(--bgColour);
+  color: var(--main_colour);
 }
 #home h3 {
   margin: 5px;
@@ -67,7 +67,7 @@ nav ul li {
 }
 #up {
   position: fixed;
-  background-color: var(--bgColour);
+  background-color: var(--main_colour);
   border-radius: 10px;
   top: 10px;
   left: 95%;
@@ -77,7 +77,7 @@ nav ul li {
 #up h4 {
   margin: 0px;
   padding: 5px;
-  color: var(--signatureColour);
+  color: var(--accent);
   font-size: 1.7rem;
 }
 #up h4:hover {

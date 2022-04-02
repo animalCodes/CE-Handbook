@@ -27,9 +27,11 @@
       <p>For the 'required' blocks field, the listed percentage is how much of the craft can be that block. For
         instance only 1.125% of a starfighter can be ender chests. The same but reverse goes for required blocks, so
         35% of a starfighter <em>has</em> to be wool.</p>
-      <p>Data was collected from the official <a class="external" href="https://starmap.zapto.org/craftdata" target="_blank">Craft
+      <p>Data was collected from the official <a class="external" href="https://starmap.zapto.org/craftdata"
+          target="_blank">Craft
           wiki</a> with duplicate listings removed and some testing to make sure the blocks are actually valid.</p>
-      <p>To see other info on a specific craft such as min/max size, click on the 'Craft profile' link next to it's title.</p>
+      <p>To see other info on a specific craft such as min/max size, click on the 'Craft profile' link next to it's
+        title.</p>
     </intro>
     <subarticle id="starfighter">
       <h3>Starfighter</h3>
@@ -1832,17 +1834,20 @@
       width: 80%;
       margin-bottom: 5px;
     }
+
     subarticle h3 {
       margin-bottom: 5px;
     }
+
     subarticle a {
       display: block;
       font-size: 1.6rem;
     }
+
     @media screen and (max-width: 600px) {
       subarticle {
-        border-left: 1px solid var(--bgColour);
-        border-right: 1px solid var(--bgColour);
+        border-left: 1px solid var(--main_colour);
+        border-right: 1px solid var(--main_colour);
         border-radius: 0px;
         max-width: 90%;
       }
@@ -1851,17 +1856,17 @@
   <script src="../res/navigation.js"></script>
   <script>
     function search(id) {
-        const search = document.getElementById(`${id}-search`)
-        const rows = document.getElementById(`${id}-table`).children;
-        const input = search.value;
-        for (let i = 0; i < rows.length; i++) {
-          let val = rows.item(i)
-          // if child doesn't include input, hide
-          if (!val.innerText.includes(input)) { val.style.display = 'none' }
-          // if child does include input, show
-          if (val.innerText.includes(input)) { val.style.display = 'inline-block' }
-        }
+      const search = document.getElementById(`${id}-search`)
+      const rows = document.getElementById(`${id}-table`).children;
+      const input = search.value;
+      for (let i = 0; i < rows.length; i++) {
+        let val = rows.item(i)
+        // if child doesn't include input, hide
+        if (!val.innerText.includes(input)) { val.style.display = 'none' }
+        // if child does include input, show
+        if (val.innerText.includes(input)) { val.style.display = 'inline-block' }
       }
+    }
   </script>
   <script>
     const page = 'movecraft-blocks';
