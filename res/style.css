@@ -205,9 +205,11 @@ sig {
   text-decoration: underline;
 }
 cmd {
+  display: block;
   background-color: silver;
   border: var(--border);
   border-radius: 5px;
+  width: fit-content;
   color: black;
 }
 input:focus-visible {
