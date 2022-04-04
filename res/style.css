@@ -102,14 +102,14 @@ item {
   border-top: var(--border);
   padding: 5px;
 }
-.twrapper {
+.table-wrapper {
   display: inline-flex;
   display: -webkit-inline-flex;
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
 }
-.twrapper ptable {
+.table-wrapper ptable {
   margin: 5px;
 }
 /* Pseudo tables */
@@ -235,7 +235,7 @@ input:focus-visible {
   overflow-x: auto;
   white-space: nowrap;
 }
-.imgwrapper {
+.img-wrapper {
   display: inline-block;
   margin: 5px;
   margin-top: 8px;
