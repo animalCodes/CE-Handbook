@@ -139,6 +139,7 @@ document.querySelector('navbar').innerHTML = `
   <li><a href="#teleporter">Optical teleporter</a></li>
   <li><a href="#mbeam">Mining beam</a></li>
   <li><a href="#shield">Shields</a></li>
+  <li><a href="#shield-proj">Shield Projectors</a></li>
   </ul>
   </li>
   <!-- //* Weapons -->
