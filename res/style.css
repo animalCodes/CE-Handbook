@@ -12,7 +12,7 @@ html {
   --text_colour: silver;
   --accent: forestgreen;
   --main_colour: #132533;
-  --border: 2px solid silver;
+  --border: 2px solid rgba(192, 192, 192, 0.800);
 }
 @media screen and (max-width: 450px) {
   html {
