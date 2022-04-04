@@ -35,16 +35,15 @@ nav ul li {
 }
 #home {
   display: none;
-  background-color: silver;
   border-radius: 5px;
-  padding-left: 6px;
-  padding-right: 6px;
+  background-color: silver;
   margin-top: 5px;
-  margin-bottom: 5px;
-  color: var(--main_colour);
 }
-#home h3 {
-  margin: 5px;
+#home btn {
+  padding: 7px;
+  color: var(--main_colour);
+  font-size: 3rem;
+  font-weight: bold;
 }
 @media screen and (max-width: 670px) {
   body {
