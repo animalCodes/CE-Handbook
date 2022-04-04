@@ -1,0 +1,103 @@
+
+--Movecraft:
+-Signs / Controls
+-Craft types
+-Flight blocks
+--Planets:
+-Interplanetary Travel
+-info
+--Resonant:
+-Basics
+-Generation / Storage
+-Machinery
+--Multiblock Structures:
+-Gadgets
+-Weapons
+-Pipes
+--Economy:
+-Trade sectors
+-Sign shops
+
+Crafting:
+-Alternate
+-Resources
+-Components
+
+
+
+#Weapons
+
+Pulse cannon
+Point defence laser cannon
+Ion beam
+Mass driver
+Super laser
+Plasma cannon
+Torpedo tube
+EMP cannon
+
+
+screenshots needed:
+Rift drive chat messages
+Weapons
+
+
+
+info to collect on different planets:
+terrain
+ores
+world border size
+orbit name x
+
+Notable blocks:
+-Deepslate
+-Basalt
+-Blackstone
+-Prismarine
+
+Ores:
+-Coal
+-Copper
+-Iron
+-Gold
+-Lapis
+-Redstone
+-Diamond
+-Emerald
+-Quartz
+-Tin (custom)
+-Aluminum (custom)
+
+
+AlphaPrime AlphaPOrbit
+Arkenia ArkeniaOrbit
+Earth EarthOrbit
+Eriban EribanOrbit
+Europa EuropanOrbit
+Hydran HydranOrbit
+Ilus IlusOrbit
+Luna LunarOrbit
+Mars MartianOrbit
+Mercury MercuryOrbit
+MonNilha MonNilhaOrbit
+Necrahn NecrahnOrbit
+NovaLuna NovaLunaOrbit
+NovaTerra NovaTerraOrbit
+OmegaPrime OmegaPOrbit
+Pluto PlutonianOrbit
+Pyrixa PyrixanOrbit
+Saturn SaturnOrbit
+Talcann TalcannOrbit
+TerrakPrime TerrakPOrbit
+Titan TitanianOrbit
+Zara85C Zara85COrbit
+
+commands:
+
+Afk
+Help
+Recipes
+Vote
+ES
+Kit
+Oxn inv

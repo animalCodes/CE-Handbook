@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table search</title>
+</head>
+
+<body>
+  <input type="text" id="input" oninput="search()">
+  <button onclick="search()">Go</button>
+  <table>
+    <pth>test</pth>
+    <tbody id="items">
+
+      <ptd>1</ptd>
+      <ptd>2</ptd>
+
+
+      <ptd>3</ptd>
+      <ptd>4</ptd>
+
+    </tbody>
+    </ptable>
+    <script>
+      // get stuff from dom
+      const searchBox = document.getElementById('input')
+      const rows = document.getElementById('items').children;
+
+      function search() {
+        const input = searchBox.value;
+
+        // for all children of rows, set data to *their* children
+        for (let i = 0; i < rows.length; i++) {
+          let data = rows.item(i).children;
+          console.log(`row length: ${data.length}`)
+
+          for (let i = 0; i < data.length; i++) {
+            let val = data.item(i)
+            console.log(`value: ${val}`)
+            // if child doesn't include input, hide
+            if (!val.innerText.includes(input)) { data.item(i).style.display = 'none' }
+            // if child does include input, show
+            if (val.innerText.includes(input)) { data.item(i).style.display = 'inline-block' }
+          }
+        }
+      }
+    </script>
+</body>
+
+</html>

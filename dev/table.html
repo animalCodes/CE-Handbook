@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Table</title>
+</head>
+
+<body>
+  <textarea id="text" cols="30" rows="10"></textarea>
+  <button onclick="table()">Go</button>
+  <p id="output"></p>
+  <script>
+    function table() {
+      // grab needed elements from the DOM because <form>/<input> elements were being uncooperative 
+      input = document.getElementById('text').value;
+      output = document.getElementById('output');
+
+      // start process of removing duplicates by splitting string into array of <ptd>(data)</ptd> sets
+      let duplicates = input.split(/, /g) // regex to find all occurances of ', '
+      let removeduplicates = [];
+      console.log('removing duplicate entries')
+      // loop through duplicates, if the element is NOT found in removeduplicates then push that element into it
+      duplicates.forEach((d) => {
+        if (!removeduplicates.includes(d)) {
+          console.log(`Pushing: ${d}`);
+          removeduplicates.push(`${d}`)
+        }
+      })
+      // same idea as above but getting rid of 'white terracotta', 'blue terracotta' etc.
+      let stairs = false;
+      let slabs = false;
+      let copper = false;
+      let concrete = false;
+      let terracotta = false;
+      let wall = false;
+      let glass = false
+      let plank = false;
+      let bed = false;
+      let wool = false;
+      let sign = false;
+      let noduplicates = [];
+      console.log('Removing unneeded entries');
+      removeduplicates.forEach((d) => {
+        // only push elements that DON'T include any of the substrings.
+        if (!d.includes('stair') && !d.includes('slab') && !d.includes('copper') && !d.includes('concrete') && !d.includes('terracotta') && !d.includes('wall') && !d.includes('glass') && !d.includes('plank') && !d.includes('bed') && !d.includes('wool') && !d.includes('sign')) {
+          console.log(`Pushing: ${d}`);
+          noduplicates.push(d)
+        }
+        // check to see if d includes (substring), if so set the appropriate variable to true. This is 'one-way' and so won't go back to false if d does not include (substring)
+        if (d.includes('stair')) stairs = true;
+        if (d.includes('slab')) slabs = true;
+        if (d.includes('copper')) copper = true;
+        if (d.includes('concrete')) concrete = true;
+        if (d.includes('terracotta')) terracotta = true;
+        if (d.includes('wall')) wall = true;
+        if (d.includes('glass')) glass = true;
+        if (d.includes('plank')) plank = true;
+        if (d.includes('bed')) bed = true;
+        if (d.includes('wool')) wool = true;
+        if (d.includes('sign')) sign = true;
+      })
+      console.log('formatting.');
+      let format = noduplicates.toString()
+      // if var = true, change the variable to the appropriate string.
+      stairs = stairs ? 'all stairs,' : "";
+      slabs = slabs ? 'all slabs,' : "";
+      copper = copper ? 'all copper variants (exposed waxed etc),' : "";
+      concrete = concrete ? 'all concrete,' : "";
+      terracotta = terracotta ? 'all terracotta, all glazed terracotta,' : "";
+      wall = wall ? 'all walls,' : "";
+      glass = glass ? 'all glass,' : "";
+      plank = plank ? 'all planks,' : "";
+      wool = wool ? 'all wool,' : "";
+      bed = bed ? 'all beds,' : "";
+      sign = sign ? 'all signs,' : "";
+      // concat 
+      let concat = format.concat(`
+      ,
+      ${stairs}
+      ${slabs}
+      ${terracotta}
+      ${wall}
+      ${glass}
+      ${plank}
+      ${copper}
+      ${concrete}
+      ${bed}
+      ${wool}
+      ${sign}
+      `)
+      // replace ', ' with ','
+      const replace1 = concat.replace(/, /g, ',')
+      // replace all occurances of ',' with </ptd><br><ptd>
+      const replace2 = replace1.replace(/,/g, '&lt;/item&gt;<br>&lt;item&gt;')
+      // add <ptd> and </ptd> to start and end of string respectively
+      let final = `&lt;item&gt;${replace2}&lt;/item&gt;`;
+      // and breath..
+      output.innerHTML = final;
+    }
+  </script>
+</body>
+
+</html>
