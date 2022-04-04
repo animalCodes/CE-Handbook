@@ -267,19 +267,3 @@ label {
   display: block;
   font-size: 1.6rem;
 }
-/* disclaimer */
-#disclaimer {
-  display: none;
-  max-width: 80%;
-  border: var(--border);
-  border-radius: 5px;
-  padding: 3px;
-  margin-top: 10px;
-  margin: auto;
-  word-wrap: normal;
-}
-@media screen and (max-width: 600px) {
-  #disclaimer {
-    display: block;
-  }
-}

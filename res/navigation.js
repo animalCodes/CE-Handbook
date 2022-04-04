@@ -165,15 +165,3 @@ document.querySelector('navbar').innerHTML = `
   </ul>
   </nav>
   `;
-
-// mobile-only disclaimer
-const disclaimer = document.getElementById('disclaimer');
-
-disclaimer.innerHTML = `
-  <h3>Please note that this site was designed on a desktop for desktops, and while I have tried to make it respond to smaller screen sizes it may render oddly on mobile devices, if elements render oddly I suggest switching to landscape mode, you have been warned! (tap to dismiss)
-  </h3>
-`
-
-disclaimer.addEventListener('click', () => {
-  disclaimer.style.display = "none";
-})
