@@ -23,7 +23,7 @@
       problems please message me (<sig>@animal</sig>) on the discord server.</p>
     <p>Please keep in mind that this guide is nowhere near finished! - If (When) you find something that isn't answered
       by this guide please consult <a class="external" href="https://celestialmc.zapto.org/wiki/wiki-home"
-        target="_blank external">the official wiki</a> or ask a staff member.</p>
+        target="_blank">the official wiki</a> or ask a staff member.</p>
     <p>Note that <strike>stricken</strike> entries aren't finished.</p>
   </intro>
   <container>
@@ -33,7 +33,8 @@
       <div class="iwrapper">
         <div class="swrapper">
           <a class="item" href="movecraft/controls.html">Signs / Controls</a>
-          <ul>
+          <button onclick="toggleDropdown('signsControls', this)">v</button>
+          <ul id="signsControls">
             <li><a href="movecraft/controls.html#compass">Compass control</a></li>
             <li><a href="movecraft/controls.html#gears">Gear control</a></li>
             <li><a href="movecraft/controls.html#direct">Direct control</a></li>
@@ -257,6 +258,13 @@
     disclaimer.addEventListener('click', () => {
       disclaimer.style.display = "none";
     })
+    console.log(document.querySelector('#signsControls').style.display)
+    function toggleDropdown(wrapper, button) {
+      let ul = document.querySelector(`#${wrapper}`)
+      // If shown, hide. If hidden, show. I have to also check to see whether the display == "" as for some reason the <ul> has it's display set to an empty string by default. ¯\_(ツ)_/¯
+      if (ul.style.display == "block" || ul.style.display == "") {ul.style.display = "none"; button.innerHTML = "^"}
+      else {ul.style.display = "block"; button.innerHTML = "v"}
+    }
   </script>
   <style>
     /* inlining style's bc reasons */
@@ -302,6 +310,7 @@
       margin: 2px;
     }
     .swrapper ul {
+      display: block;
       padding-left: 1px;
       margin: 0px;
       margin-right: 8px;

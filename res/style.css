@@ -215,16 +215,6 @@ cmd {
 input:focus-visible {
   border: 2px solid var(--accent);
 }
-/* modifiers */
-.nav-title {
-  border-left: var(--border);
-  padding-left: 5px;
-  margin-bottom: 0px;
-}
-.gold {
-  font-style: normal;
-  color: #FA0;
-}
 /* images */
 .img-carousel {
   border: var(--border);
@@ -266,4 +256,20 @@ label {
   font-style: italic;
   display: block;
   font-size: 1.6rem;
+}
+/* Other */
+button {
+  background-color: var(--main_colour);
+  border-radius: 5px;
+  color: var(--text_colour);
+  cursor: pointer;
+}
+.nav-title {
+  border-left: var(--border);
+  padding-left: 5px;
+  margin-bottom: 0px;
+}
+.gold {
+  font-style: normal;
+  color: #FA0;
 }
