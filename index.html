@@ -270,8 +270,8 @@
     function toggleDropdown(wrapper, button) {
       let ul = document.querySelector(`#${wrapper}`)
       // If shown, hide. If hidden, show. I have to also check to see whether the display == "" as for some reason the <ul> has it's display set to an empty string by default. ¯\_(ツ)_/¯
-      if (ul.style.display == "block" || ul.style.display == "") {ul.style.display = "none"; button.innerHTML = "^"}
-      else {ul.style.display = "block"; button.innerHTML = "v"}
+      if (ul.style.display == "block") {ul.style.display = "none"; button.innerHTML = "^"}
+      else {ul.style.display = "block" || ul.style.display == ""; button.innerHTML = "v"}
     }
   </script>
   <style>
@@ -318,7 +318,7 @@
       margin: 2px;
     }
     .swrapper ul {
-      display: block;
+      display: none;
       padding-left: 1px;
       margin: 0px;
       margin-right: 8px;
