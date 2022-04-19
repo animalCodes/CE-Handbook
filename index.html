@@ -48,7 +48,8 @@
         <!-- Craft types -->
         <div class="swrapper">
           <a class="item" href="movecraft/crafts.html">Craft types</a>
-          <ul>
+          <button onclick="toggleDropdown('craftTypes', this)">v</button>
+          <ul id="craftTypes">
             <li><a href="movecraft/crafts.html#starfighter">Starfighter</a></li>
             <li><a href="movecraft/crafts.html#cargoshuttle">Cargoshuttle</a></li>
             <li><a href="movecraft/crafts.html#starship">Starship</a></li>
@@ -69,7 +70,8 @@
         <!-- Valid blocks -->
         <div class="swrapper">
           <a class="item" href="movecraft/blocks.html">Valid blocks</a>
-          <ul>
+          <button onclick="toggleDropdown('validBlocks', this)">v</button>
+          <ul id="validBlocks">
             <li><a href="movecraft/blocks.html#starfighter">Starfighter</a></li>
             <li><a href="movecraft/blocks.html#cargoshuttle">Cargoshuttle</a></li>
             <li><a href="movecraft/blocks.html#starship">Starship</a></li>
@@ -101,7 +103,8 @@
         <!-- Interplanetary travel -->
         <div class="swrapper">
           <a class="item" href="planets/travel.html">Interplanetary travel</a>
-          <ul>
+          <button onclick="toggleDropdown('interplanetaryTravel', this)">v</button>
+          <ul id="interplanetaryTravel">
             <li><a href="planets/travel.html#orbit">Getting to orbit</a></li>
             <li><a href="planets/travel.html#radon">Crystalized radon</a></li>
             <li><a href="planets/travel.html#tsigns">Teleport signs</a></li>
@@ -116,7 +119,8 @@
       <div class="iwrapper">
         <div class="swrapper">
           <a class="item" href="economy/trade.html">Trade sectors</a>
-          <ul>
+          <button onclick="toggleDropdown('tradeSectors', this)">v</button>
+          <ul id="tradeSectors">
             <li><a href="economy/trade.html#cronosholm">Cronosholm</a></li>
             <li><a href="economy/trade.html#helmheim">Helmheim centre</a></li>
             <li><a href="economy/trade.html#olympus">Olympus Mons sector</a></li>
@@ -131,7 +135,8 @@
         <!-- Resonant basics -->
         <div class="swrapper">
           <a class="item" href="resonant/basics.html">Basics</a>
-          <ul>
+          <button onclick="toggleDropdown('basics', this)">v</button>
+          <ul id="basics">
             <li><a href="resonant/basics.html#cable">Cables</a></li>
             <li><a href="resonant/basics.html#corners">Corners</a></li>
             <li><a href="resonant/basics.html#splitters">Splitters</a></li>
@@ -141,7 +146,8 @@
         <!-- Resonant generation / storage -->
         <div class="swrapper">
           <a class="item" href="resonant/management.html">Generation / Storage</a>
-          <ul>
+          <button onclick="toggleDropdown('generationStorage', this)">v</button>
+          <ul id="generationStorage">
             <li><a href="resonant/management.html#battery">Battery</a></li>
             <li><a href="resonant/management.html#capacitor">Capacitor</a></li>
             <li><a href="resonant/management.html#combustion">Combustion generator</a></li>
@@ -154,7 +160,8 @@
         <!-- Resonant machines -->
         <div class="swrapper">
           <a class="item" href="resonant/machines.html">Machines</a>
-          <ul>
+          <button onclick="toggleDropdown('machines', this)">v</button>
+          <ul id="machines">
             <li><a href="resonant/machines.html#vacuum">Vacuum</a></li>
             <li><a href="resonant/machines.html#radar">Radar</a></li>
             <li><a href="resonant/machines.html#coil">Tesla coil</a></li>
@@ -171,7 +178,8 @@
       <div class="iwrapper">
         <div class="swrapper">
           <a class="item" href="structures/gadgets.html">Gadgets</a>
-          <ul>
+          <button onclick="toggleDropdown('gadgets', this)">v</button>
+          <ul id="gadgets">
             <li><a href="structures/gadgets.html#crafter">Clockwork crafter</a></li>
             <li><a href="structures/gadgets.html#filter">Hopper filter</a></li>
             <li><a href="structures/gadgets.html#chamber">Aero-Electrolysis chamber</a></li>
