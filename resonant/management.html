@@ -34,9 +34,10 @@
       use special storage devices in order to power crafts and collect the crystals.</p>
     <subarticle id="battery">
       <h3>Battery</h3>
-      <img alt="A dropper with composite blocks placed above and below it."
-        src="../images/resonant/management/battery.jpg" id="battery-img">
-      <label aria-hidden="true" for="battery-img">Front view</label>
+      <div class="img-wrapper">
+      <img src="../images/resonant/management/battery.jpg" aria-labelledby="battery-label">
+      <p id="battery-label">A battery: 2 composite blocks and a dropper</p>
+    </div>
       <p>Batteries are the more efficient, but more expensive way to store resonant, the dropper is used as the
         input and storage.</p>
       <div class="table-wrapper">
@@ -58,9 +59,10 @@
     </subarticle>
     <subarticle>
       <h3>Capacitor</h3>
-      <img alt="A dropper with a barrel placed on top and an iron block placed below."
-        src="../images/resonant/management/capacitor.jpg" id="capacitor-img">
-      <label aria-hidden="true" for="capacitor-img">Front view</label>
+      <div class="img-wrapper">
+      <img src="../images/resonant/management/capacitor.jpg" aria-labelledby="capacitor-label">
+      <p id="capacitor-label">Capacitor: 2 iron blocks and a dropper</p>
+    </div>
       <p>Capacitors are a cheaper but less efficient storage method, the dropper is used as the input and the
         barrel is the storage.</p>
       <div class="table-wrapper">
@@ -82,24 +84,20 @@
     </subarticle>
     <h2 id="generators">Generators</h2>
     <p>Generators are how you actually <em>generate</em> resonant crystals. (go figure) Connect a generator to a
-      storage device, activate it, and you should start producing resonant.</p>
+      storage device, activate it, and you will start producing resonant.</p>
     <subarticle id="combustion">
       <h2>Combustion generator</h2>
       <div class="img-carousel">
         <div class="img-wrapper">
-          <img
-            alt="A redstone lamp placed on top of a blast furnace, the lamp is powered by a lever and there is resonant cables leading out the back of the blast furnace."
-            src="../images/resonant/management/combustion.jpg" id="combustion-img">
-          <label aria-hidden="true" for="combustion-img">Side view + power flow</label>
+          <img src="../images/resonant/management/combustion.jpg" aria-labelledby="combustion-label">
+          <p id="combustion-label">Side view + power flow</p>
         </div>
         <div class="img-wrapper">
-          <img src="../images/resonant/management/combustion1.jpg"
-            alt="Alternate view showing the front of the blast furnace, the redstone lamp is lit." id="combustion-img1">
-          <label aria-hidden="true" for="combustion-img1">Front view</label>
+          <img src="../images/resonant/management/combustion1.jpg" aria-labelledby="combustion-label1">
+          <p id="combustion-label1">Front view - note the direction of the furnace</p>
         </div>
       </div>
-      <p>Combustion generators get their power from burning fuel, place the fuel in the blast furnace where it
-        usually goes, the <em>back</em> of the blast furnace is the output.</p>
+      <p>Combustion generators get their power from burning fuel, to build one just place a redstone lamp on top of a blast furnace and activate it, direct resonant cables out of the <strong>back</strong> of the furnace and place the fuel where it usually goes.</p>
       <div class="table-wrapper">
         <ptable>
           <pth>Required blocks</pth>
@@ -130,19 +128,16 @@
       <h2>Solar panel</h2>
       <div class="img-carousel">
         <div class="img-wrapper">
-          <img
-            alt="A dropper with a redstone lamp placed on top of it and a daylight detector placed on top of the lamp."
-            src="../images/resonant/management/solar.jpg" id="solar-img">
-          <label aria-hidden="true" for="solar-img">Front view</label>
+          <img src="../images/resonant/management/solar.jpg" aria-labelledby="solar-label">
+          <p id="solar-label">Front view</p>
         </div>
         <div class="img-wrapper">
-          <img src="../images/resonant/management/solar1.jpg"
-            alt="With resonant cables leading out the front of the dropper." id="solar-img1">
-          <label aria-hidden="true" for="solar-img1">Power flow</label>
+          <img src="../images/resonant/management/solar1.jpg" aria-labelledby="solar-label">
+          <p id="solar-label1">Power flow - the dropper is facing <em>into</em> the cable</p>
         </div>
       </div>
-      <p>Once built and activated solar panels require no maintenance and will generate pulses on their own,
-        the only downsides are that they must have sky above them and they must be above y63.</p>
+      <p>Once built solar panels require no maintenance and will generate pulses on their own, (magic!)
+        the only requirements are that they must have sky above them and they must be above sea level. (y63)</p>
       <div class="table-wrapper">
         <ptable>
           <pth>Required blocks</pth>
@@ -168,21 +163,16 @@
       <h2>Wind turbine</h2>
       <div class="img-carousel">
         <div class="img-wrapper">
-          <img
-            alt="The bottom slice of the structure, a resonant cable block surrounded by four wool blocks and four iron bar blocks in the corners."
-            src="../images/resonant/management/wind.jpg" id="wind-img">
-          <label aria-hidden="true" for="wind-img">Bottom 'slice'</label>
+          <img src="../images/resonant/management/wind.jpg" aria-labelledby="wind-label">
+          <p id="wind-label">Bottom 'slice'</p>
         </div>
         <div class="img-wrapper">
-          <img
-            alt="The completed structure, four more wool blocks on top of the previous four, and an extended piston on top of the resonant cable."
-            src="../images/resonant/management/wind1.jpg" id="wind-img1">
-          <label aria-hidden="true" for="wind-img1">Completed</label>
+          <img src="../images/resonant/management/wind1.jpg" aria-labelledby="wind-label1">
+          <p id="wind-label1">Completed</p>
         </div>
         <div class="img-wrapper">
-          <img alt="Power flow, resonant cable connected to the bottom slice."
-            src="../images/resonant/management/wind2.jpg" id="wind-img2">
-          <label aria-hidden="true" for="wind-img2">Power flow</label>
+          <img src="../images/resonant/management/wind2.jpg" aria-labelledby="wind-label">
+          <p id="wind-label2">Power flow</p>
         </div>
       </div>
       <p>Wind turbines are similar to solar panels, once activated they passively generate pulses. But
@@ -220,23 +210,19 @@
       <h2>Hydropower generator</h2>
       <div class="img-carousel">
         <div class="img-wrapper">
-          <img
-            alt="Eight steel blocks surround a piston on the x and z axis, the piston is facing down and extended, on top of the piston is a resonant cable block surrounded with four steel blocks."
-            src="../images/resonant/management/hydro.jpg" id="hydro-img">
-          <label aria-hidden="true" for="hydro-img">Side view</label>
+          <img src="../images/resonant/management/hydro.jpg" aria-labelledby="hydro-label">
+          <p id="hydro-label">Side view</p>
         </div>
         <div class="img-wrapper">
-          <img alt="Top view." src="../images/resonant/management/hydro1.jpg" id="hydro-img1">
-          <label aria-hidden="true" for="hydro-img1">View from above</label>
+          <img src="../images/resonant/management/hydro1.jpg" aria-labelledby="hydro-label1">
+          <p id="hydro-label1">View from above</p>
         </div>
         <div class="img-wrapper">
-          <img alt="With resonant cable leading out of the top." src="../images/resonant/management/hydro2.jpg"
-            id="hydro-img2">
-          <label aria-hidden="true" for="hydro-img2">Power flow</label>
+          <img src="../images/resonant/management/hydro2.jpg" aria-labelledby="hydro-label2">
+          <p id="hydro-label2">Power flow</p>
         </div>
       </div>
-      <p>Hydropower generators (aka water turbines) create pulses from flowing water blocks, they are very
-        reliable but expensive.</p>
+      <p>Hydropower generators (aka water turbines) create pulses from flowing water blocks, they are very reliable but expensive.</p>
       <div class="table-wrapper">
         <ptable>
           <pth>Required blocks</pth>
@@ -246,7 +232,7 @@
           <ptd>12</ptd>
           <ptd>Piston (activation)</ptd>
           <ptd>1</ptd>
-          <ptd style="grid-column: auto / span 2;">A flowing water block below the piston.</ptd>
+          <ptd style="grid-column: auto / span 2;">A flowing water block below the piston. (Cannot be a source block)</ptd>
         </ptable>
         <ptable>
           <ptd>Pulse frequency</ptd>
@@ -258,23 +244,19 @@
       <h2>Geothermal generator</h2>
       <div class="img-carousel">
         <div class="img-wrapper">
-          <img
-            alt="An extended sticky piston with an iron block at it's end, surrounded by four netherbrick blocks and four obsidian blocks in the corners."
-            src="../images/resonant/management/geothermal.jpg" id="geothermal-img">
-          <label aria-hidden="true" for="geothermal-img">Side view</label>
+          <img src="../images/resonant/management/geothermal.jpg" aria-labelledby="geothermal-label">
+          <p id="geothermal-label">Side view</p>
         </div>
         <div class="img-wrapper">
-          <img alt="Top view, four netherbrick blocks surround a resonant cable block."
-            src="../images/resonant/management/geothermal1.jpg" id="geothermal-img1">
-          <label aria-hidden="true" for="geothermal-img1">View from above</label>
+          <img src="../images/resonant/management/geothermal1.jpg" aria-labelledby="geothermal-img1">
+          <p id="geothermal-label1">View from above</p>
         </div>
         <div class="img-wrapper">
-          <img alt="" src="../images/resonant/management/geothermal2.jpg" id="geothermal-img2">
-          <label aria-hidden="true" for="geothermal-img2">Power flow</label>
+          <img src="../images/resonant/management/geothermal2.jpg" aria-labelledby="geothermal-img2">
+          <p id="geothermal-label2">Power flow</p>
         </div>
       </div>
-      <p>Geothermal generators are similar to hydropower generators, they are reliable and produce tons of power
-        but are expensive to construct.</p>
+      <p>Geothermal generators are similar to hydropower generators, they are reliable and produce tons of power but are expensive to construct, requiring difficult-to-obtain blocks such as obsidian and netherbricks</p>
       <div class="table-wrapper">
         <ptable>
           <pth>Required blocks</pth>
