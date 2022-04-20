@@ -25,7 +25,7 @@
         have to actually get to them first, here's how.</h2>
     </intro>
     <subarticle id="orbit">
-      <h3>Getting to orbit</h3>
+      <h3>Traveling between a planet / it's orbit</h3>
       <p>You can only travel between the orbits of planets, not the planets themselves, to get from a planet to
         it's orbit fly up in any spaceship, once you reach y360 you will be taken to the orbit of that planet. To
         get back down just descend, once you get to y15 you will teleport to the actual planet.</p>
@@ -49,17 +49,15 @@
     </subarticle>
     <subarticle id="tsigns">
       <h3>Teleport signs</h3>
-      <img
-        alt="A sign with Teleport: written on the first line, X,Y,Z written on the second line, and PlanetOrbit written on the third line."
-        src="../images/signs/teleport.jpg" id="teleport-img">
-      <label aria-hidden="true" for="teleport-img">The format of a teleport sign</label>
-      <p>These are how you tell your ship where to jump to, to make one place a sign and write <cmd>Teleport:
-        </cmd> on the top line, The coordinates on the second line, (<cmd>X,Y,Z,</cmd>) and finally the name of
-        the orbit you want to travel to on the third line.</p>
-      <img
-        alt="A sign with Teleport: written on the first line, 1000,50,1000, written on the second line, and EarthOrbit written on the third line."
-        src="../images/signs/teleport1.jpg" id="teleport-img1">
-      <label aria-hidden="true" for="teleport-img1">A completed teleport sign</label>
+      <div class="img-wrapper">
+      <img src="../images/signs/teleport.jpg" aria-labelledby="teleport-img">
+      <p id="teleport-label">The format of a teleport sign</p>
+    </div>
+      <p>These are how you tell your ship where to jump to, to make one place a sign and write <cmd>Teleport:</cmd> on the top line, The coordinates on the second line, <cmd>X,Y,Z,</cmd> and finally the name of the orbit you want to travel to on the third line: <cmd>PlanetOrbit</cmd></p>
+      <div class="img-wrapper">
+      <img src="../images/signs/teleport1.jpg" aria-labelledby="teleport-label1">
+      <p id="teleport-label1">An example teleport sign</p>
+      </div>
       <p>Right clicking a sign like the one above would take you to EarthOrbit at the coordinates x1000, y50,
         z1000. </p>
       <p>Note that the bigger your ship, the more crystallized radon it will cost to jump, so make sure you have enough
@@ -67,19 +65,23 @@
     </subarticle>
     <subarticle id="lecterns">
       <h3>Coordinate lecterns</h3>
-      <img src="../images/planets/lectern.jpg" alt="" id="lectern-img">
-      <label for="lectern-img">A coordinate lectern with a book</label>
+      <div class="img-wrapper">
+      <img src="../images/planets/lectern.jpg" aria-labelledby="lectern-img">
+      <p id="lectern-label">A coordinate lectern with a book</p>
+      </div>
       <p>Coordinate lecterns are an alternative to teleport signs that allow you to easily store and access many
         different warp coordinates while taking up much less space then a bunch of signs would, To convert a normal
         lecturn into a coordinate lecturn all you need to do is place a sign on the front of the lecturn and write <cmd>
           Teleport</cmd> on it's top line.</p>
       <p>Entries are stored in a book and quill that must be placed in the lecturn, to choose an entry flip to that page
         and <strong>shift + right-click</strong> the lecturn.</p>
-      <img src="../images/planets/book.jpg" alt="" id="book-img">
-      <label for="book-img">An example entry</label>
+        <div class="img-wrapper">
+      <img src="../images/planets/book.jpg" aria-labelledby="book-img">
+      <p id="book-label">An example entry</p>
+    </div>
+    <p>The above entry would take you to EarthOrbit at x100, y20, z100. And the text 'Comments and such' would be ignored due to being after the <strong>#</strong>.</p>
       <p>The format of an entry is: <cmd>!x,y,z,OrbitName</cmd> (Note the <strong>!</strong> at the start) Additionally,
-        any text written after a <cmd>#</cmd> will be ignored, and can be used to write notes etc about that entry. Note
-        that you can only write one entry per page.</p>
+        any text written after a <strong>#</strong> will be ignored, and can be used to write notes etc about that entry.</p>
     </subarticle>
     <subarticle id="orbits">
       <h3>Orbit names</h3>
