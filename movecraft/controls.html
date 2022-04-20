@@ -30,9 +30,10 @@
     </subarticle>
     <subarticle id="gears">
       <h3>Gear control</h3>
-      <img alt="Chat message with Gearshift - Gear changed 1 / 3, 2 / 3, 3 / 3." src="../images/movecraft/gears.jpg"
-        id="gears-img">
-      <label aria-hidden="true" for="gears-img">Example of changing gears</label>
+      <div class="img-wrapper">
+      <img src="../images/movecraft/gears.jpg" aria-labelledby="gears-img">
+      <p id="gears-label">Chat message for gearshift - cycling through gears 1, 2, 3</p>
+    </div>
       <p>Changing gears allows you to go faster/slower, for instance at gear 1 you might move one block per
         action, but in gear 3 you could move 3 blocks per action.</p>
       <p>To change gears, with compass in hand hold <strong>shift</strong> and
@@ -43,9 +44,10 @@
     </subarticle>
     <subarticle id="direct">
       <h3>Direct control</h3>
-      <img alt="Entering direct control, Leaving direct control." src="../images/movecraft/direct-control.jpg"
-        id="direct-img">
-      <label aria-hidden="true" for="direct-img">Chat message for entering/leaving direct control</label>
+      <div class="img-wrapper">
+      <img src="../images/movecraft/direct-control.jpg" aria-labelledby="direct-label">
+      <p id="direct-label">Chat messages for entering and leaving direct control</p>
+    </div>
       <p>Direct control allows you to move your ship like you would the player, for instance to go 'foward' you
         just press <strong>w</strong>, (or whatever you have 'walk foward' bound to) And to go down hold
         <strong>shift</strong>/crouch. However to go 'up' you must <strong>right-click</strong> with your compass.
@@ -57,8 +59,10 @@
       signs alone, (I discovered this the hard way) below are the different signs and what they do.</p>
     <subarticle id="pilot">
       <h3>Pilot signs</h3>
-      <img alt="Sign with starfighter written on the top line." src="../images/signs/pilot.jpg" id="pilot-img">
-      <label aria-hidden="true" for="pilot-img">Example of a pilot sign</label>
+      <div class="img-wrapper">
+      <img src="../images/signs/pilot.jpg" aria-labelledby="pilot-label">
+      <p id="pilot-label">A pilot sign for a starfighter, literally just a sign with starfighter on it.</p>
+      </div>
       <p>The most important sign of them all, allowing you to actually <em>pilot</em> your craft.</p>
       <p>to make a pilot sign you just need to write the name of the craft on the top line of a sign. And then
         <strong>right-click</strong> it to pilot your craft.</p>
@@ -70,8 +74,7 @@
     </subarticle>
     <subarticle id="helm">
       <h3>Helm sign</h3>
-      <img alt="Sign with an ascii-art style helm." src="../images/signs/helm.jpg" id="helm-img">
-      <label aria-hidden="true" for="helm-img">A helm sign</label>
+      <img src="../images/signs/helm.jpg" alt="">
       <p>Another important sign, and the only one that can't be replicated with commands, the helm sign allows you
         to turn your craft, <strong>right-click</strong> (Or whatever you have 'Use item/Place block' bound to) the sign
         to go right and <strong>left-click</strong> (Attack/Destroy) the sign to go left.</p>
@@ -80,8 +83,10 @@
     </subarticle>
     <subarticle id="cruise">
       <h3>Cruise signs</h3>
-      <img alt="Sign with Cruise: OFF written on the top line" src="../images/signs/cruise.jpg" id="cruise-img">
-      <label aria-hidden="true" for="cruise-img">A cruise sign</label>
+      <div class="img-wrapper">
+      <img src="../images/signs/cruise.jpg" aria-labelledby="cruise-label">
+      <p id="cruise-label">A cruise sign in it's 'off' state</p>
+      </div>
       <p>Cruise signs, while not a necessary addition to your ship, are very useful for long journeys. When you
         <strong>right-click</strong> a cruise sign your piloted ship will automatically move in the direction the sign
         is facing,
@@ -92,8 +97,7 @@
     </subarticle>
     <subarticle id="release">
       <h3>Release signs</h3>
-      <img alt="Sign with release written on the top line" src="../images/signs/release.jpg" id="release-img">
-      <label aria-hidden="true" for="release-img">A release sign</label>
+      <img src="../images/signs/release.jpg" alt="">
       <p>Normally to release your ship you just enter <cmd>/release</cmd> in chat, but if, for instance. You are
         working on a ship and regularly need to be piloting/releasing it having to type <cmd>/release</cmd> every
         time can get irritating. Fortunately, there is a solution, when you right-click a release sign your
@@ -102,14 +106,16 @@
     </subarticle>
     <subarticle id="secure">
       <h3>Pilot: signs</h3>
-      <img alt="Sign with Pilot: written on the top line and animalchaser written on the second line."
-        src="../images/signs/secure.jpg" id="secure-img">
-      <label aria-hidden="true" for="secure-img">A Pilot: sign</label>
+      <div class="img-wrapper">
+      <img src="../images/signs/secure.jpg" aria-labelledby="secure-label">
+      <p id="secure-label">A pilot sign with animalchaser on the second line, thus preventing any player who isn't animalchaser from piloting the craft</p>
+    </div>
       <p>It is important to note that Pilot: signs are very different to what I refer to as 'Pilot' signs, where
         Pilot signs let you <em>pilot</em> your craft, Pilot: signs are a security measure, preventing other
         players from piloting the ship they are placed on.</p>
       <p>To create a Pilot: sign just write <cmd>Pilot:</cmd> on the top line of a sign, once you close the GUI the
         second line will automatically populate with your username.</p>
+      <p>More players can be added to the sign with the <cmd>/es {line number} {new text}</cmd> command.</p>
     </subarticle>
   </article>
   <script src="../res/navigation.js"></script>
