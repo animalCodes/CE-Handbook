@@ -26,26 +26,29 @@
     </intro>
     <subarticle id="cables">
       <h3>Cables</h3>
-      <img alt="A horizontal line of resonant cable blocks." src="../images/resonant/basics/cable.jpg" id="cable-img">
-      <label aria-hidden="true" for="cable-img">Example of a resonant cable line</label>
+      <div class="img-wrapper">
+      <img src="../images/resonant/basics/cable.jpg" aria-labelledby="cable-label">
+      <p id="cable-label">A horizontal line of resonant cable blocks</p>
+      </div>
       <p>To connect resonant machines you need resonant cables, these are custom blocks which must be crafted.
-        (see the ingame /recipes command for how to craft them)</p>
+        (see the ingame <cmd>/recipes</cmd> command for how to craft them)</p>
     </subarticle>
     <subarticle id="corners">
       <h3>Corners</h3>
-      <img alt="A vertical line of resonant cable blocks ending in a piston that redirects the cables left."
-        src="../images/resonant/basics/corner.jpg" id="corner-img">
-      <label aria-hidden="true" for="corner-img">A resonant cable that turns a corner</label>
+      <div class="img-wrapper">
+      <img src="../images/resonant/basics/corner.jpg" aria-labelledby="corner-label">
+      <p id="corner-label">A resonant cable that turns a corner</p>
+      </div>
       <p>An important thing to note with resonant cables is that they can only transmit in a straight line on
         their own. To turn corners you will need to place a piston so that the 'head' is facing the new direction
         you want the cable to go in.</p>
     </subarticle>
     <subarticle id="splitters">
       <h3>Splitters</h3>
-      <img
-        alt="A cable line running into a quartz pillar with two seperate lines being directed out of the ends of the pillar."
-        src="../images/resonant/basics/splitter.jpg" id="splitter-img">
-      <label aria-hidden="true" for="splitter-img">A splitter in action</label>
+      <div class="img-wrapper">
+      <img src="../images/resonant/basics/splitter.jpg" aria-labelledby="splitter-label">
+      <p id="splitter-label">A single resonant cable line being split into two seperate lines via a splitter</p>
+    </div>
       <p>If you want to split your cable to transmit power in multiple directions, you will need a
         <em>splitter</em>, (quartz pillar block) to use a splitter send the power source into the side of the
         pillar, it will be evenly output through both ends of it.
@@ -53,16 +56,17 @@
     </subarticle>
     <subarticle id="pstation">
       <h3>Power stations</h3>
-      <img alt="A resonant cable line running through a power station." src="../images/resonant/basics/pstation.jpg"
-        id="pstation-img">
-      <label aria-hidden="true" for="pstation-img">Front view</label>
+      <div class="img-wrapper">
+      <img src="../images/resonant/basics/pstation.jpg" aria-labelledby="pstation-label">
+      <p id="pstation-label">A constructed power station</p>
+    </div>
       <p>By default resonant cables can only transmit power 100 blocks. And even less if using corners or
         splitters. While this should be enough for most builds it is possible you will need more, power stations
         'boost' the power of resonant cables. giving you another 100 blocks of range to work with.</p>
-      <img
-        alt="A three-by-three structure, From left to right, top to bottom the blocks are: Gold block, Steel block, Gold block, Steel block, Blast furnace, Steel block, Gold block, Steel block, Gold block."
-        src="../images/resonant/basics/pstation1.jpg" id="pstation-img1">
-      <label aria-hidden="true" for="pstation-img1">In use, side / top view.</label>
+        <div class="img-wrapper">
+      <img src="../images/resonant/basics/pstation1.jpg" aria-labelledby="pstation-img1">
+      <p id="pstation-img1">A power station boosting a line of resonant cables</p>
+    </div>
       <ptable>
         <pth>Required blocks</pth>
         <ptd>Steel blocks (custom)</ptd>
@@ -72,7 +76,7 @@
         <ptd>Blast furnace</ptd>
         <ptd>1</ptd>
       </ptable>
-      <p>Once built, feed your cable 'through' the blast furnace, this will boost the range.</p>
+      <p>Once built, feed your cable 'through' the blast furnace, this will extend the range.</p>
     </subarticle>
   </article>
   <script src="../res/navigation.js"></script>
