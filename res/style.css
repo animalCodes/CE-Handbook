@@ -229,6 +229,7 @@ li, td, item {
 }
 .img-wrapper {
   display: inline-block;
+  white-space: normal;
   margin: 5px;
   margin-top: 8px;
 }
@@ -253,11 +254,6 @@ img.large {
     max-width: 200px;
     max-height: 150px;
   }
-}
-label {
-  font-style: italic;
-  display: block;
-  font-size: 1.6rem;
 }
 /* Other */
 button {
