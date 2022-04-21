@@ -263,6 +263,7 @@ img.large {
 /* Other */
 button {
   background-color: var(--main_colour);
+  border: var(--border);
   border-radius: 5px;
   color: var(--text_colour);
   cursor: pointer;

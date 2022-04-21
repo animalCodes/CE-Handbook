@@ -36,13 +36,11 @@ nav ul li {
 #home {
   display: none;
   border-radius: 5px;
-  background-color: silver;
   margin-top: 5px;
 }
-#home btn {
+#home button {
   padding: 7px;
-  color: var(--main_colour);
-  font-size: 3rem;
+  font-size: 2.7rem;
   font-weight: bold;
 }
 @media screen and (max-width: 670px) {

@@ -1,4 +1,11 @@
 
+Give single images a .img-wrapper
+Change <label>s to <p>s
+change 'for' attribute to 'id'
+rename id to label, not img.
+merge alt text and label text
+remove unneccessary labels, add null alt text
+
 --Movecraft:
 -Signs / Controls
 -Craft types
@@ -91,13 +98,3 @@ Talcann TalcannOrbit
 TerrakPrime TerrakPOrbit
 Titan TitanianOrbit
 Zara85C Zara85COrbit
-
-commands:
-
-Afk
-Help
-Recipes
-Vote
-ES
-Kit
-Oxn inv
