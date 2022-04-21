@@ -6,9 +6,7 @@
   border-radius: 5px;
 }
 /* Structural Elements */
-html, body {
-  margin: 0px;
-}
+html, body {margin: 0px}
 html {
   /* variables */
   --text_colour: silver;
@@ -35,9 +33,7 @@ article {
   overflow-wrap: normal;
   word-wrap: normal; /* just in case */
 }
-header {
-  margin: 15px;
-}
+header {margin: 15px}
 @media screen and (max-width: 300px) {
   header {
     padding: 5px;
@@ -85,9 +81,7 @@ subarticle {
   max-height: 400px;
   overflow: auto;
 }
-.list-box-wrapper h3 {
-  margin: 5px;
-}
+.list-box-wrapper h3 {margin: 5px}
 item {
   display: inline-block;
   border-top: var(--border);
@@ -100,10 +94,8 @@ item {
   align-items: flex-start;
   flex-wrap: wrap;
 }
-.table-wrapper ptable {
-  margin: 5px;
-}
 /* Pseudo tables */
+.table-wrapper ptable {margin: 5px}
 ptable {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -136,21 +128,11 @@ p:not(subarticle p) {
   max-width: 80%;
   margin: auto;
 }
-ul {
-  text-align: left;
-}
-.list {
-  width: 80%;
-}
-a {
-  color: var(--text_colour);
-}
-a:hover {
-  color: var(--accent);
-}
-a.external::after {
-  content: '⇗';
-}
+ul {text-align: left}
+.list {width: 80%}
+a {color: var(--text_colour)}
+a:hover {color: var(--accent)}
+a.external::after {content: '⇗'}
 p a {
   font-size: inherit;
   font-weight: bold;
@@ -167,39 +149,18 @@ cmd {
   width: fit-content;
   color: black;
 }
-input:focus-visible {
-  border: 2px solid var(--accent);
-}
+input:focus-visible {border: 2px solid var(--accent)}
 /* Text sizes */
-html {
-  font-size: 10px;
-}
+html {font-size: 10px}
 @media screen and (max-width: 450px) {
-  html {
-    font-size: 9px;
-  }
+  html {font-size: 9px}
 }
-h1 {
-  font-size: 3.8rem;
-}
-h2 {
-  font-size: 3.3rem;
-}
-h3 {
-  font-size: 3rem;
-}
-p {
-  font-size: 1.7rem;
-}
-.img-wrapper p {
-  font-size: 1.6rem;
-}
-pth, .list-box-wrapper h3 {
-  font-size: 2.2rem;
-}
-li, td, item {
-  font-size: 1.7rem;
-}
+h1 {font-size: 3.8rem}
+h2 {font-size: 3.3rem}
+h3 {font-size: 3rem}
+.img-wrapper p {font-size: 1.6rem}
+pth, .list-box-wrapper h3 {font-size: 2.2rem}
+p, li, td, item {font-size: 1.7rem}
 @media screen and (max-width: 300px) {
   p {
     max-width: 80%;
@@ -207,12 +168,8 @@ li, td, item {
   }
 }
 @media screen and (max-width: 260px) {
-  h3 {
-    font-size: 3.2rem;
-  }
-  p {
-    font-size: 2rem;
-  }
+  h3 {font-size: 3.2rem}
+  p {font-size: 2rem}
 }
 /* images */
 .img-carousel {

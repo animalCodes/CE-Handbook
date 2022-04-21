@@ -8,9 +8,7 @@ navbar {
   text-align: start;
   font-size: 10px;
 }
-nav {
-  margin-right: 5px;
-}
+nav {margin-right: 5px}
 .nav-title {
   border-left: var(--border);
   padding-left: 5px;
@@ -32,9 +30,7 @@ nav ul li {
   display: none;
   border-left: 1px solid var(--accent);
 }
-.dropdown li {
-  font-size: 1.7rem;
-}
+.dropdown li {font-size: 1.7rem;}
 .dropdown li:hover::before {
   content: '#';
   color: var(--accent);
@@ -56,23 +52,13 @@ nav ul li {
   font-weight: bold;
 }
 @media screen and (max-width: 670px) {
-  body {
-    display: block;
-  }
-  navbar {
-    display: none;
-  }
-  #home {
-    display: inline-block;
-  }
-  header {
-    margin-top: 10px;
-  }
+  body {display: block}
+  navbar {display: none}
+  #home {display: inline-block;}
+  header {margin-top: 10px}
 }
 @media screen and (max-width: 300px) {
-  #home {
-    margin-top: 5px;
-  }
+  #home {margin-top: 5px}
 }
 #up {
   position: fixed;
@@ -89,6 +75,4 @@ nav ul li {
   color: var(--accent);
   font-size: 1.7rem;
 }
-#up h4:hover {
-  color: silver;
-}
+#up h4:hover {color: silver;}
