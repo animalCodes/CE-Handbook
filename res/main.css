@@ -56,6 +56,14 @@ subarticle {
   margin-bottom: 10px;
   margin-top: 10px;
 }
+@media screen and (max-width: 600px) {
+  subarticle {
+    border-left: 1px solid var(--main_colour);
+    border-right: 1px solid var(--main_colour);
+    border-radius: 0px;
+    max-width: 90%;
+  }
+}
 @media screen and (max-width: 300px) {
   article {
     max-width: 100%;
@@ -137,6 +145,10 @@ p a {
   font-size: inherit;
   font-weight: bold;
 }
+subarticle a {
+  display: block;
+  font-size: 1.6rem;
+}
 sig {
   color: var(--accent);
   text-decoration: underline;
@@ -148,6 +160,13 @@ cmd {
   border-radius: 5px;
   width: fit-content;
   color: black;
+}
+input {
+  background-color: inherit;
+  color: inherit;
+  border: var(--border);
+  width: 80%;
+  margin-bottom: 5px;
 }
 input:focus-visible {border: 2px solid var(--accent)}
 /* Text sizes */
