@@ -56,21 +56,12 @@ subarticle {
   margin-bottom: 10px;
   margin-top: 10px;
 }
-@media screen and (max-width: 600px) {
-  subarticle {
-    border-left: 1px solid var(--main_colour);
-    border-right: 1px solid var(--main_colour);
-    border-radius: 0px;
-    max-width: 90%;
-  }
-}
 @media screen and (max-width: 300px) {
-  article {
-    max-width: 100%;
-  }
+  article {max-width: 100%}
   subarticle {
     border-left: 1px solid var(--main_colour);
     border-right: 1px solid var(--main_colour);
+    border-bottom: 0px;
     border-radius: 0px;
   }
 }
