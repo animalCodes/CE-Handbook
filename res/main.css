@@ -1,3 +1,6 @@
+/*
+* This is the main css file for the site
+*/
 *:focus-visible {
   outline: var(--text_colour) solid 2px;
   border-radius: 5px;
@@ -31,12 +34,6 @@ article {
   text-align: center;
   overflow-wrap: normal;
   word-wrap: normal; /* just in case */
-}
-navbar {
-  padding-left: 5px;
-  margin-right: 2px;
-  vertical-align: top;
-  text-align: start;
 }
 header {
   margin: 15px;
@@ -173,11 +170,6 @@ cmd {
 input:focus-visible {
   border: 2px solid var(--accent);
 }
-.nav-title {
-  border-left: var(--border);
-  padding-left: 5px;
-  margin-bottom: 0px;
-}
 /* Text sizes */
 html {
   font-size: 10px;
@@ -267,8 +259,4 @@ button {
   border-radius: 5px;
   color: var(--text_colour);
   cursor: pointer;
-}
-.gold {
-  font-style: normal;
-  color: #FA0;
 }

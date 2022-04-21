@@ -1,8 +1,20 @@
+/* 
+* This is for navigation-related elements
+*/
 navbar {
+  padding-left: 5px;
+  margin-right: 2px;
+  vertical-align: top;
+  text-align: start;
   font-size: 10px;
 }
 nav {
   margin-right: 5px;
+}
+.nav-title {
+  border-left: var(--border);
+  padding-left: 5px;
+  margin-bottom: 0px;
 }
 nav ul {
   border-left: var(--border);
