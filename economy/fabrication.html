@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../res/main.css">
+  <title>Fabrication</title>
+</head>
+
+<body>
+  <navbar>
+    <h1 style="color: red;">Error loading sidebar - make sure Javascript is enabled and reload.</h1>
+  </navbar>
+  <article id="top">
+    <a href="../index.html" id="home">
+      <button>Home</button>
+    </a>
+    <header>
+      <h1>Fabrication / Ship printing</h1>
+    </header>
+    <intro>
+      <h2>Fabricators allow you to easily save and print ships wherever you need them</h2>
+    </intro>
+    <subarticle>
+      <h3>Saving ships</h3>
+      <p>Before printing a ship, you will need to save it as a structure, to do so pilot the ship you want saved and type <cmd>/fab save {ship name}</cmd> make sure the name is short enough to fit on the single line of a sign.</p>
+      <p>Once the command is run, the craft will be released and you will get an estimated length/width/height message in chat. The ship is now being saved, this can take a while - particularly if it is a large craft.</p>
+      <p>Once the craft is done being saved, you will get a message in chat similar to <cmd>Finished Producing Savestate For {ship name}</cmd></p>
+    </subarticle>
+    <subarticle>
+      <h3>Managing saved ships</h3>
+      <p>To view your saved ships, you can run the <cmd>/fab list</cmd> command, this will list all craft you have currently saved.</p>
+      <p>You can view the price of a craft (the total cost of every block, assuming you will need them all fabricated) with <cmd>/fab price {ship name}</cmd></p>
+      <p>If you no longer need a craft savestate, you can delete it with <cmd>/fab delete {ship name}</cmd> This cannot be undone!</p>
+    </subarticle>
+    <subarticle>
+      <h3>Printing ships</h3>
+      <p>Now for the important bit - actually printing your ship!</p>
+      <p>To print your saved ships you will need a <em>fabricator</em>, this is a multiblock structure. To make one just place a wall sign above a lecturn.</p>
+      <div class="img-wrapper">
+      <img src="../images/economy/fabricator.jpg" aria-labelledby="fabricator-label">
+      <p id="fabricator-label">A fabricator multiblock</p>
+      </div>
+      <p>By default, you will be charged a certain amount per block, but any items in container blocks (chests, barrels, shulker boxes.) within a 3.5 radius of the fabricator, will be used in the ship, for instance if you have a stack of white wool in a chest next to the fabricator, and your craft requires white wool in it's design, the fabricator will automatically take what it needs, and charge you for any extra blocks that aren't included.</p>
+      <p>Once you are ready for the ship to be printed, <strong>right-click</strong> the sign.</p>
+      <p>If something goes wrong and you need to stop it while being fabricated, run <cmd>/fab cancel</cmd> this will immediately stop the craft from being printed.</p>
+      <p>To see how much different blocks cost to be fabricated, see the <a href="https://starmap.zapto.org/FabricatorPrices.txt" class="external" target="_blank">Fabricator prices page</a></p>
+    </subarticle>
+  </article>
+  <script src="../res/navigation.js"></script>
+  <script>
+    const page = '';
+    document.querySelector(`#${page}`).id = 'selected';
+    document.querySelector(`#${page}-ul`).style.display = 'block';
+  </script>
+</body>
+
+</html>
