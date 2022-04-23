@@ -90,6 +90,7 @@ document.querySelector('navbar').innerHTML = `
   <li><a href="#trading">Trading</a></li>
   </ul>
   </li>
+  <li><a id="economy-fabrication" href="../economy/fabrication.html">Fabricators</a></li>
   </ul>
   <h3 class="nav-title">Resonant</h3>
   <ul>
