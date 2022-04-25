@@ -1,11 +1,8 @@
-/*
-* This is the main css file for the site
-*/
 *:focus-visible {
   outline: var(--text_colour) solid 2px;
   border-radius: 5px;
 }
-/* Structural Elements */
+/** Structural Elements */
 html, body {margin: 0px}
 html {
   /* variables */
@@ -65,7 +62,7 @@ subarticle {
     border-radius: 0px;
   }
 }
-/* tables / lists */
+/** tables / lists */
 .list-box-wrapper {
   background-color: #0f1c27;
   border: var(--border);
@@ -93,7 +90,7 @@ item {
   align-items: flex-start;
   flex-wrap: wrap;
 }
-/* Pseudo tables */
+/** Pseudo tables */
 .table-wrapper ptable {margin: 5px}
 ptable {
   display: grid;
@@ -117,7 +114,7 @@ ptd {
   overflow-wrap: break-word;
   font-size: 1.7rem;
 }
-/* Text */
+/** Text */
 p {
   border-left: var(--border);
   padding-left: 5px;
@@ -160,7 +157,7 @@ input {
   margin-bottom: 5px;
 }
 input:focus-visible {border: 2px solid var(--accent)}
-/* Text sizes */
+/** Text sizes */
 html {font-size: 10px}
 @media screen and (max-width: 450px) {
   html {font-size: 9px}
@@ -181,7 +178,7 @@ p, li, td, item {font-size: 1.7rem}
   h3 {font-size: 3.2rem}
   p {font-size: 2rem}
 }
-/* images */
+/** images */
 .img-carousel {
   border: var(--border);
   border-radius: 5px;
@@ -219,13 +216,16 @@ img.large {
     max-height: 150px;
   }
 }
-/* Other */
+/** Other */
 button {
   background-color: var(--main_colour);
   border: var(--border);
   border-radius: 5px;
   color: var(--text_colour);
   cursor: pointer;
+}
+button:hover {
+  opacity: 0.6;
 }
 /* 
 * Navigation 
@@ -264,7 +264,7 @@ nav ul li {
   content: '#';
   color: var(--accent);
 }
-/* classes / selectors */
+/** classes / selectors */
 #selected {
   color: var(--accent);
   border-bottom: 1px solid var(--accent);
