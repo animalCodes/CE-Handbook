@@ -101,6 +101,12 @@ ptable {
   margin: auto;
   margin-top: 10px;
 }
+ptable.large {
+  min-height: fit-content;
+  max-height: 500px;
+  border-width: 2px;
+  overflow: auto;
+}
 pth {
   grid-column: 1 / span 2;
   border: 1px solid silver;
