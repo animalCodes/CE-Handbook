@@ -24,32 +24,1170 @@
     </intro>
     <subarticle>
       <h3>Saving ships</h3>
-      <p>Before printing a ship, you will need to save it as a structure, to do so pilot the ship you want saved and type <cmd>/fab save {ship name}</cmd> make sure the name is short enough to fit on the single line of a sign.</p>
-      <p>Once the command is run, the craft will be released and you will get an estimated length/width/height message in chat. The ship is now being saved, this can take a while - particularly if it is a large craft.</p>
-      <p>Once the craft is done being saved, you will get a message in chat similar to <cmd>Finished Producing Savestate For {ship name}</cmd></p>
+      <p>Before printing a ship, you will need to save it as a structure, to do so pilot the ship you want saved and
+        type <cmd>/fab save {ship name}</cmd> make sure the name is short enough to fit on the single line of a sign.
+      </p>
+      <p>Once the command is run, the craft will be released and you will get an estimated length/width/height message
+        in chat. The ship is now being saved, this can take a while - particularly if it is a large craft.</p>
+      <p>Once the craft is done being saved, you will get a message in chat similar to <cmd>Finished Producing Savestate
+          For {ship name}</cmd>
+      </p>
     </subarticle>
     <subarticle>
       <h3>Managing saved ships</h3>
-      <p>To view your saved ships, you can run the <cmd>/fab list</cmd> command, this will list all craft you have currently saved.</p>
-      <p>You can view the price of a craft (the total cost of every block, assuming you will need them all fabricated) with <cmd>/fab price {ship name}</cmd></p>
-      <p>If you no longer need a craft savestate, you can delete it with <cmd>/fab delete {ship name}</cmd> This cannot be undone!</p>
+      <p>To view your saved ships, you can run the <cmd>/fab list</cmd> command, this will list all craft you have
+        currently saved.</p>
+      <p>You can view the price of a craft (the total cost of every block, assuming you will need them all fabricated)
+        with <cmd>/fab price {ship name}</cmd>
+      </p>
+      <p>If you no longer need a craft savestate, you can delete it with <cmd>/fab delete {ship name}</cmd> This cannot
+        be undone!</p>
     </subarticle>
     <subarticle>
       <h3>Printing ships</h3>
       <p>Now for the important bit - actually printing your ship!</p>
-      <p>To print your saved ships you will need a <em>fabricator</em>, this is a multiblock structure. To make one just place a wall sign with <cmd>Fabricator</cmd>written on the top line and the name of the ship to be printed on the bottom line, above a lecturn.</p>
+      <p>To print your saved ships you will need a <em>fabricator</em>, this is a multiblock structure. To make one just
+        place a wall sign with <cmd>Fabricator</cmd>written on the top line and the name of the ship to be printed on
+        the bottom line, above a lecturn.</p>
       <div class="img-wrapper">
-      <img src="../images/economy/fabricator.jpg" aria-labelledby="fabricator-label">
-      <p id="fabricator-label">A fabricator multiblock</p>
+        <img src="../images/economy/fabricator.jpg" aria-labelledby="fabricator-label">
+        <p id="fabricator-label">A fabricator multiblock</p>
       </div>
-      <p>By default, you will be charged a certain amount per block, but any items in container blocks (chests, barrels, shulker boxes.) within a 3.5 radius of the fabricator, will be used in the ship, for instance if you have a stack of white wool in a chest next to the fabricator, and your craft requires white wool in it's design, the fabricator will automatically take what it needs, and charge you for any extra blocks that aren't included.</p>
+      <p>By default, you will be charged a certain amount per block, but any items in container blocks (chests, barrels,
+        shulker boxes.) within a 3.5 radius of the fabricator, will be used in the ship, for instance if you have a
+        stack of white wool in a chest next to the fabricator, and your craft requires white wool in it's design, the
+        fabricator will automatically take what it needs, and charge you for any extra blocks that aren't included.</p>
       <p>Once you are ready for the ship to be printed, <strong>right-click</strong> the sign.</p>
-      <p>If something goes wrong and you need to stop it while being fabricated, run <cmd>/fab cancel</cmd> this will immediately stop the craft from being printed.</p>
-      <p>To see how much different blocks cost to be fabricated, see the <a href="https://starmap.zapto.org/FabricatorPrices.txt" class="external" target="_blank">Fabricator prices page</a></p>
+      <p>If something goes wrong and you need to stop it while being fabricated, run <cmd>/fab cancel</cmd> this will
+        immediately stop the craft from being printed.</p>
     </subarticle>
-    <!-- <subarticle id="prices">
+    <subarticle id="prices">
       <h3>Fabricator block prices</h3>
-    </subarticle> -->
+      <p>Here is a reformatted list of how much each block will cost to be fabricated, taken from <a
+        href="https://starmap.zapto.org/FabricatorPrices.txt" class="external" target="_blank">the official fabricator prices
+        page</a></p>
+        <p><em>All prices accurate on 2020/05/01</em></p>
+      <ptable class="large">
+        <ptd>Block</ptd>
+        <ptd>Price</ptd>
+        <ptd>amethyst block</ptd>
+        <ptd>1000</ptd>
+        <ptd>smithing table</ptd>
+        <ptd>750</ptd>
+        <ptd>budding amethyst</ptd>
+        <ptd>2700</ptd>
+        <ptd>small amethyst bud</ptd>
+        <ptd>750</ptd>
+        <ptd>medium amethyst bud</ptd>
+        <ptd>1250</ptd>
+        <ptd>honey block</ptd>
+        <ptd>125</ptd>
+        <ptd>honeycomb block</ptd>
+        <ptd>95</ptd>
+        <ptd>large amethyst bud</ptd>
+        <ptd>2500</ptd>
+        <ptd>amethyst cluster</ptd>
+        <ptd>4500</ptd>
+        <ptd>clay block</ptd>
+        <ptd>15</ptd>
+        <ptd>clay</ptd>
+        <ptd>15</ptd>
+        <ptd>end rod</ptd>
+        <ptd>12.5</ptd>
+        <ptd>tripwire</ptd>
+        <ptd>12.5</ptd>
+        <ptd>tripwire hook</ptd>
+        <ptd>12.5</ptd>
+        <ptd>light weighted pressure plate</ptd>
+        <ptd>25</ptd>
+        <ptd>heavy weighted pressure plate</ptd>
+        <ptd>25</ptd>
+        <ptd>deepslate</ptd>
+        <ptd>30</ptd>
+        <ptd>cobbled deepslate</ptd>
+        <ptd>30</ptd>
+        <ptd>polished deepslate</ptd>
+        <ptd>30</ptd>
+        <ptd>deepslate brick</ptd>
+        <ptd>30</ptd>
+        <ptd>cracked deepslate brick</ptd>
+        <ptd>30</ptd>
+        <ptd>deepslate tile</ptd>
+        <ptd>30</ptd>
+        <ptd>cracked deepslate tile</ptd>
+        <ptd>30</ptd>
+        <ptd>chiseled deepslate</ptd>
+        <ptd>30</ptd>
+        <ptd>cobbled deepslate wall</ptd>
+        <ptd>30</ptd>
+        <ptd>polished deepslate wall</ptd>
+        <ptd>30</ptd>
+        <ptd>deepslate brick wall</ptd>
+        <ptd>30</ptd>
+        <ptd>deepslate tile wall</ptd>
+        <ptd>30</ptd>
+        <ptd>cobbled deepslate stairs</ptd>
+        <ptd>30</ptd>
+        <ptd>polished deepslate stairs</ptd>
+        <ptd>30</ptd>
+        <ptd>deepslate brick stairs</ptd>
+        <ptd>30</ptd>
+        <ptd>deepslate tile stairs</ptd>
+        <ptd>30</ptd>
+        <ptd>cobbled deepslate slab</ptd>
+        <ptd>30</ptd>
+        <ptd>polished deepslate slab</ptd>
+        <ptd>30</ptd>
+        <ptd>deepslate brick slab</ptd>
+        <ptd>30</ptd>
+        <ptd>deepslate tile slab</ptd>
+        <ptd>30</ptd>
+        <ptd>moss carpet</ptd>
+        <ptd>25</ptd>
+        <ptd>moss block</ptd>
+        <ptd>25</ptd>
+        <ptd>brewing stand</ptd>
+        <ptd>12.5</ptd>
+        <ptd>soul sand</ptd>
+        <ptd>12.5</ptd>
+        <ptd>soul soil</ptd>
+        <ptd>12.5</ptd>
+        <ptd>target</ptd>
+        <ptd>25</ptd>
+        <ptd>tinted glass</ptd>
+        <ptd>25</ptd>
+        <ptd>cobweb</ptd>
+        <ptd>2.5</ptd>
+        <ptd>dirt</ptd>
+        <ptd>2.5</ptd>
+        <ptd>grass block</ptd>
+        <ptd>12.5</ptd>
+        <ptd>mossy cobblestone</ptd>
+        <ptd>25</ptd>
+        <ptd>infested mossy stone brick</ptd>
+        <ptd>25</ptd>
+        <ptd>mossy stone brick</ptd>
+        <ptd>25</ptd>
+        <ptd>mossy cobblestone wall</ptd>
+        <ptd>25</ptd>
+        <ptd>mossy stone brick wall</ptd>
+        <ptd>25</ptd>
+        <ptd>calcite</ptd>
+        <ptd>35</ptd>
+        <ptd>tuff</ptd>
+        <ptd>25</ptd>
+        <ptd>sponge</ptd>
+        <ptd>25</ptd>
+        <ptd>diorite</ptd>
+        <ptd>5</ptd>
+        <ptd>andesite</ptd>
+        <ptd>5</ptd>
+        <ptd>granite</ptd>
+        <ptd>5</ptd>
+        <ptd>polished diorite</ptd>
+        <ptd>20</ptd>
+        <ptd>polished andesite</ptd>
+        <ptd>20</ptd>
+        <ptd>polished granite</ptd>
+        <ptd>20</ptd>
+        <ptd>gold ore</ptd>
+        <ptd>5000</ptd>
+        <ptd>iron ore</ptd>
+        <ptd>2500</ptd>
+        <ptd>coal ore</ptd>
+        <ptd>1200</ptd>
+        <ptd>emerald ore</ptd>
+        <ptd>1500</ptd>
+        <ptd>lapis ore</ptd>
+        <ptd>4400</ptd>
+        <ptd>lapis lazuli ore</ptd>
+        <ptd>4400</ptd>
+        <ptd>lapis block</ptd>
+        <ptd>7260</ptd>
+        <ptd>redstone ore</ptd>
+        <ptd>4500</ptd>
+        <ptd>diamond ore</ptd>
+        <ptd>7500</ptd>
+        <ptd>raw gold block</ptd>
+        <ptd>900</ptd>
+        <ptd>copper block</ptd>
+        <ptd>450</ptd>
+        <ptd>raw copper block</ptd>
+        <ptd>7500</ptd>
+        <ptd>raw iron block</ptd>
+        <ptd>9800</ptd>
+        <ptd>deepslate gold ore</ptd>
+        <ptd>5750</ptd>
+        <ptd>deepslate iron ore</ptd>
+        <ptd>2500</ptd>
+        <ptd>deepslate coal ore</ptd>
+        <ptd>1000</ptd>
+        <ptd>deepslate emerald ore</ptd>
+        <ptd>7500</ptd>
+        <ptd>deepslate redstone ore</ptd>
+        <ptd>9000</ptd>
+        <ptd>deepslate diamond ore</ptd>
+        <ptd>12500</ptd>
+        <ptd>deepslate lapis ore</ptd>
+        <ptd>2200</ptd>
+        <ptd>deepslate lapis lazuli ore</ptd>
+        <ptd>2200</ptd>
+        <ptd>observer</ptd>
+        <ptd>45</ptd>
+        <ptd>blast furnace</ptd>
+        <ptd>100</ptd>
+        <ptd>coal block</ptd>
+        <ptd>3600</ptd>
+        <ptd>netherite block</ptd>
+        <ptd>9999999</ptd>
+        <ptd>ancient debris</ptd>
+        <ptd>9999999</ptd>
+        <ptd>diamond block</ptd>
+        <ptd>27500</ptd>
+        <ptd>hopper</ptd>
+        <ptd>115</ptd>
+        <ptd>cobblestone</ptd>
+        <ptd>15</ptd>
+        <ptd>cobblestone wall</ptd>
+        <ptd>17.5</ptd>
+        <ptd>stone</ptd>
+        <ptd>15</ptd>
+        <ptd>ladder</ptd>
+        <ptd>5</ptd>
+        <ptd>enchanting table</ptd>
+        <ptd>500</ptd>
+        <ptd>workbench</ptd>
+        <ptd>20</ptd>
+        <ptd>barrel</ptd>
+        <ptd>25</ptd>
+        <ptd>dispenser</ptd>
+        <ptd>25</ptd>
+        <ptd>note block</ptd>
+        <ptd>3600</ptd>
+        <ptd>mushroom stem</ptd>
+        <ptd>2500</ptd>
+        <ptd>piston</ptd>
+        <ptd>25</ptd>
+        <ptd>sticky piston</ptd>
+        <ptd>45</ptd>
+        <ptd>piston head</ptd>
+        <ptd>25</ptd>
+        <ptd>gold block</ptd>
+        <ptd>10000</ptd>
+        <ptd>iron door</ptd>
+        <ptd>75</ptd>
+        <ptd>oak door</ptd>
+        <ptd>45</ptd>
+        <ptd>warped door</ptd>
+        <ptd>45</ptd>
+        <ptd>spruce door</ptd>
+        <ptd>45</ptd>
+        <ptd>jungle door</ptd>
+        <ptd>45</ptd>
+        <ptd>birch door</ptd>
+        <ptd>45</ptd>
+        <ptd>acacia door</ptd>
+        <ptd>45</ptd>
+        <ptd>dark oak door</ptd>
+        <ptd>45</ptd>
+        <ptd>iron block</ptd>
+        <ptd>12000</ptd>
+        <ptd>grindstone</ptd>
+        <ptd>500</ptd>
+        <ptd>oak door</ptd>
+        <ptd>15</ptd>
+        <ptd>sandstone</ptd>
+        <ptd>25</ptd>
+        <ptd>smooth stone</ptd>
+        <ptd>40</ptd>
+        <ptd>smooth sandstone</ptd>
+        <ptd>40</ptd>
+        <ptd>smooth red sandstone</ptd>
+        <ptd>40</ptd>
+        <ptd>bookshelf</ptd>
+        <ptd>50</ptd>
+        <ptd>bricks</ptd>
+        <ptd>15</ptd>
+        <ptd>stone brick</ptd>
+        <ptd>15</ptd>
+        <ptd>stone bricks</ptd>
+        <ptd>15</ptd>
+        <ptd>chiseled stone brick</ptd>
+        <ptd>20</ptd>
+        <ptd>grass</ptd>
+        <ptd>25</ptd>
+        <ptd>obsidian</ptd>
+        <ptd>150</ptd>
+        <ptd>torch</ptd>
+        <ptd>5</ptd>
+        <ptd>redstone torch</ptd>
+        <ptd>7.5</ptd>
+        <ptd>purpur block</ptd>
+        <ptd>45</ptd>
+        <ptd>chest</ptd>
+        <ptd>25</ptd>
+        <ptd>trapped chest</ptd>
+        <ptd>45</ptd>
+        <ptd>crafting table</ptd>
+        <ptd>10</ptd>
+        <ptd>furnace</ptd>
+        <ptd>45</ptd>
+        <ptd>lever</ptd>
+        <ptd>5</ptd>
+        <ptd>powered iron door</ptd>
+        <ptd>75</ptd>
+        <ptd>powered redstone lever</ptd>
+        <ptd>5</ptd>
+        <ptd>redstone lever</ptd>
+        <ptd>5</ptd>
+        <ptd>stone pressure plate</ptd>
+        <ptd>15</ptd>
+        <ptd>redstone wire</ptd>
+        <ptd>12.5</ptd>
+        <ptd>redstone dust</ptd>
+        <ptd>12.5</ptd>
+        <ptd>repeater</ptd>
+        <ptd>25</ptd>
+        <ptd>jukebox</ptd>
+        <ptd>300</ptd>
+        <ptd>basalt</ptd>
+        <ptd>25</ptd>
+        <ptd>netherrack</ptd>
+        <ptd>10</ptd>
+        <ptd>nether brick</ptd>
+        <ptd>25</ptd>
+        <ptd>glowstone</ptd>
+        <ptd>30</ptd>
+        <ptd>sea lantern</ptd>
+        <ptd>125</ptd>
+        <ptd>end stone</ptd>
+        <ptd>100</ptd>
+        <ptd>redstone block</ptd>
+        <ptd>100</ptd>
+        <ptd>oak trapdoor</ptd>
+        <ptd>5</ptd>
+        <ptd>spruce trapdoor</ptd>
+        <ptd>5</ptd>
+        <ptd>birch trapdoor</ptd>
+        <ptd>5</ptd>
+        <ptd>jungle trapdoor</ptd>
+        <ptd>5</ptd>
+        <ptd>dark oak trapdoor</ptd>
+        <ptd>5</ptd>
+        <ptd>acacia trapdoor</ptd>
+        <ptd>5</ptd>
+        <ptd>crimson trapdoor</ptd>
+        <ptd>5</ptd>
+        <ptd>warped trapdoor</ptd>
+        <ptd>5</ptd>
+        <ptd>iron bar</ptd>
+        <ptd>90</ptd>
+        <ptd>huge mushroom stem</ptd>
+        <ptd>75</ptd>
+        <ptd>iron bars</ptd>
+        <ptd>90</ptd>
+        <ptd>ender rod</ptd>
+        <ptd>50</ptd>
+        <ptd>iron trapdoor</ptd>
+        <ptd>45</ptd>
+        <ptd>top-half iron trapdoor</ptd>
+        <ptd>45</ptd>
+        <ptd>any stairs</ptd>
+        <ptd>55</ptd>
+        <ptd>quartz stairs</ptd>
+        <ptd>55</ptd>
+        <ptd>redstone lamp</ptd>
+        <ptd>60</ptd>
+        <ptd>lit redstone lamp</ptd>
+        <ptd>60</ptd>
+        <ptd>emerald block</ptd>
+        <ptd>3500</ptd>
+        <ptd>beacon</ptd>
+        <ptd>360</ptd>
+        <ptd>chain</ptd>
+        <ptd>12.5</ptd>
+        <ptd>copper stairs</ptd>
+        <ptd>15</ptd>
+        <ptd>cut copper stairs</ptd>
+        <ptd>15</ptd>
+        <ptd>copper slab</ptd>
+        <ptd>15</ptd>
+        <ptd>cut copper slab</ptd>
+        <ptd>15</ptd>
+        <ptd>copper</ptd>
+        <ptd>15</ptd>
+        <ptd>cut copper</ptd>
+        <ptd>15</ptd>
+        <ptd>wall</ptd>
+        <ptd>40</ptd>
+        <ptd>button</ptd>
+        <ptd>5</ptd>
+        <ptd>stone button</ptd>
+        <ptd>5</ptd>
+        <ptd>polished blackstone pressure plate</ptd>
+        <ptd>7.5</ptd>
+        <ptd>polished blackstone button</ptd>
+        <ptd>5</ptd>
+        <ptd>any wall</ptd>
+        <ptd>40</ptd>
+        <ptd>any button</ptd>
+        <ptd>5</ptd>
+        <ptd>anvil</ptd>
+        <ptd>350</ptd>
+        <ptd>lightning rod</ptd>
+        <ptd>125</ptd>
+        <ptd>daylight detector</ptd>
+        <ptd>80</ptd>
+        <ptd>inverted daylight detector</ptd>
+        <ptd>80</ptd>
+        <ptd>quartz block</ptd>
+        <ptd>100</ptd>
+        <ptd>quartz pillar</ptd>
+        <ptd>100</ptd>
+        <ptd>smooth quartz</ptd>
+        <ptd>85</ptd>
+        <ptd>nether quartz ore</ptd>
+        <ptd>125</ptd>
+        <ptd>smooth nether quartz</ptd>
+        <ptd>20</ptd>
+        <ptd>chiseled nether quartz</ptd>
+        <ptd>50</ptd>
+        <ptd>pillar nether quartz</ptd>
+        <ptd>50</ptd>
+        <ptd>dropper</ptd>
+        <ptd>75</ptd>
+        <ptd>glass pane</ptd>
+        <ptd>12.5</ptd>
+        <ptd>glass</ptd>
+        <ptd>24</ptd>
+        <ptd>prismarine</ptd>
+        <ptd>80</ptd>
+        <ptd>magma block</ptd>
+        <ptd>45</ptd>
+        <ptd>comparator</ptd>
+        <ptd>35</ptd>
+        <ptd>lectern</ptd>
+        <ptd>250</ptd>
+        <ptd>air</ptd>
+        <ptd>0</ptd>
+        <ptd>blackstone</ptd>
+        <ptd>12.5</ptd>
+        <ptd>polished blackstone</ptd>
+        <ptd>12.5</ptd>
+        <ptd>polished blackstone brick</ptd>
+        <ptd>12.5</ptd>
+        <ptd>white stained glass</ptd>
+        <ptd>20</ptd>
+        <ptd>orange stained glass</ptd>
+        <ptd>20</ptd>
+        <ptd>magenta stained glass</ptd>
+        <ptd>20</ptd>
+        <ptd>light blue stained glass</ptd>
+        <ptd>20</ptd>
+        <ptd>yellow stained glass</ptd>
+        <ptd>20</ptd>
+        <ptd>lime stained glass</ptd>
+        <ptd>20</ptd>
+        <ptd>pink stained glass</ptd>
+        <ptd>20</ptd>
+        <ptd>gray stained glass</ptd>
+        <ptd>20</ptd>
+        <ptd>light gray stained glass</ptd>
+        <ptd>20</ptd>
+        <ptd>cyan stained glass</ptd>
+        <ptd>20</ptd>
+        <ptd>purple stained glass</ptd>
+        <ptd>20</ptd>
+        <ptd>blue stained glass</ptd>
+        <ptd>20</ptd>
+        <ptd>brown stained glass</ptd>
+        <ptd>20</ptd>
+        <ptd>green stained glass</ptd>
+        <ptd>20</ptd>
+        <ptd>red stained glass</ptd>
+        <ptd>20</ptd>
+        <ptd>black stained glass</ptd>
+        <ptd>20</ptd>
+        <ptd>white stained glass pane</ptd>
+        <ptd>4.5</ptd>
+        <ptd>orange stained glass pane</ptd>
+        <ptd>4.5</ptd>
+        <ptd>magenta stained glass pane</ptd>
+        <ptd>4.5</ptd>
+        <ptd>light blue stained glass pane</ptd>
+        <ptd>4.5</ptd>
+        <ptd>yellow stained glass pane</ptd>
+        <ptd>4.5</ptd>
+        <ptd>lime stained glass pane</ptd>
+        <ptd>4.5</ptd>
+        <ptd>pink stained glass pane</ptd>
+        <ptd>4.5</ptd>
+        <ptd>gray stained glass pane</ptd>
+        <ptd>4.5</ptd>
+        <ptd>light gray stained glass pane</ptd>
+        <ptd>4.5</ptd>
+        <ptd>cyan stained glass pane</ptd>
+        <ptd>4.5</ptd>
+        <ptd>purple stained glass pane</ptd>
+        <ptd>4.5</ptd>
+        <ptd>blue stained glass pane</ptd>
+        <ptd>4.5</ptd>
+        <ptd>brown stained glass pane</ptd>
+        <ptd>4.5</ptd>
+        <ptd>green stained glass pane</ptd>
+        <ptd>4.5</ptd>
+        <ptd>red stained glass pane</ptd>
+        <ptd>4.5</ptd>
+        <ptd>black stained glass pane</ptd>
+        <ptd>4.5</ptd>
+        <ptd>white stained hardened clay</ptd>
+        <ptd>15</ptd>
+        <ptd>orange stained hardened clay</ptd>
+        <ptd>15</ptd>
+        <ptd>magenta stained hardened clay</ptd>
+        <ptd>15</ptd>
+        <ptd>light blue stained hardened clay</ptd>
+        <ptd>15</ptd>
+        <ptd>yellow stained hardened clay</ptd>
+        <ptd>15</ptd>
+        <ptd>lime stained hardened clay</ptd>
+        <ptd>15</ptd>
+        <ptd>pink stained hardened clay</ptd>
+        <ptd>15</ptd>
+        <ptd>gray stained hardened clay</ptd>
+        <ptd>15</ptd>
+        <ptd>light gray stained hardened clay</ptd>
+        <ptd>15</ptd>
+        <ptd>cyan stained hardened clay</ptd>
+        <ptd>15</ptd>
+        <ptd>purple stained hardened clay</ptd>
+        <ptd>15</ptd>
+        <ptd>blue stained hardened clay</ptd>
+        <ptd>15</ptd>
+        <ptd>brown stained hardened clay</ptd>
+        <ptd>15</ptd>
+        <ptd>green stained hardened clay</ptd>
+        <ptd>15</ptd>
+        <ptd>red stained hardened clay</ptd>
+        <ptd>15</ptd>
+        <ptd>black stained hardened clay</ptd>
+        <ptd>15</ptd>
+        <ptd>hardened clay</ptd>
+        <ptd>15</ptd>
+        <ptd>terracotta</ptd>
+        <ptd>15</ptd>
+        <ptd>white terracotta</ptd>
+        <ptd>15</ptd>
+        <ptd>orange terracotta</ptd>
+        <ptd>15</ptd>
+        <ptd>magenta terracotta</ptd>
+        <ptd>15</ptd>
+        <ptd>light blue terracotta</ptd>
+        <ptd>15</ptd>
+        <ptd>yellow terracotta</ptd>
+        <ptd>15</ptd>
+        <ptd>lime terracotta</ptd>
+        <ptd>15</ptd>
+        <ptd>pink terracotta</ptd>
+        <ptd>15</ptd>
+        <ptd>gray terracotta</ptd>
+        <ptd>15</ptd>
+        <ptd>light gray terracotta</ptd>
+        <ptd>15</ptd>
+        <ptd>cyan terracotta</ptd>
+        <ptd>15</ptd>
+        <ptd>purple terracotta</ptd>
+        <ptd>15</ptd>
+        <ptd>blue terracotta</ptd>
+        <ptd>15</ptd>
+        <ptd>brown terracotta</ptd>
+        <ptd>15</ptd>
+        <ptd>green terracotta</ptd>
+        <ptd>15</ptd>
+        <ptd>red terracotta</ptd>
+        <ptd>15</ptd>
+        <ptd>black terracotta</ptd>
+        <ptd>15</ptd>
+        <ptd>white glazed terracotta</ptd>
+        <ptd>35</ptd>
+        <ptd>orange glazed terracotta</ptd>
+        <ptd>35</ptd>
+        <ptd>magenta glazed terracotta</ptd>
+        <ptd>35</ptd>
+        <ptd>light blue glazed terracotta</ptd>
+        <ptd>35</ptd>
+        <ptd>yellow glazed terracotta</ptd>
+        <ptd>35</ptd>
+        <ptd>lime glazed terracotta</ptd>
+        <ptd>35</ptd>
+        <ptd>pink glazed terracotta</ptd>
+        <ptd>35</ptd>
+        <ptd>gray glazed terracotta</ptd>
+        <ptd>35</ptd>
+        <ptd>light gray glazed terracotta</ptd>
+        <ptd>35</ptd>
+        <ptd>cyan glazed terracotta</ptd>
+        <ptd>35</ptd>
+        <ptd>purple glazed terracotta</ptd>
+        <ptd>35</ptd>
+        <ptd>blue glazed terracotta</ptd>
+        <ptd>35</ptd>
+        <ptd>brown glazed terracotta</ptd>
+        <ptd>35</ptd>
+        <ptd>green glazed terracotta</ptd>
+        <ptd>35</ptd>
+        <ptd>red glazed terracotta</ptd>
+        <ptd>35</ptd>
+        <ptd>black glazed terracotta</ptd>
+        <ptd>35</ptd>
+        <ptd>white wool</ptd>
+        <ptd>7.5</ptd>
+        <ptd>orange wool</ptd>
+        <ptd>7.5</ptd>
+        <ptd>magenta wool</ptd>
+        <ptd>7.5</ptd>
+        <ptd>light blue wool</ptd>
+        <ptd>7.5</ptd>
+        <ptd>yellow wool</ptd>
+        <ptd>7.5</ptd>
+        <ptd>lime wool</ptd>
+        <ptd>7.5</ptd>
+        <ptd>pink wool</ptd>
+        <ptd>7.5</ptd>
+        <ptd>gray wool</ptd>
+        <ptd>7.5</ptd>
+        <ptd>light gray wool</ptd>
+        <ptd>7.5</ptd>
+        <ptd>cyan wool</ptd>
+        <ptd>7.5</ptd>
+        <ptd>purple wool</ptd>
+        <ptd>7.5</ptd>
+        <ptd>blue wool</ptd>
+        <ptd>7.5</ptd>
+        <ptd>brown wool</ptd>
+        <ptd>7.5</ptd>
+        <ptd>green wool</ptd>
+        <ptd>7.5</ptd>
+        <ptd>red wool</ptd>
+        <ptd>7.5</ptd>
+        <ptd>black wool</ptd>
+        <ptd>7.5</ptd>
+        <ptd>white carpet</ptd>
+        <ptd>1.25</ptd>
+        <ptd>orange carpet</ptd>
+        <ptd>1.25</ptd>
+        <ptd>magenta carpet</ptd>
+        <ptd>1.25</ptd>
+        <ptd>light blue carpet</ptd>
+        <ptd>1.25</ptd>
+        <ptd>yellow carpet</ptd>
+        <ptd>1.25</ptd>
+        <ptd>lime carpet</ptd>
+        <ptd>1.25</ptd>
+        <ptd>pink carpet</ptd>
+        <ptd>1.25</ptd>
+        <ptd>gray carpet</ptd>
+        <ptd>1.25</ptd>
+        <ptd>light gray carpet</ptd>
+        <ptd>1.25</ptd>
+        <ptd>cyan carpet</ptd>
+        <ptd>1.25</ptd>
+        <ptd>purple carpet</ptd>
+        <ptd>1.25</ptd>
+        <ptd>blue carpet</ptd>
+        <ptd>1.25</ptd>
+        <ptd>brown carpet</ptd>
+        <ptd>1.25</ptd>
+        <ptd>green carpet</ptd>
+        <ptd>1.25</ptd>
+        <ptd>red carpet</ptd>
+        <ptd>1.25</ptd>
+        <ptd>black carpet</ptd>
+        <ptd>1.25</ptd>
+        <ptd>oak slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>spruce slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>birch slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>jungle slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>acacia slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>dark oak slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>crimson slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>warped slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>stone slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>sandstone slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>petrified oak wooden slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>petrified oak slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>cobblestone slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>brick slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>stone brick slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>nether brick slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>nether quartz slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>red sandstone slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>purpur slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>raw prismarine slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>prismarine brick slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>dark prismarine slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>quartz slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>smooth stone slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>granite slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>diorite slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>andesite slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>polished granite slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>polished diorite slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>polished andesite slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>mossy stone brick slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>mossy cobblestone slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>smooth sandstone slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>smooth red sandstone slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>cut sandstone slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>cut red sandstone slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>cut sandstone</ptd>
+        <ptd>11.25</ptd>
+        <ptd>cut red sandstone</ptd>
+        <ptd>11.25</ptd>
+        <ptd>smooth quartz slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>red nether brick slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>end stone brick slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>blackstone slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>polished blackstone slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>polished blackstone brick slab</ptd>
+        <ptd>2.5</ptd>
+        <ptd>oak planks</ptd>
+        <ptd>1.5</ptd>
+        <ptd>spruce planks</ptd>
+        <ptd>1.5</ptd>
+        <ptd>birch planks</ptd>
+        <ptd>1.5</ptd>
+        <ptd>jungle planks</ptd>
+        <ptd>1.5</ptd>
+        <ptd>acacia planks</ptd>
+        <ptd>1.5</ptd>
+        <ptd>dark oak planks</ptd>
+        <ptd>1.5</ptd>
+        <ptd>crimson planks</ptd>
+        <ptd>1.5</ptd>
+        <ptd>warped planks</ptd>
+        <ptd>1.5</ptd>
+        <ptd>oak stripped wood</ptd>
+        <ptd>2.5</ptd>
+        <ptd>spruce stripped wood</ptd>
+        <ptd>2.5</ptd>
+        <ptd>birch stripped wood</ptd>
+        <ptd>2.5</ptd>
+        <ptd>jungle stripped wood</ptd>
+        <ptd>2.5</ptd>
+        <ptd>acacia stripped wood</ptd>
+        <ptd>2.5</ptd>
+        <ptd>dark oak stripped wood</ptd>
+        <ptd>2.5</ptd>
+        <ptd>crimson stripped hyphae</ptd>
+        <ptd>2.5</ptd>
+        <ptd>warped stripped hyphae</ptd>
+        <ptd>2.5</ptd>
+        <ptd>oak wood</ptd>
+        <ptd>2.5</ptd>
+        <ptd>spruce wood</ptd>
+        <ptd>2.5</ptd>
+        <ptd>birch wood</ptd>
+        <ptd>2.5</ptd>
+        <ptd>jungle wood</ptd>
+        <ptd>2.5</ptd>
+        <ptd>acacia wood</ptd>
+        <ptd>2.5</ptd>
+        <ptd>dark oak wood</ptd>
+        <ptd>2.5</ptd>
+        <ptd>crimson hyphae</ptd>
+        <ptd>2.5</ptd>
+        <ptd>warped hyphae</ptd>
+        <ptd>2.5</ptd>
+        <ptd>oak log</ptd>
+        <ptd>2.5</ptd>
+        <ptd>spruce log</ptd>
+        <ptd>2.5</ptd>
+        <ptd>birch log</ptd>
+        <ptd>2.5</ptd>
+        <ptd>jungle log</ptd>
+        <ptd>2.5</ptd>
+        <ptd>acacia log</ptd>
+        <ptd>2.5</ptd>
+        <ptd>dark oak log</ptd>
+        <ptd>2.5</ptd>
+        <ptd>crimson stem</ptd>
+        <ptd>2.5</ptd>
+        <ptd>warped stem</ptd>
+        <ptd>2.5</ptd>
+        <ptd>oak stripped log</ptd>
+        <ptd>2.5</ptd>
+        <ptd>spruce stripped log</ptd>
+        <ptd>2.5</ptd>
+        <ptd>birch stripped log</ptd>
+        <ptd>2.5</ptd>
+        <ptd>jungle stripped log</ptd>
+        <ptd>2.5</ptd>
+        <ptd>acacia stripped log</ptd>
+        <ptd>2.5</ptd>
+        <ptd>dark oak stripped log</ptd>
+        <ptd>2.5</ptd>
+        <ptd>crimson stripped stem</ptd>
+        <ptd>2.5</ptd>
+        <ptd>warped stripped stem</ptd>
+        <ptd>2.5</ptd>
+        <ptd>oak fence</ptd>
+        <ptd>4.75</ptd>
+        <ptd>spruce fence</ptd>
+        <ptd>4.75</ptd>
+        <ptd>birch fence</ptd>
+        <ptd>4.75</ptd>
+        <ptd>jungle fence</ptd>
+        <ptd>4.75</ptd>
+        <ptd>acacia fence</ptd>
+        <ptd>4.75</ptd>
+        <ptd>dark oak fence</ptd>
+        <ptd>4.75</ptd>
+        <ptd>nether brick fence</ptd>
+        <ptd>4.75</ptd>
+        <ptd>crimson fence</ptd>
+        <ptd>4.75</ptd>
+        <ptd>warped fence</ptd>
+        <ptd>4.75</ptd>
+        <ptd>oak fence gate</ptd>
+        <ptd>4.75</ptd>
+        <ptd>spruce fence gate</ptd>
+        <ptd>4.75</ptd>
+        <ptd>birch fence gate</ptd>
+        <ptd>4.75</ptd>
+        <ptd>jungle fence gate</ptd>
+        <ptd>4.75</ptd>
+        <ptd>acacia fence gate</ptd>
+        <ptd>4.75</ptd>
+        <ptd>dark oak fence gate</ptd>
+        <ptd>4.75</ptd>
+        <ptd>crimson fence gate</ptd>
+        <ptd>4.75</ptd>
+        <ptd>warped fence gate</ptd>
+        <ptd>4.75</ptd>
+        <ptd>oak stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>spruce stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>birch stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>jungle stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>acacia stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>dark oak stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>crimson stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>warped stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>cobblestone stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>red brick stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>stone brick stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>nether brick stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>nether quartz stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>purpur stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>sandstone stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>red sandstone stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>prismarine stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>prismarine brick stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>dark prismarine stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>stone stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>granite stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>diorite stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>andesite stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>polished granite stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>polished diorite stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>polished andesite stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>mossy stone brick stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>mossy cobblestone stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>smooth sandstone stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>smooth red sandstone stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>smooth quartz stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>red nether brick stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>end stone brick stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>blackstone stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>polished blackstone stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>polished blackstone brick stairs</ptd>
+        <ptd>7.5</ptd>
+        <ptd>white wall banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>orange wall banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>magenta wall banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>light blue wall banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>yellow wall banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>lime wall banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>pink wall banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>gray wall banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>light gray wall banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>cyan wall banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>purple wall banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>blue wall banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>brown wall banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>green wall banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>red wall banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>black wall banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>white standing banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>orange standing banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>magenta standing banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>light blue standing banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>yellow standing banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>lime standing banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>pink standing banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>gray standing banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>light gray standing banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>cyan standing banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>purple standing banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>blue standing banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>brown standing banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>green standing banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>red standing banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>black standing banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>white banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>orange banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>magenta banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>light blue banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>yellow banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>lime banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>pink banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>gray banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>light gray banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>cyan banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>purple banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>blue banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>brown banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>green banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>red banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>black banner</ptd>
+        <ptd>12.5</ptd>
+        <ptd>oak sign</ptd>
+        <ptd>2</ptd>
+        <ptd>birch sign</ptd>
+        <ptd>2</ptd>
+        <ptd>jungle sign</ptd>
+        <ptd>2</ptd>
+        <ptd>spruce sign</ptd>
+        <ptd>2</ptd>
+        <ptd>acacia sign</ptd>
+        <ptd>2</ptd>
+        <ptd>dark oak sign</ptd>
+        <ptd>2</ptd>
+        <ptd>crimson sign</ptd>
+        <ptd>2</ptd>
+        <ptd>warped sign</ptd>
+        <ptd>2</ptd>
+        <ptd>white bed</ptd>
+        <ptd>75</ptd>
+        <ptd>orange bed</ptd>
+        <ptd>75</ptd>
+        <ptd>magenta bed</ptd>
+        <ptd>75</ptd>
+        <ptd>light blue bed</ptd>
+        <ptd>75</ptd>
+        <ptd>yellow bed</ptd>
+        <ptd>75</ptd>
+        <ptd>lime bed</ptd>
+        <ptd>75</ptd>
+        <ptd>pink bed</ptd>
+        <ptd>75</ptd>
+        <ptd>gray bed</ptd>
+        <ptd>75</ptd>
+        <ptd>light gray bed</ptd>
+        <ptd>75</ptd>
+        <ptd>cyan bed</ptd>
+        <ptd>75</ptd>
+        <ptd>purple bed</ptd>
+        <ptd>75</ptd>
+        <ptd>blue bed</ptd>
+        <ptd>75</ptd>
+        <ptd>brown bed</ptd>
+        <ptd>75</ptd>
+        <ptd>green bed</ptd>
+        <ptd>75</ptd>
+        <ptd>red bed</ptd>
+        <ptd>75</ptd>
+        <ptd>black bed</ptd>
+        <ptd>75</ptd>
+        <ptd>white concrete</ptd>
+        <ptd>14.5</ptd>
+        <ptd>orange concrete</ptd>
+        <ptd>14.5</ptd>
+        <ptd>magenta concrete</ptd>
+        <ptd>14.5</ptd>
+        <ptd>light blue concrete</ptd>
+        <ptd>14.5</ptd>
+        <ptd>yellow concrete</ptd>
+        <ptd>14.5</ptd>
+        <ptd>lime concrete</ptd>
+        <ptd>14.5</ptd>
+        <ptd>pink concrete</ptd>
+        <ptd>14.5</ptd>
+        <ptd>gray concrete</ptd>
+        <ptd>14.5</ptd>
+        <ptd>light gray concrete</ptd>
+        <ptd>14.5</ptd>
+        <ptd>cyan concrete</ptd>
+        <ptd>14.5</ptd>
+        <ptd>purple concrete</ptd>
+        <ptd>14.5</ptd>
+        <ptd>blue concrete</ptd>
+        <ptd>14.5</ptd>
+        <ptd>brown concrete</ptd>
+        <ptd>14.5</ptd>
+        <ptd>green concrete</ptd>
+        <ptd>14.5</ptd>
+        <ptd>red concrete</ptd>
+        <ptd>14.5</ptd>
+        <ptd>black concrete</ptd>
+        <ptd>14.5</ptd>
+        <ptd>white concrete powder</ptd>
+        <ptd>7.5</ptd>
+        <ptd>orange concrete powder</ptd>
+        <ptd>7.5</ptd>
+        <ptd>magenta concrete powder</ptd>
+        <ptd>7.5</ptd>
+        <ptd>light blue concrete powder</ptd>
+        <ptd>7.5</ptd>
+        <ptd>yellow concrete powder</ptd>
+        <ptd>7.5</ptd>
+        <ptd>lime concrete powder</ptd>
+        <ptd>7.5</ptd>
+        <ptd>pink concrete powder</ptd>
+        <ptd>7.5</ptd>
+        <ptd>gray concrete powder</ptd>
+        <ptd>7.5</ptd>
+        <ptd>light gray concrete powder</ptd>
+        <ptd>7.5</ptd>
+        <ptd>cyan concrete powder</ptd>
+        <ptd>7.5</ptd>
+        <ptd>purple concrete powder</ptd>
+        <ptd>7.5</ptd>
+        <ptd>blue concrete powder</ptd>
+        <ptd>7.5</ptd>
+        <ptd>brown concrete powder</ptd>
+        <ptd>7.5</ptd>
+        <ptd>green concrete powder</ptd>
+        <ptd>7.5</ptd>
+        <ptd>red concrete powder</ptd>
+        <ptd>7.5</ptd>
+        <ptd>black concrete powder</ptd>
+        <ptd>7.5</ptd>
+      </ptable>
+    </subarticle>
   </article>
   <script src="../res/navigation.js"></script>
   <script>
