@@ -2,6 +2,11 @@
   outline: var(--text_colour) solid 2px;
   border-radius: 5px;
 }
+/** Repetitive borders */
+navbar, article, subarticle, .list-box-wrapper, cmd, input, .img-carousel, button {
+  border: var(--border);
+  border-radius: 5px;
+}
 /** Structural Elements */
 html, body {margin: 0px}
 html {
@@ -20,8 +25,7 @@ body {
 }
 navbar, article {
   display: inline-block;
-  border: var(--border);
-  border-radius: 5px;
+  
 }
 article {
   max-width: 100%;
@@ -45,8 +49,6 @@ intro {
 }
 subarticle {
   display: block;
-  border: var(--border);
-  border-radius: 5px;
   width: 80%;
   padding: 4px;
   margin: auto;
@@ -65,8 +67,6 @@ subarticle {
 /** tables / lists */
 .list-box-wrapper {
   background-color: #0f1c27;
-  border: var(--border);
-  border-radius: 5px;
   max-width: 60%;
   min-width: 200px;
   margin: 5px;
@@ -150,15 +150,12 @@ sig {
 cmd {
   display: block;
   background-color: silver;
-  border: var(--border);
-  border-radius: 5px;
   width: fit-content;
   color: black;
 }
 input {
   background-color: inherit;
   color: inherit;
-  border: var(--border);
   width: 80%;
   margin-bottom: 5px;
 }
@@ -186,8 +183,6 @@ p, li, td, item {font-size: 1.7rem}
 }
 /** images */
 .img-carousel {
-  border: var(--border);
-  border-radius: 5px;
   height: fit-content;
   max-width: 95%;
   margin: auto;
@@ -203,7 +198,6 @@ p, li, td, item {font-size: 1.7rem}
 img {
   max-width: 300px;
   max-height: 200px;
-  border-radius: 5px;
 }
 img.large {
   max-width: 500px;
@@ -225,14 +219,56 @@ img.large {
 /** Other */
 button {
   background-color: var(--main_colour);
-  border: var(--border);
-  border-radius: 5px;
   color: var(--text_colour);
   cursor: pointer;
 }
 button:hover {
   opacity: 0.6;
 }
+/** classes / selectors */
+#selected {
+  color: var(--accent);
+  border-bottom: 1px solid var(--accent);
+  text-decoration: none;
+}
+.invert {
+  background-color: var(--text_colour);
+  color: var(--main_colour);
+}
+#home {
+  display: none;
+  margin-top: 5px;
+}
+#home button {
+  padding: 7px;
+  font-size: 2.7rem;
+  font-weight: bold;
+}
+@media screen and (max-width: 670px) {
+  body {display: block}
+  navbar {display: none}
+  #home {display: inline-block;}
+  header {margin-top: 10px}
+}
+@media screen and (max-width: 300px) {
+  #home {margin-top: 5px}
+}
+#up {
+  position: fixed;
+  background-color: var(--main_colour);
+  border-radius: 10px;
+  bottom: 1px;
+  left: 21.5%;
+  z-index: 20;
+  text-decoration: none;
+}
+#up h4 {
+  margin: 0px;
+  padding: 5px;
+  color: var(--accent);
+  font-size: 1.7rem;
+}
+#up h4:hover {color: silver;}
 /* 
 * Navigation 
 */
@@ -270,44 +306,3 @@ nav ul li {
   content: '#';
   color: var(--accent);
 }
-/** classes / selectors */
-#selected {
-  color: var(--accent);
-  border-bottom: 1px solid var(--accent);
-  text-decoration: none;
-}
-#home {
-  display: none;
-  border-radius: 5px;
-  margin-top: 5px;
-}
-#home button {
-  padding: 7px;
-  font-size: 2.7rem;
-  font-weight: bold;
-}
-@media screen and (max-width: 670px) {
-  body {display: block}
-  navbar {display: none}
-  #home {display: inline-block;}
-  header {margin-top: 10px}
-}
-@media screen and (max-width: 300px) {
-  #home {margin-top: 5px}
-}
-#up {
-  position: fixed;
-  background-color: var(--main_colour);
-  border-radius: 10px;
-  bottom: 1px;
-  left: 21.5%;
-  z-index: 20;
-  text-decoration: none;
-}
-#up h4 {
-  margin: 0px;
-  padding: 5px;
-  color: var(--accent);
-  font-size: 1.7rem;
-}
-#up h4:hover {color: silver;}
