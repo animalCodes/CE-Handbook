@@ -13,8 +13,11 @@ html {
   /* variables */
   --text_colour: silver;
   --accent: forestgreen;
+  --border-colour: rgba(192, 192, 192, 0.800);
   --main_colour: #132533;
-  --border: 2px solid rgba(192, 192, 192, 0.800);
+  --dark_bg: #0f1c27;
+  --border: 2px solid var(--border-colour);
+  --border-shrunk: 1px solid var(--border-colour);
 }
 body {
   display: grid;
@@ -66,7 +69,7 @@ subarticle {
 }
 /** tables / lists */
 .list-box-wrapper {
-  background-color: #0f1c27;
+  background-color: var(--dark_bg);
   max-width: 60%;
   min-width: 200px;
   margin: 5px;
@@ -95,9 +98,9 @@ item {
 ptable {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: #0f1c27;
+  background-color: var(--dark_bg);
   max-width: fit-content;
-  border: 1px solid silver;
+  border: var(--border-shrunk);
   margin: auto;
   margin-top: 10px;
 }
@@ -109,13 +112,13 @@ ptable.large {
 }
 pth {
   grid-column: 1 / span 2;
-  border: 1px solid silver;
+  border: var(--border-shrunk);
   overflow-wrap: break-word;
   padding: 5px;
 }
 ptd {
   display: block;
-  border: 1px solid silver;
+  border: var(--border-shrunk);
   padding: 5px;
   overflow-wrap: break-word;
   font-size: 1.7rem;
@@ -149,7 +152,7 @@ sig {
 }
 cmd {
   display: block;
-  background-color: silver;
+  background-color: var(--text_colour);
   width: fit-content;
   color: black;
 }
@@ -268,7 +271,7 @@ button:hover {
   color: var(--accent);
   font-size: 1.7rem;
 }
-#up h4:hover {color: silver;}
+#up h4:hover {color: var(--text_colour);}
 /* 
 * Navigation 
 */
