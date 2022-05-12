@@ -112,13 +112,13 @@ ptable.large {
 }
 pth {
   grid-column: 1 / span 2;
-  border: var(--border-shrunk);
+  border: inherit;
   overflow-wrap: break-word;
   padding: 5px;
 }
 ptd {
   display: block;
-  border: var(--border-shrunk);
+  border: inherit;
   padding: 5px;
   overflow-wrap: break-word;
   font-size: 1.7rem;
@@ -236,7 +236,8 @@ button:hover {
 }
 .invert {
   background-color: var(--text_colour);
-  color: var(--main_colour);
+  color: black;
+  border-color: black;
 }
 #home {
   display: none;
