@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../res/main.css">
+  <title></title>
+</head>
+
+<body>
+  <navbar>
+    <h1 style="color: red;">Error loading sidebar - make sure Javascript is enabled and reload.</h1>
+  </navbar>
+  <article id="top">
+    <a href="../index.html" id="home">
+      <button>Home</button>
+    </a>
+    <header>
+      <h1>Commands reference</h1>
+    </header>
+    <intro>
+      <h2></h2>
+    </intro>
+    <subarticle id="general">
+      <h3>General commands</h3>
+      <ptable>
+        <ptd>Command</ptd>
+        <ptd>Description</ptd>
+        <ptd>/help</ptd>
+        <ptd>Displays links to various resources such as the official website.</ptd>
+        <ptd>/recipes</ptd>
+        <ptd>Opens a GUI where you can browse the many custom crafting recipes on the server.</ptd>
+        <ptd>/vote</ptd>
+        <ptd>Displays links to where you can vote for the server. (Excellent command, should use)</ptd>
+        <ptd>/afk</ptd>
+        <ptd>Displays a message in chat notifying other online players that you are AFK. (Away From Keyboard)</ptd>
+        <ptd>/kit</ptd>
+        <ptd>Lists available kits, use /kit {kit name} to claim the kit</ptd>
+        <ptd>playerlist</ptd>
+        <ptd><strong>discord server only</strong> use on the server-chat channels to view currently online players</ptd>
+      </ptable>
+    </subarticle>
+  </article>
+  <script src="../res/navigation.js"></script>
+  <script>
+    const page = '';
+    document.querySelector(`#${page}`).id = 'selected';
+    document.querySelector(`#${page}-ul`).style.display = 'block';
+  </script>
+</body>
+
+</html>
