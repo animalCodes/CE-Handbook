@@ -100,8 +100,9 @@ ptable {
   display: grid;
   grid-template-columns: auto auto;
   background-color: var(--dark_bg);
-  max-width: fit-content;
   border: var(--border-shrunk);
+  border-radius: 5px;
+  max-width: fit-content;
   margin: auto;
   margin-top: 10px;
 }
