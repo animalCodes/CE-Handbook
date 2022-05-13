@@ -210,12 +210,15 @@
             <li><a href="misc/chat.html#nick">Nicknames</a></li> -->
           </ul>
         </div>
-        <!-- <div class="swrapper">
-          <a class="item" href=""></a>
-          <ul id="" class="dropdown">
-            <li><a href=""></a></li>
+        <div class="swrapper">
+          <a class="item" href="misc/commands.html">Commands</a>
+          <button onclick="toggleDropdown('commands', this)">v</button>
+          <ul id="commands">
+            <li><a href="misc/commands.html#general">General</a></li>
+            <li><a href="misc/commands.html#cargo">Cargo</a></li>
+            <li><a href="misc/commands.html#movecraft">Movecraft</a></li>
           </ul>
-        </div> -->
+        </div>
       </div>
     </section>
     <section>
@@ -252,7 +255,7 @@
   <!-- signature -->
   <div style="display: flex;">
     <span><img alt="" src="images/icons/author.jpg" style="margin: 5px;"></span>
-    <p style="color: var(--accent); margin: 5px;">Written by <br>animal</p>
+    <p style="color: var(--accent); margin: 5px;">Written by<br>animal</p>
   </div>
   <script>
     console.log(document.querySelector('#signsControls').style.display)

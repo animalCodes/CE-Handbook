@@ -164,6 +164,13 @@ document.querySelector('navbar').innerHTML = `
   </ul>
   </li>
   </strike>
+  <li><a id="misc-commands" href="../misc/commands.html">Commands</a>
+  <ul id="misc-commands-ul" class="dropdown">
+  <li><a href="#general">General</a></li>
+  <li><a href="#cargo">Cargo</a></li>
+  <li><a href="#movecraft">Movecraft</a></li>
+  </ul>
+  </li>
   </ul>
   </nav>
   `;
