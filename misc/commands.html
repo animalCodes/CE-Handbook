@@ -24,7 +24,7 @@
     </intro>
     <subarticle id="general">
       <h3>General commands</h3>
-      <p>Generic commands that don't really fit in any category</p>
+      <p>Generic commands that don't really fit in any category.</p>
       <ptable>
         <ptd>Command</ptd>
         <ptd>Description</ptd>
@@ -37,28 +37,46 @@
         <ptd><cmd>/afk</cmd></ptd>
         <ptd>Displays a message in chat notifying other online players that you are AFK. (Away From Keyboard)</ptd>
         <ptd><cmd>/kit</cmd></ptd>
-        <ptd>Lists available kits, use <cmd>/kit {kit name}</cmd> to claim the kit</ptd>
+        <ptd>Lists available kits, use <cmd>/kit {kit name}</cmd> to claim the kit.</ptd>
         <ptd><cmd>/es {line number} {new text}</cmd></ptd>
-        <ptd>Used to edit signs, updates the text at the given line</ptd>
+        <ptd>Used to edit signs, updates the text at the given line.</ptd>
         <ptd><cmd>playerlist</cmd></ptd>
-        <ptd><strong>discord server only</strong> use on the server-chat channels to view currently online players</ptd>
+        <ptd><strong>discord server only</strong> use on the server-chat channels to view currently online players.</ptd>
       </ptable>
     </subarticle>
-    <subarticle>
+    <subarticle id="cargo">
       <h3>Cargo / Trade sector commands</h3>
       <p>All cargo / trade sector related commands, see <a href="../economy/trade.html">Trade sectors</a> for more info</p>
       <ptable>
         <ptd>Command</ptd>
         <ptd>Description</ptd>
         <ptd><cmd>/cargo</cmd></ptd>
-        <ptd>Base cargo command, displays a list of cargo commands</ptd>
+        <ptd>Base cargo command, displays a list of cargo commands.</ptd>
         <ptd><cmd>/cargo prices buy {sector planet}</cmd></ptd>
-        <ptd>View the current prices to buy from the cargo sector at {sector planet}</ptd>
+        <ptd>View the current prices to buy from the cargo sector at {sector planet}.</ptd>
         <ptd><cmd>/cargo prices sell {sector planet}</cmd></ptd>
-        <ptd>View the current sell prices to the cargo sector at {sector planet}</ptd>
+        <ptd>View the current sell prices to the cargo sector at {sector planet}.</ptd>
       </ptable>
     </subarticle>
-    <subarticle>
+    <subarticle id="movecraft">
+    <h3>Movecraft commands</h3>
+      <ptable>
+        <ptd>Command</ptd>
+        <ptd>Description</ptd>
+        <ptd><cmd>/pilot {craft type}</cmd></ptd>
+        <ptd>Attempts to pilot the craft you are in as the given craft type.</ptd>
+        <ptd><cmd>/release</cmd></ptd>
+        <ptd>Releases your currently piloted craft.</ptd>
+        <ptd><cmd>/manover</cmd></ptd>
+        <ptd>Alias for <cmd>/manoverboard</cmd>, allows you to teleport back to your piloted craft for a short period after leaving it.</ptd>
+        <ptd><cmd>/cruise</cmd></ptd>
+        <ptd>Toggles cruising your craft in the direction you are facing.</ptd>
+        <ptd><cmd>/rotate {direction}</cmd></ptd>
+        <ptd>Rotates your craft to face in the given direction. (left / right)</ptd>
+        <ptd><cmd>/contacts</cmd></ptd>
+        <ptd>Lists all contacts. (nearby crafts)</ptd>
+      </ptable>
+    </subarticle>
   </article>
   <script src="../res/navigation.js"></script>
   <script>
