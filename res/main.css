@@ -24,6 +24,7 @@ body {
   grid-template-columns: 1fr 4fr;
   background-color: var(--main_colour);
   color: var(--text_colour);
+  line-height: 1.6;
   font-family: monospace;
 }
 navbar, article {
@@ -97,7 +98,7 @@ item {
 .table-wrapper ptable {margin: 5px}
 ptable {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto auto;
   background-color: var(--dark_bg);
   max-width: fit-content;
   border: var(--border-shrunk);
@@ -151,10 +152,10 @@ sig {
   text-decoration: underline;
 }
 cmd {
-  display: block;
   background-color: var(--text_colour);
-  width: fit-content;
   color: black;
+  font-size: 0.95em;
+  white-space: nowrap;
 }
 input {
   background-color: inherit;
@@ -233,11 +234,6 @@ button:hover {
   color: var(--accent);
   border-bottom: 1px solid var(--accent);
   text-decoration: none;
-}
-.invert {
-  background-color: var(--text_colour);
-  color: black;
-  border-color: black;
 }
 #home {
   display: none;
