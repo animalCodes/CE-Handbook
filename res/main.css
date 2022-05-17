@@ -1,5 +1,5 @@
 *:focus-visible {
-  outline: var(--text_colour) solid 2px;
+  outline: var(--secondary-colour) solid 2px;
   border-radius: 5px;
 }
 /** Repetitive borders */
@@ -11,19 +11,18 @@ navbar, article, subarticle, .list-box-wrapper, cmd, input, .img-carousel, butto
 html, body {margin: 0px}
 html {
   /* variables */
-  --text_colour: silver;
-  --accent: forestgreen;
-  --border-colour: rgba(192, 192, 192, 0.800);
-  --main_colour: #132533;
-  --dark_bg: #0f1c27;
-  --border: 2px solid var(--border-colour);
-  --border-shrunk: 1px solid var(--border-colour);
+  --accent: rgb(28, 102, 28);
+  --secondary-colour: rgb(192, 192, 192);
+  --primary-colour: #1b1f22;
+  --primary-dark: #0d1922;
+  --border: 2px solid var(--secondary-colour);
+  --border-shrunk: 1px solid var(--secondary-colour);
 }
 body {
   display: grid;
   grid-template-columns: 1fr 4fr;
-  background-color: var(--main_colour);
-  color: var(--text_colour);
+  background-color: var(--primary-colour);
+  color: var(--secondary-colour);
   line-height: 1.6;
   font-family: monospace;
 }
@@ -62,15 +61,15 @@ subarticle {
 @media screen and (max-width: 300px) {
   article {max-width: 100%}
   subarticle {
-    border-left: 1px solid var(--main_colour);
-    border-right: 1px solid var(--main_colour);
+    border-left: 1px solid var(--primary-colour);
+    border-right: 1px solid var(--primary-colour);
     border-bottom: 0px;
     border-radius: 0px;
   }
 }
 /** tables / lists */
 .list-box-wrapper {
-  background-color: var(--dark_bg);
+  background-color: var(--primary-dark);
   max-width: 60%;
   min-width: 200px;
   margin: 5px;
@@ -99,7 +98,7 @@ item {
 ptable {
   display: grid;
   grid-template-columns: auto auto;
-  background-color: var(--dark_bg);
+  background-color: var(--primary-dark);
   border: var(--border-shrunk);
   border-radius: 5px;
   max-width: fit-content;
@@ -136,8 +135,10 @@ p:not(subarticle p) {
 }
 ul {text-align: left}
 .list {width: 80%}
-a {color: var(--text_colour)}
-a:hover {color: var(--accent)}
+a {color: var(--accent)}
+a:hover {color: var(--secondary-colour)}
+li a {color: var(--secondary-colour)}
+li a:hover {color: var(--accent);}
 a.external::after {content: '⇗'}
 p a {
   font-size: inherit;
@@ -149,11 +150,10 @@ subarticle a:not(p a) {
 }
 sig {
   color: var(--accent);
-  text-decoration: underline;
 }
 cmd, .cmd {
-  background-color: var(--text_colour);
-  color: black;
+  background-color: var(--secondary-colour);
+  color: var(--primary-dark);
   font-size: 0.95em;
   white-space: nowrap;
 }
@@ -222,8 +222,8 @@ img.large {
 }
 /** Other */
 button {
-  background-color: var(--main_colour);
-  color: var(--text_colour);
+  background-color: var(--primary-colour);
+  color: var(--secondary-colour);
   cursor: pointer;
 }
 button:hover {
@@ -255,7 +255,7 @@ button:hover {
 }
 #up {
   position: fixed;
-  background-color: var(--main_colour);
+  background-color: var(--primary-colour);
   border-radius: 10px;
   bottom: 1px;
   left: 21.5%;
@@ -268,7 +268,7 @@ button:hover {
   color: var(--accent);
   font-size: 1.7rem;
 }
-#up h4:hover {color: var(--text_colour);}
+#up h4:hover {color: var(--secondary-colour);}
 /* 
 * Navigation 
 */
@@ -276,6 +276,7 @@ navbar {
   padding-left: 5px;
   margin-right: 2px;
   vertical-align: top;
+  line-height: normal;
   text-align: start;
   font-size: 10px;
 }
