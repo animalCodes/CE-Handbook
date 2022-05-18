@@ -11,10 +11,10 @@ navbar, article, subarticle, .list-box-wrapper, cmd, input, .img-carousel, butto
 html, body {margin: 0px}
 html {
   /* variables */
-  --accent: rgb(28, 102, 28);
+  --accent: forestgreen;
   --secondary-colour: rgb(192, 192, 192);
-  --primary-colour: #1b1f22;
-  --primary-dark: #0d1922;
+  --primary-colour: #132533
+  --primary-dark: #1c3446;
   --border: 2px solid var(--secondary-colour);
   --border-shrunk: 1px solid var(--secondary-colour);
 }
@@ -135,10 +135,8 @@ p:not(subarticle p) {
 }
 ul {text-align: left}
 .list {width: 80%}
-a {color: var(--accent)}
-a:hover {color: var(--secondary-colour)}
-li a {color: var(--secondary-colour)}
-li a:hover {color: var(--accent);}
+a {color: var(--secondary-colour)}
+a:hover {color: var(--accent); text-decoration: none;}
 a.external::after {content: '⇗'}
 p a {
   font-size: inherit;
