@@ -11,9 +11,9 @@ navbar, article, subarticle, .list-box-wrapper, cmd, input, .img-carousel, butto
 html, body {margin: 0px}
 html {
   /* variables */
-  --accent: forestgreen;
+  --accent: rgb(34, 139, 34);
   --secondary-colour: rgb(192, 192, 192);
-  --primary-colour: #132533
+  --primary-colour: #132533;
   --primary-dark: #1c3446;
   --border: 2px solid var(--secondary-colour);
   --border-shrunk: 1px solid var(--secondary-colour);
